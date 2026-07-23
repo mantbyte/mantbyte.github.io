@@ -1,0 +1,29 @@
+title: mantbytes
+description: Personal blog of a Computer Science student covering technology, geopolitics, and what I'm learning.
+url: "https://mantbyte.github.io"
+baseurl: "/mantbyte"
+google_analytics: "G-XXXXXXXXXX" # Replace with your actual GA4 Measurement ID
+
+# Author / Company
+author:
+  name: Sujal Lohar
+  email: sujapanchal17@gmail.com
+  email_alt: psujal077@gmail.com
+  phone: "+91 7665351906"
+  github: https://github.com/sujallohar
+  linkedin: https://www.linkedin.com/in/sujallohar
+  codeforces: https://codeforces.com/profile/Sujal_lohar
+
+# Categories defined for the site
+categories:
+  - News
+  - Geopolitics
+  - Tech
+
+# Ignore these files in build
+exclude:
+  - README.md
+  - .gitignore
+  - vendor/
+  - Gemfile
+  - Gemfile.lock

@@ -1,0 +1,33 @@
+<article class="post-card {% if include.post.cover_image %}has-cover{% endif %}">
+    {% if include.post.cover_image %}
+    <div class="post-card-image">
+        <a href="{{ include.post.url | relative_url }}">
+            <img src="{{ include.post.cover_image | relative_url }}" alt="{{ include.post.title }}" loading="lazy">
+        </a>
+    </div>
+    {% endif %}
+    <div class="post-card-body">
+        <div class="post-card-meta">
+            <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: "%B %-d, %Y" }}</time>
+            {% if include.post.categories.size > 0 %}
+                <span class="separator">&middot;</span>
+                {% assign cat_lower = include.post.categories.first | downcase %}
+                <a class="post-card-category" href="{{ '/category/' | append: cat_lower | relative_url }}">{{ include.post.categories | first }}</a>
+            {% endif %}
+        </div>
+        <h2 class="post-card-title">
+            <a href="{{ include.post.url | relative_url }}">{{ include.post.title }}</a>
+        </h2>
+        <p class="post-card-excerpt">
+            {% if include.post.excerpt %}
+                {{ include.post.excerpt | strip_html | truncatewords: 30 }}
+            {% else %}
+                {{ include.post.content | strip_html | truncatewords: 30 }}
+            {% endif %}
+        </p>
+        <div class="post-card-footer">
+            {% assign words = include.post.content | number_of_words %}
+            <span class="read-time">{{ words | divided_by: 200 | plus: 1 }} min read</span>
+        </div>
+    </div>
+</article>

@@ -1,0 +1,18 @@
+<!-- AD SLOT: {{ include.location }} -->
+{% assign ad = nil %}
+{% for item in site.data.ads %}
+    {% if item.location == include.location and item.active == true %}
+        {% assign ad = item %}
+    {% endif %}
+{% endfor %}
+
+{% if ad %}
+<div class="ad-container">
+    <span class="ad-label">Advertisement</span>
+    <div class="ad-banner">
+        <a href="{{ ad.link }}" target="_blank" rel="noopener noreferrer sponsored">
+            <img src="{{ ad.image | relative_url }}" alt="{{ ad.alt }}" loading="lazy">
+        </a>
+    </div>
+</div>
+{% endif %}

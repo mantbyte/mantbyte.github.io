@@ -1,0 +1,135 @@
+---
+layout: default
+title: Profile
+---
+
+<div class="profile-container logged-in-only" style="display: none;">
+    <div class="profile-header">
+        <img id="profile-avatar" src="" alt="Avatar" class="profile-avatar">
+        <div class="profile-info">
+            <h1 id="profile-name">Loading...</h1>
+            <p id="profile-email">Loading...</p>
+        </div>
+        <button id="fb-logout-btn-page" class="btn btn-outline">Sign Out</button>
+    </div>
+    
+    <div class="profile-content">
+        <div class="profile-section">
+            <h2>Bookmarked Articles</h2>
+            <div id="profile-bookmarks" class="post-list">
+                <p class="text-muted">Loading bookmarks...</p>
+            </div>
+        </div>
+
+        <div class="profile-section" style="margin-top: 3rem;">
+            <h2>Liked Articles</h2>
+            <div id="profile-likes" class="post-list">
+                <p class="text-muted">Loading likes...</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="logged-out-only" style="display: none; text-align: center; padding: 4rem 1rem;">
+    <h2>You are not logged in</h2>
+    <p>Please log in to view your profile.</p>
+    <a href="{{ '/login' | relative_url }}" class="btn">Go to Login</a>
+</div>
+
+<script type="module">
+    import { logout, observeAuthState } from '{{ "/assets/js/firebase/auth.js" | relative_url }}';
+    import { getUserBookmarks, getUserLikes } from '{{ "/assets/js/firebase/profile.js" | relative_url }}';
+    
+    document.addEventListener('DOMContentLoaded', () => {
+        const loggedInView = document.querySelector('.profile-container');
+        const loggedOutView = document.querySelector('.logged-out-only');
+        
+        let postsData = null;
+
+        async function fetchPostsData() {
+            if (postsData) return postsData;
+            try {
+                const res = await fetch('{{ "/search.json" | relative_url }}');
+                postsData = await res.json();
+                return postsData;
+            } catch (err) {
+                console.error("Failed to fetch posts list", err);
+                return [];
+            }
+        }
+
+        function renderPostList(slugs, containerId, posts) {
+            const container = document.getElementById(containerId);
+            if (!slugs || slugs.length === 0) {
+                container.innerHTML = '<p class="text-muted">Nothing here yet.</p>';
+                return;
+            }
+
+            let html = '';
+            slugs.forEach(slug => {
+                // Match the firestore slug (which has no slashes) to the original URL or Title
+                // The URL in search.json looks like /2026/07/21/title.html
+                // Our postSlug looks like 2026-07-21-title.html
+                const matchedPost = posts.find(p => {
+                    let rawPath = p.url.replace(/^\/+|\/+$/g, '');
+                    let expectedSlug = rawPath.replace(/\//g, '-');
+                    return expectedSlug === slug;
+                });
+
+                if (matchedPost) {
+                    html += `
+                        <div class="post-card" style="margin-bottom: 1rem; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
+                            <h3 style="margin-bottom: 0.25rem;"><a href="${matchedPost.url}">${matchedPost.title}</a></h3>
+                            <span style="font-size: 0.8rem; color: var(--text-muted);">${matchedPost.date}</span>
+                        </div>
+                    `;
+                }
+            });
+
+            container.innerHTML = html || '<p class="text-muted">No valid posts found.</p>';
+        }
+
+        async function loadProfileData() {
+            try {
+                const [posts, bookmarks, likes] = await Promise.all([
+                    fetchPostsData(),
+                    getUserBookmarks(),
+                    getUserLikes()
+                ]);
+                
+                renderPostList(bookmarks, 'profile-bookmarks', posts);
+                renderPostList(likes, 'profile-likes', posts);
+            } catch (err) {
+                console.error("Error loading profile data", err);
+            }
+        }
+
+        observeAuthState((user) => {
+            if (user) {
+                loggedInView.style.display = 'block';
+                loggedOutView.style.display = 'none';
+                
+                const fallbackSvg = "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 24 24' fill='%239ca3af' stroke='none'%3E%3Cpath d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z'/%3E%3C/svg%3E";
+                const profileImg = document.getElementById('profile-avatar');
+                profileImg.src = user.photoURL || fallbackSvg;
+                profileImg.onerror = function() { this.src = fallbackSvg; this.onerror = null; };
+                
+                document.getElementById('profile-name').innerText = user.displayName;
+                document.getElementById('profile-email').innerText = user.email;
+
+                loadProfileData();
+            } else {
+                loggedInView.style.display = 'none';
+                loggedOutView.style.display = 'block';
+            }
+        });
+
+        const logoutBtn = document.getElementById('fb-logout-btn-page');
+        if (logoutBtn) {
+            logoutBtn.addEventListener('click', async () => {
+                await logout();
+                window.location.href = '{{ "/" | relative_url }}';
+            });
+        }
+    });
+</script>

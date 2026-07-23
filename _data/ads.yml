@@ -1,0 +1,60 @@
+# =============================================================================
+# AD MANAGEMENT SYSTEM for mantbytes
+# =============================================================================
+# This file controls ALL advertisements on your site.
+# To add/remove/update an ad, just edit this file — no code changes needed.
+#
+# HOW IT WORKS:
+#   1. Upload your ad image to: assets/images/ads/
+#   2. Add an entry below with the correct "location" 
+#   3. Push to GitHub — done!
+#
+# LOCATIONS (where the ad appears):
+#   - home-page      → Homepage, below the hero section
+#   - archive-page   → Archive page, below the title
+#   - in-article     → Inside blog posts, below the title
+#   - bottom-article  → Inside blog posts, at the bottom
+#
+# To DISABLE an ad slot, set active: false
+# To show NO ads at all, make this file empty (just a comment)
+# =============================================================================
+
+# --- Homepage Ad ---
+- location: "home-page"
+  active: false
+  image: "/assets/images/ads/sample-ad-home.jpg"
+  link: "https://example.com"
+  alt: "Ad banner for homepage"
+  client: "Example Client"          # Your reference — who gave this ad
+  start_date: "2026-07-23"          # When this ad goes live
+  end_date: "2026-08-23"            # When to remove it (reminder for you)
+
+# --- Archive Page Ad ---
+- location: "archive-page"
+  active: false
+  image: "/assets/images/ads/sample-ad-archive.jpg"
+  link: "https://example.com"
+  alt: "Ad banner for archive"
+  client: "Example Client"
+  start_date: "2026-07-23"
+  end_date: "2026-08-23"
+
+# --- In-Article Ad (top of post) ---
+- location: "in-article"
+  active: false
+  image: "/assets/images/ads/sample-ad-article.jpg"
+  link: "https://example.com"
+  alt: "Ad banner inside article"
+  client: "Example Client"
+  start_date: "2026-07-23"
+  end_date: "2026-08-23"
+
+# --- Bottom of Article Ad ---
+- location: "bottom-article"
+  active: false
+  image: "/assets/images/ads/sample-ad-bottom.jpg"
+  link: "https://example.com"
+  alt: "Ad banner at bottom of article"
+  client: "Example Client"
+  start_date: "2026-07-23"
+  end_date: "2026-08-23"

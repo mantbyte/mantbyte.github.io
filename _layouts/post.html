@@ -1,0 +1,94 @@
+---
+layout: default
+---
+<article class="post">
+    <header class="post-header">
+        <div class="post-meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+            
+            {% if page.categories.size > 0 %}
+                <span class="separator">&middot;</span>
+                <span class="post-category">
+                    {% assign cat_lower = page.categories.first | downcase %}
+                    <a href="{{ '/category/' | append: cat_lower | relative_url }}">{{ page.categories | first }}</a>
+                </span>
+            {% endif %}
+            
+            <span class="separator">&middot;</span>
+            {% assign words = content | number_of_words %}
+            <span class="read-time">{{ words | divided_by: 200 | plus: 1 }} min read</span>
+        </div>
+        <h1 class="post-title">{{ page.title }}</h1>
+    </header>
+
+    {% if page.cover_image %}
+    <figure class="post-cover">
+        <img src="{{ page.cover_image | relative_url }}" alt="{{ page.title }}" loading="lazy">
+        {% if page.cover_caption %}
+        <figcaption>{{ page.cover_caption }}</figcaption>
+        {% endif %}
+    </figure>
+    {% endif %}
+    
+    <!-- AD SLOT: top-of-article -->
+    {% include ad_slot.html location="in-article" %}
+    
+    <div class="post-content">
+        {{ content }}
+    </div>
+
+    <!-- AD SLOT: bottom-of-article -->
+    {% include ad_slot.html location="bottom-article" %}
+    
+    <footer class="post-footer">
+        <div class="fb-interactions">
+            <div class="fb-interaction-group">
+                <button class="fb-btn fb-like" id="fb-like-btn" title="Like">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                    <span id="fb-like-count">0</span>
+                </button>
+            </div>
+            
+            <div class="fb-interaction-group fb-votes">
+                <button class="fb-btn fb-upvote" id="fb-upvote-btn" title="Upvote">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"></polyline></svg>
+                </button>
+                <span id="fb-vote-count">0</span>
+                <button class="fb-btn fb-downvote" id="fb-downvote-btn" title="Downvote">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+            </div>
+
+            <div class="fb-interaction-group">
+                <button class="fb-btn fb-bookmark" id="fb-bookmark-btn" title="Save for later">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+                </button>
+            </div>
+        </div>
+
+        <a href="{{ '/archive' | relative_url }}" class="back-link" style="margin-top: 2rem;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+            Back to all posts
+        </a>
+        
+        <div class="fb-comments-section">
+            <h3>Discussion</h3>
+            
+            <div class="logged-in-only" style="display: none;">
+                <form id="fb-comment-form" class="fb-comment-form">
+                    <textarea id="fb-comment-input" placeholder="Join the discussion..." required></textarea>
+                    <button type="submit" class="btn">Post Comment</button>
+                </form>
+            </div>
+            <div class="logged-out-only" style="display: block; margin-bottom: 2rem; color: var(--text-muted);">
+                <a href="{{ '/login' | relative_url }}" style="color: var(--accent-color);">Log in</a> to join the discussion.
+            </div>
+
+            <div id="fb-comments-list" class="fb-comments-list">
+                <p>Loading comments...</p>
+            </div>
+        </div>
+    </footer>
+</article>
+
+<div class="reading-progress" id="reading-progress"></div>

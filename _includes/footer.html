@@ -1,0 +1,45 @@
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col footer-about">
+                <a class="footer-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+                <p class="footer-tagline">{{ site.description }}</p>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-heading">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                    <li><a href="{{ '/archive' | relative_url }}">Archive</a></li>
+                    <li><a href="{{ '/about' | relative_url }}">About</a></li>
+                    <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-heading">Topics</h4>
+                <ul class="footer-links">
+                    <li><a href="{{ '/category/tech' | relative_url }}">Tech</a></li>
+                    <li><a href="{{ '/category/news' | relative_url }}">News</a></li>
+                    <li><a href="{{ '/category/geopolitics' | relative_url }}">Geopolitics</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-heading">Connect</h4>
+                <ul class="footer-links">
+                    <li><a href="{{ site.author.github }}" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                    <li><a href="{{ site.author.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                    <li><a href="mailto:{{ site.author.email }}">Email</a></li>
+                    <li><a href="{{ '/feed.xml' | relative_url }}">RSS Feed</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="copyright">&copy; {{ "now" | date: "%Y" }} {{ site.author.name }}. All rights reserved.</p>
+            <p class="footer-note">Built by Sujal &middot; Hosted on GitHub Pages</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Scroll to top -->
+<button class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+</button>

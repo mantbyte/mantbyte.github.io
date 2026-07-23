@@ -1,0 +1,22 @@
+---
+layout: default
+title: Tech
+---
+
+<div class="archive-container">
+    <header class="page-header">
+        <h1 class="page-title">Tech</h1>
+        <p class="page-subtitle">What I'm personally learning, building, and technical write-ups.</p>
+    </header>
+
+    <div class="archive-list">
+        {% for post in site.categories.Tech %}
+            <article class="archive-item">
+                <time datetime="{{ post.date | date_to_xmlschema }}" class="archive-date">{{ post.date | date: "%b %d, %Y" }}</time>
+                <div class="archive-details">
+                    <h3 class="archive-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+                </div>
+            </article>
+        {% endfor %}
+    </div>
+</div>

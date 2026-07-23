@@ -1,0 +1,36 @@
+---
+layout: default
+title: Home
+---
+
+<div class="home-container">
+    <section class="hero">
+        <h1 class="hero-title">Mantbyte</h1>
+        <p class="hero-subtitle">Engineering insights, practical tutorials, and technical deep dives.</p>
+    </section>
+
+    <!-- AD SLOT: home-page -->
+    {% include ad_slot.html location="home-page" %}
+
+    <section class="latest-posts">
+        <h2 class="section-title">Latest Writing</h2>
+        
+        <div class="post-grid">
+            {% for post in site.posts limit:5 %}
+                {% if forloop.first %}
+                    <div class="featured-post">
+                        {% include post_card.html post=post %}
+                    </div>
+                {% else %}
+                    <div class="regular-post">
+                        {% include post_card.html post=post %}
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+        
+        <div class="view-all">
+            <a href="{{ '/archive' | relative_url }}" class="btn">View all posts</a>
+        </div>
+    </section>
+</div>

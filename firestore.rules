@@ -1,0 +1,60 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper functions
+    function isAuthenticated() { return request.auth != null; }
+    function isOwner(uid) { return isAuthenticated() && request.auth.uid == uid; }
+    
+    // 1. Users Collection
+    match /users/{uid} {
+      // Anyone can read a basic profile (needed for comments), but only owner can write
+      allow read: if true;
+      allow write: if isOwner(uid);
+      
+      // User Subcollections (History, Bookmarks, Interactions)
+      // Strictly private to the user
+      match /history/{postSlug} {
+        allow read, write: if isOwner(uid);
+      }
+      match /bookmarks/{postSlug} {
+        allow read, write: if isOwner(uid);
+      }
+      match /interactions/{postSlug} {
+        allow read, write: if isOwner(uid);
+      }
+    }
+    
+    // 2. Posts Collection (Aggregates)
+    match /posts/{postSlug} {
+      // Anyone can read post aggregates
+      allow read: if true;
+      // Allow atomic increments only (+1 or -1) by authenticated users
+      allow update: if isAuthenticated() 
+                    && (request.resource.data.likesCount == resource.data.likesCount + 1 
+                        || request.resource.data.likesCount == resource.data.likesCount - 1
+                        || request.resource.data.upvotesCount == resource.data.upvotesCount + 1
+                        || request.resource.data.upvotesCount == resource.data.upvotesCount - 1
+                        || request.resource.data.downvotesCount == resource.data.downvotesCount + 1
+                        || request.resource.data.downvotesCount == resource.data.downvotesCount - 1
+                        || request.resource.data.viewsCount == resource.data.viewsCount + 1
+                        || request.resource.data.commentsCount == resource.data.commentsCount + 1);
+      allow create: if isAuthenticated(); // Allow creation of doc if first time interacted
+      
+      // Comments Subcollection
+      match /comments/{commentId} {
+        allow read: if true; // Public can read comments
+        // Only authenticated users can create, and authorUid must match their token
+        allow create: if isAuthenticated() && request.resource.data.authorUid == request.auth.uid;
+        // Only comment author can update or delete
+        allow update, delete: if isAuthenticated() && resource.data.authorUid == request.auth.uid;
+      }
+    }
+
+    // 3. Notifications Collection
+    match /notifications/{uid}/userNotifications/{notificationId} {
+      // Users can only read and manage their own notifications
+      allow read, write: if isOwner(uid);
+    }
+  }
+}

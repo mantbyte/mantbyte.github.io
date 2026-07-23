@@ -1,0 +1,43 @@
+---
+layout: default
+title: Archive
+---
+
+<div class="archive-container">
+    <header class="page-header">
+        <h1 class="page-title">All Posts</h1>
+        <p class="page-subtitle">A complete archive of everything I've written.</p>
+    </header>
+
+    <!-- AD SLOT: archive-page -->
+    {% include ad_slot.html location="archive-page" %}
+
+    <div class="archive-list">
+        {% for post in site.posts %}
+            {% capture current_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+            {% if current_year != year %}
+                {% unless forloop.first %}
+                    </div>
+                {% endunless %}
+                <h2 class="archive-year">{{ current_year }}</h2>
+                <div class="archive-year-group">
+                {% capture year %}{{ current_year }}{% endcapture %}
+            {% endif %}
+            
+            <article class="archive-item">
+                <time datetime="{{ post.date | date_to_xmlschema }}" class="archive-date">{{ post.date | date: "%b %d" }}</time>
+                <div class="archive-details">
+                    <h3 class="archive-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+                    {% if post.categories.size > 0 %}
+                        {% assign cat_lower = post.categories.first | downcase %}
+                        <a href="{{ '/category/' | append: cat_lower | relative_url }}" class="archive-category">{{ post.categories | first }}</a>
+                    {% endif %}
+                </div>
+            </article>
+            
+            {% if forloop.last %}
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
