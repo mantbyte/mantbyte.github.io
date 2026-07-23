@@ -4,7 +4,7 @@ title: "The Silicon Cold War: How Semiconductors Became the New Oil"
 date: 2026-07-24 09:00:00 +0530
 categories: Geopolitics
 excerpt: "As artificial intelligence accelerates, the global supply chain for advanced microchips has become the ultimate geopolitical chess piece of the 21st century."
-cover_image: "/assets/images/posts/chip-wars.jpg"
+cover_image: "/assets/images/posts/1_1.png"
 cover_caption: "The semiconductor supply chain is the most complex manufacturing process in human history."
 ---
 
@@ -15,6 +15,7 @@ For the past century, global power dynamics were heavily dictated by access to o
 From the smartphones in our pockets to hypersonic missiles, and from global financial markets to the explosion of generative Artificial Intelligence, every critical piece of modern infrastructure relies on semiconductors. However, the supply chain for these chips is incredibly fragile, leading to what many experts now call the "Silicon Cold War."
 
 ---
+![Global Semiconductor Supply Chain](/assets/images/posts/1_2.png)
 
 ## The Ultimate Choke Point: Taiwan
 
