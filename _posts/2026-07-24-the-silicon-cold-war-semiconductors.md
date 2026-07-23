@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Silicon Cold War: How Semiconductors Became the New Oil"
-date: 2026-07-24 09:00:00 +0530
+date: 2026-07-24 00:01:00 +0530
 categories: Geopolitics
 excerpt: "As artificial intelligence accelerates, the global supply chain for advanced microchips has become the ultimate geopolitical chess piece of the 21st century."
 cover_image: "/assets/images/posts/1_1.png"
