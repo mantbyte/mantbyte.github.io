@@ -457,3 +457,20 @@ Building the infrastructure manually gave me valuable insight into networking, s
 As organizations increasingly adopt DevOps practices, the ability to automate infrastructure is no longer optional—it is an essential engineering skill. This hands-on experience provided a strong foundation for working with larger automation tools such as **Ansible**, **Docker**, **Kubernetes**, and cloud platforms like **AWS**, where the same DevOps principles apply at an even greater scale.
 
 > **"First understand the infrastructure manually. Then automate it. That's where real DevOps begins."**
+
+---
+
+### Image Best Practices
+
+| Rule | Why |
+|------|-----|
+| Keep images under **500KB** | Fast loading on mobile |
+| Use `.jpg` for photos | Smaller file size |
+| Use `.png` for diagrams/screenshots | Crisp text and lines |
+| Name files descriptively | `federated-learning-diagram.png` not `IMG_1234.png` |
+| Resize to **max 1200px wide** | Larger images waste bandwidth |
+
+> [!TIP]
+> **Quick resize on Mac**: Open image in Preview → Tools → Adjust Size → Set width to 1200px → Save.
+
+---
