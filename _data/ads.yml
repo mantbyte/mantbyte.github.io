@@ -21,7 +21,7 @@
 
 # --- Homepage Ad ---
 - location: "home-page"
-  active: false
+  active: true
   image: "/assets/images/ads/ad1.jpg"
   link: "https://www.linkedin.com/in/sujallohar"
   alt: "Ad banner for homepage"
@@ -31,7 +31,7 @@
 
 # --- Archive Page Ad ---
 - location: "archive-page"
-  active: false
+  active: true
   image: "/assets/images/ads/ad1.jpg"
   link: "https://www.linkedin.com/in/sujallohar"
   alt: "Ad banner for archive"
@@ -41,7 +41,7 @@
 
 # --- In-Article Ad (top of post) ---
 - location: "in-article"
-  active: false
+  active: true
   image: "/assets/images/ads/ad1.jpg"
   link: "https://www.linkedin.com/in/sujallohar"
   alt: "Ad banner inside article"
@@ -51,7 +51,7 @@
 
 # --- Bottom of Article Ad ---
 - location: "bottom-article"
-  active: false
+  active: true
   image: "/assets/images/ads/ad1.jpg"
   link: "https://www.linkedin.com/in/sujallohar"
   alt: "Ad banner at bottom of article"
