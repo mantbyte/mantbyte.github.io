@@ -270,16 +270,31 @@ img {
     padding: 2rem;
 }
 
-/* Cards WITH cover images — horizontal layout on desktop */
+/* Cards WITH cover images */
 .post-card.has-cover {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .post-card-image {
     flex-shrink: 0;
-    width: 260px;
+    width: 100%;
+    aspect-ratio: 16 / 9;
     overflow: hidden;
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* Featured post specific layout (horizontal on desktop) */
+@media (min-width: 768px) {
+    .featured-post .post-card.has-cover {
+        flex-direction: row;
+    }
+    .featured-post .post-card-image {
+        width: 50%;
+        aspect-ratio: auto;
+        border-bottom: none;
+        border-right: 1px solid var(--border-color);
+    }
 }
 
 .post-card-image a {
