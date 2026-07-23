@@ -438,6 +438,7 @@ img {
 .post, .page {
     max-width: 680px;
     margin: 0 auto;
+    padding: 0 1.5rem;
 }
 
 .post-header, .page-header {
@@ -574,6 +575,7 @@ img {
 .archive-container {
     max-width: 680px;
     margin: 0 auto;
+    padding: 0 1.5rem;
 }
 
 .page-subtitle {
