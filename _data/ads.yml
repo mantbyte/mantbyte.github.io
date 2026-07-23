@@ -22,7 +22,7 @@
 # --- Homepage Ad ---
 - location: "home-page"
   active: true
-  image: "/assets/images/ads/ad1.jpg"
+  image: "/assets/images/ads/ad1.png"
   link: "https://www.linkedin.com/in/sujallohar"
   alt: "Ad banner for homepage"
   client: "Sujal Lohar"          # Your reference — who gave this ad
@@ -32,7 +32,7 @@
 # --- Archive Page Ad ---
 - location: "archive-page"
   active: true
-  image: "/assets/images/ads/ad1.jpg"
+  image: "/assets/images/ads/ad1.png"
   link: "https://www.linkedin.com/in/sujallohar"
   alt: "Ad banner for archive"
   client: "Sujal Lohar"
@@ -42,7 +42,7 @@
 # --- In-Article Ad (top of post) ---
 - location: "in-article"
   active: true
-  image: "/assets/images/ads/ad1.jpg"
+  image: "/assets/images/ads/ad1.png"
   link: "https://www.linkedin.com/in/sujallohar"
   alt: "Ad banner inside article"
   client: "Sujal Lohar"
@@ -52,7 +52,7 @@
 # --- Bottom of Article Ad ---
 - location: "bottom-article"
   active: true
-  image: "/assets/images/ads/ad1.jpg"
+  image: "/assets/images/ads/ad1.png"
   link: "https://www.linkedin.com/in/sujallohar"
   alt: "Ad banner at bottom of article"
   client: "Sujal Lohar"
