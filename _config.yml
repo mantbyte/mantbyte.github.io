@@ -27,3 +27,8 @@ exclude:
   - vendor/
   - Gemfile
   - Gemfile.lock
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
