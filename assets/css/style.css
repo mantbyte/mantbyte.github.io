@@ -286,7 +286,7 @@ img {
 .post-list-item .post-card-image {
     width: 280px;
     min-width: 280px;
-    aspect-ratio: auto;
+    max-height: none;
     border-bottom: none;
     border-right: 1px solid var(--border-color);
 }
@@ -334,9 +334,12 @@ img {
 .post-card-image {
     flex-shrink: 0;
     width: 100%;
-    aspect-ratio: 16 / 9;
     overflow: hidden;
     border-bottom: 1px solid var(--border-color);
+    background: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .post-card-image a {
@@ -346,9 +349,10 @@ img {
 
 .post-card-image img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    max-height: 220px;
+    object-fit: contain;
     transition: transform 0.3s ease;
+    padding: 0.5rem;
 }
 
 .post-card:hover .post-card-image img {
