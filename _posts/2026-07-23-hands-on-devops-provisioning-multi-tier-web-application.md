@@ -1,20 +1,12 @@
-**File Name:**
-
-`2026-07-23-hands-on-devops-provisioning-multi-tier-web-application.md`
-
----
-
-```yaml
 ---
 layout: post
 title: "Hands-On DevOps: Provisioning a Multi-Tier Web Application (Manual vs. Automated)"
 date: 2026-07-23 18:00:00 +0530
 categories: Tech
 excerpt: "A hands-on journey of deploying a production-style multi-tier web application using Vagrant, VirtualBox, and Infrastructure as Code."
-cover_image: "/assets/images/posts/devops-multi-tier-architecture.jpg"
+cover_image: "/assets/images/posts/cover.png"
 cover_caption: "Production-style multi-tier application architecture deployed using Vagrant and VirtualBox."
 ---
-```
 
 # Hands-On DevOps: Provisioning a Multi-Tier Web Application (Manual vs. Automated)
 
@@ -42,33 +34,12 @@ A multi-tier architecture separates responsibilities into independent services:
 Instead of having one machine performing every task, each service is dedicated to a specific responsibility.
 
 ---
-
+![VProfile Multi-Tier Architecture](/assets/images/posts/1.png)
 # System Architecture
 
 The deployed VProfile infrastructure consists of five independent servers working together.
 
-```text
-                 Client / Browser
-                        │
-                        ▼
-             +--------------------+
-             |       Nginx        |
-             | Reverse Proxy      |
-             +--------------------+
-                        │
-                        ▼
-             +--------------------+
-             |      Tomcat        |
-             | Java Application   |
-             +--------------------+
-              │        │        │
-              │        │        │
-              ▼        ▼        ▼
-        +---------+ +----------+ +-----------+
-        | MySQL   | |Memcached | |RabbitMQ   |
-        |Database | | Cache    | |Messaging  |
-        +---------+ +----------+ +-----------+
-```
+
 
 > **Suggested Cover/Architecture Image**
 >
@@ -185,6 +156,7 @@ Examples include:
 This keeps the application responsive.
 
 ---
+![Manual Provisioning Workflow](/assets/images/posts/2.png)
 
 # Phase 1 — Manual Multi-VM Provisioning
 
@@ -329,6 +301,7 @@ Manual deployment exposed several real-world challenges:
 Although time-consuming, solving these problems greatly improved my understanding of Linux system administration and distributed applications.
 
 ---
+![Infrastructure Automation Workflow](/assets/images/posts/3.png)
 
 # Phase 2 — Infrastructure Automation
 
