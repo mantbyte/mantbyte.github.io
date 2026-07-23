@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Building Mantbytes: A Modern, Free, Serverless Blog Architecture"
-date: 2026-07-24 10:00:00 +0530
+date: 2026-07-24 01:00:00 +0530
 categories: Tech
 excerpt: "How I built a high-performance, fully-featured tech blog with authentication, databases, and ad management using 100% free cloud infrastructure."
 ---
