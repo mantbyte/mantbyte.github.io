@@ -22,39 +22,39 @@
 # --- Homepage Ad ---
 - location: "home-page"
   active: false
-  image: "/assets/images/ads/sample-ad-home.jpg"
-  link: "https://example.com"
+  image: "/assets/images/ads/ad1.jpg"
+  link: "https://www.linkedin.com/in/sujallohar"
   alt: "Ad banner for homepage"
-  client: "Example Client"          # Your reference — who gave this ad
-  start_date: "2026-07-23"          # When this ad goes live
-  end_date: "2026-08-23"            # When to remove it (reminder for you)
+  client: "Sujal Lohar"          # Your reference — who gave this ad
+  start_date: "2026-07-24"          # When this ad goes live
+  end_date: "2026-07-25"            # When to remove it (reminder for you)
 
 # --- Archive Page Ad ---
 - location: "archive-page"
   active: false
-  image: "/assets/images/ads/sample-ad-archive.jpg"
-  link: "https://example.com"
+  image: "/assets/images/ads/ad1.jpg"
+  link: "https://www.linkedin.com/in/sujallohar"
   alt: "Ad banner for archive"
-  client: "Example Client"
-  start_date: "2026-07-23"
-  end_date: "2026-08-23"
+  client: "Sujal Lohar"
+  start_date: "2026-07-24"
+  end_date: "2026-07-25"
 
 # --- In-Article Ad (top of post) ---
 - location: "in-article"
   active: false
-  image: "/assets/images/ads/sample-ad-article.jpg"
-  link: "https://example.com"
+  image: "/assets/images/ads/ad1.jpg"
+  link: "https://www.linkedin.com/in/sujallohar"
   alt: "Ad banner inside article"
-  client: "Example Client"
-  start_date: "2026-07-23"
-  end_date: "2026-08-23"
+  client: "Sujal Lohar"
+  start_date: "2026-07-24"
+  end_date: "2026-07-25"
 
 # --- Bottom of Article Ad ---
 - location: "bottom-article"
   active: false
-  image: "/assets/images/ads/sample-ad-bottom.jpg"
-  link: "https://example.com"
+  image: "/assets/images/ads/ad1.jpg"
+  link: "https://www.linkedin.com/in/sujallohar"
   alt: "Ad banner at bottom of article"
-  client: "Example Client"
-  start_date: "2026-07-23"
-  end_date: "2026-08-23"
+  client: "Sujal Lohar"
+  start_date: "2026-07-24"
+  end_date: "2026-07-25"
