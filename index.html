@@ -14,18 +14,19 @@ title: Home
 
     <section class="latest-posts">
         <h2 class="section-title">Latest Writing</h2>
-        
-        <div class="post-grid">
-            {% for post in site.posts limit:5 %}
-                {% if forloop.first %}
-                    <div class="featured-post">
-                        {% include post_card.html post=post %}
-                    </div>
-                {% else %}
-                    <div class="regular-post">
-                        {% include post_card.html post=post %}
-                    </div>
-                {% endif %}
+
+        <div class="category-filters" id="categoryFilters">
+            <button class="filter-btn active" data-category="all">All</button>
+            <button class="filter-btn" data-category="tech">Tech</button>
+            <button class="filter-btn" data-category="geopolitics">Geopolitics</button>
+            <button class="filter-btn" data-category="news">News</button>
+        </div>
+
+        <div class="post-list" id="postList">
+            {% for post in site.posts limit:10 %}
+                <div class="post-list-item" data-category="{{ post.categories | first | downcase }}">
+                    {% include post_card.html post=post %}
+                </div>
             {% endfor %}
         </div>
         
@@ -34,3 +35,29 @@ title: Home
         </div>
     </section>
 </div>
+
+<script>
+(function() {
+    const filters = document.getElementById('categoryFilters');
+    const posts = document.querySelectorAll('.post-list-item');
+    
+    filters.addEventListener('click', function(e) {
+        const btn = e.target.closest('.filter-btn');
+        if (!btn) return;
+        
+        // Update active button
+        filters.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        
+        const cat = btn.dataset.category;
+        
+        posts.forEach(function(post) {
+            if (cat === 'all' || post.dataset.category === cat) {
+                post.style.display = '';
+            } else {
+                post.style.display = 'none';
+            }
+        });
+    });
+})();
+</script>

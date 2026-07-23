@@ -235,14 +235,73 @@ img {
     padding-bottom: 0.5rem;
 }
 
-.post-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-    gap: 2rem;
+/* Category Filter Buttons */
+.category-filters {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
 }
 
-.featured-post {
-    grid-column: 1 / -1;
+.filter-btn {
+    padding: 0.5rem 1.25rem;
+    border: 1px solid var(--border-color);
+    border-radius: 100px;
+    background: var(--card-bg);
+    color: var(--text-muted);
+    font-family: var(--font-ui);
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.filter-btn:hover {
+    border-color: var(--text-color);
+    color: var(--text-color);
+}
+
+.filter-btn.active {
+    background: var(--text-color);
+    color: var(--bg-color);
+    border-color: var(--text-color);
+}
+
+/* Vertical Post List */
+.post-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.post-list-item {
+    width: 100%;
+}
+
+/* All post cards in list mode: horizontal layout */
+.post-list-item .post-card.has-cover {
+    flex-direction: row;
+}
+
+.post-list-item .post-card-image {
+    width: 280px;
+    min-width: 280px;
+    aspect-ratio: auto;
+    border-bottom: none;
+    border-right: 1px solid var(--border-color);
+}
+
+@media (max-width: 640px) {
+    .post-list-item .post-card.has-cover {
+        flex-direction: column;
+    }
+    .post-list-item .post-card-image {
+        width: 100%;
+        min-width: 100%;
+        aspect-ratio: 16 / 9;
+        border-bottom: 1px solid var(--border-color);
+        border-right: none;
+    }
 }
 
 .post-card {
@@ -259,10 +318,6 @@ img {
     transform: translateY(-4px);
     box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.06);
     border-color: #d1d5db;
-}
-
-.featured-post .post-card {
-    border-top: 4px solid var(--accent-color);
 }
 
 /* Cards without images — keep padding on the body */
@@ -282,19 +337,6 @@ img {
     aspect-ratio: 16 / 9;
     overflow: hidden;
     border-bottom: 1px solid var(--border-color);
-}
-
-/* Featured post specific layout (horizontal on desktop) */
-@media (min-width: 768px) {
-    .featured-post .post-card.has-cover {
-        flex-direction: row;
-    }
-    .featured-post .post-card-image {
-        width: 50%;
-        aspect-ratio: auto;
-        border-bottom: none;
-        border-right: 1px solid var(--border-color);
-    }
 }
 
 .post-card-image a {
