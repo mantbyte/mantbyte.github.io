@@ -1,7 +1,7 @@
 title: mantbytes
 description: Personal blog of a Computer Science student covering technology, geopolitics, and what I'm learning.
 url: "https://mantbyte.github.io"
-baseurl: "/mantbyte"
+baseurl: ""
 google_analytics: "G-XXXXXXXXXX" # Replace with your actual GA4 Measurement ID
 
 # Author / Company
