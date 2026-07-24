@@ -39,7 +39,21 @@ def _execute_with_retry(agent_name: str, func, *args, **kwargs):
     # Try multiple standard models in case of 404 (deprecated) or 429 (out of quota)
     # The first model is whatever is passed in kwargs, then we fallback
     base_model = kwargs.get("model", "gemini-3.0-flash")
-    fallback_models = [base_model, "gemini-3.0-flash", "gemini-3.1-flash", "gemini-3.5-flash", "gemini-2.0-flash", "gemini-1.5-pro", "gemini-3.6-flash"]
+    fallback_models = [
+        base_model, 
+        "gemini-flash-latest",
+        "gemini-pro-latest",
+        "gemini-2.5-pro",
+        "gemini-2.5-flash-lite",
+        "gemini-3-flash-preview",
+        "gemini-3.5-flash-lite",
+        "gemini-3.0-flash", 
+        "gemini-3.1-flash", 
+        "gemini-3.5-flash", 
+        "gemini-2.0-flash", 
+        "gemini-1.5-pro", 
+        "gemini-3.6-flash"
+    ]
     
     # Deduplicate while preserving order
     models_to_try = []
