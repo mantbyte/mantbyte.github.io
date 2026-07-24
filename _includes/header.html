@@ -2,9 +2,14 @@
     <div class="container">
         <div class="header-inner">
             <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-            <button class="menu-toggle" aria-label="Toggle menu" id="menu-toggle">
-                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
-            </button>
+            <div class="header-actions" style="display: flex; align-items: center; gap: 0.25rem;">
+                <button class="search-toggle" aria-label="Search" id="search-toggle" onclick="toggleSearch()" style="background: none; border: none; cursor: pointer; color: var(--text-main); display: flex; align-items: center; padding: 0.5rem;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <button class="menu-toggle" aria-label="Toggle menu" id="menu-toggle">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                </button>
+            </div>
             <nav class="site-nav" id="site-nav">
                 <ul class="nav-list">
                     <li><a href="{{ '/' | relative_url }}" class="page-link">Home</a></li>
@@ -26,11 +31,6 @@
                         <a href="{{ '/profile' | relative_url }}" class="page-link auth-link logged-in-show" style="display: none;">
                             <img id="fb-user-avatar" src="" alt="Profile" class="nav-avatar">
                         </a>
-                    </li>
-                    <li>
-                        <button class="search-toggle" aria-label="Search" id="search-toggle" onclick="toggleSearch()">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-                        </button>
                     </li>
                 </ul>
             </nav>

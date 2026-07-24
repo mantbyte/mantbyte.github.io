@@ -37,3 +37,34 @@ if (scrollTopBtn) {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 }
+
+// Auth Popup Logic
+function closeAuthPopup() {
+    const popup = document.getElementById('auth-popup');
+    if (popup) {
+        popup.classList.remove('show');
+        sessionStorage.setItem('authPopupClosed', 'true');
+    }
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+    // Check if popup was already closed in this session
+    if (sessionStorage.getItem('authPopupClosed') === 'true') {
+        return;
+    }
+
+    // Wait 10 seconds before showing
+    setTimeout(() => {
+        // Check if user is logged out (by checking the visibility of the login icon)
+        const loggedOutLink = document.querySelector('.logged-out-show');
+        if (loggedOutLink) {
+            const isVisible = window.getComputedStyle(loggedOutLink).display !== 'none';
+            if (isVisible) {
+                const popup = document.getElementById('auth-popup');
+                if (popup) {
+                    popup.classList.add('show');
+                }
+            }
+        }
+    }, 10000); // 10 seconds
+});

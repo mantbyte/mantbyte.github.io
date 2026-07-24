@@ -34,6 +34,18 @@
         {{ content }}
     </main>
     
+    <!-- Auth Popup -->
+    <div id="auth-popup" class="auth-popup-overlay">
+        <div class="auth-popup-modal">
+            <button class="auth-popup-close" onclick="closeAuthPopup()">&times;</button>
+            <h3>Join the mantbyte community</h3>
+            <p class="auth-popup-quote">"Save your favorite reads, join the discussion, and never lose track of what matters."</p>
+            <div class="auth-popup-actions">
+                <a href="{{ '/login' | relative_url }}" class="btn">Sign In / Sign Up</a>
+            </div>
+        </div>
+    </div>
+    
     {% include footer.html %}
     
     <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
