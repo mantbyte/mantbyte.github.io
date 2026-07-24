@@ -30,43 +30,69 @@ def _exponential_backoff(attempt: int) -> float:
     return delay + jitter
 
 def _execute_with_retry(agent_name: str, func, *args, **kwargs):
-    """Execute an API call with robust retry logic."""
+    """Execute an API call with robust retry logic and model fallback."""
     if not client:
         raise RuntimeError("GEMINI_API_KEY is not set.")
 
     max_retries = AI_CONFIG.get("max_retries", 3)
     
-    for attempt in range(max_retries + 1):
-        try:
-            start_time = time.time()
-            response = func(*args, **kwargs)
-            duration = time.time() - start_time
-            
-            # Note: The new python SDK `google-genai` returns a GenerateContentResponse
-            # which has usage_metadata if available.
-            token_count = "unknown"
-            if hasattr(response, 'usage_metadata') and response.usage_metadata:
-                token_count = response.usage_metadata.total_token_count
+    # Try multiple standard models in case of 404 (deprecated) or 429 (out of quota)
+    # The first model is whatever is passed in kwargs, then we fallback
+    base_model = kwargs.get("model", "gemini-3.0-flash")
+    fallback_models = [base_model, "gemini-3.0-flash", "gemini-3.1-flash", "gemini-3.5-flash", "gemini-2.0-flash", "gemini-1.5-pro", "gemini-3.6-flash"]
+    
+    # Deduplicate while preserving order
+    models_to_try = []
+    for m in fallback_models:
+        if m not in models_to_try:
+            models_to_try.append(m)
+
+    last_error = None
+    
+    for model_name in models_to_try:
+        kwargs["model"] = model_name
+        print(f"  🤖 Trying model: {model_name} for agent {agent_name}...")
+        
+        for attempt in range(max_retries + 1):
+            try:
+                start_time = time.time()
+                response = func(*args, **kwargs)
+                duration = time.time() - start_time
                 
-            logger.info(f"Generated text | duration={duration:.2f}s | tokens={token_count}", extra={"agent": agent_name})
-            return response.text
-            
-        except APIError as e:
-            if attempt == max_retries:
-                logger.error(f"Failed after {max_retries} retries: {str(e)}", extra={"agent": agent_name})
+                token_count = "unknown"
+                if hasattr(response, 'usage_metadata') and response.usage_metadata:
+                    token_count = response.usage_metadata.total_token_count
+                    
+                logger.info(f"Generated text | duration={duration:.2f}s | tokens={token_count}", extra={"agent": agent_name})
+                return response.text
+                
+            except APIError as e:
+                status_code = e.code if hasattr(e, 'code') else 500
+                last_error = e
+                
+                if status_code == 404:
+                    print(f"  ⚠️ Model {model_name} is deprecated (404). Falling back...")
+                    break # Break retry loop, try next model
+                    
+                if status_code == 429:
+                    print(f"  ⚠️ Model {model_name} hit quota limit (429). Falling back...")
+                    break # Break retry loop, try next model
+
+                if status_code in (500, 502, 503, 504):
+                    if attempt == max_retries:
+                        print(f"  ⚠️ Server error on {model_name} after {max_retries} retries. Falling back...")
+                        break # Try next model
+                    delay = _exponential_backoff(attempt)
+                    logger.warning(f"Retry {attempt + 1}/{max_retries} for status {status_code}. Waiting {delay:.2f}s", extra={"agent": agent_name})
+                    time.sleep(delay)
+                else:
+                    logger.error(f"Unrecoverable API error: {str(e)}", extra={"agent": agent_name})
+                    raise
+            except Exception as e:
+                logger.error(f"Unexpected error: {str(e)}", extra={"agent": agent_name})
                 raise
                 
-            status_code = e.code if hasattr(e, 'code') else 500
-            if status_code in (429, 500, 502, 503, 504):
-                delay = _exponential_backoff(attempt)
-                logger.warning(f"Retry {attempt + 1}/{max_retries} for status {status_code}. Waiting {delay:.2f}s", extra={"agent": agent_name})
-                time.sleep(delay)
-            else:
-                logger.error(f"Unrecoverable API error: {str(e)}", extra={"agent": agent_name})
-                raise
-        except Exception as e:
-            logger.error(f"Unexpected error: {str(e)}", extra={"agent": agent_name})
-            raise
+    raise RuntimeError(f"All fallback models failed. Last error: {str(last_error)}")
 
 def generate(agent_name: str, system_instruction: str, user_prompt: str, temperature: float = 0.7, max_output_tokens: int = 8192) -> str:
     """Generate plain text (Markdown) response."""
