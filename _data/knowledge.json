@@ -93,7 +93,23 @@
         "LLM Architecture"
       ],
       "url": "/tech/2026/07/24/anthropic-claude-architecture-constitutional-ai-guide.html"
+    },
+    {
+      "title": "AI-Generated CORS Misconfigurations and Origin Reflection Vulnerabilities",
+      "slug": "ai-generated-cors-misconfigurations-vulnerabilities",
+      "date": "2026-07-24",
+      "category": "Tech",
+      "key_topics": [
+        "CORS",
+        "Web Security",
+        "AI Coding",
+        "API Security",
+        "Vulnerabilities",
+        "Backend",
+        "Cybersecurity"
+      ],
+      "url": "/tech/2026/07/24/ai-generated-cors-misconfigurations-vulnerabilities.html"
     }
   ],
-  "last_updated": "2026-07-24T17:16:05.731810+00:00"
+  "last_updated": "2026-07-24T17:36:46.558884+00:00"
 }
