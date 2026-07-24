@@ -11,6 +11,7 @@ import json
 import argparse
 import time
 import shutil
+import datetime
 
 # Add project root to path
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -59,6 +60,35 @@ def load_config() -> dict:
     config_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "config.json")
     with open(config_path, "r") as f:
         return json.load(f)
+
+
+def get_daily_category_counts(repo_root: str) -> dict:
+    """Calculate how many articles of each category were published today."""
+    counts = {"News": 0, "Geopolitics": 0, "Tech": 0}
+    today_prefix = datetime.datetime.utcnow().strftime("%Y-%m-%d")
+    posts_dir = os.path.join(repo_root, "_posts")
+    
+    if not os.path.exists(posts_dir):
+        return counts
+        
+    for filename in os.listdir(posts_dir):
+        if filename.startswith(today_prefix) and filename.endswith(".md"):
+            filepath = os.path.join(posts_dir, filename)
+            try:
+                with open(filepath, "r") as f:
+                    content = f.read(1024) # read start of file for frontmatter
+                    for line in content.splitlines():
+                        if line.startswith("category:"):
+                            cat = line.split(":", 1)[1].strip()
+                            # Clean up quotes if present
+                            cat = cat.strip("'\"")
+                            if cat in counts:
+                                counts[cat] += 1
+                            break
+            except Exception as e:
+                print(f"  ⚠️ Failed to parse category from {filename}: {e}")
+                
+    return counts
 
 
 def print_summary(status: str, title: str, start_time: float, metrics: dict):
@@ -130,7 +160,11 @@ def run_pipeline(dry_run: bool = False):
         return True # Successful exit (clean skip)
 
     try:
-        trends = detect_trends(articles)
+        # Calculate daily quotas to guide trend selection
+        category_counts = get_daily_category_counts(PROJECT_ROOT)
+        print(f"  📊 Today's published categories: {category_counts}")
+        
+        trends = detect_trends(articles, category_counts=category_counts)
         candidates = trends.get("candidates", [])
         if not candidates:
             print("  ❌ No trending topics identified. Exiting cleanly.")
