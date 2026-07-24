@@ -109,7 +109,23 @@
         "Cybersecurity"
       ],
       "url": "/tech/2026/07/24/ai-generated-cors-misconfigurations-vulnerabilities.html"
+    },
+    {
+      "title": "The Duress Password Dilemma: Technical Privacy vs. Legal Compliance",
+      "slug": "duress-password-privacy-legal-compliance",
+      "date": "2026-07-24",
+      "category": "News",
+      "key_topics": [
+        "Digital Privacy",
+        "Cybersecurity",
+        "GrapheneOS",
+        "Cryptography",
+        "Encryption",
+        "Surveillance",
+        "Legal Compliance"
+      ],
+      "url": "/news/2026/07/24/duress-password-privacy-legal-compliance.html"
     }
   ],
-  "last_updated": "2026-07-24T17:36:46.558884+00:00"
+  "last_updated": "2026-07-24T18:03:06.488060+00:00"
 }
