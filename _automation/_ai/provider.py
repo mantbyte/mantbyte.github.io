@@ -48,24 +48,24 @@ def _execute_with_retry(agent_name: str, func, *args, **kwargs):
             if hasattr(response, 'usage_metadata') and response.usage_metadata:
                 token_count = response.usage_metadata.total_token_count
                 
-            logger.info(f"Generated text | duration={duration:.2f}s | tokens={token_count}", extra={"name": agent_name})
+            logger.info(f"Generated text | duration={duration:.2f}s | tokens={token_count}", extra={"agent_name": agent_name})
             return response.text
             
         except APIError as e:
             if attempt == max_retries:
-                logger.error(f"Failed after {max_retries} retries: {str(e)}", extra={"name": agent_name})
+                logger.error(f"Failed after {max_retries} retries: {str(e)}", extra={"agent_name": agent_name})
                 raise
                 
             status_code = e.code if hasattr(e, 'code') else 500
             if status_code in (429, 500, 502, 503, 504):
                 delay = _exponential_backoff(attempt)
-                logger.warning(f"Retry {attempt + 1}/{max_retries} for status {status_code}. Waiting {delay:.2f}s", extra={"name": agent_name})
+                logger.warning(f"Retry {attempt + 1}/{max_retries} for status {status_code}. Waiting {delay:.2f}s", extra={"agent_name": agent_name})
                 time.sleep(delay)
             else:
-                logger.error(f"Unrecoverable API error: {str(e)}", extra={"name": agent_name})
+                logger.error(f"Unrecoverable API error: {str(e)}", extra={"agent_name": agent_name})
                 raise
         except Exception as e:
-            logger.error(f"Unexpected error: {str(e)}", extra={"name": agent_name})
+            logger.error(f"Unexpected error: {str(e)}", extra={"agent_name": agent_name})
             raise
 
 def generate(agent_name: str, system_instruction: str, user_prompt: str, temperature: float = 0.7, max_output_tokens: int = 8192) -> str:
@@ -115,7 +115,7 @@ def generate_json(agent_name: str, system_instruction: str, user_prompt: str, te
     try:
         return json.loads(cleaned)
     except json.JSONDecodeError as e:
-        logger.error(f"Failed to parse JSON. Raw output: {raw_text}", extra={"name": agent_name})
+        logger.error(f"Failed to parse JSON. Raw output: {raw_text}", extra={"agent_name": agent_name})
         raise ValueError(f"Agent {agent_name} produced invalid JSON: {str(e)}")
 
 def generate_markdown(agent_name: str, system_instruction: str, user_prompt: str) -> str:
