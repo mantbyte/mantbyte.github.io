@@ -82,7 +82,7 @@ layout: default
                 </form>
             </div>
             <div class="logged-out-only" style="display: block; margin-bottom: 2rem; color: var(--text-muted);">
-                <a href="{{ '/login' | relative_url }}" style="color: var(--accent-color);">Log in</a> to join the discussion.
+                <a href="#" onclick="event.preventDefault(); document.getElementById('auth-popup').classList.add('show');" style="color: var(--accent-color);">Log in</a> to join the discussion.
             </div>
 
             <div id="fb-comments-list" class="fb-comments-list">
