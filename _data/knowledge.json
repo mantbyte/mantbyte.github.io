@@ -5,7 +5,12 @@
       "slug": "understanding-federated-learning",
       "date": "2026-07-21",
       "category": "Tech",
-      "key_topics": ["federated learning", "distributed ML", "privacy", "machine learning"],
+      "key_topics": [
+        "federated learning",
+        "distributed ML",
+        "privacy",
+        "machine learning"
+      ],
       "url": "/tech/2026/07/21/understanding-federated-learning.html"
     },
     {
@@ -13,7 +18,12 @@
       "slug": "the-chip-wars-and-global-supply-chains",
       "date": "2026-07-22",
       "category": "Geopolitics",
-      "key_topics": ["semiconductors", "chip wars", "supply chain", "geopolitics"],
+      "key_topics": [
+        "semiconductors",
+        "chip wars",
+        "supply chain",
+        "geopolitics"
+      ],
       "url": "/geopolitics/2026/07/22/the-chip-wars-and-global-supply-chains.html"
     },
     {
@@ -21,7 +31,13 @@
       "slug": "hands-on-devops-provisioning-multi-tier-web-application",
       "date": "2026-07-23",
       "category": "Tech",
-      "key_topics": ["DevOps", "Vagrant", "VirtualBox", "multi-tier", "infrastructure as code"],
+      "key_topics": [
+        "DevOps",
+        "Vagrant",
+        "VirtualBox",
+        "multi-tier",
+        "infrastructure as code"
+      ],
       "url": "/tech/2026/07/23/hands-on-devops-provisioning-multi-tier-web-application.html"
     },
     {
@@ -29,7 +45,11 @@
       "slug": "tech-industry-moves-towards-efficient-ai",
       "date": "2026-07-23",
       "category": "News",
-      "key_topics": ["efficient AI", "AI industry", "model optimization"],
+      "key_topics": [
+        "efficient AI",
+        "AI industry",
+        "model optimization"
+      ],
       "url": "/news/2026/07/23/tech-industry-moves-towards-efficient-ai.html"
     },
     {
@@ -37,7 +57,12 @@
       "slug": "the-silicon-cold-war-semiconductors",
       "date": "2026-07-24",
       "category": "Geopolitics",
-      "key_topics": ["semiconductors", "silicon cold war", "chip exports", "geopolitics"],
+      "key_topics": [
+        "semiconductors",
+        "silicon cold war",
+        "chip exports",
+        "geopolitics"
+      ],
       "url": "/geopolitics/2026/07/24/the-silicon-cold-war-semiconductors.html"
     },
     {
@@ -45,9 +70,30 @@
       "slug": "building-mantbytes-modern-serverless-blog",
       "date": "2026-07-24",
       "category": "Tech",
-      "key_topics": ["Jekyll", "GitHub Pages", "Firebase", "serverless", "blog architecture"],
+      "key_topics": [
+        "Jekyll",
+        "GitHub Pages",
+        "Firebase",
+        "serverless",
+        "blog architecture"
+      ],
       "url": "/tech/2026/07/24/building-mantbytes-modern-serverless-blog.html"
+    },
+    {
+      "title": "The Architecture of Safety: A Deep Dive into the Anthropic Claude Model Series",
+      "slug": "anthropic-claude-architecture-constitutional-ai-guide",
+      "date": "2026-07-24",
+      "category": "Tech",
+      "key_topics": [
+        "Anthropic",
+        "Claude",
+        "Constitutional AI",
+        "RLAIF",
+        "AI Safety",
+        "LLM Architecture"
+      ],
+      "url": "/tech/2026/07/24/anthropic-claude-architecture-constitutional-ai-guide.html"
     }
   ],
-  "last_updated": "2026-07-24T10:30:00Z"
+  "last_updated": "2026-07-24T17:16:05.731810+00:00"
 }
