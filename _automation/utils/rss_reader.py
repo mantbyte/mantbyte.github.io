@@ -3,6 +3,7 @@ RSS Feed Reader — fetches and parses RSS feeds from configured sources.
 Returns normalized article entries with title, link, summary, and date.
 """
 
+import time
 import feedparser
 from datetime import datetime, timedelta, timezone
 from dateutil import parser as dateutil_parser
@@ -23,12 +24,19 @@ def fetch_feeds(feed_configs: list, max_age_hours: int = 48) -> list:
     all_articles = []
 
     for feed_config in feed_configs:
-        try:
-            articles = _parse_single_feed(feed_config, cutoff)
-            all_articles.extend(articles)
-        except Exception as e:
-            print(f"  ⚠️ Failed to parse {feed_config['name']}: {e}")
-            continue
+        retries = 3
+        for attempt in range(retries):
+            try:
+                articles = _parse_single_feed(feed_config, cutoff)
+                all_articles.extend(articles)
+                break
+            except Exception as e:
+                if attempt < retries - 1:
+                    sleep_time = 2 ** attempt
+                    print(f"  ⚠️ Fetch failed for {feed_config['name']} (attempt {attempt+1}/{retries}). Retrying in {sleep_time}s...")
+                    time.sleep(sleep_time)
+                else:
+                    print(f"  ❌ Failed to parse {feed_config['name']} after {retries} attempts: {e}")
 
     # Sort by date, newest first
     all_articles.sort(key=lambda a: a["published"], reverse=True)

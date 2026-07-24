@@ -33,25 +33,41 @@ def generate_cover_image(
 
         print(f"  🎨 Generating image: {prompt[:60]}...")
 
-        response = requests.get(url, timeout=120, stream=True)
+        import time
+        retries = 3
+        for attempt in range(retries):
+            try:
+                response = requests.get(url, timeout=120, stream=True)
+                if response.status_code == 200:
+                    # Ensure directory exists
+                    os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
-        if response.status_code == 200:
-            # Ensure directory exists
-            os.makedirs(os.path.dirname(output_path), exist_ok=True)
+                    with open(output_path, "wb") as f:
+                        for chunk in response.iter_content(chunk_size=8192):
+                            f.write(chunk)
 
-            with open(output_path, "wb") as f:
-                for chunk in response.iter_content(chunk_size=8192):
-                    f.write(chunk)
-
-            file_size = os.path.getsize(output_path)
-            print(f"  ✅ Image saved: {output_path} ({file_size // 1024}KB)")
-            return output_path
-        else:
-            print(f"  ⚠️ Image generation failed: HTTP {response.status_code}")
-            return None
+                    file_size = os.path.getsize(output_path)
+                    print(f"  ✅ Image saved: {output_path} ({file_size // 1024}KB)")
+                    return output_path
+                else:
+                    if attempt < retries - 1:
+                        sleep_time = 2 ** attempt
+                        print(f"  ⚠️ Image generation failed: HTTP {response.status_code}. Retrying in {sleep_time}s...")
+                        time.sleep(sleep_time)
+                    else:
+                        print(f"  ❌ Image generation failed after {retries} attempts: HTTP {response.status_code}")
+                        return None
+            except requests.RequestException as e:
+                if attempt < retries - 1:
+                    sleep_time = 2 ** attempt
+                    print(f"  ⚠️ Image network error: {e}. Retrying in {sleep_time}s...")
+                    time.sleep(sleep_time)
+                else:
+                    print(f"  ❌ Image network error after {retries} attempts: {e}")
+                    return None
 
     except Exception as e:
-        print(f"  ⚠️ Image generation error: {e}")
+        print(f"  ⚠️ Unexpected image generation error: {e}")
         return None
 
 

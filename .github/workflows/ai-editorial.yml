@@ -9,6 +9,14 @@ on:
     - cron: '0 */3 * * *'   # Every 3 hours
   workflow_dispatch:          # Manual trigger for testing
 
+# Concurrency Protection: Ensure only one pipeline runs at a time
+concurrency:
+  group: editorial-pipeline
+  cancel-in-progress: false
+
+env:
+  DRY_RUN: "false" # Set to "true" to test without making PRs or modifying the repo
+
 jobs:
   generate-article:
     runs-on: ubuntu-latest
@@ -37,12 +45,25 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           cd ${{ github.workspace }}
-          python _automation/pipeline.py
+          if [ "$DRY_RUN" = "true" ]; then
+            echo "Running in DRY RUN mode..."
+            python _automation/pipeline.py --dry-run
+          else
+            python _automation/pipeline.py
+          fi
         continue-on-error: false
+
+      - name: Upload Dry Run Artifacts
+        if: success() && env.DRY_RUN == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: ai-editorial-dry-run
+          path: _dry_run_artifacts/
+          retention-days: 5
 
       - name: Read PR body
         id: pr_body
-        if: success()
+        if: success() && env.DRY_RUN == 'false'
         run: |
           if [ -f _automation/pr_body.md ]; then
             echo "has_pr_body=true" >> $GITHUB_OUTPUT
@@ -51,7 +72,7 @@ jobs:
           fi
 
       - name: Create Pull Request
-        if: success() && steps.pr_body.outputs.has_pr_body == 'true'
+        if: success() && env.DRY_RUN == 'false' && steps.pr_body.outputs.has_pr_body == 'true'
         uses: peter-evans/create-pull-request@v7
         with:
           branch: ai/article-${{ github.run_id }}
