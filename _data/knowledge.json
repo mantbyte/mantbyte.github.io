@@ -157,7 +157,23 @@
         "Open Source"
       ],
       "url": "/geopolitics/2026/07/25/eu-copernicus-censorship-geopolitics.html"
+    },
+    {
+      "title": "Unsafe Signatures and Secret Spills: Fixing JWT Vulnerabilities in Node.js Open Source Boilerplates",
+      "slug": "fixing-jwt-vulnerabilities-nodejs-boilerplates",
+      "date": "2026-07-25",
+      "category": "Tech",
+      "key_topics": [
+        "Node.js",
+        "JWT",
+        "Security",
+        "Authentication",
+        "Open Source",
+        "Express",
+        "Web Development"
+      ],
+      "url": "/tech/2026/07/25/fixing-jwt-vulnerabilities-nodejs-boilerplates.html"
     }
   ],
-  "last_updated": "2026-07-24T20:33:20.915616+00:00"
+  "last_updated": "2026-07-24T22:11:34.094698+00:00"
 }
