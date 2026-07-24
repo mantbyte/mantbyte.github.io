@@ -6,10 +6,45 @@ Acts as a Technical Art Director to plan semantically accurate image specificati
 import sys
 import os
 import json
+import random
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from _ai.provider import generate_json
+
+
+STYLES = [
+    "3D clay render", 
+    "minimalist line art", 
+    "technical blueprint", 
+    "flat vector illustration", 
+    "paper cutout style", 
+    "watercolor technical sketch",
+    "isometric voxel art",
+    "vintage retro poster design",
+    "clean digital art with bold outlines"
+]
+
+ANGLES = [
+    "top-down macro", 
+    "dramatic low angle", 
+    "cross-section", 
+    "wide landscape", 
+    "isometric",
+    "extreme close-up",
+    "dynamic perspective"
+]
+
+PALETTES = [
+    "high-contrast black and white with one bold accent color", 
+    "warm earth tones", 
+    "vibrant synthwave colors", 
+    "monochrome blue", 
+    "pastel tech colors",
+    "sepia and gold",
+    "neon green and deep purple",
+    "muted corporate greys and blues"
+]
 
 
 def plan_image(title: str, article_body: str, category: str, key_concepts: list, plan: dict = None) -> dict:
@@ -23,10 +58,7 @@ Your job is to read an article and design a precise, semantic image specificatio
 
 CRITICAL RULES:
 1. NEVER use generic tropes like "glowing AI chips", "neon circuit boards", "futuristic processors", "cyberpunk motherboards", or "floating binary code".
-2. If the article is about software (e.g., CORS, CI/CD, OAuth, Docker), the image MUST visualize the architecture, workflow, data flow, or system interaction (e.g., a diagram of a browser talking to a server, or containers deploying).
-3. If the article is about AI architecture (e.g., LLM alignment, RLHF), visualize the concepts (e.g., safety layers, prompt pipelines, model training flow) NOT physical computer hardware.
-4. Always prefer technical editorial illustrations, flat professional vectors, or clean isometric diagrams over hyper-realistic sci-fi artwork.
-5. NO text overlays, logos, or watermarks in the image.
+2. NO text overlays, logos, or watermarks in the image.
 
 Output your specification strictly as a JSON object matching this schema:
 {
@@ -35,11 +67,11 @@ Output your specification strictly as a JSON object matching this schema:
   "key_objects": ["list", "of", "specific", "visual", "elements"],
   "relationships": ["How objects interact, e.g., 'A feeds into B'"],
   "scene_type": "e.g., architecture diagram, isometric system view, workflow illustration",
-  "camera_angle": "e.g., top-down, isometric, flat, macro",
+  "camera_angle": "MUST MATCH FORCED ANGLE EXACTLY",
   "composition": "e.g., balanced, central focus, flow from left to right",
   "lighting": "e.g., clean studio lighting, soft flat lighting, high contrast",
-  "color_palette": "e.g., professional blues and whites, dark mode with teal accents",
-  "visual_style": "e.g., clean vector illustration, technical editorial style, flat design",
+  "color_palette": "MUST MATCH FORCED PALETTE EXACTLY",
+  "visual_style": "MUST MATCH FORCED STYLE EXACTLY",
   "background": "e.g., solid dark blue, minimalist geometric patterns",
   "must_not_include": ["list", "of", "tropes", "to", "avoid", "like", "AI chips", "motherboards", "text", "binary"],
   "semantic_relevance": 0-100 (Score how well this illustrates the actual technical concept),
@@ -51,9 +83,30 @@ Output your specification strictly as a JSON object matching this schema:
 
     # Summarize article body to save tokens if it's too long
     summary_body = article_body[:3000] + "\n...(truncated)" if len(article_body) > 3000 else article_body
+    
+    # Randomly select aesthetic constraints
+    chosen_style = random.choice(STYLES)
+    chosen_angle = random.choice(ANGLES)
+    chosen_palette = random.choice(PALETTES)
+    
+    # Build category-specific constraints
+    category_constraint = ""
+    if category == "Geopolitics":
+        category_constraint = "CRITICAL: This is a Geopolitics article. The image MUST heavily feature geographical themes, world maps, national borders, international trade routes, or diplomatic tables. NO abstract code or server racks."
+    elif category == "News":
+        category_constraint = "CRITICAL: This is a News article. The image MUST feature an editorial photojournalism style, breaking news aesthetic, or a minimalist infographic layout."
+    elif category == "Tech":
+        category_constraint = "CRITICAL: This is a Tech article. The image MUST visualize the architecture, workflow, data flow, or system interaction (e.g., a diagram of a browser talking to a server, or containers deploying)."
 
     user_prompt = f"""
-Please design an image specification for the following article:
+Please design an image specification for the following article.
+
+FORCED AESTHETIC CONSTRAINTS (You MUST strictly use these in your JSON output):
+- visual_style: "{chosen_style}"
+- camera_angle: "{chosen_angle}"
+- color_palette: "{chosen_palette}"
+
+{category_constraint}
 
 Title: {title}
 Category: {category}

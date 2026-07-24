@@ -89,8 +89,8 @@ def create_image_prompt(image_spec: dict) -> str:
     lighting = image_spec.get("lighting", "soft lighting")
     colors = image_spec.get("color_palette", "professional colors")
     
-    # Construct descriptive prompt
-    prompt = f"A {style} of {main_subject}. Scene type: {scene_type}. Camera angle: {camera}. Lighting: {lighting}. Color palette: {colors}."
+    # Construct descriptive prompt with strong prefix emphasizing style
+    prompt = f"[STYLE: {style}] A {scene_type} of {main_subject}. Camera angle: {camera}. Lighting: {lighting}. Color palette: {colors}."
     
     # Add key objects
     objects = image_spec.get("key_objects", [])
