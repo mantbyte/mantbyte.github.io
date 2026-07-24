@@ -109,12 +109,18 @@ def run_pipeline(dry_run: bool = False):
         print_summary("SUCCESS (No Feeds)", "", start_time, metrics)
         return True # Successful exit (clean skip)
 
-    trends = detect_trends(articles)
-    candidates = trends.get("candidates", [])
-    if not candidates:
-        print("  ❌ No trending topics identified. Exiting cleanly.")
-        print_summary("SUCCESS (No Trends)", "", start_time, metrics)
-        return True # Successful exit (clean skip)
+    try:
+        trends = detect_trends(articles)
+        candidates = trends.get("candidates", [])
+        if not candidates:
+            print("  ❌ No trending topics identified. Exiting cleanly.")
+            print_summary("SUCCESS (No Trends)", "", start_time, metrics)
+            return True # Successful exit (clean skip)
+    except Exception as e:
+        print(f"  ❌ FATAL ERROR during Trend Detection: {e}")
+        print("  💡 This usually means your API Key hit a rate limit (429) or is invalid.")
+        print_summary("FAILED (API Error)", "", start_time, metrics)
+        return False
 
     # ─────────────────────────────────────────────
     # Try each candidate until one succeeds
