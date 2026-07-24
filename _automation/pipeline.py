@@ -82,13 +82,32 @@ def print_summary(status: str, title: str, start_time: float, metrics: dict):
 
 
 def run_pipeline(dry_run: bool = False):
-    """Execute the full editorial pipeline."""
+    """Run the end-to-end editorial pipeline."""
     start_time = time.time()
-    metrics = {}
-    
-    print("=" * 60)
+    metrics = {
+        'research': 'Skipped', 'duplicate': 'Skipped', 
+        'writer': 'Skipped', 'reviewer': 'Skipped',
+        'publish': 'Skipped'
+    }
+
+    print("============================================================")
     print("🚀 MANTBYTE AI EDITORIAL PIPELINE")
-    print("=" * 60)
+    print("============================================================")
+    print("🔍 Validating environment...")
+    
+    # ─────────────────────────────────────
+    # STARTUP DIAGNOSTIC: List Available Models
+    # ─────────────────────────────────────
+    try:
+        from _ai.provider import client
+        if client:
+            print("  📊 Diagnostic: Fetching available models for this API key...")
+            models = client.models.list()
+            available = [m.name for m in models if "generateContent" in getattr(m, "supported_generation_methods", []) or "generateContent" in getattr(m, "supported_actions", []) or True]
+            print(f"  ✅ Available Models: {', '.join(available)}")
+    except Exception as e:
+        print(f"  ⚠️ Diagnostic failed to list models: {e}")
+    # ─────────────────────────────────────
 
     validate_environment()
     config = load_config()
