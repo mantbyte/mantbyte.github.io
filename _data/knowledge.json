@@ -1,0 +1,53 @@
+{
+  "published_articles": [
+    {
+      "title": "Understanding Federated Learning",
+      "slug": "understanding-federated-learning",
+      "date": "2026-07-21",
+      "category": "Tech",
+      "key_topics": ["federated learning", "distributed ML", "privacy", "machine learning"],
+      "url": "/tech/2026/07/21/understanding-federated-learning.html"
+    },
+    {
+      "title": "The Chip Wars and Global Supply Chains",
+      "slug": "the-chip-wars-and-global-supply-chains",
+      "date": "2026-07-22",
+      "category": "Geopolitics",
+      "key_topics": ["semiconductors", "chip wars", "supply chain", "geopolitics"],
+      "url": "/geopolitics/2026/07/22/the-chip-wars-and-global-supply-chains.html"
+    },
+    {
+      "title": "Hands-On DevOps: Provisioning a Multi-Tier Web Application",
+      "slug": "hands-on-devops-provisioning-multi-tier-web-application",
+      "date": "2026-07-23",
+      "category": "Tech",
+      "key_topics": ["DevOps", "Vagrant", "VirtualBox", "multi-tier", "infrastructure as code"],
+      "url": "/tech/2026/07/23/hands-on-devops-provisioning-multi-tier-web-application.html"
+    },
+    {
+      "title": "Tech Industry Moves Towards Efficient AI",
+      "slug": "tech-industry-moves-towards-efficient-ai",
+      "date": "2026-07-23",
+      "category": "News",
+      "key_topics": ["efficient AI", "AI industry", "model optimization"],
+      "url": "/news/2026/07/23/tech-industry-moves-towards-efficient-ai.html"
+    },
+    {
+      "title": "The Silicon Cold War: Semiconductors",
+      "slug": "the-silicon-cold-war-semiconductors",
+      "date": "2026-07-24",
+      "category": "Geopolitics",
+      "key_topics": ["semiconductors", "silicon cold war", "chip exports", "geopolitics"],
+      "url": "/geopolitics/2026/07/24/the-silicon-cold-war-semiconductors.html"
+    },
+    {
+      "title": "Building Mantbytes: A Modern, Free, Serverless Blog Architecture",
+      "slug": "building-mantbytes-modern-serverless-blog",
+      "date": "2026-07-24",
+      "category": "Tech",
+      "key_topics": ["Jekyll", "GitHub Pages", "Firebase", "serverless", "blog architecture"],
+      "url": "/tech/2026/07/24/building-mantbytes-modern-serverless-blog.html"
+    }
+  ],
+  "last_updated": "2026-07-24T10:30:00Z"
+}

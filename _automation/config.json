@@ -1,0 +1,44 @@
+{
+  "pipeline": {
+    "max_articles_per_day": 2,
+    "min_quality_score": 7,
+    "target_word_count": { "min": 2000, "max": 3500 },
+    "timezone_offset": "+0530",
+    "categories": ["Tech", "News", "Geopolitics"],
+    "default_category": "Tech"
+  },
+  "groq": {
+    "fast_model": "llama-3.1-8b-instant",
+    "strong_model": "llama-3.3-70b-versatile",
+    "rate_limit_delay_seconds": 2,
+    "max_retries": 3
+  },
+  "image": {
+    "provider": "pollinations",
+    "width": 1200,
+    "height": 630,
+    "fallback_image": "/assets/images/posts/default-cover.png"
+  },
+  "rss_feeds": [
+    {"name": "OpenAI Blog", "url": "https://openai.com/blog/rss.xml", "category": "Tech"},
+    {"name": "Google AI Blog", "url": "https://blog.google/technology/ai/rss/", "category": "Tech"},
+    {"name": "GitHub Blog", "url": "https://github.blog/feed/", "category": "Tech"},
+    {"name": "Docker Blog", "url": "https://www.docker.com/blog/feed/", "category": "Tech"},
+    {"name": "Kubernetes Blog", "url": "https://kubernetes.io/feed.xml", "category": "Tech"},
+    {"name": "AWS Blog", "url": "https://aws.amazon.com/blogs/aws/feed/", "category": "Tech"},
+    {"name": "CNCF Blog", "url": "https://www.cncf.io/blog/feed/", "category": "Tech"},
+    {"name": "TechCrunch", "url": "https://techcrunch.com/feed/", "category": "News"},
+    {"name": "Ars Technica", "url": "https://feeds.arstechnica.com/arstechnica/index", "category": "Tech"},
+    {"name": "MIT Technology Review", "url": "https://www.technologyreview.com/feed/", "category": "Tech"},
+    {"name": "The Verge", "url": "https://www.theverge.com/rss/index.xml", "category": "News"},
+    {"name": "Hacker News", "url": "https://hnrss.org/frontpage", "category": "Tech"},
+    {"name": "InfoQ", "url": "https://feed.infoq.com/", "category": "Tech"},
+    {"name": "Dev.to", "url": "https://dev.to/feed/", "category": "Tech"},
+    {"name": "Hugging Face Blog", "url": "https://huggingface.co/blog/feed.xml", "category": "Tech"},
+    {"name": "NVIDIA Blog", "url": "https://blogs.nvidia.com/feed/", "category": "Tech"},
+    {"name": "Microsoft Azure Blog", "url": "https://azure.microsoft.com/en-us/blog/feed/", "category": "Tech"},
+    {"name": "Anthropic Blog", "url": "https://www.anthropic.com/research/rss.xml", "category": "Tech"},
+    {"name": "Krebs on Security", "url": "https://krebsonsecurity.com/feed/", "category": "Tech"},
+    {"name": "The Hacker News Security", "url": "https://feeds.feedburner.com/TheHackersNews", "category": "Tech"}
+  ]
+}

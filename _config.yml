@@ -27,6 +27,7 @@ exclude:
   - vendor/
   - Gemfile
   - Gemfile.lock
+  - _automation/
 
 plugins:
   - jekyll-feed
