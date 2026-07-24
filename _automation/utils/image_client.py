@@ -71,34 +71,43 @@ def generate_cover_image(
         return None
 
 
-def create_image_prompt(title: str, category: str, key_concepts: list = None) -> str:
+def create_image_prompt(image_spec: dict) -> str:
     """
-    Create an optimized image generation prompt from article metadata.
+    Create an optimized image generation prompt from a structured image specification.
     
     Args:
-        title: Article title
-        category: Article category (Tech, News, Geopolitics)
-        key_concepts: Optional list of key technical concepts
+        image_spec: Structured JSON output from the Image Planner agent
     
     Returns:
         Optimized prompt string for image generation
     """
-    concepts_str = ""
-    if key_concepts:
-        concepts_str = f", featuring {', '.join(key_concepts[:3])}"
-
-    style_map = {
-        "Tech": "modern digital illustration, dark background with neon accents, circuit board patterns, futuristic tech aesthetic",
-        "News": "professional news media style, clean design, bold typography, minimalist composition",
-        "Geopolitics": "world map visualization, geopolitical illustration, diplomatic style, earth tones with accent colors",
-    }
-
-    style = style_map.get(category, style_map["Tech"])
-
-    prompt = (
-        f"Blog cover image for article titled '{title}'{concepts_str}. "
-        f"Style: {style}. "
-        f"Wide landscape format, no text overlay, high quality, editorial photography style."
-    )
+    
+    main_subject = image_spec.get("main_subject", "Abstract technical illustration")
+    scene_type = image_spec.get("scene_type", "editorial illustration")
+    style = image_spec.get("visual_style", "clean vector illustration")
+    camera = image_spec.get("camera_angle", "flat")
+    lighting = image_spec.get("lighting", "soft lighting")
+    colors = image_spec.get("color_palette", "professional colors")
+    
+    # Construct descriptive prompt
+    prompt = f"A {style} of {main_subject}. Scene type: {scene_type}. Camera angle: {camera}. Lighting: {lighting}. Color palette: {colors}."
+    
+    # Add key objects
+    objects = image_spec.get("key_objects", [])
+    if objects:
+        prompt += f" Must include: {', '.join(objects)}."
+        
+    # Add relationships/actions
+    relationships = image_spec.get("relationships", [])
+    if relationships:
+        prompt += f" Details: {', '.join(relationships)}."
+        
+    # Add negative prompting via the "no [term]" pollinations convention
+    avoid = image_spec.get("must_not_include", [])
+    if avoid:
+        prompt += f" no {', no '.join(avoid)}."
+        
+    # Hardcode core negative prompts to block tropes regardless of planner
+    prompt += " no text, no words, no letters, no logos, no watermarks, no generic AI brains, no cyberpunk motherboards."
 
     return prompt

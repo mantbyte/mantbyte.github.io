@@ -24,6 +24,7 @@ from agents.knowledge_base import check_duplicate, load_knowledge
 from agents.editorial_planner import create_editorial_plan
 from agents.writer import write_article
 from agents.seo_optimizer import optimize_seo
+from agents.image_planner import plan_image
 from agents.image_generator import generate_article_image
 from agents.markdown_generator import generate_markdown, get_filename
 from agents.reviewer import review_article
@@ -225,9 +226,34 @@ def run_pipeline(dry_run: bool = False):
             )
 
             # ─────────────────────────────────────
-            # Stage 8: Image Generation
+            # Stage 8: Image Planning
             # ─────────────────────────────────────
-            print("\n🎨 STAGE 8: Image Generation")
+            print("\n🎨 STAGE 8: Image Planning")
+            print("-" * 40)
+            
+            if dry_run:
+                print("  ⏭️ Skipping image planning (dry run)")
+                image_spec = {
+                    "main_subject": "Abstract technical illustration",
+                    "scene_type": "editorial illustration",
+                    "visual_style": "clean vector illustration",
+                    "camera_angle": "flat",
+                    "lighting": "soft lighting",
+                    "color_palette": "professional colors",
+                }
+            else:
+                image_spec = plan_image(
+                    title=plan.get("title", candidate.get("original_title", "")),
+                    article_body=article_body,
+                    category=candidate.get("category", "Tech"),
+                    key_concepts=key_concepts,
+                    plan=plan
+                )
+
+            # ─────────────────────────────────────
+            # Stage 9: Image Generation
+            # ─────────────────────────────────────
+            print("\n🖼️ STAGE 9: Image Generation")
             print("-" * 40)
 
             if dry_run:
@@ -240,17 +266,15 @@ def run_pipeline(dry_run: bool = False):
                 print("  ⏭️ Skipping image generation (dry run)")
             else:
                 image_data = generate_article_image(
-                    title=plan.get("title", ""),
+                    image_spec=image_spec,
                     slug=seo.get("slug", "article"),
-                    category=seo.get("category", "Tech"),
-                    key_concepts=key_concepts,
                     repo_root=PROJECT_ROOT,
                 )
 
             # ─────────────────────────────────────
-            # Stage 9: Markdown Assembly
+            # Stage 10: Markdown Assembly
             # ─────────────────────────────────────
-            print("\n📝 STAGE 9: Markdown Generation")
+            print("\n📝 STAGE 10: Markdown Generation")
             print("-" * 40)
             markdown = generate_markdown(
                 title=plan.get("title", candidate.get("original_title", "")),
@@ -262,9 +286,9 @@ def run_pipeline(dry_run: bool = False):
             filename = get_filename(seo.get("slug", "article"))
 
             # ─────────────────────────────────────
-            # Stage 10: Quality Review
+            # Stage 11: Quality Review
             # ─────────────────────────────────────
-            print("\n🔬 STAGE 10: Editorial Review")
+            print("\n🔬 STAGE 11: Editorial Review")
             print("-" * 40)
             review = review_article(markdown, min_score=config["pipeline"]["min_quality_score"])
             
@@ -277,9 +301,9 @@ def run_pipeline(dry_run: bool = False):
                 continue
 
             # ─────────────────────────────────────
-            # Stage 11: Publish (Write to disk)
+            # Stage 12: Publish (Write to disk)
             # ─────────────────────────────────────
-            print("\n🚀 STAGE 11: Publishing")
+            print("\n🚀 STAGE 12: Publishing")
             print("-" * 40)
 
             if dry_run:

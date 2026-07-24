@@ -11,20 +11,16 @@ from utils.image_client import generate_cover_image, create_image_prompt
 
 
 def generate_article_image(
-    title: str,
+    image_spec: dict,
     slug: str,
-    category: str,
-    key_concepts: list = None,
     repo_root: str = None,
 ) -> dict:
     """
     Generate a cover image for the article.
     
     Args:
-        title: Article title
+        image_spec: Structured JSON specification from the Image Planner
         slug: URL-friendly slug
-        category: Article category
-        key_concepts: Key technical concepts for the image
         repo_root: Path to repository root
     
     Returns:
@@ -33,8 +29,8 @@ def generate_article_image(
     if repo_root is None:
         repo_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-    # Generate optimized prompt
-    prompt = create_image_prompt(title, category, key_concepts)
+    # Generate optimized prompt from structured JSON
+    prompt = create_image_prompt(image_spec)
 
     # Output path
     filename = f"{slug}-cover.png"
@@ -49,6 +45,7 @@ def generate_article_image(
         height=630,
     )
 
+    title = image_spec.get("main_subject", slug)
     if result_path:
         return {
             "image_path": rel_path,
