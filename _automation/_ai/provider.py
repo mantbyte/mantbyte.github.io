@@ -144,13 +144,31 @@ def generate_json(agent_name: str, system_instruction: str, user_prompt: str, te
         config=config
     )
     
-    # Robust parsing to handle markdown fences if Gemini still sends them despite JSON mode
+    # Robust parsing to handle markdown fences and extra text
     cleaned = raw_text.strip()
-    if cleaned.startswith("```"):
-        # Extract content between the first and last ```
-        match = re.search(r'```(?:json)?\s*(.*?)\s*```', cleaned, re.DOTALL)
-        if match:
-            cleaned = match.group(1).strip()
+    
+    # Extract content between ``` if present
+    match = re.search(r'```(?:json)?\s*(.*?)\s*```', cleaned, re.DOTALL)
+    if match:
+        cleaned = match.group(1).strip()
+        
+    # Extract outermost JSON object or array to strip any remaining garbage text
+    start_brace = cleaned.find('{')
+    start_bracket = cleaned.find('[')
+    
+    start_idx = -1
+    if start_brace != -1 and start_bracket != -1:
+        start_idx = min(start_brace, start_bracket)
+    elif start_brace != -1:
+        start_idx = start_brace
+    else:
+        start_idx = start_bracket
+        
+    if start_idx != -1:
+        end_char = '}' if cleaned[start_idx] == '{' else ']'
+        end_idx = cleaned.rfind(end_char)
+        if end_idx != -1:
+            cleaned = cleaned[start_idx:end_idx+1]
     
     try:
         return json.loads(cleaned)
