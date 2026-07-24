@@ -70,7 +70,7 @@ def _execute_with_retry(agent_name: str, func, *args, **kwargs):
 
 def generate(agent_name: str, system_instruction: str, user_prompt: str, temperature: float = 0.7, max_output_tokens: int = 8192) -> str:
     """Generate plain text (Markdown) response."""
-    model = AI_CONFIG.get("model", "gemini-1.5-flash")
+    model = AI_CONFIG.get("model", "gemini-3.6-flash")
     
     config = types.GenerateContentConfig(
         system_instruction=system_instruction,
@@ -88,7 +88,7 @@ def generate(agent_name: str, system_instruction: str, user_prompt: str, tempera
 
 def generate_json(agent_name: str, system_instruction: str, user_prompt: str, temperature: float = 0.3) -> dict:
     """Generate JSON response and parse it robustly."""
-    model = AI_CONFIG.get("model", "gemini-1.5-flash")
+    model = AI_CONFIG.get("model", "gemini-3.6-flash")
     
     config = types.GenerateContentConfig(
         system_instruction=system_instruction,

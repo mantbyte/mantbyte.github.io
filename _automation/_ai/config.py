@@ -10,7 +10,7 @@ def load_ai_config() -> dict:
     with open(config_path, "r") as f:
         config = json.load(f)
         return config.get("ai", {
-            "model": "gemini-1.5-flash",
+            "model": "gemini-3.6-flash",
             "rate_limit_delay_seconds": 2,
             "max_retries": 3
         })

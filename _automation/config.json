@@ -8,7 +8,7 @@
     "default_category": "Tech"
   },
   "ai": {
-    "model": "gemini-1.5-flash",
+    "model": "gemini-3.6-flash",
     "rate_limit_delay_seconds": 2,
     "max_retries": 3
   },
