@@ -6,54 +6,41 @@ Produces structured research, NOT article text.
 
 import sys
 import os
+import requests
+from bs4 import BeautifulSoup
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from utils.groq_client import chat_json
+from _ai import generate_json, render_prompt
 
 
-RESEARCH_PROMPT = """You are a senior technical researcher for Mantbyte, a technology blog.
-
-Given a news article title, source, and summary, your job is to produce STRUCTURED RESEARCH that a writer will later use to write an original article.
-
-You must:
-1. Identify the key facts, technologies, and concepts involved.
-2. Provide technical background and context.
-3. List relevant statistics, version numbers, and dates.
-4. Identify stakeholders, companies, and products involved.
-5. Suggest comparisons or alternative technologies.
-6. Note the broader impact and future implications.
-
-IMPORTANT RULES:
-- Do NOT write the article. Only provide raw research material.
-- Do NOT fabricate statistics or benchmarks. If you are unsure, say "unverified" or "approximate".
-- Include source attribution where possible.
-- Be specific with technical details (versions, architectures, APIs).
-
-Return JSON with this EXACT structure:
-{
-  "topic": "...",
-  "summary": "2-3 sentence overview",
-  "key_facts": [
-    {"fact": "...", "source": "...", "confidence": "high|medium|low"}
-  ],
-  "technical_details": {
-    "technologies": ["..."],
-    "versions": ["..."],
-    "architecture": "...",
-    "key_concepts": ["..."]
-  },
-  "stakeholders": ["company or person names"],
-  "statistics": [
-    {"metric": "...", "value": "...", "source": "...", "verified": true|false}
-  ],
-  "comparisons": [
-    {"vs": "...", "advantage": "...", "disadvantage": "..."}
-  ],
-  "impact": "...",
-  "future_outlook": "...",
-  "suggested_sections": ["section title ideas for the article"]
-}
-"""
+def scrape_article_text(url: str) -> str:
+    """Attempt to scrape the main text content from a URL."""
+    try:
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+        }
+        response = requests.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
+        
+        soup = BeautifulSoup(response.content, "html.parser")
+        
+        # Remove script and style elements
+        for script in soup(["script", "style", "nav", "footer", "header"]):
+            script.extract()
+            
+        # Get text
+        text = soup.get_text(separator="\n")
+        
+        # Clean up whitespace
+        lines = (line.strip() for line in text.splitlines())
+        chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
+        text = "\n".join(chunk for chunk in chunks if chunk)
+        
+        # Limit to first 15,000 characters to fit context window reasonably
+        return text[:15000]
+    except Exception as e:
+        print(f"    ⚠️ Failed to scrape full article text: {e}")
+        return "Full text could not be scraped."
 
 
 def research_topic(candidate: dict) -> dict:
@@ -66,24 +53,32 @@ def research_topic(candidate: dict) -> dict:
     Returns:
         Structured research dict
     """
+    link = candidate.get('link', '')
+    
+    print(f"  📚 Researching: {candidate.get('original_title', '')[:60]}...")
+    print(f"    Fetching full text from {link}...")
+    
+    full_text = scrape_article_text(link) if link else "No URL provided."
+
     topic_context = (
         f"Title: {candidate.get('original_title', '')}\n"
         f"Source: {candidate.get('source', '')}\n"
-        f"Link: {candidate.get('link', '')}\n"
+        f"Link: {link}\n"
         f"Blog Angle: {candidate.get('blog_angle', '')}\n"
-        f"Key Concepts: {', '.join(candidate.get('key_concepts', []))}"
+        f"Key Concepts: {', '.join(candidate.get('key_concepts', []))}\n\n"
+        f"--- FULL ARTICLE CONTENT ---\n"
+        f"{full_text}\n"
+        f"----------------------------\n"
     )
 
-    print(f"  📚 Researching: {candidate.get('original_title', '')[:60]}...")
+    system_instruction = render_prompt("researcher.md")
+    user_prompt = f"Research this topic thoroughly:\n\n{topic_context}"
 
-    result = chat_json(
-        messages=[
-            {"role": "system", "content": RESEARCH_PROMPT},
-            {"role": "user", "content": f"Research this topic thoroughly:\n\n{topic_context}"},
-        ],
-        model="llama-3.3-70b-versatile",
+    result = generate_json(
+        agent_name="researcher",
+        system_instruction=system_instruction,
+        user_prompt=user_prompt,
         temperature=0.3,
-        max_tokens=4096,
     )
 
     # Attach original candidate metadata

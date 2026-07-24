@@ -3,6 +3,7 @@ Agent 9: Markdown Generator
 Assembles the final production-ready Markdown file with YAML frontmatter.
 """
 
+import yaml
 from datetime import datetime, timezone, timedelta
 
 
@@ -37,16 +38,20 @@ def generate_markdown(
     cover_image = image_data.get("image_path", "")
     cover_caption = seo_data.get("cover_caption", "")
 
-    # Build YAML frontmatter
-    frontmatter = f"""---
-layout: post
-title: "{title}"
-date: {date_str}
-categories: {category}
-excerpt: "{excerpt}"
-cover_image: "{cover_image}"
-cover_caption: "{cover_caption}"
----"""
+    # Build YAML frontmatter securely using PyYAML
+    frontmatter_dict = {
+        "layout": "post",
+        "title": title,
+        "date": date_str,
+        "categories": category,
+        "excerpt": excerpt,
+        "cover_image": cover_image,
+        "cover_caption": cover_caption
+    }
+    
+    # safe_dump handles escaping special characters
+    yaml_string = yaml.safe_dump(frontmatter_dict, sort_keys=False, allow_unicode=True)
+    frontmatter = f"---\n{yaml_string}---"
 
     # Assemble complete file
     markdown = f"{frontmatter}\n\n{article_body}\n"

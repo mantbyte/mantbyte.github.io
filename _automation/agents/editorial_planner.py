@@ -7,44 +7,8 @@ import sys
 import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from utils.groq_client import chat_json
+from _ai import generate_json, render_prompt
 import json
-
-
-PLANNING_PROMPT = """You are a senior technical editor at Mantbyte, a technology blog.
-
-Given verified research and internal linking suggestions, create a detailed article outline.
-
-The article should:
-- Be 2000-3500 words total
-- Start with a compelling introduction that hooks the reader
-- Progress logically from concepts to implementation to impact
-- Include practical examples, comparisons, and best practices
-- End with a future outlook section
-- Be accessible to intermediate developers while maintaining technical depth
-
-Return JSON with this EXACT structure:
-{
-  "title": "Compelling, SEO-friendly article title",
-  "subtitle": "Optional subtitle for extra context",
-  "target_audience": "who this article is for",
-  "reading_level": "beginner|intermediate|advanced",
-  "estimated_read_time": "X min",
-  "learning_objectives": ["what the reader will learn"],
-  "sections": [
-    {
-      "heading": "Section Title",
-      "purpose": "What this section accomplishes",
-      "key_points": ["point 1", "point 2"],
-      "word_count_target": 300,
-      "include_example": true|false,
-      "include_diagram": true|false
-    }
-  ],
-  "internal_links_to_include": ["url1", "url2"],
-  "tone": "informative yet engaging, like explaining to a smart colleague"
-}
-"""
 
 
 def create_editorial_plan(verified_research: dict, knowledge_context: dict) -> dict:
@@ -76,12 +40,12 @@ def create_editorial_plan(verified_research: dict, knowledge_context: dict) -> d
 
     print(f"  📋 Creating editorial plan...")
 
-    result = chat_json(
-        messages=[
-            {"role": "system", "content": PLANNING_PROMPT},
-            {"role": "user", "content": context},
-        ],
-        model="llama-3.3-70b-versatile",
+    system_instruction = render_prompt("planner.md")
+
+    result = generate_json(
+        agent_name="editorial_planner",
+        system_instruction=system_instruction,
+        user_prompt=context,
         temperature=0.5,
     )
 

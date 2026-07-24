@@ -7,45 +7,8 @@ import sys
 import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from utils.groq_client import chat_json
+from _ai import generate_json, render_prompt
 import json
-
-
-VERIFICATION_PROMPT = """You are a fact-checking editor for Mantbyte, a technology blog.
-
-Given a structured research document, your job is to:
-1. Review each fact and statistic for plausibility.
-2. Flag any claims that seem fabricated, exaggerated, or unverifiable.
-3. Mark each fact with a verification status.
-4. Remove or flag any hallucinated data.
-
-RULES:
-- If a statistic seems too precise or too convenient, flag it as "unverified".
-- If dates or version numbers don't make sense, correct them or flag them.
-- If two facts contradict each other, highlight the conflict.
-- NEVER add new facts that weren't in the research.
-- Be conservative: when in doubt, flag as "needs_review".
-
-Return JSON with this EXACT structure:
-{
-  "verification_passed": true|false,
-  "overall_confidence": "high|medium|low",
-  "verified_facts": [
-    {"fact": "...", "status": "verified|unverified|rejected", "note": "..."}
-  ],
-  "flagged_issues": [
-    {"issue": "...", "severity": "critical|warning|info"}
-  ],
-  "cleaned_research": {
-    "topic": "...",
-    "summary": "...",
-    "key_facts": ["only verified facts here"],
-    "technical_details": {},
-    "impact": "...",
-    "future_outlook": "..."
-  }
-}
-"""
 
 
 def verify_research(research: dict) -> dict:
@@ -63,12 +26,13 @@ def verify_research(research: dict) -> dict:
 
     print(f"  ✅ Verifying research for: {research.get('topic', 'Unknown')[:60]}...")
 
-    result = chat_json(
-        messages=[
-            {"role": "system", "content": VERIFICATION_PROMPT},
-            {"role": "user", "content": f"Verify this research:\n\n{json.dumps(research_for_review, indent=2)}"},
-        ],
-        model="llama-3.1-8b-instant",
+    system_instruction = render_prompt("fact_checker.md")
+    user_prompt = f"Verify this research:\n\n{json.dumps(research_for_review, indent=2)}"
+
+    result = generate_json(
+        agent_name="fact_checker",
+        system_instruction=system_instruction,
+        user_prompt=user_prompt,
         temperature=0.2,
     )
 

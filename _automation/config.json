@@ -7,9 +7,8 @@
     "categories": ["Tech", "News", "Geopolitics"],
     "default_category": "Tech"
   },
-  "groq": {
-    "fast_model": "llama-3.1-8b-instant",
-    "strong_model": "llama-3.3-70b-versatile",
+  "ai": {
+    "model": "gemini-2.5-pro",
     "rate_limit_delay_seconds": 2,
     "max_retries": 3
   },
