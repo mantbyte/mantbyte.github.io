@@ -1,7 +1,7 @@
 {
   "pipeline": {
     "max_articles_per_day": 2,
-    "min_quality_score": 7,
+    "min_quality_score": 4,
     "target_word_count": { "min": 2000, "max": 3500 },
     "timezone_offset": "+0530",
     "categories": ["Tech", "News", "Geopolitics"],

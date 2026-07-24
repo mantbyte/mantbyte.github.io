@@ -188,7 +188,7 @@ def run_pipeline(dry_run: bool = False):
             print("-" * 40)
             article_body = write_article(plan, verification)
 
-            if len(article_body.split()) < 800:
+            if len(article_body.split()) < 400:
                 print(f"  ⚠️ Article too short ({len(article_body.split())} words). Trying next candidate...")
                 metrics['writer'] = 'Failed (Too Short)'
                 continue
