@@ -100,36 +100,36 @@ jobs:
           # Create the Pull Request using GitHub REST API via Python
           echo "Creating pull request via REST API..."
           python3 -c "
-import os, json, urllib.request
-
-repo = os.environ['GITHUB_REPOSITORY']
-token = os.environ['GH_TOKEN']
-branch = 'ai/article-${{ github.run_id }}-${{ github.run_attempt }}'
-
-with open('_automation/pr_body.md', 'r') as f:
-    body = f.read()
-
-url = f'https://api.github.com/repos/{repo}/pulls'
-headers = {
-    'Authorization': f'token {token}',
-    'Accept': 'application/vnd.github.v3+json',
-    'Content-Type': 'application/json'
-}
-data = {
-    'title': '[AI] New Article Ready for Review',
-    'body': body,
-    'head': branch,
-    'base': 'main'
-}
-
-req = urllib.request.Request(url, data=json.dumps(data).encode('utf-8'), headers=headers, method='POST')
-try:
-    with urllib.request.urlopen(req) as response:
-        res = json.loads(response.read())
-        print(f'✅ Pull request created successfully: {res.get(\"html_url\")}')
-except urllib.error.HTTPError as e:
-    err_body = e.read().decode('utf-8')
-    print(f'❌ API Error {e.code}: {err_body}')
-    import sys; sys.exit(1)
-"
+          import os, json, urllib.request
+          
+          repo = os.environ['GITHUB_REPOSITORY']
+          token = os.environ['GH_TOKEN']
+          branch = 'ai/article-${{ github.run_id }}-${{ github.run_attempt }}'
+          
+          with open('_automation/pr_body.md', 'r') as f:
+              body = f.read()
+          
+          url = f'https://api.github.com/repos/{repo}/pulls'
+          headers = {
+              'Authorization': f'token {token}',
+              'Accept': 'application/vnd.github.v3+json',
+              'Content-Type': 'application/json'
+          }
+          data = {
+              'title': '[AI] New Article Ready for Review',
+              'body': body,
+              'head': branch,
+              'base': 'main'
+          }
+          
+          req = urllib.request.Request(url, data=json.dumps(data).encode('utf-8'), headers=headers, method='POST')
+          try:
+              with urllib.request.urlopen(req) as response:
+                  res = json.loads(response.read())
+                  print(f'✅ Pull request created successfully: {res.get(\"html_url\")}')
+          except urllib.error.HTTPError as e:
+              err_body = e.read().decode('utf-8')
+              print(f'❌ API Error {e.code}: {err_body}')
+              import sys; sys.exit(1)
+          "
 
