@@ -46,6 +46,7 @@ function closeAuthPopup() {
         sessionStorage.setItem('authPopupClosed', 'true');
     }
 }
+window.closeAuthPopup = closeAuthPopup;
 
 window.addEventListener('DOMContentLoaded', () => {
     // Check if popup was already closed in this session
