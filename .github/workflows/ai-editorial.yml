@@ -63,7 +63,7 @@ jobs:
 
       - name: Read PR body
         id: pr_body
-        if: success() && env.DRY_RUN == 'false'
+        if: success()
         run: |
           if [ -f _automation/pr_body.md ]; then
             echo "has_pr_body=true" >> $GITHUB_OUTPUT
@@ -72,7 +72,7 @@ jobs:
           fi
 
       - name: Create Pull Request
-        if: success() && env.DRY_RUN == 'false' && steps.pr_body.outputs.has_pr_body == 'true'
+        if: success() && steps.pr_body.outputs.has_pr_body == 'true'
         uses: peter-evans/create-pull-request@v7
         with:
           branch: ai/article-${{ github.run_id }}
