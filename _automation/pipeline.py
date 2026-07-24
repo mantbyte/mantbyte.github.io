@@ -169,9 +169,9 @@ def run_pipeline(dry_run: bool = False):
             if not verification.get("verification_passed", False):
                 confidence = verification.get("overall_confidence", "low")
                 if confidence == "low":
-                    print(f"  ⚠️ Verification failed. Proceeding anyway for testing...")
+                    print(f"  ⚠️ Verification failed. Trying next candidate...")
                     metrics['research'] = 'Failed Verification'
-                    # continue
+                    continue
 
             # ─────────────────────────────────────
             # Stage 4: Knowledge Base Check
@@ -188,9 +188,9 @@ def run_pipeline(dry_run: bool = False):
             )
 
             if kb_result.get("is_duplicate", False):
-                print(f"  ⚠️ Duplicate topic detected. Proceeding anyway for testing...")
+                print(f"  ⚠️ Duplicate topic detected. Trying next candidate...")
                 metrics['duplicate'] = 'Failed (Duplicate)'
-                # continue
+                continue
             metrics['duplicate'] = 'Passed'
 
             # ─────────────────────────────────────
@@ -208,9 +208,9 @@ def run_pipeline(dry_run: bool = False):
             article_body = write_article(plan, verification)
 
             if len(article_body.split()) < 400:
-                print(f"  ⚠️ Article too short ({len(article_body.split())} words). Proceeding anyway for testing...")
+                print(f"  ⚠️ Article too short ({len(article_body.split())} words). Trying next candidate...")
                 metrics['writer'] = 'Failed (Too Short)'
-                # continue
+                continue
             metrics['writer'] = 'Passed'
 
             # ─────────────────────────────────────
@@ -272,9 +272,9 @@ def run_pipeline(dry_run: bool = False):
             metrics['reviewer'] = f"{score}/10"
 
             if review.get("decision") == "FAIL":
-                print(f"  ⚠️ Article failed quality review (score: {score}). Proceeding anyway for testing...")
+                print(f"  ⚠️ Article failed quality review (score: {score}). Trying next candidate...")
                 metrics['reviewer'] = f"{score}/10 (Failed)"
-                # continue
+                continue
 
             # ─────────────────────────────────────
             # Stage 11: Publish (Write to disk)
