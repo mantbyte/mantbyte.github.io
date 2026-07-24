@@ -141,7 +141,23 @@
         "India Tech Regulation"
       ],
       "url": "/geopolitics/2026/07/25/code-free-speech-india-bitchat-crackdown.html"
+    },
+    {
+      "title": "Securing the Autonomous Frontier: Agentic AI and Containerized Sandboxes",
+      "slug": "securing-agentic-ai-containerized-sandboxes",
+      "date": "2026-07-25",
+      "category": "Tech",
+      "key_topics": [
+        "Agentic AI",
+        "Container Security",
+        "MicroVMs",
+        "DevSecOps",
+        "Cybersecurity",
+        "Docker",
+        "AI Governance"
+      ],
+      "url": "/tech/2026/07/25/securing-agentic-ai-containerized-sandboxes.html"
     }
   ],
-  "last_updated": "2026-07-24T19:11:31.405505+00:00"
+  "last_updated": "2026-07-24T19:25:03.031342+00:00"
 }
