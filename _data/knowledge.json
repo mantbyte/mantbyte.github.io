@@ -188,7 +188,22 @@
         "Tech Trends"
       ],
       "url": "/geopolitics/2026/07/25/ai-deflationary-spiral-it-outsourcing.html"
+    },
+    {
+      "title": "From Agentic Loops to Context Engineering: Rethinking AI-Driven Root Cause Analysis",
+      "slug": "context-engineering-ai-root-cause-analysis",
+      "date": "2026-07-25",
+      "category": "Tech",
+      "key_topics": [
+        "Context Engineering",
+        "AIOps",
+        "Site Reliability Engineering",
+        "Observability",
+        "Root Cause Analysis",
+        "LLM Architecture"
+      ],
+      "url": "/tech/2026/07/25/context-engineering-ai-root-cause-analysis.html"
     }
   ],
-  "last_updated": "2026-07-25T03:19:50.688668+00:00"
+  "last_updated": "2026-07-25T10:40:20.265034+00:00"
 }
