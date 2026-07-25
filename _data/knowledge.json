@@ -235,7 +235,23 @@
         "Hyperscale"
       ],
       "url": "/news/2026/07/25/ai-data-centers-power-grid-stability.html"
+    },
+    {
+      "title": "The Kubernetes Moment for Open-Weight AI: Standardizing the Infrastructure Stack",
+      "slug": "kubernetes-moment-open-weight-ai-infrastructure",
+      "date": "2026-07-26",
+      "category": "Tech",
+      "key_topics": [
+        "Kubernetes",
+        "Open-Weight AI",
+        "Infrastructure",
+        "DevOps",
+        "vLLM",
+        "Machine Learning",
+        "Cloud Native"
+      ],
+      "url": "/tech/2026/07/26/kubernetes-moment-open-weight-ai-infrastructure.html"
     }
   ],
-  "last_updated": "2026-07-25T13:47:26.226431+00:00"
+  "last_updated": "2026-07-25T19:15:14.096110+00:00"
 }
