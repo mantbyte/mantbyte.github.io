@@ -221,6 +221,22 @@
       "url": "/tech/2026/07/25/context-engineering-ai-root-cause-analysis.html"
     },
     {
+      "title": "The 3.5 GW Shockwave: Why AI Data Centers Must Evolve to Save the Power Grid",
+      "slug": "ai-data-centers-power-grid-stability",
+      "date": "2026-07-25",
+      "category": "News",
+      "key_topics": [
+        "AI Infrastructure",
+        "Data Centers",
+        "Power Grid",
+        "Energy Technology",
+        "Grid Stability",
+        "UPS Systems",
+        "Hyperscale"
+      ],
+      "url": "/news/2026/07/25/ai-data-centers-power-grid-stability.html"
+    },
+    {
       "title": "The 3.1 Gigawatt Ghost: Why AI Data Centers are the New Threat to Grid Stability",
       "slug": "ai-data-centers-grid-stability-threat",
       "date": "2026-07-25",
@@ -234,7 +250,23 @@
         "Power Engineering"
       ],
       "url": "/geopolitics/2026/07/25/ai-data-centers-grid-stability-threat.html"
+    },
+    {
+      "title": "The Kubernetes Moment for Open-Weight AI: Standardizing the Infrastructure Stack",
+      "slug": "kubernetes-moment-open-weight-ai-infrastructure",
+      "date": "2026-07-26",
+      "category": "Tech",
+      "key_topics": [
+        "Kubernetes",
+        "Open-Weight AI",
+        "Infrastructure",
+        "DevOps",
+        "vLLM",
+        "Machine Learning",
+        "Cloud Native"
+      ],
+      "url": "/tech/2026/07/26/kubernetes-moment-open-weight-ai-infrastructure.html"
     }
   ],
-  "last_updated": "2026-07-25T16:08:54.306427+00:00"
+  "last_updated": "2026-07-25T19:15:14.096110+00:00"
 }
