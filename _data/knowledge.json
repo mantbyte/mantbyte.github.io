@@ -188,7 +188,23 @@
         "Tech Trends"
       ],
       "url": "/geopolitics/2026/07/25/ai-deflationary-spiral-it-outsourcing.html"
+    },
+    {
+      "title": "Preparing Enterprise APIs for Post-Quantum Cryptography: A Developer's Migration Roadmap",
+      "slug": "post-quantum-enterprise-api-migration-roadmap",
+      "date": "2026-07-25",
+      "category": "Tech",
+      "key_topics": [
+        "Post-Quantum Cryptography",
+        "API Security",
+        "Quantum Computing",
+        "NIST",
+        "Cybersecurity",
+        "TLS",
+        "Backend Architecture"
+      ],
+      "url": "/tech/2026/07/25/post-quantum-enterprise-api-migration-roadmap.html"
     }
   ],
-  "last_updated": "2026-07-25T03:19:50.688668+00:00"
+  "last_updated": "2026-07-25T08:16:20.629408+00:00"
 }
