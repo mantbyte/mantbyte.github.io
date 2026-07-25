@@ -219,7 +219,23 @@
         "LLM Architecture"
       ],
       "url": "/tech/2026/07/25/context-engineering-ai-root-cause-analysis.html"
+    },
+    {
+      "title": "The 3.5 GW Shockwave: Why AI Data Centers Must Evolve to Save the Power Grid",
+      "slug": "ai-data-centers-power-grid-stability",
+      "date": "2026-07-25",
+      "category": "News",
+      "key_topics": [
+        "AI Infrastructure",
+        "Data Centers",
+        "Power Grid",
+        "Energy Technology",
+        "Grid Stability",
+        "UPS Systems",
+        "Hyperscale"
+      ],
+      "url": "/news/2026/07/25/ai-data-centers-power-grid-stability.html"
     }
   ],
-  "last_updated": "2026-07-25T10:40:20.265034+00:00"
+  "last_updated": "2026-07-25T13:47:26.226431+00:00"
 }
