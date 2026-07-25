@@ -1,0 +1,32 @@
+<div class="newsletter-signup glassmorphism">
+    <div class="newsletter-content">
+        <div class="newsletter-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+        </div>
+        <div class="newsletter-text">
+            <h3>Subscribe to Mantbyte</h3>
+            <p>Get the latest technical articles, deep dives, and analysis delivered straight to your inbox. No spam, ever.</p>
+        </div>
+    </div>
+    <form id="newsletter-form" class="newsletter-form">
+        <div class="newsletter-input-group">
+            <input type="email" id="newsletter-email" placeholder="Email address" required aria-label="Email address">
+            <button type="submit" id="newsletter-submit" class="btn btn-primary">Subscribe</button>
+        </div>
+        <div class="newsletter-categories">
+            <label class="category-checkbox">
+                <input type="checkbox" value="Tech" checked>
+                <span class="checkmark"></span> Tech
+            </label>
+            <label class="category-checkbox">
+                <input type="checkbox" value="News" checked>
+                <span class="checkmark"></span> News
+            </label>
+            <label class="category-checkbox">
+                <input type="checkbox" value="Geopolitics" checked>
+                <span class="checkmark"></span> Geopolitics
+            </label>
+        </div>
+        <div id="newsletter-status" class="newsletter-status" style="display: none;"></div>
+    </form>
+</div>

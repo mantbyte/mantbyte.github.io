@@ -1,0 +1,37 @@
+{
+  "enable_push": true,
+  "enable_newsletter": true,
+  "enable_digest": true,
+  "enable_rss_validation": true,
+  "enable_email_verification": true,
+  "enable_email": true,
+  "enable_website_notifications": true,
+  "email_provider_type": "smtp",
+  "digest_time": "08:00",
+  "digest_timezone": "Asia/Kolkata",
+  "max_notifications_per_run": 500,
+  "site_url": "https://mantbyte.github.io",
+  "site_name": "Mantbyte",
+  "from_email": "noreply@mantbyte.github.io",
+  "newsletter_categories": [
+    "Tech",
+    "News",
+    "Geopolitics"
+  ],
+  "push_notification": {
+    "title_prefix": "🚀 New Mantbyte Article",
+    "icon": "/assets/images/favicon.svg",
+    "badge": "/assets/images/favicon.svg"
+  },
+  "digest": {
+    "subject_prefix": "Mantbyte Daily Digest",
+    "max_articles": 10
+  },
+  "smtp": {
+    "host": "smtp.gmail.com",
+    "port": 587,
+    "use_tls": true,
+    "email": "",
+    "password": ""
+  }
+}
