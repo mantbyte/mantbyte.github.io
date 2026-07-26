@@ -394,7 +394,23 @@
         "Geopolitics"
       ],
       "url": "/geopolitics/2026/07/27/chinese-ai-panic-efficiency-silicon-valley.html"
+    },
+    {
+      "title": "Autonomous Agent Cyberattacks: Lessons from the Hugging Face Breach and the Future of Enterprise AI Security",
+      "slug": "autonomous-agent-cyberattacks-hugging-face-breach",
+      "date": "2026-07-27",
+      "category": "News",
+      "key_topics": [
+        "AI Security",
+        "Cyberattacks",
+        "Hugging Face",
+        "OpenAI",
+        "Autonomous Agents",
+        "Enterprise Security",
+        "LLM Vulnerabilities"
+      ],
+      "url": "/news/2026/07/27/autonomous-agent-cyberattacks-hugging-face-breach.html"
     }
   ],
-  "last_updated": "2026-07-26T20:25:54.928201+00:00"
+  "last_updated": "2026-07-26T20:55:05.228096+00:00"
 }
