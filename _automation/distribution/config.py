@@ -28,10 +28,10 @@ def load_config() -> dict:
 
     if not os.path.exists(config_path):
         print(f"  ⚠️ Distribution config not found at {config_path}. Using defaults.")
-        return _default_config()
-
-    with open(config_path, "r") as f:
-        config = json.load(f)
+        config = _default_config()
+    else:
+        with open(config_path, "r") as f:
+            config = json.load(f)
 
     # Environment variable overrides (booleans)
     _env_bool_override(config, "enable_push", "DIST_ENABLE_PUSH")
