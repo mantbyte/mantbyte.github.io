@@ -282,7 +282,22 @@
         "Malware Analysis"
       ],
       "url": "/tech/2026/07/26/anatomy-sourtrade-bun-runtime-malware.html"
+    },
+    {
+      "title": "Bridging the Compute Gap: How DeepSeek's Architectural Innovations Defy Hardware Export Controls",
+      "slug": "deepseek-architecture-defies-chip-export-controls",
+      "date": "2026-07-26",
+      "category": "Geopolitics",
+      "key_topics": [
+        "DeepSeek",
+        "AI Hardware",
+        "Export Controls",
+        "Semiconductors",
+        "NVIDIA H800",
+        "Mixture of Experts"
+      ],
+      "url": "/geopolitics/2026/07/26/deepseek-architecture-defies-chip-export-controls.html"
     }
   ],
-  "last_updated": "2026-07-25T22:00:52.064511+00:00"
+  "last_updated": "2026-07-26T10:49:06.893815+00:00"
 }
