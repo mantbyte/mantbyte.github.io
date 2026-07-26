@@ -823,6 +823,22 @@ img {
     transform: translateY(-1px);
 }
 
+.btn-outline {
+    background: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-main);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-outline:hover {
+    background: var(--surface-bg);
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+}
+
 .btn-submit:active {
     transform: translateY(0);
 }
@@ -1080,12 +1096,22 @@ img {
     border-color: var(--accent-color);
 }
 
+.mobile-menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--text-main);
+    padding: 0.5rem;
+    align-items: center;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 @media (max-width: 768px) {
-    .menu-toggle {
-        display: block;
+    .menu-toggle, .mobile-menu-toggle {
+        display: flex;
     }
     
     .site-nav {
@@ -1272,6 +1298,7 @@ body.logged-in .logged-in-only {
     padding-bottom: 2rem;
     border-bottom: 1px solid var(--border-color);
     margin-bottom: 2rem;
+    flex-wrap: wrap;
 }
 
 .profile-avatar {
