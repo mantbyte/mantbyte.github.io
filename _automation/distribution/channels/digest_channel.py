@@ -174,7 +174,6 @@ class DigestChannel(ChannelInterface):
             docs = (
                 db.collection(self.QUEUE_COLLECTION)
                 .where("delivered", "==", False)
-                .order_by("queued_at")
                 .limit(max_articles)
                 .get()
             )
