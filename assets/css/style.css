@@ -1985,3 +1985,60 @@ body.logged-in .logged-in-only {
 .notif-view-all:hover {
     color: var(--accent-color);
 }
+
+/* ==========================================================================
+   Homepage Newsletter Section
+   ========================================================================== */
+.home-newsletter-section {
+    margin: 4rem 0;
+}
+
+.home-newsletter-container {
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.1), rgba(16, 185, 129, 0.05));
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+}
+
+@media (min-width: 900px) {
+    .home-newsletter-container {
+        flex-direction: row;
+        text-align: left;
+        justify-content: space-between;
+        padding: 4rem;
+    }
+}
+
+.home-newsletter-text {
+    flex: 1;
+    max-width: 600px;
+}
+
+.home-newsletter-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--text-main);
+}
+
+.home-newsletter-text p {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.home-newsletter-form-wrapper {
+    flex: 1;
+    width: 100%;
+    max-width: 500px;
+}
+
+.home-newsletter-form-wrapper .newsletter-inline {
+    margin: 0;
+    background: var(--card-bg);
+}

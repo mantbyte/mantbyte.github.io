@@ -12,6 +12,18 @@ title: Home
     <!-- AD SLOT: home-page -->
     {% include ad_slot.html location="home-page" %}
 
+    <section class="home-newsletter-section">
+        <div class="home-newsletter-container glassmorphism">
+            <div class="home-newsletter-text">
+                <h2>Join our Free Newsletter</h2>
+                <p>Stay ahead of the curve. Get high-quality technical deep dives, cybersecurity analysis, and engineering tutorials delivered directly to your inbox. Connect with what truly matters in tech today.</p>
+            </div>
+            <div class="home-newsletter-form-wrapper">
+                {% include newsletter_signup.html %}
+            </div>
+        </div>
+    </section>
+
     <section class="latest-posts">
         <h2 class="section-title">Latest Writing</h2>
 
