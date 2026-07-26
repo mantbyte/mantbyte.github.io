@@ -236,11 +236,7 @@ service cloud.firestore {
       }
     }
 
-    // Legacy per-user notifications are private and backend-generated.
-    match /notifications/{uid}/userNotifications/{notificationId} {
-      allow read: if isOwner(uid);
-      allow write: if false;
-    }
+
 
     // -----------------------------------------------------------------------
     // Public website notification feed

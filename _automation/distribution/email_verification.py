@@ -25,42 +25,24 @@ VERIFICATION_EMAIL_TEMPLATE = """<!DOCTYPE html>
         <tr>
             <td style="padding: 40px 0;">
                 <table role="presentation" style="width: 560px; margin: 0 auto; background: #ffffff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 24px rgba(0,0,0,0.08);">
-                    <!-- Header -->
                     <tr>
-                        <td style="padding: 40px 40px 24px; text-align: center; border-bottom: 1px solid #eaeaea;">
-                            <h1 style="margin: 0; font-size: 24px; font-weight: 700; color: #111111; letter-spacing: -0.5px;">mantbyte</h1>
-                        </td>
-                    </tr>
-                    <!-- Body -->
-                    <tr>
-                        <td style="padding: 40px;">
-                            <h2 style="margin: 0 0 16px; font-size: 20px; font-weight: 600; color: #111111;">Confirm your subscription</h2>
-                            <p style="margin: 0 0 24px; font-size: 15px; line-height: 1.6; color: #555555;">
+                        <td style="padding: 40px; text-align: center;">
+                            <h2 style="margin: 0 0 16px; font-size: 20px; font-weight: 600; color: #111111;">Verify your email address</h2>
+                            <p style="margin: 0 0 32px; font-size: 15px; line-height: 1.6; color: #555555;">
                                 Thanks for subscribing to Mantbyte! Please verify your email address to start receiving technical articles and insights.
                             </p>
                             <table role="presentation" style="width: 100%;">
                                 <tr>
                                     <td style="text-align: center; padding: 8px 0 32px;">
                                         <a href="{verification_url}"
-                                           style="display: inline-block; padding: 14px 32px; background-color: #111111; color: #ffffff; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 15px; letter-spacing: 0.3px;">
-                                            Verify Email Address
+                                           style="display: inline-block; padding: 12px 24px; background-color: #111111; color: #ffffff; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 15px;">
+                                            Verify Email
                                         </a>
                                     </td>
                                 </tr>
                             </table>
-                            <p style="margin: 0 0 8px; font-size: 13px; color: #999999;">
-                                If you didn't subscribe to Mantbyte, you can safely ignore this email.
-                            </p>
                             <p style="margin: 0; font-size: 13px; color: #999999;">
-                                This link expires in 48 hours.
-                            </p>
-                        </td>
-                    </tr>
-                    <!-- Footer -->
-                    <tr>
-                        <td style="padding: 24px 40px; background-color: #fafafa; border-top: 1px solid #eaeaea; text-align: center;">
-                            <p style="margin: 0; font-size: 12px; color: #999999;">
-                                Mantbyte &middot; Engineering insights & technical deep dives
+                                If you didn't subscribe to Mantbyte, you can safely ignore this email.
                             </p>
                         </td>
                     </tr>

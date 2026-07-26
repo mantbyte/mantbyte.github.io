@@ -173,6 +173,15 @@ class PushChannel(ChannelInterface):
         )
 
         # 3. Send batch
+        if self.config.get("dry_run"):
+            print(f"  🧪 DRY RUN: Would have sent push to {len(tokens)} devices")
+            return DistributionResult(
+                channel=self.name,
+                status="success",
+                sent_count=len(tokens),
+                details={"dry_run": True}
+            )
+
         messages = [
             messaging.Message(
                 notification=notification,

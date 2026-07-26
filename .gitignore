@@ -24,3 +24,8 @@ _dry_run_artifacts/
 
 # VS Code
 .vscode/
+
+logs.txt
+run13_logs.txt
+test_models.py
+_includes/distribution_styles.css

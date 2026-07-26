@@ -80,6 +80,15 @@ class WebsiteChannel(ChannelInterface):
                     details={"reason": "Already exists"},
                 )
 
+            if self.config.get("dry_run"):
+                print(f"  🧪 DRY RUN: Would have created website notification: {notification['title'][:50]}...")
+                return DistributionResult(
+                    channel=self.name,
+                    status="success",
+                    sent_count=1,
+                    details={"dry_run": True, "notification_title": notification["title"]},
+                )
+
             db.collection(self.COLLECTION).add(notification)
             print(f"  🔔 Website Notification created: {notification['title'][:50]}...")
 

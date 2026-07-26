@@ -35,7 +35,7 @@ function showPushPrompt() {
     if (promptUI) {
         // Add a slight delay before showing so it doesn't interrupt immediate reading
         setTimeout(() => {
-            promptUI.classList.add('show');
+            promptUI.style.display = 'flex';
         }, 3000);
     }
 }
@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (acceptBtn) {
         acceptBtn.addEventListener('click', async () => {
-            if (promptUI) promptUI.classList.remove('show');
+            if (promptUI) promptUI.style.display = 'none';
             const success = await subscribeToPushNotifications();
             if (success) {
                 localStorage.setItem('pushPromptDismissed', 'true');
@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (dismissBtn) {
         dismissBtn.addEventListener('click', () => {
             localStorage.setItem('pushPromptDismissed', 'true');
-            if (promptUI) promptUI.classList.remove('show');
+            if (promptUI) promptUI.style.display = 'none';
         });
     }
 });

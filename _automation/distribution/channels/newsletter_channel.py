@@ -92,6 +92,15 @@ class NewsletterChannel(ChannelInterface):
                     details={"reason": "Already queued"},
                 )
 
+            if self.config.get("dry_run"):
+                print(f"  🧪 DRY RUN: Would have queued for daily digest: {queue_entry['title'][:50]}...")
+                return DistributionResult(
+                    channel=self.name,
+                    status="success",
+                    sent_count=1,
+                    details={"dry_run": True, "queued_title": queue_entry["title"]},
+                )
+
             db.collection(self.QUEUE_COLLECTION).add(queue_entry)
             print(f"  📬 Queued for daily digest: {queue_entry['title'][:50]}...")
 

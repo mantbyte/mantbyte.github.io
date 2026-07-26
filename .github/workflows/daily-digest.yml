@@ -30,7 +30,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r _automation/requirements.txt
 
-      - name: Send Daily Digest
+      - name: Send Verifications and Daily Digest
         env:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
           FCM_VAPID_KEY: ${{ secrets.FCM_VAPID_KEY }}
@@ -38,4 +38,5 @@ jobs:
           SMTP_PASSWORD: ${{ secrets.SMTP_APP_PASSWORD }}
         run: |
           cd ${{ github.workspace }}
+          python _automation/distribution/engine.py --verify
           python _automation/distribution/engine.py --digest

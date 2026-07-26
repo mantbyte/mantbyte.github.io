@@ -1,5 +1,9 @@
 # mantbytes - Personal Blog
 
+[![Deploy](https://github.com/mantbyte/mantbyte.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/mantbyte/mantbyte.github.io/actions/workflows/deploy.yml)
+[![Distribution Engine](https://github.com/mantbyte/mantbyte.github.io/actions/workflows/ai-editorial.yml/badge.svg)](https://github.com/mantbyte/mantbyte.github.io/actions/workflows/ai-editorial.yml)
+[![Daily Digest](https://github.com/mantbyte/mantbyte.github.io/actions/workflows/daily-digest.yml/badge.svg)](https://github.com/mantbyte/mantbyte.github.io/actions/workflows/daily-digest.yml)
+
 A lightweight, purely static personal blogging website powered by Jekyll and designed for GitHub Pages. Built with zero dependencies, no databases, and a clean, editorial layout.
 
 ## How to Enable GitHub Pages

@@ -14,12 +14,24 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
         notifPanel.classList.toggle('show');
 
-        // Mark as read (hide badge) when opened
+        // Remove the automatic mark as read here so the user can see which are unread.
+        // We will only mark as read if they click the "mark all read" button.
+        // BUT we should clear the badge anyway so it's not annoying.
         if (notifPanel.classList.contains('show')) {
-            localStorage.setItem('mantbyte_last_notif_check', new Date().toISOString());
             if (notifBadge) notifBadge.style.display = 'none';
         }
     });
+
+    const markReadBtn = document.getElementById('notif-mark-read');
+    if (markReadBtn) {
+        markReadBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            localStorage.setItem('mantbyte_last_notif_check', new Date().toISOString());
+            if (notifBadge) notifBadge.style.display = 'none';
+            document.querySelectorAll('.notif-item.unread').forEach(el => el.classList.remove('unread'));
+        });
+    }
 
     // Close when clicking outside
     document.addEventListener('click', (e) => {
@@ -46,7 +58,11 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (error) {
             console.error("Error fetching notifications:", error);
             if (notifList) {
-                notifList.innerHTML = '<div class="notif-empty">Unable to load notifications.</div>';
+                notifList.innerHTML = `
+                    <div class="notif-empty">
+                        <div class="empty-icon">⚠️</div>
+                        <p>Unable to load notifications.</p>
+                    </div>`;
             }
         }
     }
@@ -55,13 +71,37 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!notifList) return;
 
         if (notifications.length === 0) {
-            notifList.innerHTML = '<div class="notif-empty">No new articles yet. Check back soon!</div>';
+            notifList.innerHTML = `
+                <div class="notif-empty">
+                    <div class="empty-icon">✨</div>
+                    <p>No new articles yet. Check back soon!</p>
+                </div>`;
             return;
+        }
+
+        let lastCheckTime = 0;
+        const lastCheckStr = localStorage.getItem('mantbyte_last_notif_check');
+        if (lastCheckStr) {
+            lastCheckTime = new Date(lastCheckStr).getTime();
         }
 
         notifList.innerHTML = notifications.map(notif => {
             const date = new Date(notif.published_at);
-            const dateStr = date.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+            
+            // Format time relatively (e.g. "2h ago")
+            const now = new Date();
+            const diffMs = now - date;
+            const diffMins = Math.floor(diffMs / 60000);
+            const diffHours = Math.floor(diffMins / 60);
+            const diffDays = Math.floor(diffHours / 24);
+            
+            let dateStr = "";
+            if (diffMins < 60) dateStr = `${diffMins || 1}m ago`;
+            else if (diffHours < 24) dateStr = `${diffHours}h ago`;
+            else if (diffDays === 1) dateStr = 'Yesterday';
+            else dateStr = date.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+
+            const isUnread = date.getTime() > lastCheckTime;
 
             let imgHtml = '';
             if (notif.featured_image) {
@@ -69,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             return `
-                <a href="${notif.url}" class="notif-item">
+                <a href="${notif.url}" class="notif-item ${isUnread ? 'unread' : ''}">
                     ${imgHtml}
                     <div class="notif-content">
                         <span class="notif-category">${notif.category || 'Article'}</span>

@@ -16,12 +16,18 @@
                     <div id="notif-panel" class="notif-panel glassmorphism">
                         <div class="notif-header">
                             <h3>Recent Publications</h3>
+                            <button id="notif-mark-read" class="notif-mark-read" aria-label="Mark all as read">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 7 17l-5-5"></path><path d="m22 10-7.5 7.5L13 16"></path></svg>
+                            </button>
                         </div>
                         <div id="notif-list" class="notif-list">
-                            <div class="notif-empty">Loading...</div>
+                            <div class="notif-empty">
+                                <div class="empty-icon">📭</div>
+                                <p>Loading...</p>
+                            </div>
                         </div>
                         <div class="notif-footer">
-                            <a href="{{ '/' | relative_url }}">View all articles</a>
+                            <a href="{{ '/' | relative_url }}" class="notif-view-all">View all articles &rarr;</a>
                         </div>
                     </div>
                 </div>

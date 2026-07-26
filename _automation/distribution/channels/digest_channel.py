@@ -15,7 +15,6 @@ from datetime import datetime
 from typing import Optional
 
 from distribution.channels.base import ChannelInterface, DistributionResult
-from distribution.channels.base import ChannelInterface, DistributionResult
 from distribution.channels.push_channel import get_firestore_db
 
 
@@ -93,31 +92,38 @@ class DigestChannel(ChannelInterface):
         subject = f"{self.digest_config.get('subject_prefix', 'Mantbyte Daily Digest')} — {today}"
 
         # 3. Store Digest in Firestore (always)
-        try:
-            db.collection("daily_digest").add({
-                "date": datetime.utcnow().strftime("%Y-%m-%d"),
-                "subject": subject,
-                "html": html_body,
-                "plaintext": text_body,
-                "generated_at": datetime.utcnow().isoformat(),
-                "articles": [a.get("slug") for a in articles],
-                "status": "generated"
-            })
-            print(f"  💾 Digest stored in Firestore.")
-        except Exception as e:
-            print(f"  ⚠️ Failed to store digest in Firestore: {e}")
+        if self.config.get("dry_run"):
+            print(f"  🧪 DRY RUN: Would have stored digest in Firestore.")
+        else:
+            try:
+                db.collection("daily_digest").add({
+                    "date": datetime.utcnow().strftime("%Y-%m-%d"),
+                    "subject": subject,
+                    "html": html_body,
+                    "plaintext": text_body,
+                    "generated_at": datetime.utcnow().isoformat(),
+                    "articles": [a.get("slug") for a in articles],
+                    "status": "generated"
+                })
+                print(f"  💾 Digest stored in Firestore.")
+            except Exception as e:
+                print(f"  ⚠️ Failed to store digest in Firestore: {e}")
 
         # 4. Optional: Send via Email Provider
         email_provider = self.config.get("email_provider")
-        if not email_provider:
-            print("  ⏭️ No EmailProvider configured. Digest saved, but not emailed.")
-            # Still mark as delivered so they don't pile up
-            self._mark_delivered(db, articles)
+        if not email_provider or self.config.get("dry_run"):
+            if self.config.get("dry_run"):
+                print("  🧪 DRY RUN: Digest generated, but not emailed or marked as delivered.")
+            else:
+                print("  ⏭️ No EmailProvider configured. Digest saved, but not emailed.")
+                # Still mark as delivered so they don't pile up
+                self._mark_delivered(db, articles)
+                
             return DistributionResult(
                 channel=self.name,
                 status="success",
                 sent_count=0,
-                details={"reason": "Generated, not emailed (no provider)"},
+                details={"reason": "Generated, not emailed (no provider or dry run)"},
             )
 
         # 5. Fetch verified subscribers (if emailing)
