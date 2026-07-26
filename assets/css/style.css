@@ -1571,14 +1571,15 @@ body.logged-in .logged-in-only {
 
 /* 1. Newsletter Inline Form */
 .newsletter-inline {
-    background: var(--card-bg);
-    border: 1px solid var(--border-color);
+    grid-column: 1 / -1;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    margin: 2rem 0;
+    margin: 1rem 0 0 0;
 }
 
 @media (min-width: 768px) {
@@ -1595,7 +1596,7 @@ body.logged-in .logged-in-only {
     align-items: center;
     gap: 1rem;
     font-size: 0.95rem;
-    color: var(--text-main);
+    color: #e5e7eb;
     flex: 1;
 }
 
@@ -1603,48 +1604,68 @@ body.logged-in .logged-in-only {
     flex-shrink: 0;
     width: 40px;
     height: 40px;
-    background: var(--hover-bg);
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--accent-color);
+    color: #ffffff;
 }
 
 .newsletter-inline-form {
     display: flex;
-    gap: 0.5rem;
+    flex-direction: column;
+    gap: 0.75rem;
     width: 100%;
-    max-width: 360px;
+}
+
+@media (min-width: 480px) {
+    .newsletter-inline-form {
+        flex-direction: row;
+        max-width: 400px;
+    }
 }
 
 .newsletter-inline-form input {
     flex: 1;
     min-width: 0;
-    padding: 0.6rem 1rem;
-    border: 1px solid var(--border-color);
+    padding: 0.75rem 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 8px;
-    background: var(--bg-color);
-    color: var(--text-main);
+    background: rgba(0, 0, 0, 0.2);
+    color: #ffffff;
     font-family: inherit;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     outline: none;
     transition: border-color 0.2s, box-shadow 0.2s;
 }
 
+.newsletter-inline-form input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
 .newsletter-inline-form input:focus {
-    border-color: var(--accent-color);
-    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
 }
 
 .newsletter-inline-form button {
     white-space: nowrap;
     border-radius: 8px;
     font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    background: #ffffff;
+    color: #000000;
+    border: none;
+}
+
+.newsletter-inline-form button:hover {
+    background: #e5e7eb;
 }
 
 .newsletter-status {
-    margin-top: 1rem;
+    grid-column: 1 / -1;
+    margin-top: -0.5rem;
     padding: 0.75rem;
     border-radius: 6px;
     font-size: 0.85rem;
