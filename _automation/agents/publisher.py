@@ -5,7 +5,6 @@ Also updates the knowledge base.
 """
 
 import os
-import json
 from agents.knowledge_base import add_article
 
 
@@ -73,37 +72,6 @@ def publish_article(
         f.write(pr_body)
 
     print(f"  ✅ Publishing complete. Ready for PR creation.")
-
-    # ─────────────────────────────────────────
-    # Emit Distribution Event
-    # The Distribution Engine reads this file.
-    # Zero coupling — just a JSON file.
-    # ─────────────────────────────────────────
-    try:
-        from datetime import datetime, timezone, timedelta
-        ist = timezone(timedelta(hours=5, minutes=30))
-
-        distribution_event = {
-            "event": "article_published",
-            "title": title,
-            "slug": slug,
-            "category": category,
-            "excerpt": seo_data.get("excerpt", ""),
-            "url": url,
-            "cover_image": image_data.get("image_path", ""),
-            "tags": key_topics,
-            "published_at": datetime.now(ist).isoformat(),
-            "filename": filename,
-        }
-
-        event_path = os.path.join(repo_root, "_automation", "distribution_event.json")
-        with open(event_path, "w") as f:
-            json.dump(distribution_event, f, indent=2)
-
-        print(f"  📡 Distribution event emitted: distribution_event.json")
-    except Exception as e:
-        # Distribution event emission is non-critical
-        print(f"  ⚠️ Failed to emit distribution event (non-critical): {e}")
 
     return {
         "post_path": post_path,

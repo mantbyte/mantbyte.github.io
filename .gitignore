@@ -16,7 +16,6 @@ firebase-service-account*.json
 *.pem
 
 # Automation
-_automation/distribution_event*.json
 _automation/pr_body.md
 _dry_run_artifacts/
 

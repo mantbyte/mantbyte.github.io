@@ -3,7 +3,7 @@ Mantbyte Distribution Engine v1
 Completely free distribution & subscriber notification system.
 
 Architecture:
-    Editorial Pipeline → distribution_event.json → Distribution Engine → Channels
+    Merged article → temporary event generation → Distribution Engine → Channels
 
 Channels:
     - Push Notifications (FCM)
