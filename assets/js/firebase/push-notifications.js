@@ -16,6 +16,12 @@ try {
 
 // Function to handle showing the push prompt UI
 function showPushPrompt() {
+    // Check if notifications are supported by the browser
+    if (!('Notification' in window)) {
+        console.log("This browser does not support Web Push Notifications.");
+        return;
+    }
+
     // Don't show if they've already dismissed it
     if (localStorage.getItem('pushPromptDismissed') === 'true') {
         return;
