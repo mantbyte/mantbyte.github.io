@@ -266,7 +266,23 @@
         "Cloud Native"
       ],
       "url": "/tech/2026/07/26/kubernetes-moment-open-weight-ai-infrastructure.html"
+    },
+    {
+      "title": "Anatomy of SourTrade: How Modern Malvertising Uses the Bun Runtime to Assemble Malware Client-Side",
+      "slug": "anatomy-sourtrade-bun-runtime-malware",
+      "date": "2026-07-26",
+      "category": "Tech",
+      "key_topics": [
+        "SourTrade",
+        "Bun Runtime",
+        "Malvertising",
+        "Cybersecurity",
+        "Client-Side Security",
+        "Threat Intelligence",
+        "Malware Analysis"
+      ],
+      "url": "/tech/2026/07/26/anatomy-sourtrade-bun-runtime-malware.html"
     }
   ],
-  "last_updated": "2026-07-25T19:15:14.096110+00:00"
+  "last_updated": "2026-07-25T22:00:52.064511+00:00"
 }
