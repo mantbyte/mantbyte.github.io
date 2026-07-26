@@ -31,6 +31,15 @@ jobs:
           ruby-version: '3.1'
           bundler-cache: true
 
+      - name: Inject VAPID Key
+        env:
+          FCM_VAPID_KEY: ${{ secrets.FCM_VAPID_KEY }}
+        run: |
+          if [ -n "$FCM_VAPID_KEY" ]; then
+            sed -i "s/BCNcM8YabA4ooT8tlOgAS_AfiztSDx9fApQcU7kMpEDuQx5GLwcTbGZ-LJRd1Q4JJzLjejB98jBt1untO7KiTm0/$FCM_VAPID_KEY/g" assets/js/firebase/push-notifications.js
+            echo "Successfully injected FCM_VAPID_KEY into frontend."
+          fi
+
       - name: Build Jekyll site
         run: bundle exec jekyll build
         env:
