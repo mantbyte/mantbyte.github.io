@@ -297,7 +297,23 @@
         "Browser Security"
       ],
       "url": "/tech/2026/07/26/sourtrade-malware-bun-runtime-assembly.html"
+    },
+    {
+      "title": "Beating the Compute Ban: How DeepSeek's Architecture Solves Hardware Bottlenecks",
+      "slug": "deepseek-architecture-beating-ai-compute-ban",
+      "date": "2026-07-26",
+      "category": "Geopolitics",
+      "key_topics": [
+        "DeepSeek-V3",
+        "AI Infrastructure",
+        "Nvidia H800",
+        "Mixture-of-Experts",
+        "Machine Learning",
+        "Export Controls",
+        "GPU Architecture"
+      ],
+      "url": "/geopolitics/2026/07/26/deepseek-architecture-beating-ai-compute-ban.html"
     }
   ],
-  "last_updated": "2026-07-26T03:26:33.827825+00:00"
+  "last_updated": "2026-07-26T13:40:55.506616+00:00"
 }
