@@ -1,54 +1,180 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://localhost:4000/</loc>
-    <lastmod>2026-07-23T19:28:02+05:30</lastmod>
+    <loc>https://mantbyte.github.io/</loc>
+    <lastmod>2026-07-27T01:05:57+05:30</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://localhost:4000/archive</loc>
-    <lastmod>2026-07-23T19:28:02+05:30</lastmod>
+    <loc>https://mantbyte.github.io/archive</loc>
+    <lastmod>2026-07-27T01:05:57+05:30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://localhost:4000/about</loc>
-    <lastmod>2026-07-23T19:28:02+05:30</lastmod>
+    <loc>https://mantbyte.github.io/about</loc>
+    <lastmod>2026-07-27T01:05:57+05:30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://localhost:4000/contact</loc>
-    <lastmod>2026-07-23T19:28:02+05:30</lastmod>
+    <loc>https://mantbyte.github.io/contact</loc>
+    <lastmod>2026-07-27T01:05:57+05:30</lastmod>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>http://localhost:4000/news/2026/07/23/tech-industry-moves-towards-efficient-ai.html</loc>
+    <loc>https://mantbyte.github.io/geopolitics/2026/07/27/grapheneos-duress-password-prosecution.html</loc>
+    <lastmod>2026-07-27T00:49:21+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/07/26/deepseek-efficiency-us-china-compute-gap.html</loc>
+    <lastmod>2026-07-26T21:37:10+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/07/26/deepseek-strategy-engineering-ai-compute-constraints.html</loc>
+    <lastmod>2026-07-26T20:52:49+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/07/26/deepseek-architecture-beating-ai-compute-ban.html</loc>
+    <lastmod>2026-07-26T19:10:47+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/07/26/sourtrade-malware-bun-runtime-assembly.html</loc>
+    <lastmod>2026-07-26T08:56:31+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/07/26/anatomy-sourtrade-bun-runtime-malware.html</loc>
+    <lastmod>2026-07-26T03:30:50+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/07/26/kubernetes-moment-open-weight-ai-infrastructure.html</loc>
+    <lastmod>2026-07-26T00:45:12+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/07/25/ai-data-centers-grid-stability-threat.html</loc>
+    <lastmod>2026-07-25T21:38:52+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/07/25/ai-data-centers-power-grid-stability.html</loc>
+    <lastmod>2026-07-25T19:17:13+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/07/25/context-engineering-ai-root-cause-analysis.html</loc>
+    <lastmod>2026-07-25T16:10:12+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/07/25/post-quantum-enterprise-api-migration-roadmap.html</loc>
+    <lastmod>2026-07-25T13:46:07+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/07/25/ai-deflationary-spiral-it-outsourcing.html</loc>
+    <lastmod>2026-07-25T08:49:49+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/07/25/fixing-jwt-vulnerabilities-nodejs-boilerplates.html</loc>
+    <lastmod>2026-07-25T03:41:32+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/07/25/eu-copernicus-censorship-geopolitics.html</loc>
+    <lastmod>2026-07-25T02:03:19+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/07/25/code-free-speech-india-bitchat-crackdown.html</loc>
+    <lastmod>2026-07-25T00:41:29+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/07/24/duress-password-privacy-legal-compliance.html</loc>
+    <lastmod>2026-07-24T23:32:50+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/07/24/ai-generated-cors-misconfigurations-vulnerabilities.html</loc>
+    <lastmod>2026-07-24T23:06:45+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/07/24/anthropic-claude-architecture-constitutional-ai-guide.html</loc>
+    <lastmod>2026-07-24T22:45:53+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/07/24/building-mantbytes-modern-serverless-blog.html</loc>
+    <lastmod>2026-07-24T01:00:00+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/07/24/the-silicon-cold-war-semiconductors.html</loc>
+    <lastmod>2026-07-24T00:01:00+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/07/23/hands-on-devops-provisioning-multi-tier-web-application.html</loc>
+    <lastmod>2026-07-23T18:00:00+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/07/23/tech-industry-moves-towards-efficient-ai.html</loc>
     <lastmod>2026-07-23T10:15:00+05:30</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://localhost:4000/geopolitics/2026/07/22/the-chip-wars-and-global-supply-chains.html</loc>
+    <loc>https://mantbyte.github.io/geopolitics/2026/07/22/the-chip-wars-and-global-supply-chains.html</loc>
     <lastmod>2026-07-22T14:30:00+05:30</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://localhost:4000/tech/2026/07/21/understanding-federated-learning.html</loc>
+    <loc>https://mantbyte.github.io/tech/2026/07/21/understanding-federated-learning.html</loc>
     <lastmod>2026-07-21T09:00:00+05:30</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://localhost:4000/category/tech</loc>
+    <loc>https://mantbyte.github.io/category/tech</loc>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:4000/category/news</loc>
+    <loc>https://mantbyte.github.io/category/news</loc>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:4000/category/geopolitics</loc>
+    <loc>https://mantbyte.github.io/category/geopolitics</loc>
     <priority>0.5</priority>
   </url>
 </urlset>

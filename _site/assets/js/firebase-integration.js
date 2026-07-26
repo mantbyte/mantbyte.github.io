@@ -226,4 +226,17 @@ document.addEventListener('DOMContentLoaded', () => {
         if (bookmarked) btn.classList.add('active');
         else btn.classList.remove('active');
     }
+    
+    // Generic listener for interaction buttons when logged out
+    document.addEventListener('click', (e) => {
+        const btn = e.target.closest('.fb-btn');
+        if (btn && document.body.classList.contains('logged-out')) {
+            e.preventDefault();
+            e.stopPropagation();
+            const popup = document.getElementById('auth-popup');
+            if (popup) {
+                popup.classList.add('show');
+            }
+        }
+    }, true); // use capture to stop other potential listeners
 });

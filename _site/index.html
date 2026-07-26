@@ -3,28 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | mantbytes</title>
+    <title>Home | mantbyte</title>
     <meta name="description" content="Personal blog of a Computer Science student covering technology, geopolitics, and what I'm learning.">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="/assets/css/style.css?v=2">
-    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
-    <link rel="alternate" type="application/rss+xml" title="mantbytes" href="http://localhost:4000/feed.xml">
-    <link rel="canonical" href="http://localhost:4000/">
 
+    <link rel="stylesheet" href="/assets/css/style.css?v=9">
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+    <link rel="alternate" type="application/rss+xml" title="mantbyte" href="https://mantbyte.github.io/feed.xml">
+    <link rel="canonical" href="https://mantbyte.github.io/">
+
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DZWPGEGT59"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DZWPGEGT59');
+    </script>
     
 </head>
 <body>
     <header class="site-header">
     <div class="container">
         <div class="header-inner">
-            <a class="site-title" rel="author" href="/">mantbytes</a>
-            <button class="menu-toggle" aria-label="Toggle menu" id="menu-toggle">
-                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
-            </button>
+            <a class="site-title" rel="author" href="/">mantbyte</a>
+            <div class="header-actions" style="display: flex; align-items: center; gap: 0.25rem;">
+                <button class="search-toggle" aria-label="Search" id="search-toggle" onclick="toggleSearch()" style="background: none; border: none; cursor: pointer; color: var(--text-main); display: flex; align-items: center; padding: 0.5rem;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+
+                <!-- Notification Center -->
+                <div class="notif-container">
+                    <button id="notif-bell" class="notif-toggle" aria-label="Notifications">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+                        <span id="notif-badge" class="notif-badge" style="display: none;">0</span>
+                    </button>
+                    <div id="notif-panel" class="notif-panel glassmorphism">
+                        <div class="notif-header">
+                            <h3>Recent Publications</h3>
+                            <button id="notif-mark-read" class="notif-mark-read" aria-label="Mark all as read">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 7 17l-5-5"></path><path d="m22 10-7.5 7.5L13 16"></path></svg>
+                            </button>
+                        </div>
+                        <div id="notif-list" class="notif-list">
+                            <div class="notif-empty">
+                                <div class="empty-icon">📭</div>
+                                <p>Loading...</p>
+                            </div>
+                        </div>
+                        <div class="notif-footer">
+                            <a href="/" class="notif-view-all">View all articles &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <a id="auth-btn" href="#" class="btn btn-primary logged-out-show" onclick="openAuthPopup(event)">Sign In</a>
+
+                <button class="mobile-menu-toggle" aria-label="Menu" onclick="document.getElementById('site-nav').classList.toggle('active')">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                </button>
+            </div>
             <nav class="site-nav" id="site-nav">
                 <ul class="nav-list">
                     <li><a href="/" class="page-link">Home</a></li>
@@ -47,11 +90,6 @@
                             <img id="fb-user-avatar" src="" alt="Profile" class="nav-avatar">
                         </a>
                     </li>
-                    <li>
-                        <button class="search-toggle" aria-label="Search" id="search-toggle" onclick="toggleSearch()">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-                        </button>
-                    </li>
                 </ul>
             </nav>
         </div>
@@ -70,6 +108,17 @@
     </div>
 </header>
 
+    <div id="push-prompt" class="push-prompt-banner" style="display: none;">
+    <div class="push-banner-content">
+        <span class="push-icon">🔔</span>
+        <span class="push-text">Get notified when new technical articles are published on Mantbyte.</span>
+    </div>
+    <div class="push-banner-actions">
+        <button id="push-accept" class="btn btn-primary btn-sm">Enable</button>
+        <button id="push-dismiss" class="btn-close" aria-label="Dismiss">&times;</button>
+    </div>
+</div>
+
     
     <main class="site-main">
         <div class="home-container">
@@ -84,51 +133,66 @@
 
 
 
+<div class="ad-container">
+    <span class="ad-label">Advertisement</span>
+    <div class="ad-banner">
+        <a href="https://www.linkedin.com/in/sujallohar" target="_blank" rel="noopener noreferrer sponsored">
+            <img src="/assets/images/ads/ad1.png" alt="Ad banner for homepage" loading="lazy">
+        </a>
+    </div>
+</div>
 
+
+
+    <section class="home-newsletter-section">
+        <div class="home-newsletter-container glassmorphism">
+            <div class="home-newsletter-text">
+                <h2>Join our Free Newsletter</h2>
+                <p>Stay ahead of the curve. Get high-quality technical deep dives, cybersecurity analysis, and engineering tutorials delivered directly to your inbox. Connect with what truly matters in tech today.</p>
+            </div>
+            <div class="home-newsletter-form-wrapper">
+                <div class="newsletter-inline glassmorphism">
+    <div class="newsletter-inline-content">
+        <div class="newsletter-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+        </div>
+        <span>Subscribe to Mantbyte for the latest technical deep dives.</span>
+    </div>
+    <form id="newsletter-form" class="newsletter-inline-form">
+        <input type="email" id="newsletter-email" placeholder="Email address" required aria-label="Email address">
+        <button type="submit" id="newsletter-submit" class="btn btn-primary btn-sm">Subscribe &rarr;</button>
+    </form>
+    <div id="newsletter-status" class="newsletter-status" style="display: none;"></div>
+</div>
+
+            </div>
+        </div>
+    </section>
 
     <section class="latest-posts">
         <h2 class="section-title">Latest Writing</h2>
-        
-        <div class="post-grid">
-            
-                
-                    <div class="featured-post">
-                        <article class="post-card ">
-    
-    <div class="post-card-body">
-        <div class="post-card-meta">
-            <time datetime="2026-07-23T10:15:00+05:30">July 23, 2026</time>
-            
-                <span class="separator">&middot;</span>
-                
-                <a class="post-card-category" href="/category/news">News</a>
-            
-        </div>
-        <h2 class="post-card-title">
-            <a href="/news/2026/07/23/tech-industry-moves-towards-efficient-ai.html">The Tech Industry's Pivot to Efficient AI</a>
-        </h2>
-        <p class="post-card-excerpt">
-            
-                We are moving past the era of 'bigger is better' in Large Language Models. Small, efficient models are the new frontier.
-            
-        </p>
-        <div class="post-card-footer">
-            
-            <span class="read-time">2 min read</span>
-        </div>
-    </div>
-</article>
 
-                    </div>
-                
+        <div class="category-filters" id="categoryFilters">
+            <button class="filter-btn active" data-category="all">All</button>
+            <button class="filter-btn" data-category="tech">Tech</button>
+            <button class="filter-btn" data-category="geopolitics">Geopolitics</button>
+            <button class="filter-btn" data-category="news">News</button>
+        </div>
+
+        <div class="post-list" id="postList">
             
-                
-                    <div class="regular-post">
-                        <article class="post-card ">
+                <div class="post-list-item" data-category="geopolitics">
+                    <article class="post-card has-cover">
+    
+    <div class="post-card-image">
+        <a href="/geopolitics/2026/07/27/grapheneos-duress-password-prosecution.html">
+            <img src="/assets/images/posts/grapheneos-duress-password-prosecution-cover.png" alt="The GrapheneOS Duress Password Prosecution: Border Security, Anti-Forensics, and the Law" loading="lazy">
+        </a>
+    </div>
     
     <div class="post-card-body">
         <div class="post-card-meta">
-            <time datetime="2026-07-22T14:30:00+05:30">July 22, 2026</time>
+            <time datetime="2026-07-27T00:49:21+05:30">July 27, 2026</time>
             
                 <span class="separator">&middot;</span>
                 
@@ -136,30 +200,139 @@
             
         </div>
         <h2 class="post-card-title">
-            <a href="/geopolitics/2026/07/22/the-chip-wars-and-global-supply-chains.html">The Chip Wars and Global Supply Chains</a>
+            <a href="/geopolitics/2026/07/27/grapheneos-duress-password-prosecution.html">The GrapheneOS Duress Password Prosecution: Border Security, Anti-Forensics, and the Law</a>
         </h2>
         <p class="post-card-excerpt">
             
-                How semiconductor manufacturing has become the ultimate geopolitical chess piece of the 21st century.
+                Discover how the arrest of Sam Tunick at the US border over a GrapheneOS duress wipe sets a dangerous legal precedent for digital privacy and anti-forensics.
             
         </p>
         <div class="post-card-footer">
             
-            <span class="read-time">2 min read</span>
+            <span class="read-time">9 min read</span>
         </div>
     </div>
 </article>
 
-                    </div>
-                
+                </div>
             
-                
-                    <div class="regular-post">
-                        <article class="post-card ">
+                <div class="post-list-item" data-category="geopolitics">
+                    <article class="post-card has-cover">
+    
+    <div class="post-card-image">
+        <a href="/geopolitics/2026/07/26/deepseek-efficiency-us-china-compute-gap.html">
+            <img src="/assets/images/posts/deepseek-efficiency-us-china-compute-gap-cover.png" alt="The DeepSeek Breakthrough: How Algorithmic Efficiency is Closing the US-China AI Compute Gap" loading="lazy">
+        </a>
+    </div>
     
     <div class="post-card-body">
         <div class="post-card-meta">
-            <time datetime="2026-07-21T09:00:00+05:30">July 21, 2026</time>
+            <time datetime="2026-07-26T21:37:10+05:30">July 26, 2026</time>
+            
+                <span class="separator">&middot;</span>
+                
+                <a class="post-card-category" href="/category/geopolitics">Geopolitics</a>
+            
+        </div>
+        <h2 class="post-card-title">
+            <a href="/geopolitics/2026/07/26/deepseek-efficiency-us-china-compute-gap.html">The DeepSeek Breakthrough: How Algorithmic Efficiency is Closing the US-China AI Compute Gap</a>
+        </h2>
+        <p class="post-card-excerpt">
+            
+                DeepSeek's low-cost training of frontier models proves that smarter code can overcome hardware scarcity. Explore how algorithmic efficiency is redefining the global AI arms race.
+            
+        </p>
+        <div class="post-card-footer">
+            
+            <span class="read-time">10 min read</span>
+        </div>
+    </div>
+</article>
+
+                </div>
+            
+                <div class="post-list-item" data-category="geopolitics">
+                    <article class="post-card has-cover">
+    
+    <div class="post-card-image">
+        <a href="/geopolitics/2026/07/26/deepseek-strategy-engineering-ai-compute-constraints.html">
+            <img src="/assets/images/posts/deepseek-strategy-engineering-ai-compute-constraints-cover.png" alt="The DeepSeek Strategy: Engineering High-Performance AI Under Compute Constraints" loading="lazy">
+        </a>
+    </div>
+    
+    <div class="post-card-body">
+        <div class="post-card-meta">
+            <time datetime="2026-07-26T20:52:49+05:30">July 26, 2026</time>
+            
+                <span class="separator">&middot;</span>
+                
+                <a class="post-card-category" href="/category/geopolitics">Geopolitics</a>
+            
+        </div>
+        <h2 class="post-card-title">
+            <a href="/geopolitics/2026/07/26/deepseek-strategy-engineering-ai-compute-constraints.html">The DeepSeek Strategy: Engineering High-Performance AI Under Compute Constraints</a>
+        </h2>
+        <p class="post-card-excerpt">
+            
+                As US export controls limit access to high-end GPUs, DeepSeek is rewriting the AI playbook by prioritizing architectural efficiency over raw compute power.
+            
+        </p>
+        <div class="post-card-footer">
+            
+            <span class="read-time">11 min read</span>
+        </div>
+    </div>
+</article>
+
+                </div>
+            
+                <div class="post-list-item" data-category="geopolitics">
+                    <article class="post-card has-cover">
+    
+    <div class="post-card-image">
+        <a href="/geopolitics/2026/07/26/deepseek-architecture-beating-ai-compute-ban.html">
+            <img src="/assets/images/posts/deepseek-architecture-beating-ai-compute-ban-cover.png" alt="Beating the Compute Ban: How DeepSeek's Architecture Solves Hardware Bottlenecks" loading="lazy">
+        </a>
+    </div>
+    
+    <div class="post-card-body">
+        <div class="post-card-meta">
+            <time datetime="2026-07-26T19:10:47+05:30">July 26, 2026</time>
+            
+                <span class="separator">&middot;</span>
+                
+                <a class="post-card-category" href="/category/geopolitics">Geopolitics</a>
+            
+        </div>
+        <h2 class="post-card-title">
+            <a href="/geopolitics/2026/07/26/deepseek-architecture-beating-ai-compute-ban.html">Beating the Compute Ban: How DeepSeek's Architecture Solves Hardware Bottlenecks</a>
+        </h2>
+        <p class="post-card-excerpt">
+            
+                Faced with severe hardware sanctions, DeepSeek pivoted from brute-force scaling to architectural frugality. Explore how DeepSeek-V3 achieved frontier performance for a fraction of the cost.
+            
+        </p>
+        <div class="post-card-footer">
+            
+            <span class="read-time">15 min read</span>
+        </div>
+    </div>
+</article>
+
+                </div>
+            
+                <div class="post-list-item" data-category="tech">
+                    <article class="post-card has-cover">
+    
+    <div class="post-card-image">
+        <a href="/tech/2026/07/26/sourtrade-malware-bun-runtime-assembly.html">
+            <img src="/assets/images/posts/sourtrade-malware-bun-runtime-assembly-cover.png" alt="Deconstructing SourTrade: Client-Side Malware Assembly via the Bun Runtime" loading="lazy">
+        </a>
+    </div>
+    
+    <div class="post-card-body">
+        <div class="post-card-meta">
+            <time datetime="2026-07-26T08:56:31+05:30">July 26, 2026</time>
             
                 <span class="separator">&middot;</span>
                 
@@ -167,22 +340,196 @@
             
         </div>
         <h2 class="post-card-title">
-            <a href="/tech/2026/07/21/understanding-federated-learning.html">Understanding Federated Learning in Healthcare</a>
+            <a href="/tech/2026/07/26/sourtrade-malware-bun-runtime-assembly.html">Deconstructing SourTrade: Client-Side Malware Assembly via the Bun Runtime</a>
         </h2>
         <p class="post-card-excerpt">
             
-                A deep dive into how federated learning is transforming privacy-preserving medical AI models without compromising patient data.
+                The SourTrade campaign bypasses traditional signature detection by using browser workers and the Bun runtime to assemble malware locally on the victim's device.
             
         </p>
         <div class="post-card-footer">
             
-            <span class="read-time">2 min read</span>
+            <span class="read-time">7 min read</span>
         </div>
     </div>
 </article>
 
-                    </div>
+                </div>
+            
+                <div class="post-list-item" data-category="tech">
+                    <article class="post-card has-cover">
+    
+    <div class="post-card-image">
+        <a href="/tech/2026/07/26/anatomy-sourtrade-bun-runtime-malware.html">
+            <img src="/assets/images/posts/anatomy-sourtrade-bun-runtime-malware-cover.png" alt="Anatomy of SourTrade: How Modern Malvertising Uses the Bun Runtime to Assemble Malware Client-Side" loading="lazy">
+        </a>
+    </div>
+    
+    <div class="post-card-body">
+        <div class="post-card-meta">
+            <time datetime="2026-07-26T03:30:50+05:30">July 26, 2026</time>
+            
+                <span class="separator">&middot;</span>
                 
+                <a class="post-card-category" href="/category/tech">Tech</a>
+            
+        </div>
+        <h2 class="post-card-title">
+            <a href="/tech/2026/07/26/anatomy-sourtrade-bun-runtime-malware.html">Anatomy of SourTrade: How Modern Malvertising Uses the Bun Runtime to Assemble Malware Client-Side</a>
+        </h2>
+        <p class="post-card-excerpt">
+            
+                SourTrade represents a dangerous evolution in web-based malware, utilizing browser workers and the Bun runtime to forge malware completely client-side.
+            
+        </p>
+        <div class="post-card-footer">
+            
+            <span class="read-time">8 min read</span>
+        </div>
+    </div>
+</article>
+
+                </div>
+            
+                <div class="post-list-item" data-category="tech">
+                    <article class="post-card has-cover">
+    
+    <div class="post-card-image">
+        <a href="/tech/2026/07/26/kubernetes-moment-open-weight-ai-infrastructure.html">
+            <img src="/assets/images/posts/kubernetes-moment-open-weight-ai-infrastructure-cover.png" alt="The Kubernetes Moment for Open-Weight AI: Standardizing the Infrastructure Stack" loading="lazy">
+        </a>
+    </div>
+    
+    <div class="post-card-body">
+        <div class="post-card-meta">
+            <time datetime="2026-07-26T00:45:12+05:30">July 26, 2026</time>
+            
+                <span class="separator">&middot;</span>
+                
+                <a class="post-card-category" href="/category/tech">Tech</a>
+            
+        </div>
+        <h2 class="post-card-title">
+            <a href="/tech/2026/07/26/kubernetes-moment-open-weight-ai-infrastructure.html">The Kubernetes Moment for Open-Weight AI: Standardizing the Infrastructure Stack</a>
+        </h2>
+        <p class="post-card-excerpt">
+            
+                The AI industry is reaching a turning point as open-weight models demand standardized infrastructure to match the cloud-native revolution.
+            
+        </p>
+        <div class="post-card-footer">
+            
+            <span class="read-time">7 min read</span>
+        </div>
+    </div>
+</article>
+
+                </div>
+            
+                <div class="post-list-item" data-category="geopolitics">
+                    <article class="post-card has-cover">
+    
+    <div class="post-card-image">
+        <a href="/geopolitics/2026/07/25/ai-data-centers-grid-stability-threat.html">
+            <img src="/assets/images/posts/ai-data-centers-grid-stability-threat-cover.png" alt="The 3.1 Gigawatt Ghost: Why AI Data Centers are the New Threat to Grid Stability" loading="lazy">
+        </a>
+    </div>
+    
+    <div class="post-card-body">
+        <div class="post-card-meta">
+            <time datetime="2026-07-25T21:38:52+05:30">July 25, 2026</time>
+            
+                <span class="separator">&middot;</span>
+                
+                <a class="post-card-category" href="/category/geopolitics">Geopolitics</a>
+            
+        </div>
+        <h2 class="post-card-title">
+            <a href="/geopolitics/2026/07/25/ai-data-centers-grid-stability-threat.html">The 3.1 Gigawatt Ghost: Why AI Data Centers are the New Threat to Grid Stability</a>
+        </h2>
+        <p class="post-card-excerpt">
+            
+                As AI demand surges, the '3.1 Gigawatt Ghost' reveals how instantaneous load drops from data centers are pushing our aging electrical grids to the brink.
+            
+        </p>
+        <div class="post-card-footer">
+            
+            <span class="read-time">10 min read</span>
+        </div>
+    </div>
+</article>
+
+                </div>
+            
+                <div class="post-list-item" data-category="news">
+                    <article class="post-card has-cover">
+    
+    <div class="post-card-image">
+        <a href="/news/2026/07/25/ai-data-centers-power-grid-stability.html">
+            <img src="/assets/images/posts/ai-data-centers-power-grid-stability-cover.png" alt="The 3.5 GW Shockwave: Why AI Data Centers Must Evolve to Save the Power Grid" loading="lazy">
+        </a>
+    </div>
+    
+    <div class="post-card-body">
+        <div class="post-card-meta">
+            <time datetime="2026-07-25T19:17:13+05:30">July 25, 2026</time>
+            
+                <span class="separator">&middot;</span>
+                
+                <a class="post-card-category" href="/category/news">News</a>
+            
+        </div>
+        <h2 class="post-card-title">
+            <a href="/news/2026/07/25/ai-data-centers-power-grid-stability.html">The 3.5 GW Shockwave: Why AI Data Centers Must Evolve to Save the Power Grid</a>
+        </h2>
+        <p class="post-card-excerpt">
+            
+                A massive 3.5 GW load drop in Northern Virginia exposed a critical flaw in our power infrastructure. Learn why AI data centers must evolve to save the grid.
+            
+        </p>
+        <div class="post-card-footer">
+            
+            <span class="read-time">10 min read</span>
+        </div>
+    </div>
+</article>
+
+                </div>
+            
+                <div class="post-list-item" data-category="tech">
+                    <article class="post-card has-cover">
+    
+    <div class="post-card-image">
+        <a href="/tech/2026/07/25/context-engineering-ai-root-cause-analysis.html">
+            <img src="/assets/images/posts/context-engineering-ai-root-cause-analysis-cover.png" alt="From Agentic Loops to Context Engineering: Rethinking AI-Driven Root Cause Analysis" loading="lazy">
+        </a>
+    </div>
+    
+    <div class="post-card-body">
+        <div class="post-card-meta">
+            <time datetime="2026-07-25T16:10:12+05:30">July 25, 2026</time>
+            
+                <span class="separator">&middot;</span>
+                
+                <a class="post-card-category" href="/category/tech">Tech</a>
+            
+        </div>
+        <h2 class="post-card-title">
+            <a href="/tech/2026/07/25/context-engineering-ai-root-cause-analysis.html">From Agentic Loops to Context Engineering: Rethinking AI-Driven Root Cause Analysis</a>
+        </h2>
+        <p class="post-card-excerpt">
+            
+                As dynamic agentic loops struggle with token bloat and non-deterministic RCA during cloud outages, SRE teams are turning to context engineering for precise, single-shot diagnoses.
+            
+        </p>
+        <div class="post-card-footer">
+            
+            <span class="read-time">15 min read</span>
+        </div>
+    </div>
+</article>
+
+                </div>
             
         </div>
         
@@ -192,13 +539,53 @@
     </section>
 </div>
 
+<script>
+(function() {
+    const filters = document.getElementById('categoryFilters');
+    const posts = document.querySelectorAll('.post-list-item');
+    
+    filters.addEventListener('click', function(e) {
+        const btn = e.target.closest('.filter-btn');
+        if (!btn) return;
+        
+        // Update active button
+        filters.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        
+        const cat = btn.dataset.category;
+        
+        posts.forEach(function(post) {
+            if (cat === 'all' || post.dataset.category === cat) {
+                post.style.display = '';
+            } else {
+                post.style.display = 'none';
+            }
+        });
+    });
+})();
+</script>
+
     </main>
     
+    <!-- Auth Popup -->
+    <div id="auth-popup" class="auth-popup-overlay">
+        <div class="auth-popup-modal">
+            <button class="auth-popup-close" onclick="closeAuthPopup()">&times;</button>
+            <h3>Join the mantbyte community</h3>
+            <p class="auth-popup-quote">"Save your favorite reads, join the discussion, and never lose track of what matters."</p>
+            <div class="auth-popup-actions">
+                <a href="/login" class="btn">Sign In / Sign Up</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Push Notification Prompt -->
+
     <footer class="site-footer">
     <div class="container">
         <div class="footer-grid">
             <div class="footer-col footer-about">
-                <a class="footer-brand" href="/">mantbytes</a>
+                <a class="footer-brand" href="/">mantbyte</a>
                 <p class="footer-tagline">Personal blog of a Computer Science student covering technology, geopolitics, and what I'm learning.</p>
             </div>
             <div class="footer-col">
@@ -227,6 +614,21 @@
                     <li><a href="/feed.xml">RSS Feed</a></li>
                 </ul>
             </div>
+            
+            <div class="newsletter-inline glassmorphism">
+    <div class="newsletter-inline-content">
+        <div class="newsletter-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+        </div>
+        <span>Subscribe to Mantbyte for the latest technical deep dives.</span>
+    </div>
+    <form id="newsletter-form" class="newsletter-inline-form">
+        <input type="email" id="newsletter-email" placeholder="Email address" required aria-label="Email address">
+        <button type="submit" id="newsletter-submit" class="btn btn-primary btn-sm">Subscribe &rarr;</button>
+    </form>
+    <div id="newsletter-status" class="newsletter-status" style="display: none;"></div>
+</div>
+
         </div>
         <div class="footer-bottom">
             <p class="copyright">&copy; 2026 Sujal Lohar. All rights reserved.</p>
@@ -241,8 +643,11 @@
 </button>
 
     
-    <script src="/assets/js/main.js"></script>
-    <script src="/assets/js/search.js"></script>
-    <script type="module" src="/assets/js/firebase-integration.js?v=2"></script>
+    <script src="/assets/js/main.js?v=2"></script>
+    <script src="/assets/js/search.js?v=2"></script>
+    <script type="module" src="/assets/js/firebase-integration.js?v=3"></script>
+    <script type="module" src="/assets/js/firebase/notification-center.js?v=2"></script>
+    <script type="module" src="/assets/js/firebase/push-notifications.js?v=2"></script>
+    <script type="module" src="/assets/js/firebase/newsletter.js?v=2"></script>
 </body>
 </html>

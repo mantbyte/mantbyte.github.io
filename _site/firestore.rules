@@ -51,10 +51,81 @@ service cloud.firestore {
       }
     }
 
-    // 3. Notifications Collection
-    match /notifications/{uid}/userNotifications/{notificationId} {
-      // Users can only read and manage their own notifications
-      allow read, write: if isOwner(uid);
+
+
+    // -----------------------------------------------------------------------
+    // Public website notification feed
+    // -----------------------------------------------------------------------
+    match /site_notifications/{notificationId} {
+      allow get, list: if true;
+      allow write: if false;
+    }
+
+    // -----------------------------------------------------------------------
+    // Distribution Engine: public clients have no read/list/write access.
+    // Firebase Admin SDK access is not evaluated by these rules.
+    // -----------------------------------------------------------------------
+
+    // FCM tokens are capability-bearing data. The browser can upsert only its
+    // own token document and cannot read, enumerate, or delete token records.
+    match /notification_tokens/{tokenId} {
+      allow create: if validToken(request.resource.data);
+      allow update: if validToken(request.resource.data)
+        && request.resource.data.token == resource.data.token
+        && request.resource.data.diff(resource.data).affectedKeys()
+             .hasOnly(['browser', 'platform', 'language', 'last_used', 'active']);
+      allow read, delete: if false;
+    }
+
+    // Signup is the only public subscriber operation. Verification and
+    // unsubscribe use the token-addressed update below; collection queries
+    // remain forbidden so subscriber data cannot be enumerated.
+    match /subscribers/{subscriberToken} {
+      allow create: if subscriberToken == request.resource.data.verification_token
+        && validSubscriber(request.resource.data);
+      allow update: if subscriberToken == resource.data.verification_token
+        && subscriberToken == request.resource.data.verification_token
+        && (
+          (
+            request.resource.data.diff(resource.data).affectedKeys()
+              .hasOnly(['verified'])
+            && request.resource.data.verified == true
+            && request.resource.data.is_active == resource.data.is_active
+          )
+          || (
+            request.resource.data.diff(resource.data).affectedKeys()
+              .hasOnly(['is_active'])
+            && request.resource.data.is_active == false
+            && request.resource.data.verified == resource.data.verified
+          )
+        );
+      allow read, delete: if false;
+    }
+
+    // Distribution queues, delivery history, and analytics are backend-only.
+    match /daily_digest/{document=**} {
+      allow read, write: if false;
+    }
+
+    match /daily_digest_queue/{document=**} {
+      allow read, write: if false;
+    }
+
+    match /notification_history/{document=**} {
+      allow read, write: if false;
+    }
+
+    match /distribution_metrics/{document=**} {
+      allow read, write: if false;
+    }
+
+    match /analytics/{document=**} {
+      allow read, write: if false;
+    }
+
+    // Default deny for every collection not explicitly listed above.
+    match /{document=**} {
+      allow read, write: if false;
     }
   }
 }
