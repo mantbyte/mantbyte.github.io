@@ -93,6 +93,7 @@ jobs:
           FCM_VAPID_KEY: ${{ secrets.FCM_VAPID_KEY }}
           SMTP_EMAIL: ${{ secrets.SMTP_EMAIL }}
           SMTP_PASSWORD: ${{ secrets.SMTP_APP_PASSWORD }}
+          DIST_ENABLE_EMAIL: "true"
         run: |
           cd ${{ github.workspace }}
           set -euo pipefail
