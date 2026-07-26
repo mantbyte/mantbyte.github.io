@@ -94,6 +94,7 @@ jobs:
           SMTP_EMAIL: ${{ secrets.SMTP_EMAIL }}
           SMTP_PASSWORD: ${{ secrets.SMTP_APP_PASSWORD }}
           DIST_ENABLE_EMAIL: "true"
+          DIST_ENABLE_NEWSLETTER: "true"
         run: |
           cd ${{ github.workspace }}
           set -euo pipefail
