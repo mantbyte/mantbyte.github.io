@@ -1,0 +1,26 @@
+# Python
+**pycache**/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+.venv/
+venv/
+
+# Environment
+.env
+.env.*
+
+# Firebase
+firebase-service-account*.json
+*.pem
+
+# Automation
+_automation/pr_body.md
+_dry_run_artifacts/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
