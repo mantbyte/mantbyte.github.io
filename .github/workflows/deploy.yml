@@ -51,3 +51,61 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  distribute:
+    name: Run Distribution Engine
+    if: ${{ needs.deploy.result == 'success' && github.event_name == 'push' }}
+    needs: deploy
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout deployed revision
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: '_automation/requirements.txt'
+
+      - name: Install dependencies
+        run: pip install -r _automation/requirements.txt
+
+      - name: Generate events and run Distribution Engine
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.sha }}
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          FCM_VAPID_KEY: ${{ secrets.FCM_VAPID_KEY }}
+          SMTP_EMAIL: ${{ secrets.SMTP_EMAIL }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_APP_PASSWORD }}
+        run: |
+          cd ${{ github.workspace }}
+          set -euo pipefail
+
+          event_dir="$(mktemp -d "${RUNNER_TEMP}/mantbyte-events.XXXXXX")"
+          trap 'rm -rf "$event_dir"' EXIT
+
+          python _automation/distribution/event_generator.py \
+            --before "$BEFORE_SHA" \
+            --after "$AFTER_SHA" \
+            --output-dir "$event_dir"
+
+          mapfile -t event_files < <(
+            find "$event_dir" -maxdepth 1 -type f -name 'event-*.json' -print | sort
+          )
+
+          if [ "${#event_files[@]}" -eq 0 ]; then
+            echo "No newly added posts detected. Skipping notification distribution."
+            exit 0
+          fi
+
+          for event_file in "${event_files[@]}"; do
+            echo "Running Distribution Engine for ${event_file}..."
+            python _automation/distribution/engine.py --event "$event_file"
+          done
