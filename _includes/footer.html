@@ -31,6 +31,8 @@
                     <li><a href="{{ '/feed.xml' | relative_url }}">RSS Feed</a></li>
                 </ul>
             </div>
+            
+            {% include newsletter_signup.html %}
         </div>
         <div class="footer-bottom">
             <p class="copyright">&copy; {{ "now" | date: "%Y" }} {{ site.author.name }}. All rights reserved.</p>
