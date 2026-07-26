@@ -410,7 +410,22 @@
         "LLM Vulnerabilities"
       ],
       "url": "/news/2026/07/27/autonomous-agent-cyberattacks-hugging-face-breach.html"
+    },
+    {
+      "title": "The Distributed Systems Challenge of Post-Quantum Cryptography",
+      "slug": "post-quantum-cryptography-distributed-systems",
+      "date": "2026-07-27",
+      "category": "Tech",
+      "key_topics": [
+        "Post-Quantum Cryptography",
+        "Distributed Systems",
+        "Cybersecurity",
+        "Encryption",
+        "System Architecture",
+        "Network Security"
+      ],
+      "url": "/tech/2026/07/27/post-quantum-cryptography-distributed-systems.html"
     }
   ],
-  "last_updated": "2026-07-26T20:55:05.228096+00:00"
+  "last_updated": "2026-07-26T22:03:49.370569+00:00"
 }
