@@ -86,14 +86,21 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         notifList.innerHTML = notifications.map(notif => {
-            const date = new Date(notif.published_at);
+            // Fix date format for Safari which strictly requires ISO 8601
+            let dateStrVal = notif.published_at || "";
+            if (dateStrVal.includes(' ') && !dateStrVal.includes('T')) {
+                dateStrVal = dateStrVal.replace(' ', 'T');
+                // Insert colon in timezone offset if missing (e.g. +0530 -> +05:30)
+                dateStrVal = dateStrVal.replace(/([+-]\d{2})(\d{2})$/, '$1:$2');
+            }
+            const date = new Date(dateStrVal);
             
             // Format time relatively (e.g. "2h ago")
             const now = new Date();
             const diffMs = now - date;
-            const diffMins = Math.floor(diffMs / 60000);
-            const diffHours = Math.floor(diffMins / 60);
-            const diffDays = Math.floor(diffHours / 24);
+            const diffMins = isNaN(diffMs) ? 0 : Math.floor(diffMs / 60000);
+            const diffHours = isNaN(diffMs) ? 0 : Math.floor(diffMins / 60);
+            const diffDays = isNaN(diffMs) ? 0 : Math.floor(diffHours / 24);
             
             let dateStr = "";
             if (diffMins < 60) dateStr = `${diffMins || 1}m ago`;
