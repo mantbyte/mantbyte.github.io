@@ -313,7 +313,23 @@
         "GPU Architecture"
       ],
       "url": "/geopolitics/2026/07/26/deepseek-architecture-beating-ai-compute-ban.html"
+    },
+    {
+      "title": "The DeepSeek Strategy: Engineering High-Performance AI Under Compute Constraints",
+      "slug": "deepseek-strategy-engineering-ai-compute-constraints",
+      "date": "2026-07-26",
+      "category": "Geopolitics",
+      "key_topics": [
+        "DeepSeek",
+        "AI Architecture",
+        "NVIDIA H20",
+        "Compute Constraints",
+        "LLM Scaling",
+        "Geopolitics",
+        "Machine Learning"
+      ],
+      "url": "/geopolitics/2026/07/26/deepseek-strategy-engineering-ai-compute-constraints.html"
     }
   ],
-  "last_updated": "2026-07-26T13:40:55.506616+00:00"
+  "last_updated": "2026-07-26T15:22:59.597686+00:00"
 }
