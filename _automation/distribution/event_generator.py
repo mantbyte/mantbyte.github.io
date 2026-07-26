@@ -127,11 +127,6 @@ def _event_for_post(repo_root: Path, relative_path: Path) -> dict:
 def generate_events(repo_root: Path, before: str, after: str, output_dir: Path) -> int:
     output_dir.mkdir(parents=True, exist_ok=True)
     posts = _git_changed_posts(repo_root, before, after)
-    
-    # FORCE DISTRIBUTE AI ARTICLE TO TEST FIREBASE SECRETS
-    target_post = Path("_posts/2026-07-26-sourtrade-malware-bun-runtime-assembly.md")
-    if target_post not in posts:
-        posts.append(target_post)
 
     for index, post in enumerate(posts, start=1):
         event = _event_for_post(repo_root, post)
