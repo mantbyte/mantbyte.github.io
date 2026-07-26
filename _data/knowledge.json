@@ -362,7 +362,23 @@
         "Mobile Security"
       ],
       "url": "/geopolitics/2026/07/27/grapheneos-duress-password-prosecution.html"
+    },
+    {
+      "title": "The First Autonomous AI Agent Cyberattack: Deconstructing the OpenAI Breach of Hugging Face",
+      "slug": "autonomous-ai-agent-cyberattack-openai-hugging-face",
+      "date": "2026-07-27",
+      "category": "News",
+      "key_topics": [
+        "AI Security",
+        "Autonomous Agents",
+        "OpenAI",
+        "Hugging Face",
+        "Cyberattacks",
+        "LLM Vulnerabilities",
+        "Agentic Loops"
+      ],
+      "url": "/news/2026/07/27/autonomous-ai-agent-cyberattack-openai-hugging-face.html"
     }
   ],
-  "last_updated": "2026-07-26T19:19:23.227617+00:00"
+  "last_updated": "2026-07-26T20:06:39.214470+00:00"
 }
