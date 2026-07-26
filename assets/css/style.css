@@ -12,16 +12,16 @@
     --card-bg: #ffffff;
     --card-border: #eaeaea;
     --hover-bg: #f5f5f5;
-
+    
     /* Typography */
     --font-ui: 'Inter', system-ui, -apple-system, sans-serif;
     --font-serif: 'Lora', Georgia, serif;
-
+    
     /* Layout */
     --container-width: 1200px;
     --container-wide: 1280px;
     --header-height: 80px;
-
+    
     /* Transitions */
     --transition-fast: 0.2s ease;
 }
@@ -1087,7 +1087,7 @@ img {
     .menu-toggle {
         display: block;
     }
-
+    
     .site-nav {
         display: none;
         position: absolute;
@@ -1098,17 +1098,17 @@ img {
         border-bottom: 1px solid var(--border-color);
         padding: 1rem 0;
     }
-
+    
     .site-nav.active {
         display: block;
     }
-
+    
     .nav-list {
         flex-direction: column;
         align-items: flex-start;
         padding: 0 1.5rem;
     }
-
+    
     .sub-menu {
         position: static;
         box-shadow: none;
@@ -1117,7 +1117,7 @@ img {
         margin-left: 1rem;
         display: block;
     }
-
+    
     /* Footer */
     .footer-grid {
         grid-template-columns: 1fr 1fr;
@@ -1133,19 +1133,19 @@ img {
         gap: 0.5rem;
         text-align: center;
     }
-
+    
     .hero-title {
         font-size: 2rem;
     }
-
+    
     .post-title, .page-title {
         font-size: 2rem;
     }
-
+    
     .archive-item {
         flex-direction: column;
     }
-
+    
     .archive-date {
         margin-bottom: 0.25rem;
     }

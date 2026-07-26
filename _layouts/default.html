@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
@@ -34,7 +34,7 @@
     <main class="site-main">
         {{ content }}
     </main>
-
+    
     <!-- Auth Popup -->
     <div id="auth-popup" class="auth-popup-overlay">
         <div class="auth-popup-modal">
@@ -50,7 +50,7 @@
     <!-- Push Notification Prompt -->
 
     {% include footer.html %}
-
+    
     <script src="{{ '/assets/js/main.js?v=2' | relative_url }}"></script>
     <script src="{{ '/assets/js/search.js?v=2' | relative_url }}"></script>
     <script type="module" src="{{ '/assets/js/firebase-integration.js?v=3' | relative_url }}"></script>

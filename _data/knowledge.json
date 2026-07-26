@@ -141,7 +141,163 @@
         "India Tech Regulation"
       ],
       "url": "/geopolitics/2026/07/25/code-free-speech-india-bitchat-crackdown.html"
+    },
+    {
+      "title": "When Open Skies Go Dark: The EU, Copernicus, and the Censorship of Conflict",
+      "slug": "eu-copernicus-censorship-geopolitics",
+      "date": "2026-07-25",
+      "category": "Geopolitics",
+      "key_topics": [
+        "Copernicus",
+        "OSINT",
+        "Satellite Data",
+        "Geopolitics",
+        "SAR",
+        "Sentinel",
+        "Open Source"
+      ],
+      "url": "/geopolitics/2026/07/25/eu-copernicus-censorship-geopolitics.html"
+    },
+    {
+      "title": "Unsafe Signatures and Secret Spills: Fixing JWT Vulnerabilities in Node.js Open Source Boilerplates",
+      "slug": "fixing-jwt-vulnerabilities-nodejs-boilerplates",
+      "date": "2026-07-25",
+      "category": "Tech",
+      "key_topics": [
+        "Node.js",
+        "JWT",
+        "Security",
+        "Authentication",
+        "Open Source",
+        "Express",
+        "Web Development"
+      ],
+      "url": "/tech/2026/07/25/fixing-jwt-vulnerabilities-nodejs-boilerplates.html"
+    },
+    {
+      "title": "The AI Deflationary Spiral: How AI Coding Tools are Disrupting the Macroeconomics of Global IT Outsourcing",
+      "slug": "ai-deflationary-spiral-it-outsourcing",
+      "date": "2026-07-25",
+      "category": "Geopolitics",
+      "key_topics": [
+        "Artificial Intelligence",
+        "IT Outsourcing",
+        "Software Engineering",
+        "Macroeconomics",
+        "GenAI",
+        "Tech Trends"
+      ],
+      "url": "/geopolitics/2026/07/25/ai-deflationary-spiral-it-outsourcing.html"
+    },
+    {
+      "title": "Preparing Enterprise APIs for Post-Quantum Cryptography: A Developer's Migration Roadmap",
+      "slug": "post-quantum-enterprise-api-migration-roadmap",
+      "date": "2026-07-25",
+      "category": "Tech",
+      "key_topics": [
+        "Post-Quantum Cryptography",
+        "API Security",
+        "Quantum Computing",
+        "NIST",
+        "Cybersecurity",
+        "TLS",
+        "Backend Architecture"
+      ],
+      "url": "/tech/2026/07/25/post-quantum-enterprise-api-migration-roadmap.html"
+    },
+    {
+      "title": "From Agentic Loops to Context Engineering: Rethinking AI-Driven Root Cause Analysis",
+      "slug": "context-engineering-ai-root-cause-analysis",
+      "date": "2026-07-25",
+      "category": "Tech",
+      "key_topics": [
+        "Context Engineering",
+        "AIOps",
+        "Site Reliability Engineering",
+        "Observability",
+        "Root Cause Analysis",
+        "LLM Architecture"
+      ],
+      "url": "/tech/2026/07/25/context-engineering-ai-root-cause-analysis.html"
+    },
+    {
+      "title": "The 3.5 GW Shockwave: Why AI Data Centers Must Evolve to Save the Power Grid",
+      "slug": "ai-data-centers-power-grid-stability",
+      "date": "2026-07-25",
+      "category": "News",
+      "key_topics": [
+        "AI Infrastructure",
+        "Data Centers",
+        "Power Grid",
+        "Energy Technology",
+        "Grid Stability",
+        "UPS Systems",
+        "Hyperscale"
+      ],
+      "url": "/news/2026/07/25/ai-data-centers-power-grid-stability.html"
+    },
+    {
+      "title": "The 3.1 Gigawatt Ghost: Why AI Data Centers are the New Threat to Grid Stability",
+      "slug": "ai-data-centers-grid-stability-threat",
+      "date": "2026-07-25",
+      "category": "Geopolitics",
+      "key_topics": [
+        "AI Infrastructure",
+        "Grid Stability",
+        "Data Centers",
+        "Energy Policy",
+        "PJM Interconnection",
+        "Power Engineering"
+      ],
+      "url": "/geopolitics/2026/07/25/ai-data-centers-grid-stability-threat.html"
+    },
+    {
+      "title": "The Kubernetes Moment for Open-Weight AI: Standardizing the Infrastructure Stack",
+      "slug": "kubernetes-moment-open-weight-ai-infrastructure",
+      "date": "2026-07-26",
+      "category": "Tech",
+      "key_topics": [
+        "Kubernetes",
+        "Open-Weight AI",
+        "Infrastructure",
+        "DevOps",
+        "vLLM",
+        "Machine Learning",
+        "Cloud Native"
+      ],
+      "url": "/tech/2026/07/26/kubernetes-moment-open-weight-ai-infrastructure.html"
+    },
+    {
+      "title": "Anatomy of SourTrade: How Modern Malvertising Uses the Bun Runtime to Assemble Malware Client-Side",
+      "slug": "anatomy-sourtrade-bun-runtime-malware",
+      "date": "2026-07-26",
+      "category": "Tech",
+      "key_topics": [
+        "SourTrade",
+        "Bun Runtime",
+        "Malvertising",
+        "Cybersecurity",
+        "Client-Side Security",
+        "Threat Intelligence",
+        "Malware Analysis"
+      ],
+      "url": "/tech/2026/07/26/anatomy-sourtrade-bun-runtime-malware.html"
+    },
+    {
+      "title": "Deconstructing SourTrade: Client-Side Malware Assembly via the Bun Runtime",
+      "slug": "sourtrade-malware-bun-runtime-assembly",
+      "date": "2026-07-26",
+      "category": "Tech",
+      "key_topics": [
+        "SourTrade",
+        "Bun Runtime",
+        "Malware Analysis",
+        "Client-Side Attacks",
+        "Threat Intelligence",
+        "Browser Security"
+      ],
+      "url": "/tech/2026/07/26/sourtrade-malware-bun-runtime-assembly.html"
     }
   ],
-  "last_updated": "2026-07-24T19:11:31.405505+00:00"
+  "last_updated": "2026-07-26T03:26:33.827825+00:00"
 }
