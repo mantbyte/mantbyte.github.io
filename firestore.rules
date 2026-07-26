@@ -1,320 +1,60 @@
 rules_version = '2';
-
 service cloud.firestore {
   match /databases/{database}/documents {
-    // -----------------------------------------------------------------------
-    // Shared helpers
-    // -----------------------------------------------------------------------
-    function isAuthenticated() {
-      return request.auth != null;
-    }
-
-    function isOwner(uid) {
-      return isAuthenticated() && request.auth.uid == uid;
-    }
-
-    function validPreferences(preferences) {
-      return preferences.keys().hasOnly(['theme', 'emailNotifications'])
-        && preferences.theme is string
-        && preferences.theme.size() <= 20
-        && preferences.emailNotifications is bool;
-    }
-
-    function validProfile(data, uid) {
-      return data.keys().hasOnly([
-          'uid', 'displayName', 'photoURL', 'email', 'createdAt', 'preferences'
-        ])
-        && data.uid == uid
-        && data.displayName is string
-        && data.displayName.size() <= 200
-        && (data.photoURL == null
-          || (data.photoURL is string && data.photoURL.size() <= 2048))
-        && data.email is string
-        && data.email.size() > 2
-        && data.email.size() <= 254
-        && data.createdAt is timestamp
-        && data.preferences is map
-        && validPreferences(data.preferences);
-    }
-
-    function validSubscriber(data) {
-      return data.keys().hasOnly([
-          'email', 'verified', 'created_at', 'last_seen', 'is_active',
-          'notification_enabled', 'newsletter_enabled', 'push_enabled',
-          'language', 'preferences', 'verification_token', 'verification_sent'
-        ])
-        && data.email is string
-        && data.email.size() > 2
-        && data.email.size() <= 254
-        && data.verified == false
-        && data.created_at is timestamp
-        && data.last_seen is timestamp
-        && data.is_active == true
-        && data.notification_enabled == true
-        && data.newsletter_enabled == true
-        && data.push_enabled == false
-        && data.language is string
-        && data.language.size() > 0
-        && data.language.size() <= 35
-        && data.preferences is map
-        && data.preferences.keys().hasOnly(['categories'])
-        && data.preferences.categories is list
-        && data.preferences.categories.size() <= 3
-        && data.verification_token is string
-        && data.verification_token.size() >= 32
-        && data.verification_token.size() <= 128
-        && data.verification_sent == false;
-    }
-
-    function validToken(data) {
-      return data.keys().hasOnly([
-          'token', 'browser', 'platform', 'language', 'last_used', 'active'
-        ])
-        && data.token is string
-        && data.token.size() > 0
-        && data.token.size() <= 4096
-        && data.browser is string
-        && data.browser.size() <= 32
-        && data.platform is string
-        && data.platform.size() <= 128
-        && data.language is string
-        && data.language.size() <= 35
-        && data.last_used is timestamp
-        && data.active == true;
-    }
-
-    function validHistory(data) {
-      return data.keys().hasOnly(['progressPercent', 'lastReadAt'])
-        && data.progressPercent is number
-        && data.progressPercent >= 0
-        && data.progressPercent <= 100
-        && data.lastReadAt is timestamp;
-    }
-
-    function validBookmark(data) {
-      return data.keys().hasOnly(['savedAt'])
-        && data.savedAt is timestamp;
-    }
-
-    function validInteraction(data) {
-      return data.keys().hasOnly(['liked', 'vote', 'updatedAt'])
-        && data.updatedAt is timestamp
-        && (!data.keys().hasAny(['liked']) || data.liked is bool)
-        && (!data.keys().hasAny(['vote']) || data.vote in [-1, 0, 1]);
-    }
-
-    function validComment(data) {
-      return data.keys().hasOnly([
-          'authorUid', 'authorName', 'authorPhoto', 'content', 'createdAt',
-          'likesCount'
-        ])
-        && data.authorUid == request.auth.uid
-        && data.authorName is string
-        && data.authorName.size() <= 200
-        && data.authorPhoto is string
-        && data.authorPhoto.size() <= 2048
-        && data.content is string
-        && data.content.size() > 0
-        && data.content.size() <= 5000
-        && data.createdAt is timestamp
-        && data.likesCount == 0;
-    }
-
-    // -----------------------------------------------------------------------
-    // User-owned data
-    // -----------------------------------------------------------------------
+    
+    // Helper functions
+    function isAuthenticated() { return request.auth != null; }
+    function isOwner(uid) { return isAuthenticated() && request.auth.uid == uid; }
+    
+    // 1. Users Collection
     match /users/{uid} {
-      // Profiles contain email and are private to their owner.
-      allow read: if isOwner(uid);
-      allow create: if isOwner(uid) && validProfile(request.resource.data, uid);
-      // The client only edits preferences after the profile is created.
-      allow update: if isOwner(uid)
-        && request.resource.data.diff(resource.data).affectedKeys()
-             .hasOnly(['preferences'])
-        && request.resource.data.preferences is map
-        && validPreferences(request.resource.data.preferences);
-      allow delete: if isOwner(uid);
-
-      match /history/{postSlug} {
-        allow read: if isOwner(uid);
-        allow create, update: if isOwner(uid)
-          && validHistory(request.resource.data);
-        allow delete: if isOwner(uid);
-      }
-
-      match /bookmarks/{postSlug} {
-        allow read: if isOwner(uid);
-        allow create, update: if isOwner(uid)
-          && validBookmark(request.resource.data);
-        allow delete: if isOwner(uid);
-      }
-
-      match /interactions/{postSlug} {
-        allow read: if isOwner(uid);
-        allow create, update: if isOwner(uid)
-          && request.resource.data.keys().hasAny(['liked', 'vote'])
-          && validInteraction(request.resource.data);
-        allow delete: if isOwner(uid);
-      }
-    }
-
-    // -----------------------------------------------------------------------
-    // Public post aggregates and comments
-    // -----------------------------------------------------------------------
-    match /posts/{postSlug} {
+      // Anyone can read a basic profile (needed for comments), but only owner can write
       allow read: if true;
-
-      // A client may create only an empty aggregate document.
-      allow create: if isAuthenticated()
-        && request.resource.data.keys().hasOnly([
-          'likesCount', 'upvotesCount', 'downvotesCount', 'commentsCount',
-          'viewsCount'
-        ])
-        && request.resource.data.likesCount == 0
-        && request.resource.data.upvotesCount == 0
-        && request.resource.data.downvotesCount == 0
-        && request.resource.data.commentsCount == 0
-        && request.resource.data.viewsCount == 0;
-
-      // Permit only the single counter increment needed by the client.
-      allow update: if isAuthenticated()
-        && (
-          (
-            request.resource.data.diff(resource.data).affectedKeys()
-              .hasOnly(['likesCount'])
-            && request.resource.data.likesCount >= 0
-            && (
-              request.resource.data.likesCount == resource.data.likesCount + 1
-              || request.resource.data.likesCount == resource.data.likesCount - 1
-            )
-          )
-          || (
-            request.resource.data.diff(resource.data).affectedKeys()
-              .hasOnly(['upvotesCount'])
-            && request.resource.data.upvotesCount >= 0
-            && (
-              request.resource.data.upvotesCount == resource.data.upvotesCount + 1
-              || request.resource.data.upvotesCount == resource.data.upvotesCount - 1
-            )
-          )
-          || (
-            request.resource.data.diff(resource.data).affectedKeys()
-              .hasOnly(['downvotesCount'])
-            && request.resource.data.downvotesCount >= 0
-            && (
-              request.resource.data.downvotesCount == resource.data.downvotesCount + 1
-              || request.resource.data.downvotesCount == resource.data.downvotesCount - 1
-            )
-          )
-          || (
-            request.resource.data.diff(resource.data).affectedKeys()
-              .hasOnly(['viewsCount'])
-            && request.resource.data.viewsCount >= 0
-            && request.resource.data.viewsCount == resource.data.viewsCount + 1
-          )
-          || (
-            request.resource.data.diff(resource.data).affectedKeys()
-              .hasOnly(['commentsCount'])
-            && request.resource.data.commentsCount >= 0
-            && request.resource.data.commentsCount == resource.data.commentsCount + 1
-          )
-        );
-
+      allow write: if isOwner(uid);
+      
+      // User Subcollections (History, Bookmarks, Interactions)
+      // Strictly private to the user
+      match /history/{postSlug} {
+        allow read, write: if isOwner(uid);
+      }
+      match /bookmarks/{postSlug} {
+        allow read, write: if isOwner(uid);
+      }
+      match /interactions/{postSlug} {
+        allow read, write: if isOwner(uid);
+      }
+    }
+    
+    // 2. Posts Collection (Aggregates)
+    match /posts/{postSlug} {
+      // Anyone can read post aggregates
+      allow read: if true;
+      // Allow atomic increments only (+1 or -1) by authenticated users
+      allow update: if isAuthenticated() 
+                    && (request.resource.data.likesCount == resource.data.likesCount + 1 
+                        || request.resource.data.likesCount == resource.data.likesCount - 1
+                        || request.resource.data.upvotesCount == resource.data.upvotesCount + 1
+                        || request.resource.data.upvotesCount == resource.data.upvotesCount - 1
+                        || request.resource.data.downvotesCount == resource.data.downvotesCount + 1
+                        || request.resource.data.downvotesCount == resource.data.downvotesCount - 1
+                        || request.resource.data.viewsCount == resource.data.viewsCount + 1
+                        || request.resource.data.commentsCount == resource.data.commentsCount + 1);
+      allow create: if isAuthenticated(); // Allow creation of doc if first time interacted
+      
+      // Comments Subcollection
       match /comments/{commentId} {
-        allow read: if true;
-        allow create: if isAuthenticated()
-          && validComment(request.resource.data);
-        allow update: if isAuthenticated()
-          && resource.data.authorUid == request.auth.uid
-          && request.resource.data.diff(resource.data).affectedKeys()
-               .hasOnly(['content'])
-          && request.resource.data.content is string
-          && request.resource.data.content.size() > 0
-          && request.resource.data.content.size() <= 5000;
-        allow delete: if isAuthenticated()
-          && resource.data.authorUid == request.auth.uid;
+        allow read: if true; // Public can read comments
+        // Only authenticated users can create, and authorUid must match their token
+        allow create: if isAuthenticated() && request.resource.data.authorUid == request.auth.uid;
+        // Only comment author can update or delete
+        allow update, delete: if isAuthenticated() && resource.data.authorUid == request.auth.uid;
       }
     }
 
-    // Legacy per-user notifications are private and backend-generated.
+    // 3. Notifications Collection
     match /notifications/{uid}/userNotifications/{notificationId} {
-      allow read: if isOwner(uid);
-      allow write: if false;
-    }
-
-    // -----------------------------------------------------------------------
-    // Public website notification feed
-    // -----------------------------------------------------------------------
-    match /site_notifications/{notificationId} {
-      allow get, list: if true;
-      allow write: if false;
-    }
-
-    // -----------------------------------------------------------------------
-    // Distribution Engine: public clients have no read/list/write access.
-    // Firebase Admin SDK access is not evaluated by these rules.
-    // -----------------------------------------------------------------------
-
-    // FCM tokens are capability-bearing data. The browser can upsert only its
-    // own token document and cannot read, enumerate, or delete token records.
-    match /notification_tokens/{tokenId} {
-      allow create: if validToken(request.resource.data);
-      allow update: if validToken(request.resource.data)
-        && request.resource.data.token == resource.data.token
-        && request.resource.data.diff(resource.data).affectedKeys()
-             .hasOnly(['browser', 'platform', 'language', 'last_used', 'active']);
-      allow read, delete: if false;
-    }
-
-    // Signup is the only public subscriber operation. Verification and
-    // unsubscribe use the token-addressed update below; collection queries
-    // remain forbidden so subscriber data cannot be enumerated.
-    match /subscribers/{subscriberToken} {
-      allow create: if subscriberToken == request.resource.data.verification_token
-        && validSubscriber(request.resource.data);
-      allow update: if subscriberToken == resource.data.verification_token
-        && subscriberToken == request.resource.data.verification_token
-        && (
-          (
-            request.resource.data.diff(resource.data).affectedKeys()
-              .hasOnly(['verified'])
-            && request.resource.data.verified == true
-            && request.resource.data.is_active == resource.data.is_active
-          )
-          || (
-            request.resource.data.diff(resource.data).affectedKeys()
-              .hasOnly(['is_active'])
-            && request.resource.data.is_active == false
-            && request.resource.data.verified == resource.data.verified
-          )
-        );
-      allow read, delete: if false;
-    }
-
-    // Distribution queues, delivery history, and analytics are backend-only.
-    match /daily_digest/{document=**} {
-      allow read, write: if false;
-    }
-
-    match /daily_digest_queue/{document=**} {
-      allow read, write: if false;
-    }
-
-    match /notification_history/{document=**} {
-      allow read, write: if false;
-    }
-
-    match /distribution_metrics/{document=**} {
-      allow read, write: if false;
-    }
-
-    match /analytics/{document=**} {
-      allow read, write: if false;
-    }
-
-    // Default deny for every collection not explicitly listed above.
-    match /{document=**} {
-      allow read, write: if false;
+      // Users can only read and manage their own notifications
+      allow read, write: if isOwner(uid);
     }
   }
 }

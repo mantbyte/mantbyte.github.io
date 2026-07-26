@@ -19,7 +19,7 @@ def publish_article(
 ) -> dict:
     """
     Write the article file to disk (the GitHub Actions workflow handles the PR).
-
+    
     Args:
         markdown_content: Complete Markdown file
         filename: Jekyll filename (e.g., 2026-07-24-slug.md)
@@ -28,7 +28,7 @@ def publish_article(
         image_data: Image paths
         review_result: Quality review result
         repo_root: Path to repository root
-
+    
     Returns:
         Publishing result dict
     """
