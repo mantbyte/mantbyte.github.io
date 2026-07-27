@@ -472,7 +472,23 @@
         "Mobile Security"
       ],
       "url": "/news/2026/07/27/grapheneos-duress-pin-border-search-prosecution.html"
+    },
+    {
+      "title": "Federating GKE Clusters for Zero-Downtime Kubernetes with Linkerd",
+      "slug": "gke-linkerd-federation-zero-downtime",
+      "date": "2026-07-27",
+      "category": "Tech",
+      "key_topics": [
+        "Kubernetes",
+        "GKE",
+        "Linkerd",
+        "Service Mesh",
+        "Multi-region",
+        "SRE",
+        "DevOps"
+      ],
+      "url": "/tech/2026/07/27/gke-linkerd-federation-zero-downtime.html"
     }
   ],
-  "last_updated": "2026-07-27T10:02:15.722643+00:00"
+  "last_updated": "2026-07-27T14:51:24.011894+00:00"
 }
