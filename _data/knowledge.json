@@ -488,7 +488,22 @@
         "DevOps"
       ],
       "url": "/tech/2026/07/27/gke-linkerd-federation-zero-downtime.html"
+    },
+    {
+      "title": "The Velocity Crisis: Rethinking Code Review in the Age of Agentic Coding",
+      "slug": "velocity-crisis-code-review-agentic-coding",
+      "date": "2026-07-27",
+      "category": "Tech",
+      "key_topics": [
+        "Agentic Coding",
+        "Code Review",
+        "AI Development",
+        "Software Engineering",
+        "LLMs",
+        "DevOps"
+      ],
+      "url": "/tech/2026/07/27/velocity-crisis-code-review-agentic-coding.html"
     }
   ],
-  "last_updated": "2026-07-27T14:51:24.011894+00:00"
+  "last_updated": "2026-07-27T17:05:12.053022+00:00"
 }
