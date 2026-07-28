@@ -628,7 +628,22 @@
         "Law"
       ],
       "url": "/geopolitics/2026/07/29/grapheneos-duress-passwords-border-searches.html"
+    },
+    {
+      "title": "Securing the Supply Chain: Demystifying GitHub's Dependabot Default Cooldown Policy",
+      "slug": "dependabot-default-cooldown-policy",
+      "date": "2026-07-29",
+      "category": "Tech",
+      "key_topics": [
+        "GitHub",
+        "Dependabot",
+        "Supply Chain Security",
+        "CI/CD",
+        "DevSecOps",
+        "Cybersecurity"
+      ],
+      "url": "/tech/2026/07/29/dependabot-default-cooldown-policy.html"
     }
   ],
-  "last_updated": "2026-07-28T19:40:09.486955+00:00"
+  "last_updated": "2026-07-28T22:10:16.204931+00:00"
 }
