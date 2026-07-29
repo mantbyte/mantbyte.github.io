@@ -722,7 +722,23 @@
         "GPU Scaling"
       ],
       "url": "/geopolitics/2026/07/29/ai-scaling-physical-bottleneck-power-grids.html"
+    },
+    {
+      "title": "Anatomy of CVE-2026-66066: The Critical Ruby on Rails Active Storage Vulnerability",
+      "slug": "cve-2026-66066-ruby-rails-active-storage",
+      "date": "2026-07-30",
+      "category": "News",
+      "key_topics": [
+        "Ruby on Rails",
+        "Active Storage",
+        "CVE-2026-66066",
+        "Cybersecurity",
+        "Vulnerability",
+        "libvips",
+        "Web Security"
+      ],
+      "url": "/news/2026/07/30/cve-2026-66066-ruby-rails-active-storage.html"
     }
   ],
-  "last_updated": "2026-07-29T16:28:11.763706+00:00"
+  "last_updated": "2026-07-29T19:25:07.421131+00:00"
 }
