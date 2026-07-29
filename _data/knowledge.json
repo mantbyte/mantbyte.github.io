@@ -707,7 +707,22 @@
         "Cloud Architecture"
       ],
       "url": "/tech/2026/07/29/scaling-ai-agents-aks-microsoft-llm-routing.html"
+    },
+    {
+      "title": "The Physical Layer Bottleneck: Why AI\u2019s Future Depends on Electricians and Power Grids",
+      "slug": "ai-scaling-physical-bottleneck-power-grids",
+      "date": "2026-07-29",
+      "category": "Geopolitics",
+      "key_topics": [
+        "AI Infrastructure",
+        "Data Centers",
+        "NVIDIA Blackwell",
+        "Power Grids",
+        "Liquid Cooling",
+        "GPU Scaling"
+      ],
+      "url": "/geopolitics/2026/07/29/ai-scaling-physical-bottleneck-power-grids.html"
     }
   ],
-  "last_updated": "2026-07-29T14:23:43.069930+00:00"
+  "last_updated": "2026-07-29T16:28:11.763706+00:00"
 }
