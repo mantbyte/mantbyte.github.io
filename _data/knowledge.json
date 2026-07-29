@@ -738,7 +738,23 @@
         "Web Security"
       ],
       "url": "/news/2026/07/30/cve-2026-66066-ruby-rails-active-storage.html"
+    },
+    {
+      "title": "Unpacking OpenAI Codex Security: Threat Modeling, Sandboxing, and Automated Remediation",
+      "slug": "openai-codex-security-threat-modeling",
+      "date": "2026-07-30",
+      "category": "Tech",
+      "key_topics": [
+        "OpenAI Codex",
+        "Application Security",
+        "Threat Modeling",
+        "SAST",
+        "Automated Remediation",
+        "Cybersecurity",
+        "AI Code Analysis"
+      ],
+      "url": "/tech/2026/07/30/openai-codex-security-threat-modeling.html"
     }
   ],
-  "last_updated": "2026-07-29T19:25:07.421131+00:00"
+  "last_updated": "2026-07-29T22:05:24.390132+00:00"
 }
