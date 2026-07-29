@@ -676,7 +676,22 @@
         "tech nationalism"
       ],
       "url": "/geopolitics/2026/07/29/fcc-ban-foreign-robotics-inverters.html"
+    },
+    {
+      "title": "Defeating the Scale-to-Zero Health Check Trap: How KubeElasti ProbeResponse Keeps Idle Workloads Asleep",
+      "slug": "fix-scale-zero-health-check-flapping",
+      "date": "2026-07-29",
+      "category": "Tech",
+      "key_topics": [
+        "Kubernetes",
+        "Autoscaling",
+        "Scale to Zero",
+        "KubeElasti",
+        "Cloud Infrastructure",
+        "DevOps"
+      ],
+      "url": "/tech/2026/07/29/fix-scale-zero-health-check-flapping.html"
     }
   ],
-  "last_updated": "2026-07-29T06:06:11.642924+00:00"
+  "last_updated": "2026-07-29T11:33:20.713878+00:00"
 }
