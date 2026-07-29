@@ -691,7 +691,23 @@
         "DevOps"
       ],
       "url": "/tech/2026/07/29/fix-scale-zero-health-check-flapping.html"
+    },
+    {
+      "title": "Scaling AI Agents on AKS: A Deep Dive into Microsoft\u2019s Three-Layer LLM Routing Architecture",
+      "slug": "scaling-ai-agents-aks-microsoft-llm-routing",
+      "date": "2026-07-29",
+      "category": "Tech",
+      "key_topics": [
+        "AI Agents",
+        "AKS",
+        "Kubernetes",
+        "LLM",
+        "Microsoft Azure",
+        "GPU Optimization",
+        "Cloud Architecture"
+      ],
+      "url": "/tech/2026/07/29/scaling-ai-agents-aks-microsoft-llm-routing.html"
     }
   ],
-  "last_updated": "2026-07-29T11:33:20.713878+00:00"
+  "last_updated": "2026-07-29T14:23:43.069930+00:00"
 }
