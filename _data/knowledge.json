@@ -754,7 +754,23 @@
         "AI Code Analysis"
       ],
       "url": "/tech/2026/07/30/openai-codex-security-threat-modeling.html"
+    },
+    {
+      "title": "Cryptanalysis Attacks on Post-Quantum Cryptography: When AI Meets PQC Standards",
+      "slug": "ai-cryptanalysis-post-quantum-cryptography",
+      "date": "2026-07-30",
+      "category": "Tech",
+      "key_topics": [
+        "Post-Quantum Cryptography",
+        "AI",
+        "Cryptanalysis",
+        "NIST",
+        "Cybersecurity",
+        "Lattice-Based Cryptography",
+        "Quantum Computing"
+      ],
+      "url": "/tech/2026/07/30/ai-cryptanalysis-post-quantum-cryptography.html"
     }
   ],
-  "last_updated": "2026-07-29T22:05:24.390132+00:00"
+  "last_updated": "2026-07-30T02:43:39.288586+00:00"
 }
