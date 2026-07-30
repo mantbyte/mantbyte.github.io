@@ -770,7 +770,22 @@
         "Quantum Computing"
       ],
       "url": "/tech/2026/07/30/ai-cryptanalysis-post-quantum-cryptography.html"
+    },
+    {
+      "title": "Indirect Prompt Propagation in Microsoft 365 Copilot: How Hidden Text Worms Through Enterprise Documents",
+      "slug": "microsoft-365-copilot-indirect-prompt-propagation",
+      "date": "2026-07-30",
+      "category": "Tech",
+      "key_topics": [
+        "Microsoft 365 Copilot",
+        "Prompt Injection",
+        "Cybersecurity",
+        "LLM Security",
+        "Work IQ",
+        "Enterprise AI"
+      ],
+      "url": "/tech/2026/07/30/microsoft-365-copilot-indirect-prompt-propagation.html"
     }
   ],
-  "last_updated": "2026-07-30T02:43:39.288586+00:00"
+  "last_updated": "2026-07-30T14:15:57.731703+00:00"
 }
