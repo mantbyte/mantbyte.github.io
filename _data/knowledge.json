@@ -882,7 +882,23 @@
         "Security"
       ],
       "url": "/tech/2026/08/01/terraform-hcl-native-policy-cloud-governance.html"
+    },
+    {
+      "title": "Unifying Governance with Terraform tfpolicy: The Native HCL-Based Policy-as-Code Framework",
+      "slug": "terraform-tfpolicy-native-hcl-governance",
+      "date": "2026-08-01",
+      "category": "Tech",
+      "key_topics": [
+        "Terraform",
+        "tfpolicy",
+        "HCL",
+        "Policy-as-Code",
+        "Cloud Governance",
+        "DevOps",
+        "Security"
+      ],
+      "url": "/tech/2026/08/01/terraform-tfpolicy-native-hcl-governance.html"
     }
   ],
-  "last_updated": "2026-07-31T19:44:49.312623+00:00"
+  "last_updated": "2026-07-31T22:10:33.323465+00:00"
 }
