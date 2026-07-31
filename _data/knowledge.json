@@ -865,7 +865,24 @@
         "Silicon"
       ],
       "url": "/geopolitics/2026/07/31/ai-hbm-pivot-memory-squeeze-silicon.html"
+    },
+    {
+      "title": "Mastering Terraform HCL-Native Policy: The Future of Unified Cloud Governance",
+      "slug": "terraform-hcl-native-policy-cloud-governance",
+      "date": "2026-08-01",
+      "category": "Tech",
+      "key_topics": [
+        "Terraform",
+        "HCL",
+        "Policy-as-Code",
+        "Cloud Governance",
+        "DevOps",
+        "HashiCorp",
+        "Infrastructure-as-Code",
+        "Security"
+      ],
+      "url": "/tech/2026/08/01/terraform-hcl-native-policy-cloud-governance.html"
     }
   ],
-  "last_updated": "2026-07-31T16:53:16.392302+00:00"
+  "last_updated": "2026-07-31T19:44:49.312623+00:00"
 }
