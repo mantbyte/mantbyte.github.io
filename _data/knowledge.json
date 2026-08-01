@@ -992,7 +992,23 @@
         "Cybersecurity"
       ],
       "url": "/geopolitics/2026/08/02/canada-un-cybercrime-convention-surveillance-risks.html"
+    },
+    {
+      "title": "Anatomy of the Coldcard Firmware PRNG Vulnerability: When Hardware Security Silently Falls Back",
+      "slug": "coldcard-firmware-prng-vulnerability",
+      "date": "2026-08-02",
+      "category": "Tech",
+      "key_topics": [
+        "Coldcard",
+        "Hardware Security",
+        "Cryptography",
+        "Firmware",
+        "Vulnerability",
+        "C Programming",
+        "PRNG"
+      ],
+      "url": "/tech/2026/08/02/coldcard-firmware-prng-vulnerability.html"
     }
   ],
-  "last_updated": "2026-08-01T19:18:05.597416+00:00"
+  "last_updated": "2026-08-01T22:07:00.198179+00:00"
 }
