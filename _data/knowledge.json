@@ -961,7 +961,22 @@
         "Backend Development"
       ],
       "url": "/tech/2026/08/01/mastering-http-query-method-guide.html"
+    },
+    {
+      "title": "Fortifying the Autonomous Frontier: Mitigating Model Exfiltration and API Key Leaks in AI Agents",
+      "slug": "ai-agent-security-model-exfiltration-leaks",
+      "date": "2026-08-01",
+      "category": "Tech",
+      "key_topics": [
+        "AI Security",
+        "LLM",
+        "Autonomous Agents",
+        "Cybersecurity",
+        "Prompt Injection",
+        "API Security"
+      ],
+      "url": "/tech/2026/08/01/ai-agent-security-model-exfiltration-leaks.html"
     }
   ],
-  "last_updated": "2026-08-01T13:39:41.343132+00:00"
+  "last_updated": "2026-08-01T16:06:53.671656+00:00"
 }
