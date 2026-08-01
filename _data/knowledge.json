@@ -945,7 +945,23 @@
         "Compliance"
       ],
       "url": "/geopolitics/2026/08/01/eu-ai-act-article-50-watermarking.html"
+    },
+    {
+      "title": "Beyond GET and POST: Mastering the New HTTP QUERY Method",
+      "slug": "mastering-http-query-method-guide",
+      "date": "2026-08-01",
+      "category": "Tech",
+      "key_topics": [
+        "HTTP QUERY",
+        "REST API",
+        "Web Development",
+        "IETF",
+        "API Design",
+        "HTTP Verbs",
+        "Backend Development"
+      ],
+      "url": "/tech/2026/08/01/mastering-http-query-method-guide.html"
     }
   ],
-  "last_updated": "2026-08-01T10:46:21.480267+00:00"
+  "last_updated": "2026-08-01T13:39:41.343132+00:00"
 }
