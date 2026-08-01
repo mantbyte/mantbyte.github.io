@@ -929,7 +929,23 @@
         "App Distribution"
       ],
       "url": "/geopolitics/2026/08/01/android-developer-verification-us-sanctions.html"
+    },
+    {
+      "title": "Architecting for EU AI Act Article 50: A Technical Guide to Synthetic Media Watermarking and Provenance",
+      "slug": "eu-ai-act-article-50-watermarking",
+      "date": "2026-08-01",
+      "category": "Geopolitics",
+      "key_topics": [
+        "EU AI Act",
+        "Artificial Intelligence",
+        "Synthetic Media",
+        "Watermarking",
+        "C2PA",
+        "Data Provenance",
+        "Compliance"
+      ],
+      "url": "/geopolitics/2026/08/01/eu-ai-act-article-50-watermarking.html"
     }
   ],
-  "last_updated": "2026-08-01T08:30:00.609899+00:00"
+  "last_updated": "2026-08-01T10:46:21.480267+00:00"
 }
