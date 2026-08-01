@@ -898,7 +898,23 @@
         "Security"
       ],
       "url": "/tech/2026/08/01/terraform-tfpolicy-native-hcl-governance.html"
+    },
+    {
+      "title": "Architectural Isolation: How Google's Android Developer Verification Enforces US Sanctions",
+      "slug": "android-developer-verification-us-sanctions",
+      "date": "2026-08-01",
+      "category": "Geopolitics",
+      "key_topics": [
+        "Android",
+        "Google",
+        "US Sanctions",
+        "Geopolitics",
+        "App Distribution",
+        "Cybersecurity",
+        "Software Compliance"
+      ],
+      "url": "/geopolitics/2026/08/01/android-developer-verification-us-sanctions.html"
     }
   ],
-  "last_updated": "2026-07-31T22:10:33.323465+00:00"
+  "last_updated": "2026-08-01T03:25:00.113832+00:00"
 }
