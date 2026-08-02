@@ -1039,7 +1039,23 @@
         "paxos"
       ],
       "url": "/tech/2026/08/02/cloudflare-meerkat-quepaxa-global-consensus.html"
+    },
+    {
+      "title": "The 288GB Frontier: AMD MI355X vs. Nvidia Blackwell in the Race for Infrastructure Efficiency",
+      "slug": "amd-mi355x-nvidia-blackwell-288gb-infrastructure",
+      "date": "2026-08-02",
+      "category": "News",
+      "key_topics": [
+        "AMD MI355X",
+        "Nvidia Blackwell",
+        "HBM3e",
+        "CDNA 4",
+        "AI Infrastructure",
+        "GPU",
+        "LLM"
+      ],
+      "url": "/news/2026/08/02/amd-mi355x-nvidia-blackwell-288gb-infrastructure.html"
     }
   ],
-  "last_updated": "2026-08-02T08:33:29.858786+00:00"
+  "last_updated": "2026-08-02T13:43:00.590732+00:00"
 }
