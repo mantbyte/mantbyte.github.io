@@ -1008,7 +1008,22 @@
         "PRNG"
       ],
       "url": "/tech/2026/08/02/coldcard-firmware-prng-vulnerability.html"
+    },
+    {
+      "title": "Securing Critical Infrastructure: Anatomy of the Unitronics PLC Water Sector Attacks",
+      "slug": "unitronics-plc-water-sector-attacks",
+      "date": "2026-08-02",
+      "category": "News",
+      "key_topics": [
+        "Cybersecurity",
+        "Operational Technology",
+        "PLC Security",
+        "Critical Infrastructure",
+        "Unitronics",
+        "CISA"
+      ],
+      "url": "/news/2026/08/02/unitronics-plc-water-sector-attacks.html"
     }
   ],
-  "last_updated": "2026-08-01T22:07:00.198179+00:00"
+  "last_updated": "2026-08-02T03:25:10.568916+00:00"
 }
