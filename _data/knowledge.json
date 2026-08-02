@@ -1023,7 +1023,23 @@
         "CISA"
       ],
       "url": "/news/2026/08/02/unitronics-plc-water-sector-attacks.html"
+    },
+    {
+      "title": "Beyond Raft and Paxos: How Cloudflare Meerkat and QuePaxa Redefine Global Consensus",
+      "slug": "cloudflare-meerkat-quepaxa-global-consensus",
+      "date": "2026-08-02",
+      "category": "Tech",
+      "key_topics": [
+        "distributed-systems",
+        "cloudflare",
+        "quepaxa",
+        "meerkat",
+        "consensus-algorithms",
+        "raft",
+        "paxos"
+      ],
+      "url": "/tech/2026/08/02/cloudflare-meerkat-quepaxa-global-consensus.html"
     }
   ],
-  "last_updated": "2026-08-02T03:25:10.568916+00:00"
+  "last_updated": "2026-08-02T08:33:29.858786+00:00"
 }
