@@ -1102,7 +1102,23 @@
         "Cybersecurity"
       ],
       "url": "/news/2026/08/03/apple-carrier-data-privacy-controversy.html"
+    },
+    {
+      "title": "Hallucinated Vulnerabilities: How LLM Slop Compromised the SQLite CVE Pipeline",
+      "slug": "fake-ai-cves-sqlite-pipeline",
+      "date": "2026-08-03",
+      "category": "Tech",
+      "key_topics": [
+        "SQLite",
+        "Cybersecurity",
+        "DevSecOps",
+        "AI Safety",
+        "CVE",
+        "NIST",
+        "LLM"
+      ],
+      "url": "/tech/2026/08/03/fake-ai-cves-sqlite-pipeline.html"
     }
   ],
-  "last_updated": "2026-08-03T03:26:45.161264+00:00"
+  "last_updated": "2026-08-03T14:52:08.541416+00:00"
 }
