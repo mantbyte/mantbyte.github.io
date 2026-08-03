@@ -1118,7 +1118,23 @@
         "LLM"
       ],
       "url": "/tech/2026/08/03/fake-ai-cves-sqlite-pipeline.html"
+    },
+    {
+      "title": "Pass-ta-key: Unmasking the Three Post-Compromise Attacks Bypassing Google Chrome Passkeys",
+      "slug": "pass-ta-key-chrome-passkey-vulnerabilities",
+      "date": "2026-08-03",
+      "category": "Tech",
+      "key_topics": [
+        "Passkeys",
+        "WebAuthn",
+        "Cybersecurity",
+        "Google Chrome",
+        "Windows Security",
+        "TPM",
+        "Malware"
+      ],
+      "url": "/tech/2026/08/03/pass-ta-key-chrome-passkey-vulnerabilities.html"
     }
   ],
-  "last_updated": "2026-08-03T14:52:08.541416+00:00"
+  "last_updated": "2026-08-03T17:16:01.879601+00:00"
 }
