@@ -1228,7 +1228,23 @@
         "devops security"
       ],
       "url": "/tech/2026/08/04/keyv-npm-worm-ai-workspace-hijacking.html"
+    },
+    {
+      "title": "Beyond Autoregression: How DiffusionGemma Achieves 1,500 Tokens/Sec with Discrete Text Diffusion",
+      "slug": "diffusiongemma-discrete-text-diffusion-1500-tokens",
+      "date": "2026-08-04",
+      "category": "Tech",
+      "key_topics": [
+        "DiffusionGemma",
+        "Google DeepMind",
+        "LLM",
+        "Discrete Diffusion",
+        "Machine Learning",
+        "NLP",
+        "GPU Optimization"
+      ],
+      "url": "/tech/2026/08/04/diffusiongemma-discrete-text-diffusion-1500-tokens.html"
     }
   ],
-  "last_updated": "2026-08-04T14:36:14.611741+00:00"
+  "last_updated": "2026-08-04T17:05:36.653191+00:00"
 }
