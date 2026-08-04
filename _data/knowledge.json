@@ -1181,7 +1181,22 @@
         "Machine Learning"
       ],
       "url": "/news/2026/08/04/ai-autonomous-hacking-legal-liability.html"
+    },
+    {
+      "title": "Edge AI at the Tactical Margin: How $18 Chips and Visual Guidance Neutralize Electronic Warfare",
+      "slug": "edge-ai-chips-defeat-electronic-warfare",
+      "date": "2026-08-04",
+      "category": "Geopolitics",
+      "key_topics": [
+        "Edge AI",
+        "Electronic Warfare",
+        "Drones",
+        "Computer Vision",
+        "Autonomous Systems",
+        "Arm SoC"
+      ],
+      "url": "/geopolitics/2026/08/04/edge-ai-chips-defeat-electronic-warfare.html"
     }
   ],
-  "last_updated": "2026-08-04T02:55:31.496273+00:00"
+  "last_updated": "2026-08-04T08:49:20.936425+00:00"
 }
