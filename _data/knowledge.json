@@ -1212,7 +1212,23 @@
         "Skynode S"
       ],
       "url": "/geopolitics/2026/08/04/ai-edge-vision-fpv-drone-revolution.html"
+    },
+    {
+      "title": "Beyond the Registry: Anatomy of the Keyv npm Worm and the Rise of AI Workspace Hijacking",
+      "slug": "keyv-npm-worm-ai-workspace-hijacking",
+      "date": "2026-08-04",
+      "category": "Tech",
+      "key_topics": [
+        "keyv",
+        "npm",
+        "supply chain attack",
+        "cybersecurity",
+        "bun runtime",
+        "ai agents",
+        "devops security"
+      ],
+      "url": "/tech/2026/08/04/keyv-npm-worm-ai-workspace-hijacking.html"
     }
   ],
-  "last_updated": "2026-08-04T11:34:32.228610+00:00"
+  "last_updated": "2026-08-04T14:36:14.611741+00:00"
 }
