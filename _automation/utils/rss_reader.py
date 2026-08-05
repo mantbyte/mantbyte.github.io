@@ -48,9 +48,18 @@ def fetch_feeds(feed_configs: list, max_age_hours: int = 48) -> list:
     return all_articles
 
 
+import requests
+
 def _parse_single_feed(feed_config: dict, cutoff: datetime) -> list:
     """Parse a single RSS feed and return normalized articles."""
-    feed = feedparser.parse(feed_config["url"])
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+    try:
+        response = requests.get(feed_config["url"], headers=headers, timeout=15)
+        feed = feedparser.parse(response.content)
+    except Exception as e:
+        print(f"  ⚠️ Request failed for {feed_config['url']}: {e}")
+        return []
+
     articles = []
 
     for entry in feed.entries[:20]:  # Limit per feed to avoid overwhelming

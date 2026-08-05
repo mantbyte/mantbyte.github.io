@@ -1,0 +1,123 @@
+# Mantbyte Daily Crunch Pipeline
+# Runs once a day to generate World, India, Finance, and Spiritual articles.
+# Highly optimized to use only 4 Gemini API calls total.
+
+name: Daily Crunch Pipeline
+
+on:
+  schedule:
+    - cron: '0 2 * * *'   # 2:00 AM UTC (7:30 AM IST)
+  workflow_dispatch:      # Manual trigger for testing
+
+# Concurrency Protection: Ensure only one pipeline runs at a time
+concurrency:
+  group: daily-crunch-pipeline
+  cancel-in-progress: false
+
+env:
+  DRY_RUN: "false" # Set to "true" to test without making modifications
+
+jobs:
+  generate-crunches:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: '_automation/requirements.txt'
+
+      - name: Install dependencies
+        run: pip install -r _automation/requirements.txt
+
+      - name: Run World News Crunch
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          cd ${{ github.workspace }}
+          if [ "$DRY_RUN" = "true" ]; then
+            python _automation/daily_crunch.py --mode world --dry-run
+          else
+            python _automation/daily_crunch.py --mode world
+          fi
+        continue-on-error: true
+
+      - name: Run India News Crunch
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          cd ${{ github.workspace }}
+          if [ "$DRY_RUN" = "true" ]; then
+            python _automation/daily_crunch.py --mode india --dry-run
+          else
+            python _automation/daily_crunch.py --mode india
+          fi
+        continue-on-error: true
+
+      - name: Run Finance Crunch
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          cd ${{ github.workspace }}
+          if [ "$DRY_RUN" = "true" ]; then
+            python _automation/daily_crunch.py --mode finance --dry-run
+          else
+            python _automation/daily_crunch.py --mode finance
+          fi
+        continue-on-error: true
+
+      - name: Run Spiritual Crunch
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          cd ${{ github.workspace }}
+          if [ "$DRY_RUN" = "true" ]; then
+            python _automation/daily_crunch.py --mode spiritual --dry-run
+          else
+            python _automation/daily_crunch.py --mode spiritual
+          fi
+        continue-on-error: true
+
+      - name: Upload Dry Run Artifacts
+        if: always() && env.DRY_RUN == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-crunch-dry-run
+          path: _dry_run_artifacts/
+          retention-days: 5
+
+      - name: Auto-Publish Articles
+        if: always() && env.DRY_RUN == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Configure git author
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Stage the generated files (posts, images, and updated history)
+          git add _posts/ assets/images/posts/ _data/spiritual_history.json
+          
+          # Check if there are actual changes
+          if git diff --staged --quiet; then
+            echo "No new articles generated. Skipping publish."
+            exit 0
+          fi
+          
+          # Commit and push directly to main
+          git commit -m "[AI] Daily Crunch: World, India, Finance, Spiritual"
+          git push origin main
+          
+          # Trigger the deployment workflow
+          echo "Triggering deployment workflow..."
+          gh workflow run deploy.yml --ref main

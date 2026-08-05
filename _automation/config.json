@@ -39,5 +39,20 @@
     {"name": "Anthropic Blog", "url": "https://www.anthropic.com/research/rss.xml", "category": "Tech"},
     {"name": "Krebs on Security", "url": "https://krebsonsecurity.com/feed/", "category": "Tech"},
     {"name": "The Hacker News Security", "url": "https://feeds.feedburner.com/TheHackersNews", "category": "Tech"}
+  ],
+  "world_news_feeds": [
+    {"name": "BBC World", "url": "http://feeds.bbci.co.uk/news/world/rss.xml", "category": "News"},
+    {"name": "Al Jazeera", "url": "https://www.aljazeera.com/xml/rss/all.xml", "category": "News"},
+    {"name": "NYT World", "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml", "category": "News"}
+  ],
+  "india_news_feeds": [
+    {"name": "Times of India", "url": "https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms", "category": "News"},
+    {"name": "NDTV", "url": "https://feeds.feedburner.com/ndtvnews-india-news", "category": "News"},
+    {"name": "The Hindu", "url": "https://www.thehindu.com/news/national/feeder/default.rss", "category": "News"}
+  ],
+  "finance_news_feeds": [
+    {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/rssindex", "category": "Finance"},
+    {"name": "CNBC", "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=10000664", "category": "Finance"},
+    {"name": "WSJ Markets", "url": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml", "category": "Finance"}
   ]
 }
