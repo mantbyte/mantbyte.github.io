@@ -1324,7 +1324,22 @@
         "AI Infrastructure"
       ],
       "url": "/tech/2026/08/05/master-llm-finops-vllm-opencost-kubernetes.html"
+    },
+    {
+      "title": "Beyond the Eyeball: Architecting the Agent-First Web and the Rise of Token-Based Monetization",
+      "slug": "architecting-agent-first-web-token-monetization",
+      "date": "2026-08-05",
+      "category": "Tech",
+      "key_topics": [
+        "AI Agents",
+        "Web Architecture",
+        "Tokenization",
+        "Markdown",
+        "RAG",
+        "Digital Economy"
+      ],
+      "url": "/tech/2026/08/05/architecting-agent-first-web-token-monetization.html"
     }
   ],
-  "last_updated": "2026-08-05T11:32:10.010762+00:00"
+  "last_updated": "2026-08-05T14:26:49.145070+00:00"
 }
