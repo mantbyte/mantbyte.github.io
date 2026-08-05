@@ -15,6 +15,15 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
     <link rel="canonical" href="{{ page.url | absolute_url }}">
 
+    <!-- PWA -->
+    <link rel="manifest" href="{{ '/manifest.json' | relative_url }}">
+    <meta name="theme-color" content="#0f4c81">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="mantbyte">
+    <link rel="apple-touch-icon" href="{{ '/assets/icons/icon-192x192.png' | relative_url }}">
+    <meta name="mobile-web-app-capable" content="yes">
+
     {% if site.google_analytics and site.google_analytics != "G-XXXXXXXXXX" %}
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
@@ -57,5 +66,16 @@
     <script type="module" src="{{ '/assets/js/firebase/notification-center.js?v=2' | relative_url }}"></script>
     <script type="module" src="{{ '/assets/js/firebase/push-notifications.js?v=2' | relative_url }}"></script>
     <script type="module" src="{{ '/assets/js/firebase/newsletter.js?v=2' | relative_url }}"></script>
+
+    <!-- PWA Service Worker Registration -->
+    <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(reg => console.log('[PWA] Service Worker registered:', reg.scope))
+          .catch(err => console.warn('[PWA] Service Worker registration failed:', err));
+      });
+    }
+    </script>
 </body>
 </html>
