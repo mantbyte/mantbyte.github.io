@@ -2,23 +2,401 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mantbyte.github.io/</loc>
-    <lastmod>2026-07-27T01:05:57+05:30</lastmod>
+    <lastmod>2026-08-05T15:55:48+05:30</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://mantbyte.github.io/archive</loc>
-    <lastmod>2026-07-27T01:05:57+05:30</lastmod>
+    <lastmod>2026-08-05T15:55:48+05:30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mantbyte.github.io/about</loc>
-    <lastmod>2026-07-27T01:05:57+05:30</lastmod>
+    <lastmod>2026-08-05T15:55:48+05:30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mantbyte.github.io/contact</loc>
-    <lastmod>2026-07-27T01:05:57+05:30</lastmod>
+    <lastmod>2026-08-05T15:55:48+05:30</lastmod>
     <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/05/spiritual-wisdom-2026-08-05.html</loc>
+    <lastmod>2026-08-05T15:48:26+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/05/finance-news-crunch-2026-08-05.html</loc>
+    <lastmod>2026-08-05T15:46:11+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/05/india-news-crunch-2026-08-05.html</loc>
+    <lastmod>2026-08-05T15:43:56+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/05/world-news-crunch-2026-08-05.html</loc>
+    <lastmod>2026-08-05T15:41:41+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/05/munich-open-source-sabbatical-libexpat.html</loc>
+    <lastmod>2026-08-05T14:17:30+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/05/self-host-private-ai-coding-assistant.html</loc>
+    <lastmod>2026-08-05T11:22:59+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/05/ai-cybercrime-surge-africa-interpol.html</loc>
+    <lastmod>2026-08-05T08:23:33+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/05/texas-data-center-moratorium-ai-energy-crisis.html</loc>
+    <lastmod>2026-08-05T03:59:41+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/04/diffusiongemma-discrete-text-diffusion-1500-tokens.html</loc>
+    <lastmod>2026-08-04T22:35:34+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/04/keyv-npm-worm-ai-workspace-hijacking.html</loc>
+    <lastmod>2026-08-04T20:04:32+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/04/ai-edge-vision-fpv-drone-revolution.html</loc>
+    <lastmod>2026-08-04T17:03:41+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/04/edge-ai-chips-defeat-electronic-warfare.html</loc>
+    <lastmod>2026-08-04T14:19:09+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/08/04/ai-autonomous-hacking-legal-liability.html</loc>
+    <lastmod>2026-08-04T08:25:29+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/04/apple-uk-government-icloud-encryption-battle.html</loc>
+    <lastmod>2026-08-04T03:44:36+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/04/apple-uk-encryption-legal-battle.html</loc>
+    <lastmod>2026-08-04T01:18:15+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/03/pass-ta-key-chrome-passkey-vulnerabilities.html</loc>
+    <lastmod>2026-08-03T22:45:18+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/03/fake-ai-cves-sqlite-pipeline.html</loc>
+    <lastmod>2026-08-03T20:21:47+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/08/03/apple-carrier-data-privacy-controversy.html</loc>
+    <lastmod>2026-08-03T08:56:43+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/03/hardware-bound-attestation-eu-age-verification.html</loc>
+    <lastmod>2026-08-03T03:30:20+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/03/rag-retrieval-techniques-empirical-analysis.html</loc>
+    <lastmod>2026-08-03T00:56:49+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/08/02/amd-mi355x-nvidia-blackwell-288gb-infrastructure.html</loc>
+    <lastmod>2026-08-02T19:12:54+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/02/cloudflare-meerkat-quepaxa-global-consensus.html</loc>
+    <lastmod>2026-08-02T14:03:16+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/08/02/unitronics-plc-water-sector-attacks.html</loc>
+    <lastmod>2026-08-02T08:55:09+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/02/coldcard-firmware-prng-vulnerability.html</loc>
+    <lastmod>2026-08-02T03:36:58+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/02/canada-un-cybercrime-convention-surveillance-risks.html</loc>
+    <lastmod>2026-08-02T00:48:03+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/01/ai-agent-security-model-exfiltration-leaks.html</loc>
+    <lastmod>2026-08-01T21:36:47+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/01/mastering-http-query-method-guide.html</loc>
+    <lastmod>2026-08-01T19:09:30+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/01/eu-ai-act-article-50-watermarking.html</loc>
+    <lastmod>2026-08-01T16:16:13+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/01/android-developer-verification-us-sanctions.html</loc>
+    <lastmod>2026-08-01T13:59:54+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/01/terraform-tfpolicy-native-hcl-governance.html</loc>
+    <lastmod>2026-08-01T03:40:31+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/01/terraform-hcl-native-policy-cloud-governance.html</loc>
+    <lastmod>2026-08-01T01:14:47+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/07/31/ai-hbm-pivot-memory-squeeze-silicon.html</loc>
+    <lastmod>2026-07-31T22:22:34+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/07/31/deepseek-knaithe-autonomous-cyberattack-analysis.html</loc>
+    <lastmod>2026-07-31T19:54:06+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/07/31/anthropic-dod-lawsuit-ai-ethics.html</loc>
+    <lastmod>2026-07-31T08:56:30+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/07/31/anthropic-dod-ai-legal-battle.html</loc>
+    <lastmod>2026-07-31T03:40:46+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/07/30/okta-permiso-acquisition-identity-governance-ai.html</loc>
+    <lastmod>2026-07-30T22:13:53+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/07/30/microsoft-365-copilot-indirect-prompt-propagation.html</loc>
+    <lastmod>2026-07-30T19:45:44+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/07/30/ai-cryptanalysis-post-quantum-cryptography.html</loc>
+    <lastmod>2026-07-30T08:13:37+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/07/30/openai-codex-security-threat-modeling.html</loc>
+    <lastmod>2026-07-30T03:35:22+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/07/30/cve-2026-66066-ruby-rails-active-storage.html</loc>
+    <lastmod>2026-07-30T00:55:05+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/07/29/ai-scaling-physical-bottleneck-power-grids.html</loc>
+    <lastmod>2026-07-29T21:58:03+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/07/29/scaling-ai-agents-aks-microsoft-llm-routing.html</loc>
+    <lastmod>2026-07-29T19:53:27+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/07/29/fix-scale-zero-health-check-flapping.html</loc>
+    <lastmod>2026-07-29T17:03:14+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/07/29/fcc-ban-foreign-robotics-inverters.html</loc>
+    <lastmod>2026-07-29T11:36:09+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/07/29/fcc-ban-foreign-robotics-power-inverters.html</loc>
+    <lastmod>2026-07-29T08:28:35+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/07/29/dependabot-default-cooldown-policy.html</loc>
+    <lastmod>2026-07-29T03:40:14+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/07/29/grapheneos-duress-passwords-border-searches.html</loc>
+    <lastmod>2026-07-29T01:10:07+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/07/28/pjm-capacity-crunch-data-center-energy.html</loc>
+    <lastmod>2026-07-28T22:16:40+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/07/28/tax-tiered-voting-census-suffrage-ideology.html</loc>
+    <lastmod>2026-07-28T19:53:47+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/07/28/anthropic-geopolitical-ai-strategy-open-weights.html</loc>
+    <lastmod>2026-07-28T16:54:14+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/07/28/dario-amodei-open-weight-ai-security.html</loc>
+    <lastmod>2026-07-28T14:13:39+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/07/28/open-weights-national-security-ai.html</loc>
+    <lastmod>2026-07-28T11:22:46+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/07/28/geopolitics-open-weight-ai-national-security.html</loc>
+    <lastmod>2026-07-28T08:21:52+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/07/28/judge-rejects-google-dmca-scraping-lawsuit.html</loc>
+    <lastmod>2026-07-28T03:42:40+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/07/27/velocity-crisis-code-review-agentic-coding.html</loc>
+    <lastmod>2026-07-27T22:34:58+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/07/27/gke-linkerd-federation-zero-downtime.html</loc>
+    <lastmod>2026-07-27T20:21:06+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/07/27/grapheneos-duress-pin-border-search-prosecution.html</loc>
+    <lastmod>2026-07-27T15:32:08+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/07/27/grapheneos-duress-password-felony-border-search.html</loc>
+    <lastmod>2026-07-27T15:10:31+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/07/27/grapheneos-border-seizure-property-law.html</loc>
+    <lastmod>2026-07-27T09:05:43+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/07/27/post-quantum-cryptography-distributed-systems.html</loc>
+    <lastmod>2026-07-27T03:33:47+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/07/27/autonomous-agent-cyberattacks-hugging-face-breach.html</loc>
+    <lastmod>2026-07-27T02:25:03+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/07/27/chinese-ai-panic-efficiency-silicon-valley.html</loc>
+    <lastmod>2026-07-27T01:55:53+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/07/27/autonomous-ai-agent-cyberattack-openai-hugging-face.html</loc>
+    <lastmod>2026-07-27T01:36:37+05:30</lastmod>
+    <priority>0.6</priority>
   </url>
   
   <url>

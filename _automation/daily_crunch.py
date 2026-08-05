@@ -34,17 +34,17 @@ def run_news_crunch(mode: str, dry_run: bool):
     if mode == "world":
         feeds = config.get("world_news_feeds", [])
         title_prefix = "World News Crunch"
-        category = "Geopolitics"
+        category = "World"
         prompt_topic = "Global News and World Events"
     elif mode == "india":
         feeds = config.get("india_news_feeds", [])
         title_prefix = "India News Crunch"
-        category = "Geopolitics"
+        category = "India"
         prompt_topic = "Indian National News and Events"
     elif mode == "finance":
         feeds = config.get("finance_news_feeds", [])
         title_prefix = "Finance & Markets Crunch"
-        category = "Tech"  # fallback category
+        category = "Finance"  # specific category
         prompt_topic = "Global Finance, Economics, and Markets"
     else:
         raise ValueError(f"Unknown news mode: {mode}")
@@ -199,7 +199,7 @@ def run_spiritual_crunch(dry_run: bool):
     seo_data = {
         "slug": slug,
         "excerpt": "A daily moment of philosophy and spiritual wisdom applied to modern life.",
-        "category": "Geopolitics", # Reusing existing category to avoid Jekyll issues
+        "category": "Spiritual", 
         "tags": ["philosophy", "spiritual", "wisdom"]
     }
 

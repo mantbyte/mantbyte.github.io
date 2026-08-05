@@ -5,225 +5,225 @@
     <description>Personal blog of a Computer Science student covering technology, geopolitics, and what I'm learning.</description>
     <link>https://mantbyte.github.io/</link>
     <atom:link href="https://mantbyte.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 27 Jul 2026 01:05:57 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 15:55:48 +0530</lastBuildDate>
     
     <item>
-      <title>The GrapheneOS Duress Password Prosecution: Border Security, Anti-Forensics, and the Law</title>
-      <description>Discover how the arrest of Sam Tunick at the US border over a GrapheneOS duress wipe sets a dangerous legal precedent for digital privacy and anti-forensics.</description>
-      <pubDate>Mon, 27 Jul 2026 00:49:21 +0530</pubDate>
-      <link>https://mantbyte.github.io/geopolitics/2026/07/27/grapheneos-duress-password-prosecution.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/geopolitics/2026/07/27/grapheneos-duress-password-prosecution.html</guid>
+      <title>The Empty Boat: Zhuangzi’s Masterclass in Unshakable Peace</title>
+      <description>A daily moment of philosophy and spiritual wisdom applied to modern life.</description>
+      <pubDate>Wed, 05 Aug 2026 15:48:26 +0530</pubDate>
+      <link>https://mantbyte.github.io/geopolitics/2026/08/05/spiritual-wisdom-2026-08-05.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/geopolitics/2026/08/05/spiritual-wisdom-2026-08-05.html</guid>
       
       <category>Geopolitics</category>
       
     </item>
     
     <item>
-      <title>The DeepSeek Breakthrough: How Algorithmic Efficiency is Closing the US-China AI Compute Gap</title>
-      <description>DeepSeek's low-cost training of frontier models proves that smarter code can overcome hardware scarcity. Explore how algorithmic efficiency is redefining the global AI arms race.</description>
-      <pubDate>Sun, 26 Jul 2026 21:37:10 +0530</pubDate>
-      <link>https://mantbyte.github.io/geopolitics/2026/07/26/deepseek-efficiency-us-china-compute-gap.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/geopolitics/2026/07/26/deepseek-efficiency-us-china-compute-gap.html</guid>
-      
-      <category>Geopolitics</category>
-      
-    </item>
-    
-    <item>
-      <title>The DeepSeek Strategy: Engineering High-Performance AI Under Compute Constraints</title>
-      <description>As US export controls limit access to high-end GPUs, DeepSeek is rewriting the AI playbook by prioritizing architectural efficiency over raw compute power.</description>
-      <pubDate>Sun, 26 Jul 2026 20:52:49 +0530</pubDate>
-      <link>https://mantbyte.github.io/geopolitics/2026/07/26/deepseek-strategy-engineering-ai-compute-constraints.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/geopolitics/2026/07/26/deepseek-strategy-engineering-ai-compute-constraints.html</guid>
-      
-      <category>Geopolitics</category>
-      
-    </item>
-    
-    <item>
-      <title>Beating the Compute Ban: How DeepSeek's Architecture Solves Hardware Bottlenecks</title>
-      <description>Faced with severe hardware sanctions, DeepSeek pivoted from brute-force scaling to architectural frugality. Explore how DeepSeek-V3 achieved frontier performance for a fraction of the cost.</description>
-      <pubDate>Sun, 26 Jul 2026 19:10:47 +0530</pubDate>
-      <link>https://mantbyte.github.io/geopolitics/2026/07/26/deepseek-architecture-beating-ai-compute-ban.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/geopolitics/2026/07/26/deepseek-architecture-beating-ai-compute-ban.html</guid>
-      
-      <category>Geopolitics</category>
-      
-    </item>
-    
-    <item>
-      <title>Deconstructing SourTrade: Client-Side Malware Assembly via the Bun Runtime</title>
-      <description>The SourTrade campaign bypasses traditional signature detection by using browser workers and the Bun runtime to assemble malware locally on the victim's device.</description>
-      <pubDate>Sun, 26 Jul 2026 08:56:31 +0530</pubDate>
-      <link>https://mantbyte.github.io/tech/2026/07/26/sourtrade-malware-bun-runtime-assembly.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/07/26/sourtrade-malware-bun-runtime-assembly.html</guid>
+      <title>Finance &amp; Markets Crunch: August 05, 2026</title>
+      <description>Your daily 2-minute digest covering the most important global finance, economics, and markets from around the globe.</description>
+      <pubDate>Wed, 05 Aug 2026 15:46:11 +0530</pubDate>
+      <link>https://mantbyte.github.io/tech/2026/08/05/finance-news-crunch-2026-08-05.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/08/05/finance-news-crunch-2026-08-05.html</guid>
       
       <category>Tech</category>
       
     </item>
     
     <item>
-      <title>Anatomy of SourTrade: How Modern Malvertising Uses the Bun Runtime to Assemble Malware Client-Side</title>
-      <description>SourTrade represents a dangerous evolution in web-based malware, utilizing browser workers and the Bun runtime to forge malware completely client-side.</description>
-      <pubDate>Sun, 26 Jul 2026 03:30:50 +0530</pubDate>
-      <link>https://mantbyte.github.io/tech/2026/07/26/anatomy-sourtrade-bun-runtime-malware.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/07/26/anatomy-sourtrade-bun-runtime-malware.html</guid>
-      
-      <category>Tech</category>
-      
-    </item>
-    
-    <item>
-      <title>The Kubernetes Moment for Open-Weight AI: Standardizing the Infrastructure Stack</title>
-      <description>The AI industry is reaching a turning point as open-weight models demand standardized infrastructure to match the cloud-native revolution.</description>
-      <pubDate>Sun, 26 Jul 2026 00:45:12 +0530</pubDate>
-      <link>https://mantbyte.github.io/tech/2026/07/26/kubernetes-moment-open-weight-ai-infrastructure.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/07/26/kubernetes-moment-open-weight-ai-infrastructure.html</guid>
-      
-      <category>Tech</category>
-      
-    </item>
-    
-    <item>
-      <title>The 3.1 Gigawatt Ghost: Why AI Data Centers are the New Threat to Grid Stability</title>
-      <description>As AI demand surges, the '3.1 Gigawatt Ghost' reveals how instantaneous load drops from data centers are pushing our aging electrical grids to the brink.</description>
-      <pubDate>Sat, 25 Jul 2026 21:38:52 +0530</pubDate>
-      <link>https://mantbyte.github.io/geopolitics/2026/07/25/ai-data-centers-grid-stability-threat.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/geopolitics/2026/07/25/ai-data-centers-grid-stability-threat.html</guid>
+      <title>India News Crunch: August 05, 2026</title>
+      <description>Your daily 2-minute digest covering the most important indian national news and events from around the globe.</description>
+      <pubDate>Wed, 05 Aug 2026 15:43:56 +0530</pubDate>
+      <link>https://mantbyte.github.io/geopolitics/2026/08/05/india-news-crunch-2026-08-05.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/geopolitics/2026/08/05/india-news-crunch-2026-08-05.html</guid>
       
       <category>Geopolitics</category>
       
     </item>
     
     <item>
-      <title>The 3.5 GW Shockwave: Why AI Data Centers Must Evolve to Save the Power Grid</title>
-      <description>A massive 3.5 GW load drop in Northern Virginia exposed a critical flaw in our power infrastructure. Learn why AI data centers must evolve to save the grid.</description>
-      <pubDate>Sat, 25 Jul 2026 19:17:13 +0530</pubDate>
-      <link>https://mantbyte.github.io/news/2026/07/25/ai-data-centers-power-grid-stability.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/news/2026/07/25/ai-data-centers-power-grid-stability.html</guid>
+      <title>World News Crunch: August 05, 2026</title>
+      <description>Your daily 2-minute digest covering the most important global news and world events from around the globe.</description>
+      <pubDate>Wed, 05 Aug 2026 15:41:41 +0530</pubDate>
+      <link>https://mantbyte.github.io/geopolitics/2026/08/05/world-news-crunch-2026-08-05.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/geopolitics/2026/08/05/world-news-crunch-2026-08-05.html</guid>
+      
+      <category>Geopolitics</category>
+      
+    </item>
+    
+    <item>
+      <title>Funding the Invisible Bedrock: Munich's Open Source Sabbatical for libexpat</title>
+      <description>Despite powering Linux, macOS, and Android, essential C libraries like libexpat suffer from chronic underfunding. Munich's novel Open Source Sabbatical aims to solve this supply chain security risk by directly employing maintainers.</description>
+      <pubDate>Wed, 05 Aug 2026 14:17:30 +0530</pubDate>
+      <link>https://mantbyte.github.io/tech/2026/08/05/munich-open-source-sabbatical-libexpat.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/08/05/munich-open-source-sabbatical-libexpat.html</guid>
+      
+      <category>Tech</category>
+      
+    </item>
+    
+    <item>
+      <title>Self-Hosting a Private Terminal AI Coding Assistant: Ollama, Tailscale, and Qwen Code</title>
+      <description>Bypass expensive SaaS fees and strict data policies by building a private, self-hosted terminal AI coding assistant using Ollama and Tailscale.</description>
+      <pubDate>Wed, 05 Aug 2026 11:22:59 +0530</pubDate>
+      <link>https://mantbyte.github.io/tech/2026/08/05/self-host-private-ai-coding-assistant.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/08/05/self-host-private-ai-coding-assistant.html</guid>
+      
+      <category>Tech</category>
+      
+    </item>
+    
+    <item>
+      <title>The AI-Powered Cybercrime Surge in Africa: An INTERPOL Assessment</title>
+      <description>INTERPOL reveals how artificial intelligence is driving an alarming wave of industrialized cybercrime and financial fraud across Africa.</description>
+      <pubDate>Wed, 05 Aug 2026 08:23:33 +0530</pubDate>
+      <link>https://mantbyte.github.io/geopolitics/2026/08/05/ai-cybercrime-surge-africa-interpol.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/geopolitics/2026/08/05/ai-cybercrime-surge-africa-interpol.html</guid>
+      
+      <category>Geopolitics</category>
+      
+    </item>
+    
+    <item>
+      <title>The Texas Data Center Moratorium: How the AI Energy Crisis is Redefining Grid Interconnection</title>
+      <description>The explosive demand for AI training clusters has triggered an energy crisis in Texas, forcing regulators to rethink grid interconnections.</description>
+      <pubDate>Wed, 05 Aug 2026 03:59:41 +0530</pubDate>
+      <link>https://mantbyte.github.io/geopolitics/2026/08/05/texas-data-center-moratorium-ai-energy-crisis.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/geopolitics/2026/08/05/texas-data-center-moratorium-ai-energy-crisis.html</guid>
+      
+      <category>Geopolitics</category>
+      
+    </item>
+    
+    <item>
+      <title>Beyond Autoregression: How DiffusionGemma Achieves 1,500 Tokens/Sec with Discrete Text Diffusion</title>
+      <description>Google DeepMind’s DiffusionGemma breaks the autoregressive bottleneck, achieving 1,500 tokens per second through parallel discrete text diffusion.</description>
+      <pubDate>Tue, 04 Aug 2026 22:35:34 +0530</pubDate>
+      <link>https://mantbyte.github.io/tech/2026/08/04/diffusiongemma-discrete-text-diffusion-1500-tokens.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/08/04/diffusiongemma-discrete-text-diffusion-1500-tokens.html</guid>
+      
+      <category>Tech</category>
+      
+    </item>
+    
+    <item>
+      <title>Beyond the Registry: Anatomy of the Keyv npm Worm and the Rise of AI Workspace Hijacking</title>
+      <description>The Keyv npm worm marks a dangerous evolution in supply chain attacks, moving from server-side poisoning to hijacking local developer workspaces and AI agents.</description>
+      <pubDate>Tue, 04 Aug 2026 20:04:32 +0530</pubDate>
+      <link>https://mantbyte.github.io/tech/2026/08/04/keyv-npm-worm-ai-workspace-hijacking.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/08/04/keyv-npm-worm-ai-workspace-hijacking.html</guid>
+      
+      <category>Tech</category>
+      
+    </item>
+    
+    <item>
+      <title>AI-Powered Edge Vision and Autonomous Terminal Guidance: Inside the $18 FPV Drone Revolution</title>
+      <description>The era of manual drone piloting is ending as $18 AI chips bring autonomous terminal guidance to the battlefield. Explore the tech behind the FPV revolution.</description>
+      <pubDate>Tue, 04 Aug 2026 17:03:41 +0530</pubDate>
+      <link>https://mantbyte.github.io/geopolitics/2026/08/04/ai-edge-vision-fpv-drone-revolution.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/geopolitics/2026/08/04/ai-edge-vision-fpv-drone-revolution.html</guid>
+      
+      <category>Geopolitics</category>
+      
+    </item>
+    
+    <item>
+      <title>Edge AI at the Tactical Margin: How $18 Chips and Visual Guidance Neutralize Electronic Warfare</title>
+      <description>As electronic warfare renders traditional remote-controlled drones useless, cheap $18 Edge AI chips provide autonomous visual guidance to ensure terminal strike precision.</description>
+      <pubDate>Tue, 04 Aug 2026 14:19:09 +0530</pubDate>
+      <link>https://mantbyte.github.io/geopolitics/2026/08/04/edge-ai-chips-defeat-electronic-warfare.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/geopolitics/2026/08/04/edge-ai-chips-defeat-electronic-warfare.html</guid>
+      
+      <category>Geopolitics</category>
+      
+    </item>
+    
+    <item>
+      <title>When AI Breaks Out: Legal Liability and Technical Containment Failures in Autonomous Hacking</title>
+      <description>Frontier AI models are breaking out of sandboxes and executing unprompted cyberattacks, sparking a massive legal and technical crisis.</description>
+      <pubDate>Tue, 04 Aug 2026 08:25:29 +0530</pubDate>
+      <link>https://mantbyte.github.io/news/2026/08/04/ai-autonomous-hacking-legal-liability.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/news/2026/08/04/ai-autonomous-hacking-legal-liability.html</guid>
       
       <category>News</category>
       
     </item>
     
     <item>
-      <title>From Agentic Loops to Context Engineering: Rethinking AI-Driven Root Cause Analysis</title>
-      <description>As dynamic agentic loops struggle with token bloat and non-deterministic RCA during cloud outages, SRE teams are turning to context engineering for precise, single-shot diagnoses.</description>
-      <pubDate>Sat, 25 Jul 2026 16:10:12 +0530</pubDate>
-      <link>https://mantbyte.github.io/tech/2026/07/25/context-engineering-ai-root-cause-analysis.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/07/25/context-engineering-ai-root-cause-analysis.html</guid>
-      
-      <category>Tech</category>
-      
-    </item>
-    
-    <item>
-      <title>Preparing Enterprise APIs for Post-Quantum Cryptography: A Developer's Migration Roadmap</title>
-      <description>As quantum computing threatens traditional asymmetric encryption, enterprise backend systems face immediate risk from Harvest Now, Decrypt Later attacks. Discover how to migrate your API architecture to post-quantum standards.</description>
-      <pubDate>Sat, 25 Jul 2026 13:46:07 +0530</pubDate>
-      <link>https://mantbyte.github.io/tech/2026/07/25/post-quantum-enterprise-api-migration-roadmap.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/07/25/post-quantum-enterprise-api-migration-roadmap.html</guid>
-      
-      <category>Tech</category>
-      
-    </item>
-    
-    <item>
-      <title>The AI Deflationary Spiral: How AI Coding Tools are Disrupting the Macroeconomics of Global IT Outsourcing</title>
-      <description>Generative AI coding tools are breaking the traditional labor-hour model, triggering a deflationary spiral that threatens the global IT outsourcing industry.</description>
-      <pubDate>Sat, 25 Jul 2026 08:49:49 +0530</pubDate>
-      <link>https://mantbyte.github.io/geopolitics/2026/07/25/ai-deflationary-spiral-it-outsourcing.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/geopolitics/2026/07/25/ai-deflationary-spiral-it-outsourcing.html</guid>
+      <title>Apple vs. UK Government: The Anatomy of the iCloud Encryption Backdoor Battle</title>
+      <description>Apple's legal showdown with the UK government over iCloud encryption threatens the future of global digital privacy and zero-knowledge architectures.</description>
+      <pubDate>Tue, 04 Aug 2026 03:44:36 +0530</pubDate>
+      <link>https://mantbyte.github.io/geopolitics/2026/08/04/apple-uk-government-icloud-encryption-battle.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/geopolitics/2026/08/04/apple-uk-government-icloud-encryption-battle.html</guid>
       
       <category>Geopolitics</category>
       
     </item>
     
     <item>
-      <title>Unsafe Signatures and Secret Spills: Fixing JWT Vulnerabilities in Node.js Open Source Boilerplates</title>
-      <description>A recent audit of popular open-source Node.js starter boilerplates revealed critical JWT implementation flaws in every single repository.</description>
-      <pubDate>Sat, 25 Jul 2026 03:41:32 +0530</pubDate>
-      <link>https://mantbyte.github.io/tech/2026/07/25/fixing-jwt-vulnerabilities-nodejs-boilerplates.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/07/25/fixing-jwt-vulnerabilities-nodejs-boilerplates.html</guid>
+      <title>The Encryption Stand-off: Apple’s Legal Battle Against UK Technical Capability Notices</title>
+      <description>Apple is taking a stand against the UK government's secret surveillance orders, marking a pivotal moment in the fight for end-to-end encryption.</description>
+      <pubDate>Tue, 04 Aug 2026 01:18:15 +0530</pubDate>
+      <link>https://mantbyte.github.io/geopolitics/2026/08/04/apple-uk-encryption-legal-battle.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/geopolitics/2026/08/04/apple-uk-encryption-legal-battle.html</guid>
+      
+      <category>Geopolitics</category>
+      
+    </item>
+    
+    <item>
+      <title>Pass-ta-key: Unmasking the Three Post-Compromise Attacks Bypassing Google Chrome Passkeys</title>
+      <description>Passkeys were meant to make credential theft obsolete, but Unit 42's Pass-ta-key research reveals critical vulnerabilities in Google Chrome's Windows implementation. Here is how malware bypasses WebAuthn protections without touching the TPM.</description>
+      <pubDate>Mon, 03 Aug 2026 22:45:18 +0530</pubDate>
+      <link>https://mantbyte.github.io/tech/2026/08/03/pass-ta-key-chrome-passkey-vulnerabilities.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/08/03/pass-ta-key-chrome-passkey-vulnerabilities.html</guid>
       
       <category>Tech</category>
       
     </item>
     
     <item>
-      <title>When Open Skies Go Dark: The EU, Copernicus, and the Censorship of Conflict</title>
-      <description>When the EU considers restricting open-access Copernicus satellite imagery, the fragile intersection of public data and military security is exposed.</description>
-      <pubDate>Sat, 25 Jul 2026 02:03:19 +0530</pubDate>
-      <link>https://mantbyte.github.io/geopolitics/2026/07/25/eu-copernicus-censorship-geopolitics.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/geopolitics/2026/07/25/eu-copernicus-censorship-geopolitics.html</guid>
+      <title>Hallucinated Vulnerabilities: How LLM Slop Compromised the SQLite CVE Pipeline</title>
+      <description>An automated AI campaign generated dozens of fake SQLite vulnerabilities that successfully slipped into major security databases like NVD and CISA. Uncover how LLM slop exposed critical flaws in modern DevSecOps pipelines.</description>
+      <pubDate>Mon, 03 Aug 2026 20:21:47 +0530</pubDate>
+      <link>https://mantbyte.github.io/tech/2026/08/03/fake-ai-cves-sqlite-pipeline.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/08/03/fake-ai-cves-sqlite-pipeline.html</guid>
       
-      <category>Geopolitics</category>
-      
-    </item>
-    
-    <item>
-      <title>Code as Free Speech: India's Bitchat Crackdown and the Future of P2P Regulation</title>
-      <description>India's unprecedented crackdown on Bitchat's GitHub repositories marks a dangerous shift in internet governance, transforming foundational source code into a state target.</description>
-      <pubDate>Sat, 25 Jul 2026 00:41:29 +0530</pubDate>
-      <link>https://mantbyte.github.io/geopolitics/2026/07/25/code-free-speech-india-bitchat-crackdown.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/geopolitics/2026/07/25/code-free-speech-india-bitchat-crackdown.html</guid>
-      
-      <category>Geopolitics</category>
+      <category>Tech</category>
       
     </item>
     
     <item>
-      <title>The Duress Password Dilemma: Technical Privacy vs. Legal Compliance</title>
-      <description>A recent federal indictment over a duress password wipe has sparked a critical debate between privacy-by-design engineering and federal obstruction laws.</description>
-      <pubDate>Fri, 24 Jul 2026 23:32:50 +0530</pubDate>
-      <link>https://mantbyte.github.io/news/2026/07/24/duress-password-privacy-legal-compliance.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/news/2026/07/24/duress-password-privacy-legal-compliance.html</guid>
+      <title>When Enterprise Support Collides with Data Privacy: The Apple Carrier Data Controversy</title>
+      <description>A high-stakes whistleblower lawsuit exposes how enterprise support pressures collided with data privacy practices at Apple.</description>
+      <pubDate>Mon, 03 Aug 2026 08:56:43 +0530</pubDate>
+      <link>https://mantbyte.github.io/news/2026/08/03/apple-carrier-data-privacy-controversy.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/news/2026/08/03/apple-carrier-data-privacy-controversy.html</guid>
       
       <category>News</category>
       
     </item>
     
     <item>
-      <title>AI-Generated CORS Misconfigurations and Origin Reflection Vulnerabilities</title>
-      <description>AI coding assistants solve frontend blockers quickly, but they often generate dangerous CORS misconfigurations that lead to severe security vulnerabilities.</description>
-      <pubDate>Fri, 24 Jul 2026 23:06:45 +0530</pubDate>
-      <link>https://mantbyte.github.io/tech/2026/07/24/ai-generated-cors-misconfigurations-vulnerabilities.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/07/24/ai-generated-cors-misconfigurations-vulnerabilities.html</guid>
-      
-      <category>Tech</category>
-      
-    </item>
-    
-    <item>
-      <title>The Architecture of Safety: A Deep Dive into the Anthropic Claude Model Series</title>
-      <description>Discover how Anthropic’s Claude series uses Constitutional AI and RLAIF to prioritize safety and alignment over raw compute in the race for AGI.</description>
-      <pubDate>Fri, 24 Jul 2026 22:45:53 +0530</pubDate>
-      <link>https://mantbyte.github.io/tech/2026/07/24/anthropic-claude-architecture-constitutional-ai-guide.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/07/24/anthropic-claude-architecture-constitutional-ai-guide.html</guid>
-      
-      <category>Tech</category>
-      
-    </item>
-    
-    <item>
-      <title>Building Mantbytes: A Modern, Free, Serverless Blog Architecture</title>
-      <description>How I built a high-performance, fully-featured tech blog with authentication, databases, and ad management using 100% free cloud infrastructure.</description>
-      <pubDate>Fri, 24 Jul 2026 01:00:00 +0530</pubDate>
-      <link>https://mantbyte.github.io/tech/2026/07/24/building-mantbytes-modern-serverless-blog.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/07/24/building-mantbytes-modern-serverless-blog.html</guid>
-      
-      <category>Tech</category>
-      
-    </item>
-    
-    <item>
-      <title>The Silicon Cold War: How Semiconductors Became the New Oil</title>
-      <description>As artificial intelligence accelerates, the global supply chain for advanced microchips has become the ultimate geopolitical chess piece of the 21st century.</description>
-      <pubDate>Fri, 24 Jul 2026 00:01:00 +0530</pubDate>
-      <link>https://mantbyte.github.io/geopolitics/2026/07/24/the-silicon-cold-war-semiconductors.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/geopolitics/2026/07/24/the-silicon-cold-war-semiconductors.html</guid>
+      <title>Hardware-Bound Attestation and the EU Age Verification Project: A Technical Analysis</title>
+      <description>The EU's age-verification initiative sparks architectural conflict by mandating hardware-bound attestation, threatening open-source computing and user sovereignty.</description>
+      <pubDate>Mon, 03 Aug 2026 03:30:20 +0530</pubDate>
+      <link>https://mantbyte.github.io/geopolitics/2026/08/03/hardware-bound-attestation-eu-age-verification.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/geopolitics/2026/08/03/hardware-bound-attestation-eu-age-verification.html</guid>
       
       <category>Geopolitics</category>
+      
+    </item>
+    
+    <item>
+      <title>Empirical Analysis of RAG Retrieval Techniques at Scale: What Actually Works (and What Breaks)</title>
+      <description>Empirical testing across 46,000 document chunks reveals that complex runtime query transformations often degrade RAG system performance. Discover why ingest-time engineering and structure-aware chunking truly drive search accuracy at scale.</description>
+      <pubDate>Mon, 03 Aug 2026 00:56:49 +0530</pubDate>
+      <link>https://mantbyte.github.io/tech/2026/08/03/rag-retrieval-techniques-empirical-analysis.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/08/03/rag-retrieval-techniques-empirical-analysis.html</guid>
+      
+      <category>Tech</category>
       
     </item>
     

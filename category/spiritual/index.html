@@ -1,0 +1,22 @@
+---
+layout: default
+title: Spiritual
+---
+
+<div class="archive-container">
+    <header class="page-header">
+        <h1 class="page-title">Spiritual</h1>
+        <p class="page-subtitle">Philosophical insights, stories, and wisdom from around the world.</p>
+    </header>
+
+    <div class="archive-list">
+        {% for post in site.categories.Spiritual %}
+            <article class="archive-item">
+                <time datetime="{{ post.date | date_to_xmlschema }}" class="archive-date">{{ post.date | date: "%b %d, %Y" }}</time>
+                <div class="archive-details">
+                    <h3 class="archive-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+                </div>
+            </article>
+        {% endfor %}
+    </div>
+</div>

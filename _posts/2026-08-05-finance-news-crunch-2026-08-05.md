@@ -2,7 +2,7 @@
 layout: post
 title: 'Finance & Markets Crunch: August 05, 2026'
 date: 2026-08-05 15:46:11 +0530
-categories: Tech
+categories: Finance
 excerpt: Your daily 2-minute digest covering the most important global finance, economics,
   and markets from around the globe.
 cover_image: /assets/images/posts/default-cover.png
