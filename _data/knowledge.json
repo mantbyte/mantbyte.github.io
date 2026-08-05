@@ -1339,7 +1339,22 @@
         "Digital Economy"
       ],
       "url": "/tech/2026/08/05/architecting-agent-first-web-token-monetization.html"
+    },
+    {
+      "title": "Silicon and Synapses: Inside Anthropic's Strategic Pivot to AI Chip Design",
+      "slug": "anthropic-ai-chip-design-silicon-pivot",
+      "date": "2026-08-05",
+      "category": "Tech",
+      "key_topics": [
+        "Artificial Intelligence",
+        "Anthropic",
+        "AI Chips",
+        "Semiconductors",
+        "Hardware Co-Design",
+        "LLM Inference"
+      ],
+      "url": "/tech/2026/08/05/anthropic-ai-chip-design-silicon-pivot.html"
     }
   ],
-  "last_updated": "2026-08-05T14:26:49.145070+00:00"
+  "last_updated": "2026-08-05T16:48:44.779525+00:00"
 }
