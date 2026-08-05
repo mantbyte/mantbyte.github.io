@@ -1307,7 +1307,24 @@
         "munich-tech"
       ],
       "url": "/tech/2026/08/05/munich-open-source-sabbatical-libexpat.html"
+    },
+    {
+      "title": "Mastering LLM FinOps: Tracking vLLM Inference Costs on Kubernetes with OpenCost",
+      "slug": "master-llm-finops-vllm-opencost-kubernetes",
+      "date": "2026-08-05",
+      "category": "Tech",
+      "key_topics": [
+        "Kubernetes",
+        "vLLM",
+        "OpenCost",
+        "FinOps",
+        "LLM",
+        "GPU",
+        "Prometheus",
+        "AI Infrastructure"
+      ],
+      "url": "/tech/2026/08/05/master-llm-finops-vllm-opencost-kubernetes.html"
     }
   ],
-  "last_updated": "2026-08-05T08:47:59.418442+00:00"
+  "last_updated": "2026-08-05T11:32:10.010762+00:00"
 }
