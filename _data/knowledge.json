@@ -1276,7 +1276,23 @@
         "Geopolitics"
       ],
       "url": "/geopolitics/2026/08/05/ai-cybercrime-surge-africa-interpol.html"
+    },
+    {
+      "title": "Self-Hosting a Private Terminal AI Coding Assistant: Ollama, Tailscale, and Qwen Code",
+      "slug": "self-host-private-ai-coding-assistant",
+      "date": "2026-08-05",
+      "category": "Tech",
+      "key_topics": [
+        "Ollama",
+        "Tailscale",
+        "Qwen Code",
+        "DevOps",
+        "AI Coding",
+        "Self-Hosting",
+        "Open Source"
+      ],
+      "url": "/tech/2026/08/05/self-host-private-ai-coding-assistant.html"
     }
   ],
-  "last_updated": "2026-08-05T02:53:34.617041+00:00"
+  "last_updated": "2026-08-05T05:53:00.814661+00:00"
 }
