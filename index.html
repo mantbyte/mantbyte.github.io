@@ -39,11 +39,15 @@ title: Home
         </div>
 
         <div class="post-list" id="postList">
-            {% for post in site.posts limit:10 %}
+            {% for post in site.posts limit:20 %}
                 <div class="post-list-item" data-category="{{ post.categories | first | downcase }}">
                     {% include post_card.html post=post %}
                 </div>
             {% endfor %}
+            <div id="empty-state" class="empty-state" style="display: none; text-align: center; padding: 2rem;">
+                <p>No recent posts found in this category.</p>
+                <a id="category-link" href="#" class="btn btn-primary btn-sm mt-3">View all posts in this category</a>
+            </div>
         </div>
         
         <div class="view-all">
@@ -56,6 +60,8 @@ title: Home
 (function() {
     const filters = document.getElementById('categoryFilters');
     const posts = document.querySelectorAll('.post-list-item');
+    const emptyState = document.getElementById('empty-state');
+    const categoryLink = document.getElementById('category-link');
     
     filters.addEventListener('click', function(e) {
         const btn = e.target.closest('.filter-btn');
@@ -66,14 +72,24 @@ title: Home
         btn.classList.add('active');
         
         const cat = btn.dataset.category;
+        let visibleCount = 0;
         
         posts.forEach(function(post) {
             if (cat === 'all' || post.dataset.category === cat) {
                 post.style.display = '';
+                visibleCount++;
             } else {
                 post.style.display = 'none';
             }
         });
+
+        if (visibleCount === 0 && cat !== 'all') {
+            emptyState.style.display = 'block';
+            categoryLink.href = '/category/' + cat;
+            categoryLink.innerText = 'View all ' + cat.charAt(0).toUpperCase() + cat.slice(1) + ' posts';
+        } else {
+            emptyState.style.display = 'none';
+        }
     });
 })();
 </script>
