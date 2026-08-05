@@ -6,7 +6,7 @@ date: 2026-08-05 11:22:59 +0530
 categories: Tech
 excerpt: Bypass expensive SaaS fees and strict data policies by building a private,
   self-hosted terminal AI coding assistant using Ollama and Tailscale.
-cover_image: /assets/images/posts/default-cover.png
+cover_image: /assets/images/posts/self-host-private-ai-coding-assistant-cover.png
 cover_caption: A diagram illustrating the distributed client-engine architecture connecting
   developer laptops to a centralized GPU server via Tailscale.
 ---

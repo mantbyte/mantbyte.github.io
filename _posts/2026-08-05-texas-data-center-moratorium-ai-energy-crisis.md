@@ -6,7 +6,7 @@ date: 2026-08-05 03:59:41 +0530
 categories: Geopolitics
 excerpt: The explosive demand for AI training clusters has triggered an energy crisis
   in Texas, forcing regulators to rethink grid interconnections.
-cover_image: /assets/images/posts/default-cover.png
+cover_image: /assets/images/posts/texas-data-center-moratorium-ai-energy-crisis-cover.png
 cover_caption: A sprawling modern data center facility illuminated against a Texas
   sunrise.
 ---

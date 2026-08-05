@@ -6,7 +6,7 @@ categories: Tech
 excerpt: Despite powering Linux, macOS, and Android, essential C libraries like libexpat
   suffer from chronic underfunding. Munich's novel Open Source Sabbatical aims to
   solve this supply chain security risk by directly employing maintainers.
-cover_image: /assets/images/posts/default-cover.png
+cover_image: /assets/images/posts/munich-open-source-sabbatical-libexpat-cover.png
 cover_caption: An abstract digital representation of low-level C code architecture
   forming the structural foundation of municipal software systems.
 ---

@@ -5,7 +5,7 @@ date: 2026-08-05 15:46:11 +0530
 categories: Finance
 excerpt: Your daily 2-minute digest covering the most important global finance, economics,
   and markets from around the globe.
-cover_image: /assets/images/posts/default-cover.png
+cover_image: /assets/images/posts/finance-news-crunch-2026-08-05-cover.png
 cover_caption: ''
 ---
 

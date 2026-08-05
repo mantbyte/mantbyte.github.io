@@ -5,7 +5,7 @@ date: 2026-08-05 08:23:33 +0530
 categories: Geopolitics
 excerpt: INTERPOL reveals how artificial intelligence is driving an alarming wave
   of industrialized cybercrime and financial fraud across Africa.
-cover_image: /assets/images/posts/default-cover.png
+cover_image: /assets/images/posts/ai-cybercrime-surge-africa-interpol-cover.png
 cover_caption: Digital threat landscape and AI-powered cybercrime operations across
   Africa
 ---
