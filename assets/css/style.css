@@ -2256,3 +2256,447 @@ body.logged-in .logged-in-only {
         justify-content: flex-end;
     }
 }
+
+/* ==========================================================================
+   DSA Lab — Hub Page
+   ========================================================================== */
+.dsa-hub {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+}
+
+.dsa-hero {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2.5rem 1rem;
+}
+
+.dsa-hero-badge {
+    display: inline-block;
+    padding: 0.3rem 0.9rem;
+    border-radius: 100px;
+    background: #0f4c81;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.dsa-hero h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 0.75rem;
+    color: var(--text-main);
+}
+
+.dsa-hero p {
+    font-size: 1.05rem;
+    color: var(--text-muted);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.dsa-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.25rem;
+}
+
+.dsa-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 14px;
+    background: var(--card-bg);
+    text-decoration: none;
+    color: var(--text-main);
+    transition: all 0.25s ease;
+    overflow: hidden;
+}
+
+.dsa-card:hover {
+    border-color: #0f4c81;
+    box-shadow: 0 8px 30px rgba(15, 76, 129, 0.08);
+    transform: translateY(-3px);
+}
+
+.dsa-card-coming {
+    opacity: 0.55;
+    cursor: default;
+    pointer-events: none;
+}
+
+.dsa-card-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background: #f0f4f8;
+    color: #0f4c81;
+}
+
+.dsa-card h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.dsa-card p {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+    margin: 0;
+}
+
+.dsa-card-tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+
+.dsa-tag {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.55rem;
+    border-radius: 100px;
+    background: #e8f0fe;
+    color: #0f4c81;
+    font-weight: 600;
+}
+
+.dsa-card-status {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.2rem 0.5rem;
+    border-radius: 100px;
+}
+
+.dsa-card-status.live {
+    background: #d1fae5;
+    color: #059669;
+}
+
+.dsa-card-status.soon {
+    background: #fef3c7;
+    color: #d97706;
+}
+
+/* ==========================================================================
+   DSA Lab — Visualizer Pages
+   ========================================================================== */
+.dsa-visualizer {
+    max-width: var(--container-wide);
+    margin: 0 auto;
+    padding: 1.5rem 1.5rem 4rem;
+}
+
+.dsa-viz-header {
+    margin-bottom: 1.5rem;
+}
+
+.dsa-back {
+    display: inline-block;
+    font-size: 0.85rem;
+    color: #0f4c81;
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    transition: opacity 0.2s;
+}
+
+.dsa-back:hover { opacity: 0.7; }
+
+.dsa-viz-header h1 {
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin-bottom: 0.4rem;
+}
+
+.dsa-viz-header p {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.dsa-viz-layout {
+    display: grid;
+    grid-template-columns: 1fr 380px;
+    gap: 1.25rem;
+    align-items: start;
+}
+
+@media (max-width: 900px) {
+    .dsa-viz-layout {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Controls */
+.dsa-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: flex-end;
+    padding: 1rem;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
+
+.dsa-control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.dsa-control-group label {
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--text-muted);
+}
+
+.dsa-control-group select,
+.dsa-control-group input[type="range"] {
+    padding: 0.4rem 0.6rem;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    font-size: 0.85rem;
+    background: var(--card-bg);
+    color: var(--text-main);
+}
+
+.dsa-control-group input[type="range"] {
+    width: 120px;
+    accent-color: #0f4c81;
+}
+
+.dsa-control-buttons {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.btn-secondary {
+    display: inline-block;
+    padding: 0.45rem 0.9rem;
+    background: var(--hover-bg);
+    color: var(--text-main);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-secondary:hover {
+    background: var(--border-color);
+}
+
+/* Canvas */
+.dsa-canvas-wrap {
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    overflow: hidden;
+    background: #0d1117;
+}
+
+.dsa-canvas-wrap canvas,
+.dsa-canvas-wrap svg {
+    display: block;
+    width: 100%;
+}
+
+.dsa-canvas-stats {
+    display: flex;
+    gap: 1.5rem;
+    padding: 0.75rem 1rem;
+    background: #161b22;
+    color: #8b949e;
+    font-size: 0.8rem;
+    border-top: 1px solid #21262d;
+}
+
+.dsa-canvas-stats strong {
+    color: #e6edf3;
+}
+
+/* Complexity Table */
+.dsa-complexity {
+    margin-top: 1.25rem;
+}
+
+.dsa-complexity h3 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+.dsa-complexity table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.8rem;
+}
+
+.dsa-complexity th,
+.dsa-complexity td {
+    padding: 0.55rem 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.dsa-complexity th {
+    font-weight: 600;
+    color: var(--text-muted);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.dsa-complexity tr.active {
+    background: #e8f0fe;
+    font-weight: 600;
+}
+
+/* ==========================================================================
+   DSA Lab — Code Panel
+   ========================================================================== */
+.dsa-code-panel {
+    border: 1px solid #21262d;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #0d1117;
+    position: sticky;
+    top: 100px;
+}
+
+.dsa-code-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.65rem 1rem;
+    background: #161b22;
+    border-bottom: 1px solid #21262d;
+}
+
+.dsa-code-dots {
+    display: flex;
+    gap: 6px;
+}
+
+.dsa-code-dots .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.dot.red { background: #ff5f57; }
+.dot.yellow { background: #febc2e; }
+.dot.green { background: #28c840; }
+
+.dsa-code-lang {
+    flex: 1;
+    text-align: center;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: #8b949e;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.dsa-code-copy {
+    background: none;
+    border: none;
+    color: #8b949e;
+    cursor: pointer;
+    padding: 0.25rem;
+    display: flex;
+    transition: color 0.2s;
+}
+
+.dsa-code-copy:hover {
+    color: #e6edf3;
+}
+
+.dsa-code-block {
+    margin: 0;
+    padding: 1.25rem 1rem;
+    overflow-x: auto;
+    font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    line-height: 1.65;
+    color: #e6edf3;
+    white-space: pre;
+    tab-size: 4;
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+/* ==========================================================================
+   DSA Lab — Homepage Card
+   ========================================================================== */
+.dsa-home-card {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 14px;
+    background: var(--card-bg);
+    text-decoration: none;
+    color: var(--text-main);
+    transition: all 0.25s ease;
+    margin-bottom: 2rem;
+}
+
+.dsa-home-card:hover {
+    border-color: #0f4c81;
+    box-shadow: 0 8px 30px rgba(15, 76, 129, 0.08);
+    transform: translateY(-2px);
+}
+
+.dsa-home-card-icon {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    background: #0f4c81;
+    color: #fff;
+    flex-shrink: 0;
+}
+
+.dsa-home-card-text h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0 0 0.25rem;
+}
+
+.dsa-home-card-text p {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin: 0;
+}
+
+@media (max-width: 500px) {
+    .dsa-hero h1 { font-size: 1.75rem; }
+    .dsa-grid { grid-template-columns: 1fr; }
+    .dsa-home-card { flex-direction: column; text-align: center; }
+}

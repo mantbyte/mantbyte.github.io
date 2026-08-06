@@ -1,0 +1,498 @@
+---
+layout: default
+title: Binary Tree Visualizer — DSA Lab
+---
+
+<div class="dsa-visualizer">
+    <div class="dsa-viz-header">
+        <a href="{{ '/dsa' | relative_url }}" class="dsa-back">&larr; DSA Lab</a>
+        <h1>Binary Tree Visualizer</h1>
+        <p>Build a Binary Search Tree, insert & delete nodes, and watch traversals animate in real time.</p>
+    </div>
+
+    <div class="dsa-viz-layout">
+        <!-- Visualizer Panel -->
+        <div class="dsa-viz-main">
+            <!-- Controls -->
+            <div class="dsa-controls">
+                <div class="dsa-control-group">
+                    <label for="node-input">Value</label>
+                    <input type="number" id="node-input" placeholder="Enter a number" min="1" max="999" style="width: 130px; padding: 0.45rem 0.65rem; border: 1px solid var(--border-color); border-radius: 6px; font-size: 0.85rem; background: var(--card-bg); color: var(--text-main);">
+                </div>
+                <div class="dsa-control-buttons">
+                    <button id="btn-insert" class="btn btn-primary">Insert</button>
+                    <button id="btn-delete" class="btn btn-secondary">Delete</button>
+                    <button id="btn-search" class="btn btn-secondary">Search</button>
+                    <button id="btn-clear" class="btn btn-secondary">Clear</button>
+                </div>
+                <div class="dsa-control-group">
+                    <label for="traversal-select">Traversal</label>
+                    <select id="traversal-select">
+                        <option value="inorder">Inorder (LNR)</option>
+                        <option value="preorder">Preorder (NLR)</option>
+                        <option value="postorder">Postorder (LRN)</option>
+                        <option value="levelorder">Level Order (BFS)</option>
+                    </select>
+                </div>
+                <div class="dsa-control-buttons">
+                    <button id="btn-traverse" class="btn btn-primary">▶ Traverse</button>
+                    <button id="btn-random" class="btn btn-secondary">Random Tree</button>
+                </div>
+            </div>
+
+            <!-- SVG Canvas -->
+            <div class="dsa-canvas-wrap" id="tree-container">
+                <svg id="tree-svg" width="100%" height="420"></svg>
+                <div class="dsa-canvas-stats">
+                    <span>Nodes: <strong id="stat-nodes">0</strong></span>
+                    <span>Height: <strong id="stat-height">0</strong></span>
+                    <span>Traversal: <strong id="stat-traversal">—</strong></span>
+                </div>
+            </div>
+
+            <!-- Complexity Table -->
+            <div class="dsa-complexity">
+                <h3>BST Complexity</h3>
+                <table>
+                    <thead>
+                        <tr><th>Operation</th><th>Average</th><th>Worst (Skewed)</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Search</td><td>O(log n)</td><td>O(n)</td></tr>
+                        <tr><td>Insert</td><td>O(log n)</td><td>O(n)</td></tr>
+                        <tr><td>Delete</td><td>O(log n)</td><td>O(n)</td></tr>
+                        <tr><td>Traversal</td><td colspan="2">O(n)</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Code Panel -->
+        <div class="dsa-code-panel">
+            <div class="dsa-code-header">
+                <div class="dsa-code-dots">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <span class="dsa-code-lang">C++</span>
+                <button id="btn-copy" class="dsa-code-copy" title="Copy code">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                </button>
+            </div>
+            <pre class="dsa-code-block" id="code-display"></pre>
+        </div>
+    </div>
+</div>
+
+<script>
+// ==============================================================
+// Binary Tree Visualizer Engine
+// ==============================================================
+(function() {
+    'use strict';
+
+    const svg = document.getElementById('tree-svg');
+    const nodeInput = document.getElementById('node-input');
+    const traversalSelect = document.getElementById('traversal-select');
+    const btnInsert = document.getElementById('btn-insert');
+    const btnDelete = document.getElementById('btn-delete');
+    const btnSearch = document.getElementById('btn-search');
+    const btnClear = document.getElementById('btn-clear');
+    const btnTraverse = document.getElementById('btn-traverse');
+    const btnRandom = document.getElementById('btn-random');
+    const btnCopy = document.getElementById('btn-copy');
+    const codeDisplay = document.getElementById('code-display');
+    const statNodes = document.getElementById('stat-nodes');
+    const statHeight = document.getElementById('stat-height');
+    const statTraversal = document.getElementById('stat-traversal');
+
+    const NODE_RADIUS = 22;
+    const LEVEL_GAP = 65;
+    let animating = false;
+
+    // ---- BST Node ----
+    class TreeNode {
+        constructor(val) {
+            this.val = val;
+            this.left = null;
+            this.right = null;
+            this.x = 0;
+            this.y = 0;
+        }
+    }
+
+    let root = null;
+
+    // ---- BST Operations ----
+    function insert(node, val) {
+        if (!node) return new TreeNode(val);
+        if (val < node.val) node.left = insert(node.left, val);
+        else if (val > node.val) node.right = insert(node.right, val);
+        return node;
+    }
+
+    function findMin(node) {
+        while (node.left) node = node.left;
+        return node;
+    }
+
+    function deleteNode(node, val) {
+        if (!node) return null;
+        if (val < node.val) node.left = deleteNode(node.left, val);
+        else if (val > node.val) node.right = deleteNode(node.right, val);
+        else {
+            if (!node.left) return node.right;
+            if (!node.right) return node.left;
+            const successor = findMin(node.right);
+            node.val = successor.val;
+            node.right = deleteNode(node.right, successor.val);
+        }
+        return node;
+    }
+
+    function search(node, val) {
+        const path = [];
+        while (node) {
+            path.push(node);
+            if (val === node.val) return path;
+            if (val < node.val) node = node.left;
+            else node = node.right;
+        }
+        return path;
+    }
+
+    function height(node) {
+        if (!node) return 0;
+        return 1 + Math.max(height(node.left), height(node.right));
+    }
+
+    function countNodes(node) {
+        if (!node) return 0;
+        return 1 + countNodes(node.left) + countNodes(node.right);
+    }
+
+    // ---- Traversals ----
+    function inorder(node, result = []) {
+        if (!node) return result;
+        inorder(node.left, result);
+        result.push(node);
+        inorder(node.right, result);
+        return result;
+    }
+    function preorder(node, result = []) {
+        if (!node) return result;
+        result.push(node);
+        preorder(node.left, result);
+        preorder(node.right, result);
+        return result;
+    }
+    function postorder(node, result = []) {
+        if (!node) return result;
+        postorder(node.left, result);
+        postorder(node.right, result);
+        result.push(node);
+        return result;
+    }
+    function levelorder(node) {
+        if (!node) return [];
+        const result = [], queue = [node];
+        while (queue.length) {
+            const curr = queue.shift();
+            result.push(curr);
+            if (curr.left) queue.push(curr.left);
+            if (curr.right) queue.push(curr.right);
+        }
+        return result;
+    }
+
+    const TRAVERSALS = { inorder, preorder, postorder, levelorder };
+
+    // ---- Positioning & Rendering ----
+    function assignPositions(node, depth, left, right) {
+        if (!node) return;
+        const mid = (left + right) / 2;
+        node.x = mid;
+        node.y = depth * LEVEL_GAP + 40;
+        assignPositions(node.left, depth + 1, left, mid);
+        assignPositions(node.right, depth + 1, mid, right);
+    }
+
+    function renderTree(highlighted = new Set(), highlightColor = '#f59e0b', foundNode = null) {
+        svg.innerHTML = '';
+        if (!root) return;
+
+        const container = document.getElementById('tree-container');
+        const svgWidth = container.clientWidth;
+        assignPositions(root, 0, 0, svgWidth);
+
+        // Draw edges first
+        function drawEdges(node) {
+            if (!node) return;
+            if (node.left) {
+                const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                line.setAttribute('x1', node.x); line.setAttribute('y1', node.y);
+                line.setAttribute('x2', node.left.x); line.setAttribute('y2', node.left.y);
+                line.setAttribute('stroke', '#475569');
+                line.setAttribute('stroke-width', '2');
+                svg.appendChild(line);
+                drawEdges(node.left);
+            }
+            if (node.right) {
+                const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                line.setAttribute('x1', node.x); line.setAttribute('y1', node.y);
+                line.setAttribute('x2', node.right.x); line.setAttribute('y2', node.right.y);
+                line.setAttribute('stroke', '#475569');
+                line.setAttribute('stroke-width', '2');
+                svg.appendChild(line);
+                drawEdges(node.right);
+            }
+        }
+        drawEdges(root);
+
+        // Draw nodes
+        function drawNodes(node) {
+            if (!node) return;
+
+            const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+
+            const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+            circle.setAttribute('cx', node.x);
+            circle.setAttribute('cy', node.y);
+            circle.setAttribute('r', NODE_RADIUS);
+
+            let fill = '#1e293b';
+            if (foundNode === node) fill = '#10b981';
+            else if (highlighted.has(node)) fill = highlightColor;
+            circle.setAttribute('fill', fill);
+            circle.setAttribute('stroke', highlighted.has(node) ? highlightColor : '#475569');
+            circle.setAttribute('stroke-width', highlighted.has(node) ? '3' : '2');
+
+            const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+            text.setAttribute('x', node.x);
+            text.setAttribute('y', node.y + 5);
+            text.setAttribute('text-anchor', 'middle');
+            text.setAttribute('fill', '#fff');
+            text.setAttribute('font-size', '14');
+            text.setAttribute('font-weight', '600');
+            text.setAttribute('font-family', 'Inter, system-ui, sans-serif');
+            text.textContent = node.val;
+
+            g.appendChild(circle);
+            g.appendChild(text);
+            svg.appendChild(g);
+
+            drawNodes(node.left);
+            drawNodes(node.right);
+        }
+        drawNodes(root);
+
+        // Adjust SVG height
+        const h = height(root);
+        svg.setAttribute('height', Math.max(420, h * LEVEL_GAP + 80));
+    }
+
+    function updateStats() {
+        statNodes.textContent = countNodes(root);
+        statHeight.textContent = height(root);
+    }
+
+    // ---- Animated Traversal ----
+    async function animateTraversal(type) {
+        if (animating || !root) return;
+        animating = true;
+        btnTraverse.disabled = true;
+
+        const order = TRAVERSALS[type](root);
+        const labels = [];
+        const visited = new Set();
+
+        for (const node of order) {
+            visited.add(node);
+            renderTree(visited, '#f59e0b');
+            labels.push(node.val);
+            statTraversal.textContent = labels.join(' → ');
+            await new Promise(r => setTimeout(r, 500));
+        }
+
+        // Final: all green
+        renderTree(new Set(order), '#10b981');
+        animating = false;
+        btnTraverse.disabled = false;
+    }
+
+    // ---- Animated Search ----
+    async function animateSearch(val) {
+        if (animating || !root) return;
+        animating = true;
+        const path = search(root, val);
+        const visited = new Set();
+
+        for (const node of path) {
+            visited.add(node);
+            const found = node.val === val ? node : null;
+            renderTree(visited, '#f59e0b', found);
+            await new Promise(r => setTimeout(r, 500));
+        }
+
+        const lastNode = path[path.length - 1];
+        if (lastNode && lastNode.val === val) {
+            statTraversal.textContent = `Found ${val}!`;
+        } else {
+            statTraversal.textContent = `${val} not found`;
+        }
+        animating = false;
+    }
+
+    // ---- C++ Code ----
+    const CODE = {
+        insert: `struct Node {
+    int val;
+    Node* left;
+    Node* right;
+    Node(int v) : val(v), left(nullptr), right(nullptr) {}
+};
+
+Node* insert(Node* root, int val) {
+    if (!root) return new Node(val);
+    if (val < root->val)
+        root->left = insert(root->left, val);
+    else if (val > root->val)
+        root->right = insert(root->right, val);
+    return root;
+}`,
+        deleteNode: `Node* findMin(Node* node) {
+    while (node->left) node = node->left;
+    return node;
+}
+
+Node* deleteNode(Node* root, int val) {
+    if (!root) return nullptr;
+    if (val < root->val)
+        root->left = deleteNode(root->left, val);
+    else if (val > root->val)
+        root->right = deleteNode(root->right, val);
+    else {
+        if (!root->left) return root->right;
+        if (!root->right) return root->left;
+        Node* succ = findMin(root->right);
+        root->val = succ->val;
+        root->right = deleteNode(root->right, succ->val);
+    }
+    return root;
+}`,
+        traversals: `// Inorder: Left → Node → Right
+void inorder(Node* root) {
+    if (!root) return;
+    inorder(root->left);
+    cout << root->val << " ";
+    inorder(root->right);
+}
+
+// Preorder: Node → Left → Right
+void preorder(Node* root) {
+    if (!root) return;
+    cout << root->val << " ";
+    preorder(root->left);
+    preorder(root->right);
+}
+
+// Postorder: Left → Right → Node
+void postorder(Node* root) {
+    if (!root) return;
+    postorder(root->left);
+    postorder(root->right);
+    cout << root->val << " ";
+}
+
+// Level Order (BFS)
+void levelOrder(Node* root) {
+    if (!root) return;
+    queue<Node*> q;
+    q.push(root);
+    while (!q.empty()) {
+        Node* curr = q.front(); q.pop();
+        cout << curr->val << " ";
+        if (curr->left) q.push(curr->left);
+        if (curr->right) q.push(curr->right);
+    }
+}`
+    };
+
+    // ---- Event Handlers ----
+    btnInsert.addEventListener('click', () => {
+        const val = parseInt(nodeInput.value);
+        if (isNaN(val)) return;
+        root = insert(root, val);
+        renderTree();
+        updateStats();
+        nodeInput.value = '';
+        nodeInput.focus();
+        codeDisplay.textContent = CODE.insert;
+        statTraversal.textContent = '—';
+    });
+
+    btnDelete.addEventListener('click', () => {
+        const val = parseInt(nodeInput.value);
+        if (isNaN(val)) return;
+        root = deleteNode(root, val);
+        renderTree();
+        updateStats();
+        nodeInput.value = '';
+        nodeInput.focus();
+        codeDisplay.textContent = CODE.deleteNode;
+        statTraversal.textContent = '—';
+    });
+
+    btnSearch.addEventListener('click', () => {
+        const val = parseInt(nodeInput.value);
+        if (isNaN(val)) return;
+        animateSearch(val);
+        nodeInput.value = '';
+    });
+
+    btnClear.addEventListener('click', () => {
+        root = null;
+        renderTree();
+        updateStats();
+        statTraversal.textContent = '—';
+    });
+
+    btnTraverse.addEventListener('click', () => {
+        animateTraversal(traversalSelect.value);
+        codeDisplay.textContent = CODE.traversals;
+    });
+
+    btnRandom.addEventListener('click', () => {
+        root = null;
+        const values = new Set();
+        while (values.size < 10) values.add(Math.floor(Math.random() * 99) + 1);
+        values.forEach(v => root = insert(root, v));
+        renderTree();
+        updateStats();
+        statTraversal.textContent = '—';
+        codeDisplay.textContent = CODE.insert;
+    });
+
+    nodeInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') btnInsert.click();
+    });
+
+    btnCopy.addEventListener('click', () => {
+        navigator.clipboard.writeText(codeDisplay.textContent).then(() => {
+            btnCopy.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>';
+            setTimeout(() => {
+                btnCopy.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>';
+            }, 1500);
+        });
+    });
+
+    // ---- Init ----
+    window.addEventListener('resize', () => renderTree());
+    codeDisplay.textContent = CODE.insert;
+    // Start with a small demo tree
+    [50, 30, 70, 20, 40, 60, 80].forEach(v => root = insert(root, v));
+    renderTree();
+    updateStats();
+})();
+</script>

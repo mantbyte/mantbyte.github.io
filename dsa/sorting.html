@@ -1,0 +1,498 @@
+---
+layout: default
+title: Sorting Visualizer — DSA Lab
+---
+
+<div class="dsa-visualizer">
+    <div class="dsa-viz-header">
+        <a href="{{ '/dsa' | relative_url }}" class="dsa-back">&larr; DSA Lab</a>
+        <h1>Sorting Visualizer</h1>
+        <p>Watch sorting algorithms in action. Select an algorithm, adjust the speed, and hit play.</p>
+    </div>
+
+    <div class="dsa-viz-layout">
+        <!-- Visualizer Panel -->
+        <div class="dsa-viz-main">
+            <!-- Controls -->
+            <div class="dsa-controls">
+                <div class="dsa-control-group">
+                    <label for="algo-select">Algorithm</label>
+                    <select id="algo-select">
+                        <option value="bubble">Bubble Sort</option>
+                        <option value="selection">Selection Sort</option>
+                        <option value="insertion">Insertion Sort</option>
+                        <option value="merge">Merge Sort</option>
+                        <option value="quick">Quick Sort</option>
+                    </select>
+                </div>
+                <div class="dsa-control-group">
+                    <label for="size-slider">Array Size: <span id="size-val">30</span></label>
+                    <input type="range" id="size-slider" min="10" max="80" value="30">
+                </div>
+                <div class="dsa-control-group">
+                    <label for="speed-slider">Speed: <span id="speed-val">Medium</span></label>
+                    <input type="range" id="speed-slider" min="1" max="5" value="3">
+                </div>
+                <div class="dsa-control-buttons">
+                    <button id="btn-generate" class="btn btn-secondary">New Array</button>
+                    <button id="btn-play" class="btn btn-primary">▶ Play</button>
+                    <button id="btn-stop" class="btn btn-secondary" disabled>■ Stop</button>
+                </div>
+            </div>
+
+            <!-- Canvas -->
+            <div class="dsa-canvas-wrap">
+                <canvas id="sort-canvas"></canvas>
+                <div class="dsa-canvas-stats">
+                    <span>Comparisons: <strong id="stat-comps">0</strong></span>
+                    <span>Swaps: <strong id="stat-swaps">0</strong></span>
+                    <span>Time: <strong id="stat-time">0ms</strong></span>
+                </div>
+            </div>
+
+            <!-- Complexity Table -->
+            <div class="dsa-complexity">
+                <h3>Complexity Analysis</h3>
+                <table>
+                    <thead>
+                        <tr><th>Algorithm</th><th>Best</th><th>Average</th><th>Worst</th><th>Space</th><th>Stable</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr class="active" data-algo="bubble"><td>Bubble Sort</td><td>O(n)</td><td>O(n²)</td><td>O(n²)</td><td>O(1)</td><td>Yes</td></tr>
+                        <tr data-algo="selection"><td>Selection Sort</td><td>O(n²)</td><td>O(n²)</td><td>O(n²)</td><td>O(1)</td><td>No</td></tr>
+                        <tr data-algo="insertion"><td>Insertion Sort</td><td>O(n)</td><td>O(n²)</td><td>O(n²)</td><td>O(1)</td><td>Yes</td></tr>
+                        <tr data-algo="merge"><td>Merge Sort</td><td>O(n log n)</td><td>O(n log n)</td><td>O(n log n)</td><td>O(n)</td><td>Yes</td></tr>
+                        <tr data-algo="quick"><td>Quick Sort</td><td>O(n log n)</td><td>O(n log n)</td><td>O(n²)</td><td>O(log n)</td><td>No</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Code Panel -->
+        <div class="dsa-code-panel">
+            <div class="dsa-code-header">
+                <div class="dsa-code-dots">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <span class="dsa-code-lang">C++</span>
+                <button id="btn-copy" class="dsa-code-copy" title="Copy code">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                </button>
+            </div>
+            <pre class="dsa-code-block" id="code-display"></pre>
+        </div>
+    </div>
+</div>
+
+<script>
+// ==============================================================
+// Sorting Visualizer Engine
+// ==============================================================
+(function() {
+    'use strict';
+
+    const canvas = document.getElementById('sort-canvas');
+    const ctx = canvas.getContext('2d');
+    const algoSelect = document.getElementById('algo-select');
+    const sizeSlider = document.getElementById('size-slider');
+    const speedSlider = document.getElementById('speed-slider');
+    const sizeVal = document.getElementById('size-val');
+    const speedVal = document.getElementById('speed-val');
+    const btnGenerate = document.getElementById('btn-generate');
+    const btnPlay = document.getElementById('btn-play');
+    const btnStop = document.getElementById('btn-stop');
+    const btnCopy = document.getElementById('btn-copy');
+    const codeDisplay = document.getElementById('code-display');
+    const statComps = document.getElementById('stat-comps');
+    const statSwaps = document.getElementById('stat-swaps');
+    const statTime = document.getElementById('stat-time');
+
+    let arr = [];
+    let sorting = false;
+    let stopRequested = false;
+    let comparisons = 0;
+    let swaps = 0;
+
+    const SPEED_MAP = { 1: 120, 2: 60, 3: 25, 4: 8, 5: 1 };
+    const SPEED_LABELS = { 1: 'Slow', 2: 'Slower', 3: 'Medium', 4: 'Fast', 5: 'Instant' };
+
+    const COLORS = {
+        default: '#334155',
+        comparing: '#f59e0b',
+        swapping: '#ef4444',
+        sorted: '#10b981',
+        pivot: '#8b5cf6'
+    };
+
+    // ---- C++ Code Snippets ----
+    const CODE = {
+        bubble: `void bubbleSort(vector<int>& arr) {
+    int n = arr.size();
+    for (int i = 0; i < n - 1; i++) {
+        bool swapped = false;
+        for (int j = 0; j < n - i - 1; j++) {
+            // Compare adjacent elements
+            if (arr[j] > arr[j + 1]) {
+                swap(arr[j], arr[j + 1]);
+                swapped = true;
+            }
+        }
+        // Optimization: stop if no swaps
+        if (!swapped) break;
+    }
+}`,
+        selection: `void selectionSort(vector<int>& arr) {
+    int n = arr.size();
+    for (int i = 0; i < n - 1; i++) {
+        int minIdx = i;
+        // Find minimum in unsorted part
+        for (int j = i + 1; j < n; j++) {
+            if (arr[j] < arr[minIdx]) {
+                minIdx = j;
+            }
+        }
+        // Swap minimum to sorted position
+        if (minIdx != i) {
+            swap(arr[i], arr[minIdx]);
+        }
+    }
+}`,
+        insertion: `void insertionSort(vector<int>& arr) {
+    int n = arr.size();
+    for (int i = 1; i < n; i++) {
+        int key = arr[i];
+        int j = i - 1;
+        // Shift elements greater than key
+        while (j >= 0 && arr[j] > key) {
+            arr[j + 1] = arr[j];
+            j--;
+        }
+        arr[j + 1] = key;
+    }
+}`,
+        merge: `void merge(vector<int>& arr, int l, int m, int r) {
+    vector<int> left(arr.begin()+l, arr.begin()+m+1);
+    vector<int> right(arr.begin()+m+1, arr.begin()+r+1);
+    int i = 0, j = 0, k = l;
+    while (i < left.size() && j < right.size()) {
+        if (left[i] <= right[j])
+            arr[k++] = left[i++];
+        else
+            arr[k++] = right[j++];
+    }
+    while (i < left.size()) arr[k++] = left[i++];
+    while (j < right.size()) arr[k++] = right[j++];
+}
+
+void mergeSort(vector<int>& arr, int l, int r) {
+    if (l >= r) return;
+    int m = l + (r - l) / 2;
+    mergeSort(arr, l, m);
+    mergeSort(arr, m + 1, r);
+    merge(arr, l, m, r);
+}`,
+        quick: `int partition(vector<int>& arr, int low, int high) {
+    int pivot = arr[high];
+    int i = low - 1;
+    for (int j = low; j < high; j++) {
+        if (arr[j] < pivot) {
+            i++;
+            swap(arr[i], arr[j]);
+        }
+    }
+    swap(arr[i + 1], arr[high]);
+    return i + 1;
+}
+
+void quickSort(vector<int>& arr, int low, int high) {
+    if (low < high) {
+        int pi = partition(arr, low, high);
+        quickSort(arr, low, pi - 1);
+        quickSort(arr, pi + 1, high);
+    }
+}`
+    };
+
+    // ---- Canvas Rendering ----
+    function resizeCanvas() {
+        const wrap = canvas.parentElement;
+        canvas.width = wrap.clientWidth;
+        canvas.height = Math.min(wrap.clientWidth * 0.5, 400);
+        drawArray();
+    }
+
+    function drawArray(highlights = {}) {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        if (arr.length === 0) return;
+
+        const padding = 4;
+        const totalWidth = canvas.width - padding * 2;
+        const barWidth = totalWidth / arr.length;
+        const maxVal = Math.max(...arr);
+
+        for (let i = 0; i < arr.length; i++) {
+            const barHeight = (arr[i] / maxVal) * (canvas.height - 20);
+            const x = padding + i * barWidth;
+            const y = canvas.height - barHeight;
+
+            let color = COLORS.default;
+            if (highlights.sorted && highlights.sorted.includes(i)) color = COLORS.sorted;
+            if (highlights.comparing && highlights.comparing.includes(i)) color = COLORS.comparing;
+            if (highlights.swapping && highlights.swapping.includes(i)) color = COLORS.swapping;
+            if (highlights.pivot === i) color = COLORS.pivot;
+
+            ctx.fillStyle = color;
+            const radius = Math.min(3, barWidth / 4);
+            const w = Math.max(barWidth - 1, 1);
+            ctx.beginPath();
+            ctx.moveTo(x + radius, y);
+            ctx.lineTo(x + w - radius, y);
+            ctx.quadraticCurveTo(x + w, y, x + w, y + radius);
+            ctx.lineTo(x + w, canvas.height);
+            ctx.lineTo(x, canvas.height);
+            ctx.lineTo(x, y + radius);
+            ctx.quadraticCurveTo(x, y, x + radius, y);
+            ctx.closePath();
+            ctx.fill();
+        }
+    }
+
+    // ---- Utility ----
+    function generateArray(size) {
+        arr = [];
+        for (let i = 0; i < size; i++) {
+            arr.push(Math.floor(Math.random() * 95) + 5);
+        }
+        comparisons = 0; swaps = 0;
+        statComps.textContent = '0';
+        statSwaps.textContent = '0';
+        statTime.textContent = '0ms';
+        drawArray();
+    }
+
+    function delay() {
+        return new Promise(r => setTimeout(r, SPEED_MAP[speedSlider.value]));
+    }
+
+    function updateCode(algo) {
+        const code = CODE[algo] || '';
+        codeDisplay.textContent = code;
+    }
+
+    function highlightRow(algo) {
+        document.querySelectorAll('.dsa-complexity tbody tr').forEach(tr => {
+            tr.classList.toggle('active', tr.dataset.algo === algo);
+        });
+    }
+
+    // ---- Sorting Algorithms ----
+    async function bubbleSort() {
+        const n = arr.length;
+        const sorted = [];
+        for (let i = 0; i < n - 1; i++) {
+            let swapped = false;
+            for (let j = 0; j < n - i - 1; j++) {
+                if (stopRequested) return;
+                comparisons++;
+                statComps.textContent = comparisons;
+                drawArray({ comparing: [j, j+1], sorted });
+                await delay();
+                if (arr[j] > arr[j+1]) {
+                    [arr[j], arr[j+1]] = [arr[j+1], arr[j]];
+                    swaps++;
+                    statSwaps.textContent = swaps;
+                    drawArray({ swapping: [j, j+1], sorted });
+                    await delay();
+                    swapped = true;
+                }
+            }
+            sorted.push(n - 1 - i);
+            if (!swapped) break;
+        }
+        sorted.push(0);
+        drawArray({ sorted: Array.from({length: n}, (_, i) => i) });
+    }
+
+    async function selectionSort() {
+        const n = arr.length;
+        const sorted = [];
+        for (let i = 0; i < n - 1; i++) {
+            let minIdx = i;
+            for (let j = i + 1; j < n; j++) {
+                if (stopRequested) return;
+                comparisons++;
+                statComps.textContent = comparisons;
+                drawArray({ comparing: [minIdx, j], sorted });
+                await delay();
+                if (arr[j] < arr[minIdx]) minIdx = j;
+            }
+            if (minIdx !== i) {
+                [arr[i], arr[minIdx]] = [arr[minIdx], arr[i]];
+                swaps++;
+                statSwaps.textContent = swaps;
+                drawArray({ swapping: [i, minIdx], sorted });
+                await delay();
+            }
+            sorted.push(i);
+        }
+        sorted.push(n - 1);
+        drawArray({ sorted: Array.from({length: n}, (_, i) => i) });
+    }
+
+    async function insertionSort() {
+        const n = arr.length;
+        const sorted = [0];
+        for (let i = 1; i < n; i++) {
+            let key = arr[i];
+            let j = i - 1;
+            drawArray({ comparing: [i], sorted });
+            await delay();
+            while (j >= 0 && arr[j] > key) {
+                if (stopRequested) return;
+                comparisons++;
+                statComps.textContent = comparisons;
+                arr[j + 1] = arr[j];
+                swaps++;
+                statSwaps.textContent = swaps;
+                drawArray({ swapping: [j, j+1], sorted });
+                await delay();
+                j--;
+            }
+            arr[j + 1] = key;
+            sorted.push(i);
+        }
+        drawArray({ sorted: Array.from({length: n}, (_, i) => i) });
+    }
+
+    async function mergeSort(l = 0, r = arr.length - 1, sorted = new Set()) {
+        if (l >= r || stopRequested) return;
+        const m = Math.floor((l + r) / 2);
+        await mergeSort(l, m, sorted);
+        await mergeSort(m + 1, r, sorted);
+
+        const left = arr.slice(l, m + 1);
+        const right = arr.slice(m + 1, r + 1);
+        let i = 0, j = 0, k = l;
+
+        while (i < left.length && j < right.length) {
+            if (stopRequested) return;
+            comparisons++;
+            statComps.textContent = comparisons;
+            drawArray({ comparing: [k, m + 1 + j] });
+            await delay();
+            if (left[i] <= right[j]) {
+                arr[k++] = left[i++];
+            } else {
+                arr[k++] = right[j++];
+                swaps++;
+                statSwaps.textContent = swaps;
+            }
+            drawArray({ swapping: [k - 1] });
+            await delay();
+        }
+        while (i < left.length) { arr[k++] = left[i++]; }
+        while (j < right.length) { arr[k++] = right[j++]; }
+
+        if (l === 0 && r === arr.length - 1) {
+            drawArray({ sorted: Array.from({length: arr.length}, (_, i) => i) });
+        }
+    }
+
+    async function quickSort(low = 0, high = arr.length - 1) {
+        if (low >= high || stopRequested) return;
+        const pivotVal = arr[high];
+        let i = low - 1;
+
+        for (let j = low; j < high; j++) {
+            if (stopRequested) return;
+            comparisons++;
+            statComps.textContent = comparisons;
+            drawArray({ comparing: [j], pivot: high });
+            await delay();
+            if (arr[j] < pivotVal) {
+                i++;
+                [arr[i], arr[j]] = [arr[j], arr[i]];
+                swaps++;
+                statSwaps.textContent = swaps;
+                drawArray({ swapping: [i, j], pivot: high });
+                await delay();
+            }
+        }
+        [arr[i+1], arr[high]] = [arr[high], arr[i+1]];
+        swaps++;
+        statSwaps.textContent = swaps;
+
+        const pi = i + 1;
+        await quickSort(low, pi - 1);
+        await quickSort(pi + 1, high);
+
+        if (low === 0 && high === arr.length - 1) {
+            drawArray({ sorted: Array.from({length: arr.length}, (_, i) => i) });
+        }
+    }
+
+    const ALGOS = { bubble: bubbleSort, selection: selectionSort, insertion: insertionSort, merge: mergeSort, quick: quickSort };
+
+    // ---- Event Handlers ----
+    sizeSlider.addEventListener('input', () => {
+        sizeVal.textContent = sizeSlider.value;
+        if (!sorting) generateArray(parseInt(sizeSlider.value));
+    });
+    speedSlider.addEventListener('input', () => {
+        speedVal.textContent = SPEED_LABELS[speedSlider.value];
+    });
+    algoSelect.addEventListener('change', () => {
+        updateCode(algoSelect.value);
+        highlightRow(algoSelect.value);
+    });
+    btnGenerate.addEventListener('click', () => {
+        if (!sorting) generateArray(parseInt(sizeSlider.value));
+    });
+
+    btnPlay.addEventListener('click', async () => {
+        if (sorting) return;
+        sorting = true;
+        stopRequested = false;
+        comparisons = 0; swaps = 0;
+        statComps.textContent = '0'; statSwaps.textContent = '0';
+        btnPlay.disabled = true;
+        btnStop.disabled = false;
+        btnGenerate.disabled = true;
+        algoSelect.disabled = true;
+        sizeSlider.disabled = true;
+
+        const start = performance.now();
+        await ALGOS[algoSelect.value]();
+        const elapsed = Math.round(performance.now() - start);
+        statTime.textContent = elapsed + 'ms';
+
+        sorting = false;
+        stopRequested = false;
+        btnPlay.disabled = false;
+        btnStop.disabled = true;
+        btnGenerate.disabled = false;
+        algoSelect.disabled = false;
+        sizeSlider.disabled = false;
+    });
+
+    btnStop.addEventListener('click', () => { stopRequested = true; });
+
+    btnCopy.addEventListener('click', () => {
+        navigator.clipboard.writeText(codeDisplay.textContent).then(() => {
+            btnCopy.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>';
+            setTimeout(() => {
+                btnCopy.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>';
+            }, 1500);
+        });
+    });
+
+    // ---- Init ----
+    window.addEventListener('resize', resizeCanvas);
+    generateArray(30);
+    updateCode('bubble');
+    highlightRow('bubble');
+    resizeCanvas();
+})();
+</script>
