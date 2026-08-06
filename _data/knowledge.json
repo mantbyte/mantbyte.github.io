@@ -1415,7 +1415,22 @@
         "Sustainability"
       ],
       "url": "/geopolitics/2026/08/06/nashville-hyperscale-data-centers-eminent-domain.html"
+    },
+    {
+      "title": "The Click-Layer Threat: Understanding AI Recommendation Poisoning via Deep-Linked Memory Injection",
+      "slug": "ai-recommendation-poisoning-memory-injection",
+      "date": "2026-08-06",
+      "category": "Tech",
+      "key_topics": [
+        "Cybersecurity",
+        "LLM Security",
+        "Prompt Injection",
+        "AI Safety",
+        "Social Engineering",
+        "Deep-Linked Memory Injection"
+      ],
+      "url": "/tech/2026/08/06/ai-recommendation-poisoning-memory-injection.html"
     }
   ],
-  "last_updated": "2026-08-06T11:33:01.783985+00:00"
+  "last_updated": "2026-08-06T14:27:46.127590+00:00"
 }
