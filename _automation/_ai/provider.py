@@ -147,8 +147,8 @@ def generate_json(agent_name: str, system_instruction: str, user_prompt: str, te
     # Robust parsing to handle markdown fences and extra text
     cleaned = raw_text.strip()
     
-    # Extract content between ``` if present
-    match = re.search(r'```(?:json)?\s*(.*?)\s*```', cleaned, re.DOTALL)
+    # Extract content between ``` if present, ONLY if it wraps the whole response
+    match = re.search(r'^```(?:json)?\s*(.*?)\s*```$', cleaned, re.DOTALL)
     if match:
         cleaned = match.group(1).strip()
         
