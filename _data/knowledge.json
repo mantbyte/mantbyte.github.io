@@ -1509,7 +1509,23 @@
         "Cybersecurity"
       ],
       "url": "/news/2026/08/07/ai-agent-harness-security-prompt-injection.html"
+    },
+    {
+      "title": "The AI Code Ban Paradox: Why Oracle Rejected LLMs in OpenJDK",
+      "slug": "oracle-ai-code-ban-openjdk-paradox",
+      "date": "2026-08-08",
+      "category": "Tech",
+      "key_topics": [
+        "Artificial Intelligence",
+        "OpenJDK",
+        "Oracle",
+        "Java",
+        "Open Source",
+        "Software Engineering",
+        "Copyright Law"
+      ],
+      "url": "/tech/2026/08/08/oracle-ai-code-ban-openjdk-paradox.html"
     }
   ],
-  "last_updated": "2026-08-07T13:16:51.100055+00:00"
+  "last_updated": "2026-08-07T19:04:11.898426+00:00"
 }
