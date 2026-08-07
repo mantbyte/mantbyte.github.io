@@ -2041,6 +2041,43 @@ body.logged-in .logged-in-only {
 .home-newsletter-form-wrapper .newsletter-inline {
     margin: 0;
     background: var(--card-bg);
+    flex-direction: column !important; /* Force column layout to prevent squishing in split view */
+    align-items: stretch !important;
+}
+
+.home-newsletter-form-wrapper .newsletter-inline-content {
+    color: var(--text-main);
+}
+
+.home-newsletter-form-wrapper .newsletter-icon {
+    background: var(--hover-bg);
+    color: var(--text-main);
+}
+
+.home-newsletter-form-wrapper .newsletter-inline-form {
+    max-width: 100% !important;
+    flex-direction: column !important;
+}
+
+@media (min-width: 400px) {
+    .home-newsletter-form-wrapper .newsletter-inline-form {
+        flex-direction: row !important;
+    }
+}
+
+.home-newsletter-form-wrapper .newsletter-inline-form input {
+    background: var(--bg-color);
+    color: var(--text-main);
+    border-color: var(--border-color);
+}
+
+.home-newsletter-form-wrapper .newsletter-inline-form input::placeholder {
+    color: var(--text-muted);
+}
+
+.home-newsletter-form-wrapper .newsletter-inline-form button {
+    background: var(--text-main);
+    color: var(--bg-color);
 }
 
 /* ==========================================================================
