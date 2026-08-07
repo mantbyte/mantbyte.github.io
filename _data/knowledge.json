@@ -1494,7 +1494,22 @@
         "Agent Harness"
       ],
       "url": "/tech/2026/08/07/ai-agent-harness-vulnerabilities-cicd.html"
+    },
+    {
+      "title": "The AI Agent Harness Crisis: Securing CI/CD Against Indirect Prompt Injection",
+      "slug": "ai-agent-harness-security-prompt-injection",
+      "date": "2026-08-07",
+      "category": "News",
+      "key_topics": [
+        "AI Security",
+        "CI/CD",
+        "Prompt Injection",
+        "LLM",
+        "DevSecOps",
+        "Cybersecurity"
+      ],
+      "url": "/news/2026/08/07/ai-agent-harness-security-prompt-injection.html"
     }
   ],
-  "last_updated": "2026-08-07T10:09:46.222414+00:00"
+  "last_updated": "2026-08-07T13:16:51.100055+00:00"
 }
