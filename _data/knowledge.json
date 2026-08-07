@@ -1430,7 +1430,24 @@
         "Deep-Linked Memory Injection"
       ],
       "url": "/tech/2026/08/06/ai-recommendation-poisoning-memory-injection.html"
+    },
+    {
+      "title": "Hardwiring Intelligence: How AMD and Taalas Are Etching LLM Weights into Silicon with MSICs",
+      "slug": "amd-taalas-msic-hardwiring-llm-silicon",
+      "date": "2026-08-07",
+      "category": "Tech",
+      "key_topics": [
+        "AMD",
+        "Taalas",
+        "MSIC",
+        "AI Inference",
+        "Silicon",
+        "Hardware",
+        "LLM",
+        "GPUs"
+      ],
+      "url": "/tech/2026/08/07/amd-taalas-msic-hardwiring-llm-silicon.html"
     }
   ],
-  "last_updated": "2026-08-06T14:27:46.127590+00:00"
+  "last_updated": "2026-08-07T00:08:02.554680+00:00"
 }
