@@ -171,7 +171,7 @@ def generate_json(agent_name: str, system_instruction: str, user_prompt: str, te
             cleaned = cleaned[start_idx:end_idx+1]
     
     try:
-        return json.loads(cleaned)
+        return json.loads(cleaned, strict=False)
     except json.JSONDecodeError as e:
         logger.error(f"Failed to parse JSON. Raw output: {raw_text}", extra={"agent": agent_name})
         raise ValueError(f"Agent {agent_name} produced invalid JSON: {str(e)}")
