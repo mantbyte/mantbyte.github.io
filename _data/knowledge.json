@@ -1463,7 +1463,23 @@
         "Hardware"
       ],
       "url": "/tech/2026/08/07/amd-acquires-taalas-model-specific-integrated-circuits.html"
+    },
+    {
+      "title": "Inside Anthropic's Silicon Strategy: The Rise of Lab-Designed AI Accelerators and Hardware Vertical Integration",
+      "slug": "anthropic-silicon-strategy-custom-ai-chips",
+      "date": "2026-08-07",
+      "category": "Tech",
+      "key_topics": [
+        "Anthropic",
+        "Custom Silicon",
+        "AI Hardware",
+        "ASIC",
+        "LLM Inference",
+        "Semiconductors",
+        "Claude AI"
+      ],
+      "url": "/tech/2026/08/07/anthropic-silicon-strategy-custom-ai-chips.html"
     }
   ],
-  "last_updated": "2026-08-07T05:00:11.336468+00:00"
+  "last_updated": "2026-08-07T07:28:01.958769+00:00"
 }
