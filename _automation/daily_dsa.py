@@ -83,7 +83,7 @@ def run_daily_dsa(dry_run: bool):
 
     # Generate Image
     print("🎨 Generating cover image...")
-    image_prompt = f"Abstract technical illustration representing data structures and algorithms, code, logic, matrix style, clean vector tech art, dark theme, no text."
+    image_prompt = f"Abstract technical illustration representing {result.get('topic_summary', 'algorithms')} for the problem '{title}', code, logic, matrix style, clean vector tech art, dark theme, no text."
     
     if dry_run:
         image_data = {

@@ -10,10 +10,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=9">
+    <link rel="stylesheet" href="/assets/css/style.css?v=14">
     <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
     <link rel="alternate" type="application/rss+xml" title="mantbyte" href="https://mantbyte.github.io/feed.xml">
     <link rel="canonical" href="https://mantbyte.github.io/category/geopolitics/">
+
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#0f4c81">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="mantbyte">
+    <link rel="apple-touch-icon" href="/assets/icons/icon-192x192.png">
+    <meta name="mobile-web-app-capable" content="yes">
 
     
     <!-- Google tag (gtag.js) -->
@@ -78,8 +87,13 @@
                             <li><a href="/category/tech">Tech</a></li>
                             <li><a href="/category/news">News</a></li>
                             <li><a href="/category/geopolitics">Geopolitics</a></li>
+                            <li><a href="/category/world">World</a></li>
+                            <li><a href="/category/india">India</a></li>
+                            <li><a href="/category/finance">Finance</a></li>
+                            <li><a href="/category/spiritual">Spiritual</a></li>
                         </ul>
                     </li>
+                    <li><a href="/dsa" class="page-link">DSA Lab</a></li>
                     <li><a href="/about" class="page-link">About</a></li>
                     <li><a href="/contact" class="page-link">Contact</a></li>
                     <li class="nav-auth-item">
@@ -130,23 +144,23 @@
     <div class="archive-list">
         
             <article class="archive-item">
-                <time datetime="2026-08-05T15:48:26+05:30" class="archive-date">Aug 05, 2026</time>
+                <time datetime="2026-08-06T17:02:38+05:30" class="archive-date">Aug 06, 2026</time>
                 <div class="archive-details">
-                    <h3 class="archive-title"><a href="/geopolitics/2026/08/05/spiritual-wisdom-2026-08-05.html">The Empty Boat: Zhuangzi’s Masterclass in Unshakable Peace</a></h3>
+                    <h3 class="archive-title"><a href="/geopolitics/2026/08/06/nashville-hyperscale-data-centers-eminent-domain.html">The Nashville Standoff: When Hyperscale Data Centers Meet Eminent Domain</a></h3>
                 </div>
             </article>
         
             <article class="archive-item">
-                <time datetime="2026-08-05T15:43:56+05:30" class="archive-date">Aug 05, 2026</time>
+                <time datetime="2026-08-06T14:18:02+05:30" class="archive-date">Aug 06, 2026</time>
                 <div class="archive-details">
-                    <h3 class="archive-title"><a href="/geopolitics/2026/08/05/india-news-crunch-2026-08-05.html">India News Crunch: August 05, 2026</a></h3>
+                    <h3 class="archive-title"><a href="/geopolitics/2026/08/06/doj-openai-perm-compliance-ai-talent.html">The Geopolitics of AI Talent: Analyzing the DOJ Oversight of OpenAI's PERM Compliance</a></h3>
                 </div>
             </article>
         
             <article class="archive-item">
-                <time datetime="2026-08-05T15:41:41+05:30" class="archive-date">Aug 05, 2026</time>
+                <time datetime="2026-08-06T01:13:54+05:30" class="archive-date">Aug 06, 2026</time>
                 <div class="archive-details">
-                    <h3 class="archive-title"><a href="/geopolitics/2026/08/05/world-news-crunch-2026-08-05.html">World News Crunch: August 05, 2026</a></h3>
+                    <h3 class="archive-title"><a href="/geopolitics/2026/08/06/microsoft-ai-sales-openai-interdependence.html">Microsoft's AI Sales Reliance on OpenAI: The Anatomy of Hyperscale Interdependence</a></h3>
                 </div>
             </article>
         
@@ -489,6 +503,71 @@
     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
 </button>
 
+    <!-- PWA Install Banner -->
+<div id="pwa-install-banner" class="pwa-install-banner" style="display: none;">
+    <div class="pwa-install-inner">
+        <div class="pwa-install-icon">
+            <img src="/assets/icons/icon-96x96.png" alt="mantbyte" width="48" height="48">
+        </div>
+        <div class="pwa-install-text">
+            <strong>Install mantbyte</strong>
+            <span>Add to your home screen for the best experience — fast, offline-ready, and notification support.</span>
+        </div>
+        <div class="pwa-install-actions">
+            <button id="pwa-install-btn" class="btn btn-primary btn-sm">Install</button>
+            <button id="pwa-install-dismiss" class="pwa-dismiss" aria-label="Dismiss">&times;</button>
+        </div>
+    </div>
+</div>
+
+<!-- iOS Install Instructions (shown only on iOS Safari) -->
+<div id="ios-install-modal" class="ios-install-modal" style="display: none;">
+    <div class="ios-install-overlay" onclick="closeIosInstall()"></div>
+    <div class="ios-install-sheet">
+        <div class="ios-install-handle"></div>
+        <div class="ios-install-header">
+            <img src="/assets/icons/icon-96x96.png" alt="mantbyte" width="56" height="56" style="border-radius: 12px;">
+            <div>
+                <strong>Install mantbyte</strong>
+                <span>mantbyte.github.io</span>
+            </div>
+        </div>
+        <div class="ios-install-steps">
+            <div class="ios-step">
+                <span class="ios-step-num">1</span>
+                <span>Tap the <strong>Share</strong> button
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; color: #007AFF;"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>
+                    in the browser toolbar
+                </span>
+            </div>
+            <div class="ios-step">
+                <span class="ios-step-num">2</span>
+                <span>Scroll down and tap <strong>"Add to Home Screen"</strong></span>
+            </div>
+            <div class="ios-step">
+                <span class="ios-step-num">3</span>
+                <span>Tap <strong>"Add"</strong> to confirm</span>
+            </div>
+        </div>
+        <button class="btn btn-primary" onclick="closeIosInstall()" style="width: 100%; margin-top: 1rem;">Got it</button>
+    </div>
+</div>
+
+<!-- Notification Permission Prompt (mobile-optimized) -->
+<div id="notif-permission-prompt" class="notif-permission-prompt" style="display: none;">
+    <div class="notif-prompt-inner">
+        <div class="notif-prompt-icon">🔔</div>
+        <div class="notif-prompt-text">
+            <strong>Stay in the loop</strong>
+            <span>Get notified instantly when new articles, daily crunches, and spiritual wisdom drops.</span>
+        </div>
+        <div class="notif-prompt-actions">
+            <button id="notif-prompt-enable" class="btn btn-primary btn-sm">Enable Notifications</button>
+            <button id="notif-prompt-dismiss" class="pwa-dismiss" aria-label="Dismiss">&times;</button>
+        </div>
+    </div>
+</div>
+
     
     <script src="/assets/js/main.js?v=2"></script>
     <script src="/assets/js/search.js?v=2"></script>
@@ -496,5 +575,17 @@
     <script type="module" src="/assets/js/firebase/notification-center.js?v=2"></script>
     <script type="module" src="/assets/js/firebase/push-notifications.js?v=2"></script>
     <script type="module" src="/assets/js/firebase/newsletter.js?v=2"></script>
+    <script src="/assets/js/pwa-prompt.js?v=1" defer></script>
+
+    <!-- PWA Service Worker Registration -->
+    <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(reg => console.log('[PWA] Service Worker registered:', reg.scope))
+          .catch(err => console.warn('[PWA] Service Worker registration failed:', err));
+      });
+    }
+    </script>
 </body>
 </html>

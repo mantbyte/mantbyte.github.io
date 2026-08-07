@@ -2,45 +2,171 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mantbyte.github.io/</loc>
-    <lastmod>2026-08-05T15:55:48+05:30</lastmod>
+    <lastmod>2026-08-08T01:29:04+05:30</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://mantbyte.github.io/archive</loc>
-    <lastmod>2026-08-05T15:55:48+05:30</lastmod>
+    <lastmod>2026-08-08T01:29:04+05:30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mantbyte.github.io/about</loc>
-    <lastmod>2026-08-05T15:55:48+05:30</lastmod>
+    <lastmod>2026-08-08T01:29:04+05:30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mantbyte.github.io/contact</loc>
-    <lastmod>2026-08-05T15:55:48+05:30</lastmod>
+    <lastmod>2026-08-08T01:29:04+05:30</lastmod>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://mantbyte.github.io/geopolitics/2026/08/05/spiritual-wisdom-2026-08-05.html</loc>
+    <loc>https://mantbyte.github.io/dsa/2026/08/08/daily-dsa-longest-subarray-with-at-most-k-distinct-even-numbers-2026-08-07.html</loc>
+    <lastmod>2026-08-08T00:39:52+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/08/oracle-ai-code-ban-openjdk-paradox.html</loc>
+    <lastmod>2026-08-08T00:34:10+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/08/07/ai-agent-harness-security-prompt-injection.html</loc>
+    <lastmod>2026-08-07T18:46:36+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/07/ai-agent-harness-vulnerabilities-cicd.html</loc>
+    <lastmod>2026-08-07T15:38:23+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/07/anthropic-silicon-strategy-custom-ai-chips.html</loc>
+    <lastmod>2026-08-07T12:57:49+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/07/amd-acquires-taalas-model-specific-integrated-circuits.html</loc>
+    <lastmod>2026-08-07T10:30:09+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/08/07/spiritual-wisdom-2026-08-07.html</loc>
+    <lastmod>2026-08-07T09:59:53+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/08/07/india-news-crunch-2026-08-07.html</loc>
+    <lastmod>2026-08-07T09:59:46+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/08/07/world-news-crunch-2026-08-07.html</loc>
+    <lastmod>2026-08-07T09:59:35+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/07/amd-taalas-msic-hardwiring-llm-silicon.html</loc>
+    <lastmod>2026-08-07T05:37:44+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/06/ai-recommendation-poisoning-memory-injection.html</loc>
+    <lastmod>2026-08-06T19:57:22+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/06/nashville-hyperscale-data-centers-eminent-domain.html</loc>
+    <lastmod>2026-08-06T17:02:38+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/06/doj-openai-perm-compliance-ai-talent.html</loc>
+    <lastmod>2026-08-06T14:18:02+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/08/06/spiritual-wisdom-2026-08-06.html</loc>
+    <lastmod>2026-08-06T10:53:34+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/08/06/india-news-crunch-2026-08-06.html</loc>
+    <lastmod>2026-08-06T10:52:49+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/08/06/world-news-crunch-2026-08-06.html</loc>
+    <lastmod>2026-08-06T10:52:04+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/06/scaling-autonomous-codebases-meta-muse-code.html</loc>
+    <lastmod>2026-08-06T03:46:31+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/06/microsoft-ai-sales-openai-interdependence.html</loc>
+    <lastmod>2026-08-06T01:13:54+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/05/anthropic-ai-chip-design-silicon-pivot.html</loc>
+    <lastmod>2026-08-05T22:18:35+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/05/architecting-agent-first-web-token-monetization.html</loc>
+    <lastmod>2026-08-05T19:55:57+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/05/master-llm-finops-vllm-opencost-kubernetes.html</loc>
+    <lastmod>2026-08-05T17:00:58+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/08/05/spiritual-wisdom-2026-08-05.html</loc>
     <lastmod>2026-08-05T15:48:26+05:30</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://mantbyte.github.io/tech/2026/08/05/finance-news-crunch-2026-08-05.html</loc>
+    <loc>https://mantbyte.github.io/finance/2026/08/05/finance-news-crunch-2026-08-05.html</loc>
     <lastmod>2026-08-05T15:46:11+05:30</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://mantbyte.github.io/geopolitics/2026/08/05/india-news-crunch-2026-08-05.html</loc>
+    <loc>https://mantbyte.github.io/india/2026/08/05/india-news-crunch-2026-08-05.html</loc>
     <lastmod>2026-08-05T15:43:56+05:30</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://mantbyte.github.io/geopolitics/2026/08/05/world-news-crunch-2026-08-05.html</loc>
+    <loc>https://mantbyte.github.io/world/2026/08/05/world-news-crunch-2026-08-05.html</loc>
     <lastmod>2026-08-05T15:41:41+05:30</lastmod>
     <priority>0.6</priority>
   </url>

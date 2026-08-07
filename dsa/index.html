@@ -10,7 +10,38 @@ title: DSA Lab
         <p>Explore Data Structures & Algorithms through interactive visualizations and C++ implementations. Click any topic to start experimenting.</p>
     </section>
 
-    <section class="dsa-grid">
+    <section class="dsa-daily-section" style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
+        <h2>Daily Coding Challenges</h2>
+        <p style="color: var(--text-muted); margin-bottom: 2rem;">Sharpen your skills with a brand new AI-generated LeetCode-style problem every day.</p>
+        
+        <div class="dsa-daily-grid">
+            {% assign dsa_posts = site.categories.DSA | default: site.categories.dsa %}
+            {% for post in dsa_posts limit:6 %}
+                {% assign difficulty = "Medium" %}
+                {% if post.tags contains 'easy' %}{% assign difficulty = "Easy" %}{% endif %}
+                {% if post.tags contains 'hard' %}{% assign difficulty = "Hard" %}{% endif %}
+                {% assign diff_class = difficulty | downcase %}
+                
+                <a href="{{ post.url | relative_url }}" class="dsa-problem-card">
+                    <div class="dsa-problem-header">
+                        <span class="dsa-problem-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+                        <span class="difficulty-badge {{ diff_class }}">{{ difficulty }}</span>
+                    </div>
+                    <h3>{{ post.title | replace: "Daily DSA: ", "" | split: " (" | first }}</h3>
+                    <p>{{ post.excerpt | strip_html | truncatewords: 15 }}</p>
+                    <div style="font-size: 0.8rem; color: #3b82f6; font-weight: 600; margin-top: 1rem;">Solve Problem &rarr;</div>
+                </a>
+            {% else %}
+                <p>No daily problems generated yet.</p>
+            {% endfor %}
+        </div>
+        <div style="margin-top: 2rem; text-align: right;">
+            <a href="{{ '/archive' | relative_url }}" style="color: var(--text-muted); font-size: 0.9rem; text-decoration: none;">View all previous challenges &rarr;</a>
+        </div>
+    </section>
+
+    <section class="dsa-grid" style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
+        <h2 style="grid-column: 1 / -1; margin-bottom: 1rem;">Interactive Visualizers</h2>
         <a href="{{ '/dsa/sorting' | relative_url }}" class="dsa-card" id="dsa-sorting">
             <div class="dsa-card-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"/><line x1="8" y1="21" x2="8" y2="10"/><line x1="12" y1="21" x2="12" y2="4"/><line x1="16" y1="21" x2="16" y2="8"/><line x1="20" y1="21" x2="20" y2="16"/></svg>
