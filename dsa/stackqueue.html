@@ -168,7 +168,7 @@ void queueOperations() {
         
         stack.push(val);
         renderStack(stack.length - 1);
-        msg.textContent = \`Pushed \${val} to top of stack.\`;
+        msg.textContent = `Pushed ${val} to top of stack.`;
         
         await new Promise(r => setTimeout(r, 600));
         renderStack();
@@ -183,12 +183,12 @@ void queueOperations() {
         
         const topIdx = stack.length - 1;
         renderStack(topIdx);
-        msg.textContent = \`Popping \${stack[topIdx]} from top of stack...\`;
+        msg.textContent = `Popping ${stack[topIdx]} from top of stack...`;
         
         await new Promise(r => setTimeout(r, 600));
         stack.pop();
         renderStack();
-        msg.textContent = \`Popped.\`;
+        msg.textContent = `Popped.`;
         animating = false;
     }
 
@@ -200,7 +200,7 @@ void queueOperations() {
         
         queue.push(val);
         renderQueue(queue.length - 1);
-        msg.textContent = \`Enqueued \${val} to back of queue.\`;
+        msg.textContent = `Enqueued ${val} to back of queue.`;
         
         await new Promise(r => setTimeout(r, 600));
         renderQueue();
@@ -214,12 +214,12 @@ void queueOperations() {
         codeDisplay.textContent = CODE.queue;
         
         renderQueue(0);
-        msg.textContent = \`Dequeueing \${queue[0]} from front of queue...\`;
+        msg.textContent = `Dequeueing ${queue[0]} from front of queue...`;
         
         await new Promise(r => setTimeout(r, 600));
         queue.shift();
         renderQueue();
-        msg.textContent = \`Dequeued.\`;
+        msg.textContent = `Dequeued.`;
         animating = false;
     }
 

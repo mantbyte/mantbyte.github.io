@@ -259,12 +259,12 @@ title: Linked List Visualizer — DSA Lab
         if (!head) {
             head = newNode;
             renderList(head, '#10b981');
-            msg.textContent = \`Inserted \${val} as head.\`;
+            msg.textContent = `Inserted ${val} as head.`;
         } else {
             let temp = head;
             while (temp.next) {
                 renderList(temp, '#f59e0b');
-                msg.textContent = \`Traversing...\`;
+                msg.textContent = `Traversing...`;
                 await new Promise(r => setTimeout(r, 400));
                 temp = temp.next;
             }
@@ -272,7 +272,7 @@ title: Linked List Visualizer — DSA Lab
             await new Promise(r => setTimeout(r, 400));
             temp.next = newNode;
             renderList(newNode, '#10b981');
-            msg.textContent = \`Appended \${val} to the tail.\`;
+            msg.textContent = `Appended ${val} to the tail.`;
         }
         await new Promise(r => setTimeout(r, 600));
         renderList();
@@ -289,7 +289,7 @@ title: Linked List Visualizer — DSA Lab
         head = newNode;
         
         renderList(head, '#10b981');
-        msg.textContent = \`Prepended \${val} as new head.\`;
+        msg.textContent = `Prepended ${val} as new head.`;
         await new Promise(r => setTimeout(r, 800));
         renderList();
         animating = false;
@@ -302,11 +302,11 @@ title: Linked List Visualizer — DSA Lab
         
         if (head.val === val) {
             renderList(head, '#ef4444');
-            msg.textContent = \`Deleting head node \${val}.\`;
+            msg.textContent = `Deleting head node ${val}.`;
             await new Promise(r => setTimeout(r, 600));
             head = head.next;
             renderList();
-            msg.textContent = \`Deleted \${val}.\`;
+            msg.textContent = `Deleted ${val}.`;
             animating = false;
             return;
         }
@@ -314,21 +314,21 @@ title: Linked List Visualizer — DSA Lab
         let temp = head;
         while (temp.next && temp.next.val !== val) {
             renderList(temp, '#f59e0b');
-            msg.textContent = \`Traversing...\`;
+            msg.textContent = `Traversing...`;
             await new Promise(r => setTimeout(r, 400));
             temp = temp.next;
         }
 
         if (temp.next) {
             renderList(temp.next, '#ef4444');
-            msg.textContent = \`Found \${val}. Deleting...\`;
+            msg.textContent = `Found ${val}. Deleting...`;
             await new Promise(r => setTimeout(r, 600));
             temp.next = temp.next.next;
             renderList();
-            msg.textContent = \`Deleted \${val}.\`;
+            msg.textContent = `Deleted ${val}.`;
         } else {
             renderList();
-            msg.textContent = \`Value \${val} not found.\`;
+            msg.textContent = `Value ${val} not found.`;
         }
         animating = false;
     }
@@ -337,7 +337,7 @@ title: Linked List Visualizer — DSA Lab
         if (animating || !head || !head.next) return;
         animating = true;
         codeDisplay.textContent = CODE.struct + '\\n\\n' + CODE.reverse;
-        msg.textContent = \`Reversing list... (Fast-forwarding)\`;
+        msg.textContent = `Reversing list... (Fast-forwarding)`;
         
         let prev = null;
         let curr = head;
@@ -353,7 +353,7 @@ title: Linked List Visualizer — DSA Lab
         
         await new Promise(r => setTimeout(r, 600));
         renderList();
-        msg.textContent = \`List reversed successfully.\`;
+        msg.textContent = `List reversed successfully.`;
         animating = false;
     }
 
