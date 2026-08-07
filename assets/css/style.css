@@ -2450,20 +2450,47 @@ body.logged-in .logged-in-only {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
     .dsa-viz-header h1 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
     .dsa-visualizer {
-        padding: 1rem 1rem 3rem;
+        padding: 1rem 0 3rem;
+        overflow-x: hidden;
+        width: 100%;
+    }
+    .dsa-viz-main {
+        min-width: 0;
+        width: 100%;
     }
     .dsa-controls {
         flex-direction: column;
         align-items: stretch;
+        padding: 1rem;
+    }
+    .dsa-control-group {
+        width: 100%;
+        min-width: 100%;
     }
     .dsa-control-group input[type="range"],
+    .dsa-control-group input[type="number"],
+    .dsa-control-group input[type="text"],
     .dsa-control-group select {
         width: 100%;
+        box-sizing: border-box;
+    }
+    .dsa-control-buttons {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+    }
+    .dsa-control-buttons .btn {
+        width: 100%;
+    }
+    .dsa-canvas-wrap {
+        width: 100%;
+        box-sizing: border-box;
     }
     .dsa-canvas-stats {
         flex-direction: column;
@@ -2474,6 +2501,10 @@ body.logged-in .logged-in-only {
         display: block;
         overflow-x: auto;
         white-space: nowrap;
+        width: 100%;
+    }
+    .dsa-code-panel {
+        margin-top: 1rem;
     }
 }
 
