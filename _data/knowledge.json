@@ -1479,7 +1479,22 @@
         "Claude AI"
       ],
       "url": "/tech/2026/08/07/anthropic-silicon-strategy-custom-ai-chips.html"
+    },
+    {
+      "title": "Harness Vulnerabilities in AI Coding Agents: How Claude Code, Gemini CLI, and Codex Risk CI/CD Exploitation",
+      "slug": "ai-agent-harness-vulnerabilities-cicd",
+      "date": "2026-08-07",
+      "category": "Tech",
+      "key_topics": [
+        "AI Security",
+        "CI/CD",
+        "Claude Code",
+        "Gemini CLI",
+        "DevSecOps",
+        "Agent Harness"
+      ],
+      "url": "/tech/2026/08/07/ai-agent-harness-vulnerabilities-cicd.html"
     }
   ],
-  "last_updated": "2026-08-07T07:28:01.958769+00:00"
+  "last_updated": "2026-08-07T10:09:46.222414+00:00"
 }
