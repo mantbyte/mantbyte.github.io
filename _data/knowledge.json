@@ -1525,7 +1525,22 @@
         "Copyright Law"
       ],
       "url": "/tech/2026/08/08/oracle-ai-code-ban-openjdk-paradox.html"
+    },
+    {
+      "title": "Cloudflare Computer: Stateful Runtimes and the Next Era of Autonomous AI Agents",
+      "slug": "cloudflare-computer-stateful-ai-agents",
+      "date": "2026-08-08",
+      "category": "Tech",
+      "key_topics": [
+        "Cloudflare",
+        "AI Agents",
+        "Serverless",
+        "Edge Computing",
+        "V8 Isolates",
+        "Stateful Runtimes"
+      ],
+      "url": "/tech/2026/08/08/cloudflare-computer-stateful-ai-agents.html"
     }
   ],
-  "last_updated": "2026-08-07T19:04:11.898426+00:00"
+  "last_updated": "2026-08-07T21:44:00.146500+00:00"
 }
