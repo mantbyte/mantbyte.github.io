@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write # Need write permission to push commits
+      actions: write  # Need actions permission to trigger the deploy workflow
 
     steps:
       - name: Checkout code
@@ -48,3 +49,11 @@ jobs:
           else
             echo "No changes to commit."
           fi
+
+      - name: Trigger Deployment
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Automatically trigger the deployment workflow so the user doesn't have to manually do it
+          gh workflow run deploy.yml --ref main
+          echo "Deployment triggered!"
