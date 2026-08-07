@@ -1447,7 +1447,23 @@
         "GPUs"
       ],
       "url": "/tech/2026/08/07/amd-taalas-msic-hardwiring-llm-silicon.html"
+    },
+    {
+      "title": "AMD's Acquisition of Taalas: Deconstructing Model-Specific Integrated Circuits (MSICs)",
+      "slug": "amd-acquires-taalas-model-specific-integrated-circuits",
+      "date": "2026-08-07",
+      "category": "Tech",
+      "key_topics": [
+        "AMD",
+        "Taalas",
+        "MSIC",
+        "GPU",
+        "AI Inference",
+        "Semiconductors",
+        "Hardware"
+      ],
+      "url": "/tech/2026/08/07/amd-acquires-taalas-model-specific-integrated-circuits.html"
     }
   ],
-  "last_updated": "2026-08-07T00:08:02.554680+00:00"
+  "last_updated": "2026-08-07T05:00:11.336468+00:00"
 }
