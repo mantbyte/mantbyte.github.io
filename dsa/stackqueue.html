@@ -1,0 +1,242 @@
+---
+layout: default
+title: Stacks & Queues Visualizer — DSA Lab
+---
+
+<div class="dsa-visualizer">
+    <div class="dsa-viz-header">
+        <a href="{{ '/dsa' | relative_url }}" class="dsa-back">&larr; DSA Lab</a>
+        <h1>Stacks & Queues</h1>
+        <p>Visualize Stack (LIFO - Last In First Out) and Queue (FIFO - First In First Out) operations.</p>
+    </div>
+
+    <div class="dsa-viz-layout">
+        <div class="dsa-viz-main">
+            <div class="dsa-controls">
+                <div class="dsa-control-group" style="max-width: 150px;">
+                    <label for="sq-val">Value</label>
+                    <input type="number" id="sq-val" placeholder="Num">
+                </div>
+                <div class="dsa-control-buttons">
+                    <button id="btn-push" class="btn btn-primary">Push (Stack)</button>
+                    <button id="btn-pop" class="btn btn-secondary">Pop (Stack)</button>
+                </div>
+                <div class="dsa-control-buttons" style="margin-left: 1rem; border-left: 1px solid var(--border-color); padding-left: 1rem;">
+                    <button id="btn-enq" class="btn btn-primary">Enqueue (Queue)</button>
+                    <button id="btn-deq" class="btn btn-secondary">Dequeue (Queue)</button>
+                </div>
+            </div>
+
+            <div class="dsa-canvas-wrap" style="padding: 2rem 1rem; display: flex; gap: 2rem; justify-content: center; min-height: 250px;">
+                
+                <!-- Stack Container -->
+                <div style="display: flex; flex-direction: column; align-items: center; width: 140px;">
+                    <h3 style="margin-bottom: 1rem; font-size: 1rem;">Stack (LIFO)</h3>
+                    <div id="stack-container" style="width: 100px; height: 200px; border: 3px solid #334155; border-top: none; border-radius: 0 0 8px 8px; display: flex; flex-direction: column-reverse; justify-content: flex-start; align-items: center; padding: 4px; gap: 4px; background: #0d1117;">
+                        <!-- Stack items go here (bottom to top) -->
+                    </div>
+                </div>
+
+                <!-- Queue Container -->
+                <div style="display: flex; flex-direction: column; align-items: center; width: 240px;">
+                    <h3 style="margin-bottom: 1rem; font-size: 1rem;">Queue (FIFO)</h3>
+                    <div id="queue-container" style="width: 220px; height: 60px; border-top: 3px solid #334155; border-bottom: 3px solid #334155; display: flex; justify-content: flex-start; align-items: center; padding: 4px; gap: 4px; background: #0d1117; overflow: hidden;">
+                        <!-- Queue items go here (left to right) -->
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="dsa-canvas-stats" style="border-top: none;">
+                <span id="sq-msg">Enter a value and select an operation.</span>
+            </div>
+
+            <div class="dsa-complexity">
+                <h3>Complexity</h3>
+                <table>
+                    <thead>
+                        <tr><th>Data Structure</th><th>Insertion</th><th>Deletion</th><th>Access (Top/Front)</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Stack</td><td>O(1) Push</td><td>O(1) Pop</td><td>O(1)</td></tr>
+                        <tr><td>Queue</td><td>O(1) Enqueue</td><td>O(1) Dequeue</td><td>O(1)</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="dsa-code-panel">
+            <div class="dsa-code-header">
+                <div class="dsa-code-dots">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <span class="dsa-code-lang">C++</span>
+            </div>
+            <pre class="dsa-code-block" id="code-display"></pre>
+        </div>
+    </div>
+</div>
+
+<script>
+(function() {
+    const stackContainer = document.getElementById('stack-container');
+    const queueContainer = document.getElementById('queue-container');
+    const msg = document.getElementById('sq-msg');
+    const codeDisplay = document.getElementById('code-display');
+    const valInput = document.getElementById('sq-val');
+
+    let stack = [10, 20];
+    let queue = [10, 20];
+    let animating = false;
+
+    const CODE = {
+        stack: `#include <stack>
+using namespace std;
+
+void stackOperations() {
+    stack<int> s;
+    
+    // Push O(1)
+    s.push(10);
+    s.push(20);
+    
+    // Access Top O(1)
+    int topElement = s.top();
+    
+    // Pop O(1)
+    s.pop();
+}`,
+        queue: `#include <queue>
+using namespace std;
+
+void queueOperations() {
+    queue<int> q;
+    
+    // Enqueue O(1)
+    q.push(10);
+    q.push(20);
+    
+    // Access Front O(1)
+    int frontElement = q.front();
+    
+    // Dequeue O(1)
+    q.pop();
+}`
+    };
+
+    function renderItem(val, color) {
+        const block = document.createElement('div');
+        block.style.width = '80px';
+        block.style.height = '35px';
+        block.style.display = 'flex';
+        block.style.alignItems = 'center';
+        block.style.justifyContent = 'center';
+        block.style.background = color || '#1e293b';
+        block.style.border = '2px solid #475569';
+        block.style.borderRadius = '4px';
+        block.style.color = '#fff';
+        block.style.fontWeight = '600';
+        block.style.fontSize = '0.9rem';
+        block.style.flexShrink = '0';
+        block.textContent = val;
+        return block;
+    }
+
+    function renderStack(highlightIdx = -1) {
+        stackContainer.innerHTML = '';
+        for (let i = 0; i < stack.length; i++) {
+            const block = renderItem(stack[i], i === highlightIdx ? '#10b981' : (i === stack.length-1 ? '#3b82f6' : null));
+            stackContainer.appendChild(block);
+        }
+    }
+
+    function renderQueue(highlightIdx = -1) {
+        queueContainer.innerHTML = '';
+        for (let i = 0; i < queue.length; i++) {
+            const block = renderItem(queue[i], i === highlightIdx ? '#10b981' : (i === 0 ? '#f59e0b' : null));
+            queueContainer.appendChild(block);
+        }
+    }
+
+    async function pushStack(val) {
+        if (animating) return;
+        if (stack.length >= 5) { msg.textContent = 'Stack Overflow! (Max 5)'; return; }
+        animating = true;
+        codeDisplay.textContent = CODE.stack;
+        
+        stack.push(val);
+        renderStack(stack.length - 1);
+        msg.textContent = \`Pushed \${val} to top of stack.\`;
+        
+        await new Promise(r => setTimeout(r, 600));
+        renderStack();
+        animating = false;
+    }
+
+    async function popStack() {
+        if (animating) return;
+        if (stack.length === 0) { msg.textContent = 'Stack Underflow! (Empty)'; return; }
+        animating = true;
+        codeDisplay.textContent = CODE.stack;
+        
+        const topIdx = stack.length - 1;
+        renderStack(topIdx);
+        msg.textContent = \`Popping \${stack[topIdx]} from top of stack...\`;
+        
+        await new Promise(r => setTimeout(r, 600));
+        stack.pop();
+        renderStack();
+        msg.textContent = \`Popped.\`;
+        animating = false;
+    }
+
+    async function enqueue(val) {
+        if (animating) return;
+        if (queue.length >= 5) { msg.textContent = 'Queue Full! (Max 5)'; return; }
+        animating = true;
+        codeDisplay.textContent = CODE.queue;
+        
+        queue.push(val);
+        renderQueue(queue.length - 1);
+        msg.textContent = \`Enqueued \${val} to back of queue.\`;
+        
+        await new Promise(r => setTimeout(r, 600));
+        renderQueue();
+        animating = false;
+    }
+
+    async function dequeue() {
+        if (animating) return;
+        if (queue.length === 0) { msg.textContent = 'Queue is empty!'; return; }
+        animating = true;
+        codeDisplay.textContent = CODE.queue;
+        
+        renderQueue(0);
+        msg.textContent = \`Dequeueing \${queue[0]} from front of queue...\`;
+        
+        await new Promise(r => setTimeout(r, 600));
+        queue.shift();
+        renderQueue();
+        msg.textContent = \`Dequeued.\`;
+        animating = false;
+    }
+
+    document.getElementById('btn-push').addEventListener('click', () => {
+        const val = parseInt(valInput.value);
+        if (!isNaN(val)) { pushStack(val); valInput.value = ''; }
+    });
+    document.getElementById('btn-pop').addEventListener('click', popStack);
+    
+    document.getElementById('btn-enq').addEventListener('click', () => {
+        const val = parseInt(valInput.value);
+        if (!isNaN(val)) { enqueue(val); valInput.value = ''; }
+    });
+    document.getElementById('btn-deq').addEventListener('click', dequeue);
+
+    renderStack();
+    renderQueue();
+    codeDisplay.textContent = CODE.stack;
+})();
+</script>

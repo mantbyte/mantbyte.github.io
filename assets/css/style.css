@@ -2441,6 +2441,39 @@ body.logged-in .logged-in-only {
 @media (max-width: 900px) {
     .dsa-viz-layout {
         grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .dsa-code-panel {
+        position: static; /* Remove sticky on mobile to prevent layout bugs */
+        max-height: 50vh;
+    }
+}
+
+@media (max-width: 500px) {
+    .dsa-viz-header h1 {
+        font-size: 1.5rem;
+    }
+    .dsa-visualizer {
+        padding: 1rem 1rem 3rem;
+    }
+    .dsa-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .dsa-control-group input[type="range"],
+    .dsa-control-group select {
+        width: 100%;
+    }
+    .dsa-canvas-stats {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    .dsa-complexity table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
     }
 }
 
@@ -2461,6 +2494,8 @@ body.logged-in .logged-in-only {
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
+    flex: 1;
+    min-width: 120px;
 }
 
 .dsa-control-group label {
@@ -2472,17 +2507,19 @@ body.logged-in .logged-in-only {
 }
 
 .dsa-control-group select,
-.dsa-control-group input[type="range"] {
-    padding: 0.4rem 0.6rem;
+.dsa-control-group input[type="range"],
+.dsa-control-group input[type="number"],
+.dsa-control-group input[type="text"] {
+    padding: 0.45rem 0.65rem;
     border: 1px solid var(--border-color);
     border-radius: 6px;
     font-size: 0.85rem;
     background: var(--card-bg);
     color: var(--text-main);
+    width: 100%;
 }
 
 .dsa-control-group input[type="range"] {
-    width: 120px;
     accent-color: #0f4c81;
 }
 
@@ -2490,6 +2527,13 @@ body.logged-in .logged-in-only {
     display: flex;
     gap: 0.5rem;
     flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.dsa-control-buttons .btn {
+    flex: 1;
+    min-width: 80px;
+    text-align: center;
 }
 
 .btn-secondary {

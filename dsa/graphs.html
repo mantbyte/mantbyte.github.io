@@ -1,0 +1,272 @@
+---
+layout: default
+title: Graph Visualizer — DSA Lab
+---
+
+<div class="dsa-visualizer">
+    <div class="dsa-viz-header">
+        <a href="{{ '/dsa' | relative_url }}" class="dsa-back">&larr; DSA Lab</a>
+        <h1>Graph Visualizer</h1>
+        <p>Visualize Graph traversals (BFS & DFS) on an adjacency list representation.</p>
+    </div>
+
+    <div class="dsa-viz-layout">
+        <div class="dsa-viz-main">
+            <div class="dsa-controls">
+                <div class="dsa-control-group" style="max-width: 150px;">
+                    <label for="start-node">Start Node (0-5)</label>
+                    <input type="number" id="start-node" min="0" max="5" value="0">
+                </div>
+                <div class="dsa-control-buttons">
+                    <button id="btn-bfs" class="btn btn-primary">Run BFS</button>
+                    <button id="btn-dfs" class="btn btn-secondary">Run DFS</button>
+                    <button id="btn-reset" class="btn btn-secondary">Reset</button>
+                </div>
+            </div>
+
+            <div class="dsa-canvas-wrap" style="padding: 1rem; text-align: center; overflow-x: auto;">
+                <svg id="graph-svg" width="100%" height="300" style="min-width: 350px;"></svg>
+                <div class="dsa-canvas-stats">
+                    <span>Traversal Path: <strong id="graph-path">—</strong></span>
+                </div>
+            </div>
+
+            <div class="dsa-complexity">
+                <h3>Graph Traversal Complexity</h3>
+                <table>
+                    <thead>
+                        <tr><th>Algorithm</th><th>Time</th><th>Space</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Breadth-First Search (BFS)</td><td>O(V + E)</td><td>O(V)</td></tr>
+                        <tr><td>Depth-First Search (DFS)</td><td>O(V + E)</td><td>O(V)</td></tr>
+                    </tbody>
+                </table>
+                <p style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.5rem;">V = Vertices (Nodes), E = Edges</p>
+            </div>
+        </div>
+
+        <div class="dsa-code-panel">
+            <div class="dsa-code-header">
+                <div class="dsa-code-dots">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <span class="dsa-code-lang">C++</span>
+            </div>
+            <pre class="dsa-code-block" id="code-display"></pre>
+        </div>
+    </div>
+</div>
+
+<script>
+(function() {
+    const svg = document.getElementById('graph-svg');
+    const pathText = document.getElementById('graph-path');
+    const codeDisplay = document.getElementById('code-display');
+    const startNodeInput = document.getElementById('start-node');
+
+    const CODE = {
+        bfs: `void BFS(vector<vector<int>>& adj, int start) {
+    int V = adj.size();
+    vector<bool> visited(V, false);
+    queue<int> q;
+
+    visited[start] = true;
+    q.push(start);
+
+    while (!q.empty()) {
+        int u = q.front();
+        q.pop();
+        cout << u << " ";
+
+        for (int v : adj[u]) {
+            if (!visited[v]) {
+                visited[v] = true;
+                q.push(v);
+            }
+        }
+    }
+}`,
+        dfs: `void dfsUtil(vector<vector<int>>& adj, int u, vector<bool>& visited) {
+    visited[u] = true;
+    cout << u << " ";
+
+    for (int v : adj[u]) {
+        if (!visited[v]) {
+            dfsUtil(adj, v, visited);
+        }
+    }
+}
+
+void DFS(vector<vector<int>>& adj, int start) {
+    int V = adj.size();
+    vector<bool> visited(V, false);
+    dfsUtil(adj, start, visited);
+}`
+    };
+
+    // Hardcoded graph (Adjacency List)
+    // 0 - 1 - 2
+    // |   |   |
+    // 3 - 4 - 5
+    const adj = [
+        [1, 3],       // 0
+        [0, 2, 4],    // 1
+        [1, 5],       // 2
+        [0, 4],       // 3
+        [1, 3, 5],    // 4
+        [2, 4]        // 5
+    ];
+
+    const nodes = [
+        { id: 0, x: 100, y: 50 },
+        { id: 1, x: 250, y: 50 },
+        { id: 2, x: 400, y: 50 },
+        { id: 3, x: 100, y: 200 },
+        { id: 4, x: 250, y: 200 },
+        { id: 5, x: 400, y: 200 }
+    ];
+
+    let animating = false;
+
+    function renderGraph(visitedNodes = new Set(), activeNode = -1) {
+        svg.innerHTML = '';
+        const svgWidth = Math.max(500, svg.parentElement.clientWidth);
+        svg.setAttribute('width', svgWidth);
+        
+        // Offset to center
+        const offsetX = (svgWidth - 500) / 2;
+
+        // Draw edges
+        for (let u = 0; u < adj.length; u++) {
+            for (let v of adj[u]) {
+                if (u < v) { // draw undirected edge once
+                    const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                    line.setAttribute('x1', nodes[u].x + offsetX);
+                    line.setAttribute('y1', nodes[u].y);
+                    line.setAttribute('x2', nodes[v].x + offsetX);
+                    line.setAttribute('y2', nodes[v].y);
+                    line.setAttribute('stroke', '#475569');
+                    line.setAttribute('stroke-width', '3');
+                    svg.appendChild(line);
+                }
+            }
+        }
+
+        // Draw nodes
+        for (let n of nodes) {
+            const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+            
+            const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+            circle.setAttribute('cx', n.x + offsetX);
+            circle.setAttribute('cy', n.y);
+            circle.setAttribute('r', '25');
+            
+            let fill = '#1e293b';
+            let stroke = '#475569';
+            if (n.id === activeNode) {
+                fill = '#f59e0b';
+                stroke = '#f59e0b';
+            } else if (visitedNodes.has(n.id)) {
+                fill = '#10b981';
+                stroke = '#10b981';
+            }
+            
+            circle.setAttribute('fill', fill);
+            circle.setAttribute('stroke', stroke);
+            circle.setAttribute('stroke-width', '2');
+
+            const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+            text.setAttribute('x', n.x + offsetX);
+            text.setAttribute('y', n.y + 6);
+            text.setAttribute('text-anchor', 'middle');
+            text.setAttribute('fill', '#fff');
+            text.setAttribute('font-size', '16');
+            text.setAttribute('font-weight', '600');
+            text.setAttribute('font-family', 'Inter, sans-serif');
+            text.textContent = n.id;
+
+            g.appendChild(circle);
+            g.appendChild(text);
+            svg.appendChild(g);
+        }
+    }
+
+    async function runBFS(start) {
+        if (animating) return;
+        animating = true;
+        codeDisplay.textContent = CODE.bfs;
+        
+        let visited = new Set();
+        let q = [start];
+        visited.add(start);
+        let path = [];
+
+        while (q.length > 0) {
+            let u = q.shift();
+            path.push(u);
+            pathText.textContent = path.join(' → ');
+            renderGraph(visited, u);
+            await new Promise(r => setTimeout(r, 800));
+
+            for (let v of adj[u]) {
+                if (!visited.has(v)) {
+                    visited.add(v);
+                    q.push(v);
+                }
+            }
+        }
+        renderGraph(visited, -1);
+        animating = false;
+    }
+
+    async function runDFS(start) {
+        if (animating) return;
+        animating = true;
+        codeDisplay.textContent = CODE.dfs;
+        
+        let visited = new Set();
+        let path = [];
+
+        async function dfsUtil(u) {
+            visited.add(u);
+            path.push(u);
+            pathText.textContent = path.join(' → ');
+            renderGraph(visited, u);
+            await new Promise(r => setTimeout(r, 800));
+
+            for (let v of adj[u]) {
+                if (!visited.has(v)) {
+                    await dfsUtil(v);
+                }
+            }
+        }
+
+        await dfsUtil(start);
+        renderGraph(visited, -1);
+        animating = false;
+    }
+
+    document.getElementById('btn-bfs').addEventListener('click', () => {
+        let s = parseInt(startNodeInput.value);
+        if (s >= 0 && s <= 5) runBFS(s);
+    });
+
+    document.getElementById('btn-dfs').addEventListener('click', () => {
+        let s = parseInt(startNodeInput.value);
+        if (s >= 0 && s <= 5) runDFS(s);
+    });
+
+    document.getElementById('btn-reset').addEventListener('click', () => {
+        if(animating) return;
+        pathText.textContent = '—';
+        renderGraph();
+    });
+
+    window.addEventListener('resize', () => renderGraph());
+    renderGraph();
+    codeDisplay.textContent = CODE.bfs;
+})();
+</script>

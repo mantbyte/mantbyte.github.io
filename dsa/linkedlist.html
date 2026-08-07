@@ -1,0 +1,383 @@
+---
+layout: default
+title: Linked List Visualizer — DSA Lab
+---
+
+<div class="dsa-visualizer">
+    <div class="dsa-viz-header">
+        <a href="{{ '/dsa' | relative_url }}" class="dsa-back">&larr; DSA Lab</a>
+        <h1>Linked List Visualizer</h1>
+        <p>Visualize Singly Linked List operations: append, prepend, delete, and reverse.</p>
+    </div>
+
+    <div class="dsa-viz-layout">
+        <div class="dsa-viz-main">
+            <div class="dsa-controls">
+                <div class="dsa-control-group" style="max-width: 150px;">
+                    <label for="ll-val">Value</label>
+                    <input type="number" id="ll-val" placeholder="Num">
+                </div>
+                <div class="dsa-control-buttons">
+                    <button id="btn-append" class="btn btn-primary">Append</button>
+                    <button id="btn-prepend" class="btn btn-secondary">Prepend</button>
+                    <button id="btn-delete" class="btn btn-secondary">Delete Val</button>
+                    <button id="btn-reverse" class="btn btn-secondary">Reverse</button>
+                </div>
+            </div>
+
+            <div class="dsa-canvas-wrap" style="padding: 3rem 1rem; text-align: center; overflow-x: auto;">
+                <svg id="ll-svg" width="100%" height="150" style="min-width: 400px;"></svg>
+                <div class="dsa-canvas-stats">
+                    <span id="ll-msg">Empty Linked List.</span>
+                </div>
+            </div>
+
+            <div class="dsa-complexity">
+                <h3>Singly Linked List Complexity</h3>
+                <table>
+                    <thead>
+                        <tr><th>Operation</th><th>Time Complexity</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Prepend (Insert Head)</td><td>O(1)</td></tr>
+                        <tr><td>Append (Insert Tail)</td><td>O(n) / O(1)*</td></tr>
+                        <tr><td>Delete Node</td><td>O(n)</td></tr>
+                        <tr><td>Search</td><td>O(n)</td></tr>
+                    </tbody>
+                </table>
+                <p style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.5rem;">* O(1) if tail pointer is maintained.</p>
+            </div>
+        </div>
+
+        <div class="dsa-code-panel">
+            <div class="dsa-code-header">
+                <div class="dsa-code-dots">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <span class="dsa-code-lang">C++</span>
+            </div>
+            <pre class="dsa-code-block" id="code-display"></pre>
+        </div>
+    </div>
+</div>
+
+<script>
+(function() {
+    const svg = document.getElementById('ll-svg');
+    const msg = document.getElementById('ll-msg');
+    const codeDisplay = document.getElementById('code-display');
+    const valInput = document.getElementById('ll-val');
+
+    const CODE = {
+        struct: `struct Node {
+    int data;
+    Node* next;
+    Node(int val) : data(val), next(nullptr) {}
+};`,
+        append: `void append(Node*& head, int val) {
+    Node* newNode = new Node(val);
+    if (!head) {
+        head = newNode;
+        return;
+    }
+    Node* temp = head;
+    while (temp->next) {
+        temp = temp->next;
+    }
+    temp->next = newNode;
+}`,
+        prepend: `void prepend(Node*& head, int val) {
+    Node* newNode = new Node(val);
+    newNode->next = head;
+    head = newNode;
+}`,
+        delete: `void deleteNode(Node*& head, int val) {
+    if (!head) return;
+    if (head->data == val) {
+        Node* temp = head;
+        head = head->next;
+        delete temp;
+        return;
+    }
+    Node* temp = head;
+    while (temp->next && temp->next->data != val) {
+        temp = temp->next;
+    }
+    if (temp->next) {
+        Node* toDelete = temp->next;
+        temp->next = temp->next->next;
+        delete toDelete;
+    }
+}`,
+        reverse: `void reverse(Node*& head) {
+    Node* prev = nullptr;
+    Node* curr = head;
+    Node* next = nullptr;
+    while (curr) {
+        next = curr->next;
+        curr->next = prev;
+        prev = curr;
+        curr = next;
+    }
+    head = prev;
+}`
+    };
+
+    class Node {
+        constructor(val) {
+            this.val = val;
+            this.next = null;
+            this.x = 0;
+            this.y = 75;
+        }
+    }
+
+    let head = null;
+    let animating = false;
+
+    function renderList(highlightNode = null, highlightColor = '#f59e0b') {
+        svg.innerHTML = '';
+        if (!head) {
+            svg.setAttribute('width', '100%');
+            return;
+        }
+
+        // Defs for arrow marker
+        const defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
+        const marker = document.createElementNS('http://www.w3.org/2000/svg', 'marker');
+        marker.setAttribute('id', 'arrow');
+        marker.setAttribute('viewBox', '0 0 10 10');
+        marker.setAttribute('refX', '9');
+        marker.setAttribute('refY', '5');
+        marker.setAttribute('markerWidth', '6');
+        marker.setAttribute('markerHeight', '6');
+        marker.setAttribute('orient', 'auto-start-reverse');
+        
+        const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        path.setAttribute('d', 'M 0 0 L 10 5 L 0 10 z');
+        path.setAttribute('fill', '#8b949e');
+        marker.appendChild(path);
+        defs.appendChild(marker);
+        svg.appendChild(defs);
+
+        let temp = head;
+        let count = 0;
+        const startX = 40;
+        const gapX = 90;
+        
+        // Calculate positions
+        while (temp) {
+            temp.x = startX + (count * gapX);
+            temp = temp.next;
+            count++;
+        }
+
+        svg.setAttribute('width', Math.max(400, (count * gapX) + 80));
+
+        // Draw edges
+        temp = head;
+        while (temp && temp.next) {
+            const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+            line.setAttribute('x1', temp.x + 20);
+            line.setAttribute('y1', temp.y);
+            line.setAttribute('x2', temp.next.x - 22);
+            line.setAttribute('y2', temp.next.y);
+            line.setAttribute('stroke', '#8b949e');
+            line.setAttribute('stroke-width', '2');
+            line.setAttribute('marker-end', 'url(#arrow)');
+            svg.appendChild(line);
+            temp = temp.next;
+        }
+
+        // Draw nodes
+        temp = head;
+        while (temp) {
+            const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+            
+            const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+            rect.setAttribute('x', temp.x - 20);
+            rect.setAttribute('y', temp.y - 20);
+            rect.setAttribute('width', '40');
+            rect.setAttribute('height', '40');
+            rect.setAttribute('rx', '8');
+            
+            if (temp === highlightNode) {
+                rect.setAttribute('fill', highlightColor);
+                rect.setAttribute('stroke', highlightColor);
+            } else {
+                rect.setAttribute('fill', '#1e293b');
+                rect.setAttribute('stroke', '#475569');
+            }
+            rect.setAttribute('stroke-width', '2');
+
+            const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+            text.setAttribute('x', temp.x);
+            text.setAttribute('y', temp.y + 5);
+            text.setAttribute('text-anchor', 'middle');
+            text.setAttribute('fill', '#fff');
+            text.setAttribute('font-size', '14');
+            text.setAttribute('font-family', 'system-ui, sans-serif');
+            text.textContent = temp.val;
+
+            g.appendChild(rect);
+            g.appendChild(text);
+            svg.appendChild(g);
+            
+            if (temp === head) {
+                const headTxt = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                headTxt.setAttribute('x', temp.x);
+                headTxt.setAttribute('y', temp.y - 28);
+                headTxt.setAttribute('text-anchor', 'middle');
+                headTxt.setAttribute('fill', '#8b949e');
+                headTxt.setAttribute('font-size', '11');
+                headTxt.textContent = 'head';
+                svg.appendChild(headTxt);
+            }
+            
+            if (!temp.next) {
+                const nullTxt = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                nullTxt.setAttribute('x', temp.x + 40);
+                nullTxt.setAttribute('y', temp.y + 4);
+                nullTxt.setAttribute('fill', '#8b949e');
+                nullTxt.setAttribute('font-size', '12');
+                nullTxt.textContent = 'null';
+                svg.appendChild(nullTxt);
+            }
+
+            temp = temp.next;
+        }
+    }
+
+    async function appendNode(val) {
+        if (animating) return;
+        animating = true;
+        codeDisplay.textContent = CODE.struct + '\\n\\n' + CODE.append;
+        
+        const newNode = new Node(val);
+        if (!head) {
+            head = newNode;
+            renderList(head, '#10b981');
+            msg.textContent = \`Inserted \${val} as head.\`;
+        } else {
+            let temp = head;
+            while (temp.next) {
+                renderList(temp, '#f59e0b');
+                msg.textContent = \`Traversing...\`;
+                await new Promise(r => setTimeout(r, 400));
+                temp = temp.next;
+            }
+            renderList(temp, '#f59e0b');
+            await new Promise(r => setTimeout(r, 400));
+            temp.next = newNode;
+            renderList(newNode, '#10b981');
+            msg.textContent = \`Appended \${val} to the tail.\`;
+        }
+        await new Promise(r => setTimeout(r, 600));
+        renderList();
+        animating = false;
+    }
+
+    async function prependNode(val) {
+        if (animating) return;
+        animating = true;
+        codeDisplay.textContent = CODE.struct + '\\n\\n' + CODE.prepend;
+        
+        const newNode = new Node(val);
+        newNode.next = head;
+        head = newNode;
+        
+        renderList(head, '#10b981');
+        msg.textContent = \`Prepended \${val} as new head.\`;
+        await new Promise(r => setTimeout(r, 800));
+        renderList();
+        animating = false;
+    }
+
+    async function deleteVal(val) {
+        if (animating || !head) return;
+        animating = true;
+        codeDisplay.textContent = CODE.struct + '\\n\\n' + CODE.delete;
+        
+        if (head.val === val) {
+            renderList(head, '#ef4444');
+            msg.textContent = \`Deleting head node \${val}.\`;
+            await new Promise(r => setTimeout(r, 600));
+            head = head.next;
+            renderList();
+            msg.textContent = \`Deleted \${val}.\`;
+            animating = false;
+            return;
+        }
+
+        let temp = head;
+        while (temp.next && temp.next.val !== val) {
+            renderList(temp, '#f59e0b');
+            msg.textContent = \`Traversing...\`;
+            await new Promise(r => setTimeout(r, 400));
+            temp = temp.next;
+        }
+
+        if (temp.next) {
+            renderList(temp.next, '#ef4444');
+            msg.textContent = \`Found \${val}. Deleting...\`;
+            await new Promise(r => setTimeout(r, 600));
+            temp.next = temp.next.next;
+            renderList();
+            msg.textContent = \`Deleted \${val}.\`;
+        } else {
+            renderList();
+            msg.textContent = \`Value \${val} not found.\`;
+        }
+        animating = false;
+    }
+
+    async function reverseList() {
+        if (animating || !head || !head.next) return;
+        animating = true;
+        codeDisplay.textContent = CODE.struct + '\\n\\n' + CODE.reverse;
+        msg.textContent = \`Reversing list... (Fast-forwarding)\`;
+        
+        let prev = null;
+        let curr = head;
+        let next = null;
+        
+        while (curr) {
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+        head = prev;
+        
+        await new Promise(r => setTimeout(r, 600));
+        renderList();
+        msg.textContent = \`List reversed successfully.\`;
+        animating = false;
+    }
+
+    document.getElementById('btn-append').addEventListener('click', () => {
+        const val = parseInt(valInput.value);
+        if (!isNaN(val)) { appendNode(val); valInput.value = ''; }
+    });
+    document.getElementById('btn-prepend').addEventListener('click', () => {
+        const val = parseInt(valInput.value);
+        if (!isNaN(val)) { prependNode(val); valInput.value = ''; }
+    });
+    document.getElementById('btn-delete').addEventListener('click', () => {
+        const val = parseInt(valInput.value);
+        if (!isNaN(val)) { deleteVal(val); valInput.value = ''; }
+    });
+    document.getElementById('btn-reverse').addEventListener('click', reverseList);
+
+    // Initial setup
+    [10, 20, 30].forEach(v => {
+        let n = new Node(v);
+        if(!head) head = n;
+        else { let t = head; while(t.next) t = t.next; t.next = n; }
+    });
+    renderList();
+    codeDisplay.textContent = CODE.struct + '\\n\\n' + CODE.append;
+})();
+</script>
