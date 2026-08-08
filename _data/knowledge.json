@@ -1556,7 +1556,23 @@
         "Machine Learning"
       ],
       "url": "/geopolitics/2026/08/08/doe-genesis-open-models-initiative.html"
+    },
+    {
+      "title": "The Rovo Breach: Unpacking Indirect Prompt Injection and Data Exfiltration in Atlassian's AI Assistant",
+      "slug": "atlassian-rovo-indirect-prompt-injection-security",
+      "date": "2026-08-08",
+      "category": "Tech",
+      "key_topics": [
+        "Atlassian Rovo",
+        "AI Security",
+        "Prompt Injection",
+        "Cybersecurity",
+        "LLM",
+        "Data Exfiltration",
+        "RAG"
+      ],
+      "url": "/tech/2026/08/08/atlassian-rovo-indirect-prompt-injection-security.html"
     }
   ],
-  "last_updated": "2026-08-08T02:01:05.402833+00:00"
+  "last_updated": "2026-08-08T15:37:07.705115+00:00"
 }
