@@ -1,5 +1,6 @@
 [
   "Array - Sliding Window - Two Pointers - Hash Table",
   "Matrix - Depth-First Search - Backtracking",
-  "Graph - Dynamic Programming - Topological Sort (Kahn's Algorithm)"
+  "Graph - Dynamic Programming - Topological Sort (Kahn's Algorithm)",
+  "Stack - String Parsing - Mathematical Expression Evaluation"
 ]
