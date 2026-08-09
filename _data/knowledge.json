@@ -1621,7 +1621,23 @@
         "ACID"
       ],
       "url": "/tech/2026/08/09/shopify-migrated-redis-mysql-inventory.html"
+    },
+    {
+      "title": "The Fossil Fuel Paradox: Inside Amazon's Pecos County Data Center and the AI Energy Wall",
+      "slug": "amazon-pecos-county-ai-energy-wall",
+      "date": "2026-08-09",
+      "category": "Geopolitics",
+      "key_topics": [
+        "Amazon",
+        "Data Center",
+        "AI Energy Wall",
+        "Fossil Fuels",
+        "Pecos County",
+        "Grid Infrastructure",
+        "Geopolitics"
+      ],
+      "url": "/geopolitics/2026/08/09/amazon-pecos-county-ai-energy-wall.html"
     }
   ],
-  "last_updated": "2026-08-09T02:03:43.406483+00:00"
+  "last_updated": "2026-08-09T04:21:33.335845+00:00"
 }
