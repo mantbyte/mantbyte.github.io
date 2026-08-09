@@ -1605,7 +1605,23 @@
         "Cloud Computing"
       ],
       "url": "/geopolitics/2026/08/09/amazon-pecos-county-ai-energy-wall.html"
+    },
+    {
+      "title": "Scaling Flash Sales: Why Shopify Migrated from Redis to MySQL for Inventory Reservations",
+      "slug": "shopify-migrated-redis-mysql-inventory",
+      "date": "2026-08-09",
+      "category": "Tech",
+      "key_topics": [
+        "Shopify",
+        "MySQL",
+        "Redis",
+        "Database Architecture",
+        "Flash Sales",
+        "High Concurrency",
+        "ACID"
+      ],
+      "url": "/tech/2026/08/09/shopify-migrated-redis-mysql-inventory.html"
     }
   ],
-  "last_updated": "2026-08-08T21:36:13.912087+00:00"
+  "last_updated": "2026-08-09T02:03:43.406483+00:00"
 }
