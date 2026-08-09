@@ -1668,7 +1668,23 @@
         "ERP"
       ],
       "url": "/news/2026/08/09/sap-ai-pivot-operational-austerity-roi.html"
+    },
+    {
+      "title": "Beyond the Pager: How Stripe Uses Graph Search and State Machines for Automated DB Remediation",
+      "slug": "stripe-automated-db-remediation-graph-search",
+      "date": "2026-08-09",
+      "category": "Tech",
+      "key_topics": [
+        "Stripe",
+        "SRE",
+        "MongoDB",
+        "Graph Theory",
+        "State Machines",
+        "Database Reliability",
+        "Automation"
+      ],
+      "url": "/tech/2026/08/09/stripe-automated-db-remediation-graph-search.html"
     }
   ],
-  "last_updated": "2026-08-09T13:01:54.526698+00:00"
+  "last_updated": "2026-08-09T15:38:17.758976+00:00"
 }
