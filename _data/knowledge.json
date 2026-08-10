@@ -1748,7 +1748,22 @@
         "Linus Torvalds"
       ],
       "url": "/tech/2026/08/10/ai-policy-fracturing-linux-ecosystem.html"
+    },
+    {
+      "title": "Docker Sandboxes for AI Coding Agents: Securing Autonomous Execution in 'YOLO Mode'",
+      "slug": "docker-sandboxes-secure-ai-coding-agents",
+      "date": "2026-08-10",
+      "category": "Tech",
+      "key_topics": [
+        "Docker",
+        "AI Agents",
+        "MicroVM",
+        "Container Security",
+        "Claude Code",
+        "DevOps"
+      ],
+      "url": "/tech/2026/08/10/docker-sandboxes-secure-ai-coding-agents.html"
     }
   ],
-  "last_updated": "2026-08-10T04:42:38.874363+00:00"
+  "last_updated": "2026-08-10T07:51:58.885716+00:00"
 }
