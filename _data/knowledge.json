@@ -1794,7 +1794,22 @@
         "DevSecOps"
       ],
       "url": "/tech/2026/08/10/toctou-vulnerabilities-autonomous-ai-coding-agents.html"
+    },
+    {
+      "title": "The 'Noreply' Nightmare: How Hardcoded Email Fallbacks Create Massive Data Sinkholes",
+      "slug": "noreply-nightmare-email-fallback-data-leak",
+      "date": "2026-08-10",
+      "category": "News",
+      "key_topics": [
+        "Cybersecurity",
+        "Email Security",
+        "Data Privacy",
+        "SMTP",
+        "DNS Sinkhole",
+        "Software Architecture"
+      ],
+      "url": "/news/2026/08/10/noreply-nightmare-email-fallback-data-leak.html"
     }
   ],
-  "last_updated": "2026-08-10T13:20:37.211539+00:00"
+  "last_updated": "2026-08-10T16:05:21.193767+00:00"
 }
