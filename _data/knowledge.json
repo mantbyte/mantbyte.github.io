@@ -1733,7 +1733,22 @@
         "Privacy"
       ],
       "url": "/geopolitics/2026/08/10/flock-safety-surveillance-governance-crisis.html"
+    },
+    {
+      "title": "The Great Fragmentation: How AI Policy is Fracturing the Linux Ecosystem",
+      "slug": "ai-policy-fracturing-linux-ecosystem",
+      "date": "2026-08-10",
+      "category": "Tech",
+      "key_topics": [
+        "Linux",
+        "Open Source",
+        "AI Policy",
+        "GCC",
+        "Software Supply Chain",
+        "Linus Torvalds"
+      ],
+      "url": "/tech/2026/08/10/ai-policy-fracturing-linux-ecosystem.html"
     }
   ],
-  "last_updated": "2026-08-10T02:08:26.210352+00:00"
+  "last_updated": "2026-08-10T04:42:38.874363+00:00"
 }
