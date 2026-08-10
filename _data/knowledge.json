@@ -1763,7 +1763,23 @@
         "DevOps"
       ],
       "url": "/tech/2026/08/10/docker-sandboxes-secure-ai-coding-agents.html"
+    },
+    {
+      "title": "Navigating AI Code Governance in Open-Source: From Linux Kernel Accountability to Debian DFSG Compliance",
+      "slug": "ai-code-governance-open-source-compliance",
+      "date": "2026-08-10",
+      "category": "Tech",
+      "key_topics": [
+        "AI Governance",
+        "Open Source",
+        "Linux Kernel",
+        "Debian",
+        "Software Licensing",
+        "LLMs",
+        "DevOps"
+      ],
+      "url": "/tech/2026/08/10/ai-code-governance-open-source-compliance.html"
     }
   ],
-  "last_updated": "2026-08-10T07:51:58.885716+00:00"
+  "last_updated": "2026-08-10T10:24:17.977614+00:00"
 }
