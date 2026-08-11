@@ -1839,7 +1839,23 @@
         "Network Security"
       ],
       "url": "/tech/2026/08/11/polish-power-plant-cellular-apn-breach.html"
+    },
+    {
+      "title": "GhostSplice: How Split-Instruction Attacks Bypass Safety Filters in MCP-Enabled AI Agents",
+      "slug": "ghostsplice-split-instruction-attacks-mcp-security",
+      "date": "2026-08-11",
+      "category": "Tech",
+      "key_topics": [
+        "GhostSplice",
+        "Model Context Protocol",
+        "AI Security",
+        "Prompt Injection",
+        "LLM Safety",
+        "Agentic AI",
+        "Cybersecurity"
+      ],
+      "url": "/tech/2026/08/11/ghostsplice-split-instruction-attacks-mcp-security.html"
     }
   ],
-  "last_updated": "2026-08-11T10:05:42.972312+00:00"
+  "last_updated": "2026-08-11T13:17:10.446723+00:00"
 }
