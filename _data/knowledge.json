@@ -1824,7 +1824,22 @@
         "BdThemes"
       ],
       "url": "/tech/2026/08/11/bdthemes-supply-chain-attack-json-poisoning.html"
+    },
+    {
+      "title": "Postmortem: How a Polish Power Plant Was Breached Through a Private Cellular APN",
+      "slug": "polish-power-plant-cellular-apn-breach",
+      "date": "2026-08-11",
+      "category": "Tech",
+      "key_topics": [
+        "Cybersecurity",
+        "ICS Security",
+        "OT Breach",
+        "Cellular APN",
+        "Industrial Control Systems",
+        "Network Security"
+      ],
+      "url": "/tech/2026/08/11/polish-power-plant-cellular-apn-breach.html"
     }
   ],
-  "last_updated": "2026-08-11T07:18:04.871963+00:00"
+  "last_updated": "2026-08-11T10:05:42.972312+00:00"
 }
