@@ -4,5 +4,6 @@
   "Graph - Dynamic Programming - Topological Sort (Kahn's Algorithm)",
   "Stack - String Parsing - Mathematical Expression Evaluation",
   "Binary Search - Optimization over a Range",
-  "Trie - Bit Manipulation - Count pairs with XOR within a given range"
+  "Trie - Bit Manipulation - Count pairs with XOR within a given range",
+  "Heap / Priority Queue - Sorting - CPU Task Simulation"
 ]
