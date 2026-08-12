@@ -1932,7 +1932,22 @@
         "Neural Networks"
       ],
       "url": "/tech/2026/08/12/compression-prediction-machine-learning.html"
+    },
+    {
+      "title": "Ending Cookie Theft: A Deep Dive into Chrome's Device-Bound Session Credentials (DBSC)",
+      "slug": "chrome-dbsc-prevent-cookie-theft",
+      "date": "2026-08-12",
+      "category": "Tech",
+      "key_topics": [
+        "Chrome",
+        "DBSC",
+        "Cybersecurity",
+        "Session Hijacking",
+        "Infostealer",
+        "Authentication"
+      ],
+      "url": "/tech/2026/08/12/chrome-dbsc-prevent-cookie-theft.html"
     }
   ],
-  "last_updated": "2026-08-12T04:51:22.937120+00:00"
+  "last_updated": "2026-08-12T07:43:51.336303+00:00"
 }
