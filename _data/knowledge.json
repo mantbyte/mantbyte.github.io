@@ -1947,7 +1947,23 @@
         "Authentication"
       ],
       "url": "/tech/2026/08/12/chrome-dbsc-prevent-cookie-theft.html"
+    },
+    {
+      "title": "The 14-Year-Old Ghost in the Machine: How Tailscale and SQLite Solved a Decade-Old WAL Race Condition",
+      "slug": "tailscale-sqlite-wal-race-condition-fix",
+      "date": "2026-08-12",
+      "category": "Tech",
+      "key_topics": [
+        "SQLite",
+        "Tailscale",
+        "Database",
+        "Distributed Systems",
+        "WAL",
+        "Debugging",
+        "Go"
+      ],
+      "url": "/tech/2026/08/12/tailscale-sqlite-wal-race-condition-fix.html"
     }
   ],
-  "last_updated": "2026-08-12T07:43:51.336303+00:00"
+  "last_updated": "2026-08-12T16:06:27.987740+00:00"
 }
