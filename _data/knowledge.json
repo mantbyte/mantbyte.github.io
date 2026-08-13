@@ -2042,7 +2042,24 @@
         "Font Obfuscation"
       ],
       "url": "/tech/2026/08/13/shieldfont-font-obfuscation-ai-scrapers.html"
+    },
+    {
+      "title": "ShieldFont: Defending Web Content with Adversarial Typography and Glyph Remapping",
+      "slug": "shieldfont-adversarial-typography-glyph-remapping",
+      "date": "2026-08-13",
+      "category": "Tech",
+      "key_topics": [
+        "ShieldFont",
+        "Adversarial Typography",
+        "Web Scraping",
+        "AI Data Poisoning",
+        "Glyph Remapping",
+        "Cybersecurity",
+        "OpenType",
+        "CSS"
+      ],
+      "url": "/tech/2026/08/13/shieldfont-adversarial-typography-glyph-remapping.html"
     }
   ],
-  "last_updated": "2026-08-13T07:44:16.250894+00:00"
+  "last_updated": "2026-08-13T13:24:13.719049+00:00"
 }
