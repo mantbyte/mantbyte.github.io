@@ -2027,7 +2027,22 @@
         "WebSockets"
       ],
       "url": "/geopolitics/2026/08/13/truth-api-monetization-market-asymmetry.html"
+    },
+    {
+      "title": "ShieldFont Mechanics: How Font-Based Obfuscation Poisons AI Scrapers and Shifts Web Economics",
+      "slug": "shieldfont-font-obfuscation-ai-scrapers",
+      "date": "2026-08-13",
+      "category": "Tech",
+      "key_topics": [
+        "ShieldFont",
+        "Anti-Scraping",
+        "AI Scraping",
+        "OpenType",
+        "Web Security",
+        "Font Obfuscation"
+      ],
+      "url": "/tech/2026/08/13/shieldfont-font-obfuscation-ai-scrapers.html"
     }
   ],
-  "last_updated": "2026-08-13T05:01:12.283352+00:00"
+  "last_updated": "2026-08-13T07:44:16.250894+00:00"
 }
