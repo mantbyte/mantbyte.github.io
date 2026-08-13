@@ -1995,7 +1995,23 @@
         "Neural Networks"
       ],
       "url": "/geopolitics/2026/08/13/open-weight-ai-debate-innovation-safety.html"
+    },
+    {
+      "title": "ShieldFont: Font-Mapping Obfuscation and the Rise of Anti-Scraping Data Poisoning",
+      "slug": "shieldfont-anti-scraping-font-mapping-data-poisoning",
+      "date": "2026-08-13",
+      "category": "Tech",
+      "key_topics": [
+        "ShieldFont",
+        "Anti-Scraping",
+        "Data Poisoning",
+        "Web Security",
+        "OpenType",
+        "LLM",
+        "Typography"
+      ],
+      "url": "/tech/2026/08/13/shieldfont-anti-scraping-font-mapping-data-poisoning.html"
     }
   ],
-  "last_updated": "2026-08-12T21:52:33.588323+00:00"
+  "last_updated": "2026-08-13T02:21:57.975421+00:00"
 }
