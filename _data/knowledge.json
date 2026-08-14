@@ -2106,7 +2106,23 @@
         "AI Geopolitics"
       ],
       "url": "/geopolitics/2026/08/14/apple-ai-strategy-china-bifurcated-intelligence.html"
+    },
+    {
+      "title": "Scaling to 9 Billion Daily Requests: Inside the cdnjs Migration to Cloudflare's Developer Platform",
+      "slug": "cdnjs-migration-cloudflare-developer-platform",
+      "date": "2026-08-14",
+      "category": "Tech",
+      "key_topics": [
+        "cdnjs",
+        "Cloudflare",
+        "Edge Computing",
+        "Serverless",
+        "Cloudflare Workers",
+        "Infrastructure",
+        "Web Development"
+      ],
+      "url": "/tech/2026/08/14/cdnjs-migration-cloudflare-developer-platform.html"
     }
   ],
-  "last_updated": "2026-08-14T10:09:32.037648+00:00"
+  "last_updated": "2026-08-14T15:58:41.151004+00:00"
 }
