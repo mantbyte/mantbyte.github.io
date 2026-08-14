@@ -2122,7 +2122,22 @@
         "Web Development"
       ],
       "url": "/tech/2026/08/14/cdnjs-migration-cloudflare-developer-platform.html"
+    },
+    {
+      "title": "Cloud Ghosting and Vendor Failure: The Nine PBS 50TB Data Recovery Case",
+      "slug": "cloud-ghosting-nine-pbs-data-recovery",
+      "date": "2026-08-15",
+      "category": "Tech",
+      "key_topics": [
+        "Cloud Computing",
+        "Data Recovery",
+        "Vendor Management",
+        "Cloud Ghosting",
+        "Enterprise Architecture",
+        "Storage"
+      ],
+      "url": "/tech/2026/08/15/cloud-ghosting-nine-pbs-data-recovery.html"
     }
   ],
-  "last_updated": "2026-08-14T15:58:41.151004+00:00"
+  "last_updated": "2026-08-14T19:02:20.166330+00:00"
 }
