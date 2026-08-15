@@ -2153,7 +2153,23 @@
         "ot security"
       ],
       "url": "/geopolitics/2026/08/15/iranian-cyberattacks-us-water-utilities.html"
+    },
+    {
+      "title": "Anatomy of CVE-2026-65400: The macOS Screen-Sharing Zero-Day and Remote Takeover Vector",
+      "slug": "cve-2026-65400-macos-screen-sharing-zero-day",
+      "date": "2026-08-15",
+      "category": "Tech",
+      "key_topics": [
+        "CVE-2026-65400",
+        "macOS security",
+        "zero-day",
+        "vulnerability",
+        "crypto mining",
+        "cybersecurity",
+        "RFB protocol"
+      ],
+      "url": "/tech/2026/08/15/cve-2026-65400-macos-screen-sharing-zero-day.html"
     }
   ],
-  "last_updated": "2026-08-15T01:28:49.390271+00:00"
+  "last_updated": "2026-08-15T03:45:46.732963+00:00"
 }
