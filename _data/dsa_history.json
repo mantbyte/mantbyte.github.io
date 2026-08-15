@@ -6,5 +6,6 @@
   "Binary Search - Optimization over a Range",
   "Trie - Bit Manipulation - Count pairs with XOR within a given range",
   "Heap / Priority Queue - Sorting - CPU Task Simulation",
-  "Disjoint Set Union (DSU) - Graph Connectivity - Component Properties"
+  "Disjoint Set Union (DSU) - Graph Connectivity - Component Properties",
+  "Binary Tree - Tree Dynamic Programming / Post-Order DFS"
 ]
