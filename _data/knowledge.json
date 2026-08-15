@@ -2169,7 +2169,23 @@
         "RFB protocol"
       ],
       "url": "/tech/2026/08/15/cve-2026-65400-macos-screen-sharing-zero-day.html"
+    },
+    {
+      "title": "Securing the Water Tap: The Reality of State-Sponsored Cyberattacks on U.S. Utilities",
+      "slug": "securing-water-tap-cyberattacks-utilities",
+      "date": "2026-08-15",
+      "category": "Geopolitics",
+      "key_topics": [
+        "Cybersecurity",
+        "Critical Infrastructure",
+        "OT Security",
+        "SCADA",
+        "Water Utilities",
+        "Geopolitics",
+        "State-Sponsored Attacks"
+      ],
+      "url": "/geopolitics/2026/08/15/securing-water-tap-cyberattacks-utilities.html"
     }
   ],
-  "last_updated": "2026-08-15T03:45:46.732963+00:00"
+  "last_updated": "2026-08-15T06:46:15.423617+00:00"
 }
