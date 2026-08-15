@@ -2232,7 +2232,23 @@
         "RecSys"
       ],
       "url": "/tech/2026/08/15/netflix-genrec-llm-native-recommendation-systems.html"
+    },
+    {
+      "title": "Achieving a 232x Speedup: LLM-Assisted GPU Kernel Optimization for Batched QR Factorization",
+      "slug": "llm-gpu-kernel-optimization-qr-factorization",
+      "date": "2026-08-16",
+      "category": "Tech",
+      "key_topics": [
+        "GPU",
+        "CUDA",
+        "LLM",
+        "Machine Learning",
+        "Optimization",
+        "Linear Algebra",
+        "Triton"
+      ],
+      "url": "/tech/2026/08/16/llm-gpu-kernel-optimization-qr-factorization.html"
     }
   ],
-  "last_updated": "2026-08-15T15:26:38.427230+00:00"
+  "last_updated": "2026-08-15T18:36:48.119426+00:00"
 }
