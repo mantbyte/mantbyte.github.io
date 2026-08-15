@@ -2216,7 +2216,23 @@
         "Private Inference"
       ],
       "url": "/tech/2026/08/15/zero-trust-ai-private-inference-ckks.html"
+    },
+    {
+      "title": "GenRec: Inside Netflix\u2019s Shift to LLM-Native Recommendation Systems",
+      "slug": "netflix-genrec-llm-native-recommendation-systems",
+      "date": "2026-08-15",
+      "category": "Tech",
+      "key_topics": [
+        "Netflix",
+        "GenRec",
+        "LLM",
+        "Recommendation Systems",
+        "AI",
+        "Machine Learning",
+        "RecSys"
+      ],
+      "url": "/tech/2026/08/15/netflix-genrec-llm-native-recommendation-systems.html"
     }
   ],
-  "last_updated": "2026-08-15T12:51:51.503292+00:00"
+  "last_updated": "2026-08-15T15:26:38.427230+00:00"
 }
