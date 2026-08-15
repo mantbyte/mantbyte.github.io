@@ -2248,7 +2248,23 @@
         "Triton"
       ],
       "url": "/tech/2026/08/16/llm-gpu-kernel-optimization-qr-factorization.html"
+    },
+    {
+      "title": "Unpacking Anthropic Claude's Watermarking Mechanism: A Technical Breakdown of SynthID-Text",
+      "slug": "anthropic-claude-synthid-watermarking-breakdown",
+      "date": "2026-08-16",
+      "category": "Tech",
+      "key_topics": [
+        "SynthID",
+        "Anthropic Claude",
+        "AI Watermarking",
+        "Generative AI",
+        "NLP",
+        "AI Compliance",
+        "Machine Learning"
+      ],
+      "url": "/tech/2026/08/16/anthropic-claude-synthid-watermarking-breakdown.html"
     }
   ],
-  "last_updated": "2026-08-15T18:36:48.119426+00:00"
+  "last_updated": "2026-08-15T21:26:39.934025+00:00"
 }
