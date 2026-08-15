@@ -2137,7 +2137,23 @@
         "Storage"
       ],
       "url": "/tech/2026/08/15/cloud-ghosting-nine-pbs-data-recovery.html"
+    },
+    {
+      "title": "Anatomy of an Attack: Iranian State-Sponsored Intrusions on U.S. Water Utilities",
+      "slug": "iranian-cyberattacks-us-water-utilities",
+      "date": "2026-08-15",
+      "category": "Geopolitics",
+      "key_topics": [
+        "cybersecurity",
+        "critical infrastructure",
+        "operational technology",
+        "state-sponsored",
+        "industrial control systems",
+        "cisa",
+        "ot security"
+      ],
+      "url": "/geopolitics/2026/08/15/iranian-cyberattacks-us-water-utilities.html"
     }
   ],
-  "last_updated": "2026-08-14T19:02:20.166330+00:00"
+  "last_updated": "2026-08-15T01:28:49.390271+00:00"
 }
