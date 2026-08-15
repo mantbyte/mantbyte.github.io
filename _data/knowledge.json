@@ -2200,7 +2200,23 @@
         "Cyberwarfare"
       ],
       "url": "/geopolitics/2026/08/15/us-water-cyberwarfare-purdue-model-breach.html"
+    },
+    {
+      "title": "Zero-Trust AI: A Deep Dive into Private Inference with Homomorphic Encryption (CKKS)",
+      "slug": "zero-trust-ai-private-inference-ckks",
+      "date": "2026-08-15",
+      "category": "Tech",
+      "key_topics": [
+        "Homomorphic Encryption",
+        "CKKS",
+        "Zero-Trust AI",
+        "Machine Learning",
+        "Privacy",
+        "Cryptography",
+        "Private Inference"
+      ],
+      "url": "/tech/2026/08/15/zero-trust-ai-private-inference-ckks.html"
     }
   ],
-  "last_updated": "2026-08-15T09:32:50.372158+00:00"
+  "last_updated": "2026-08-15T12:51:51.503292+00:00"
 }
