@@ -2344,7 +2344,22 @@
         "Policy as Code"
       ],
       "url": "/tech/2026/08/17/governing-autonomous-ai-agents-aws-dogwood-cedar.html"
+    },
+    {
+      "title": "The Geopolitics of Silicon and RISC-V: A Developing World Perspective on Open-Source Hardware",
+      "slug": "geopolitics-risc-v-open-source-hardware-sovereignty",
+      "date": "2026-08-17",
+      "category": "Geopolitics",
+      "key_topics": [
+        "RISC-V",
+        "Open-Source Hardware",
+        "Semiconductors",
+        "Geopolitics",
+        "Technological Sovereignty",
+        "ISA"
+      ],
+      "url": "/geopolitics/2026/08/17/geopolitics-risc-v-open-source-hardware-sovereignty.html"
     }
   ],
-  "last_updated": "2026-08-16T18:36:32.792567+00:00"
+  "last_updated": "2026-08-16T21:25:38.123907+00:00"
 }
