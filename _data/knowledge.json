@@ -2296,7 +2296,22 @@
         "DevOps"
       ],
       "url": "/geopolitics/2026/08/16/us-iran-cyber-warfare-geopolitics.html"
+    },
+    {
+      "title": "Invisible Signatures: A Technical Deep Dive into Anthropic Claude\u2019s SynthID-Text Watermarking",
+      "slug": "anthropic-claude-synthid-text-watermarking",
+      "date": "2026-08-16",
+      "category": "News",
+      "key_topics": [
+        "SynthID",
+        "Anthropic Claude",
+        "AI Watermarking",
+        "LLM Security",
+        "EU AI Act",
+        "Generative AI"
+      ],
+      "url": "/news/2026/08/16/anthropic-claude-synthid-text-watermarking.html"
     }
   ],
-  "last_updated": "2026-08-16T06:48:22.190545+00:00"
+  "last_updated": "2026-08-16T09:36:07.139995+00:00"
 }
