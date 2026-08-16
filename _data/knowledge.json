@@ -2280,7 +2280,23 @@
         "Cybersecurity"
       ],
       "url": "/tech/2026/08/16/decoding-llm-watermarking-synthid-claude.html"
+    },
+    {
+      "title": "Digital Frontlines: The Geopolitical and Cyber Warfare Ramifications of the US-Iran Conflict",
+      "slug": "us-iran-cyber-warfare-geopolitics",
+      "date": "2026-08-16",
+      "category": "Geopolitics",
+      "key_topics": [
+        "Cyber Warfare",
+        "Geopolitics",
+        "APT",
+        "Critical Infrastructure",
+        "Information Security",
+        "OT Security",
+        "DevOps"
+      ],
+      "url": "/geopolitics/2026/08/16/us-iran-cyber-warfare-geopolitics.html"
     }
   ],
-  "last_updated": "2026-08-16T03:56:09.473990+00:00"
+  "last_updated": "2026-08-16T06:48:22.190545+00:00"
 }
