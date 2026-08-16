@@ -2328,7 +2328,23 @@
         "Cloud Security"
       ],
       "url": "/tech/2026/08/16/securing-ai-agents-aws-dogwood-temporal.html"
+    },
+    {
+      "title": "Governing Autonomous AI Agents with AWS Dogwood and Cedar Extensions",
+      "slug": "governing-autonomous-ai-agents-aws-dogwood-cedar",
+      "date": "2026-08-17",
+      "category": "Tech",
+      "key_topics": [
+        "AWS",
+        "Cedar",
+        "Dogwood",
+        "AI Agents",
+        "Cloud Security",
+        "Authorization",
+        "Policy as Code"
+      ],
+      "url": "/tech/2026/08/17/governing-autonomous-ai-agents-aws-dogwood-cedar.html"
     }
   ],
-  "last_updated": "2026-08-16T12:49:30.748658+00:00"
+  "last_updated": "2026-08-16T18:36:32.792567+00:00"
 }
