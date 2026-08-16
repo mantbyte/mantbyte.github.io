@@ -2311,7 +2311,24 @@
         "Generative AI"
       ],
       "url": "/news/2026/08/16/anthropic-claude-synthid-text-watermarking.html"
+    },
+    {
+      "title": "Beyond Stateless Auth: Securing AI Agents with AWS Dogwood and Temporal Policy",
+      "slug": "securing-ai-agents-aws-dogwood-temporal",
+      "date": "2026-08-16",
+      "category": "Tech",
+      "key_topics": [
+        "AI Agents",
+        "AWS Dogwood",
+        "Cybersecurity",
+        "IAM",
+        "Cedar Policy",
+        "LLM Security",
+        "Temporal Policy",
+        "Cloud Security"
+      ],
+      "url": "/tech/2026/08/16/securing-ai-agents-aws-dogwood-temporal.html"
     }
   ],
-  "last_updated": "2026-08-16T09:36:07.139995+00:00"
+  "last_updated": "2026-08-16T12:49:30.748658+00:00"
 }
