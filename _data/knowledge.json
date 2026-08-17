@@ -2437,7 +2437,23 @@
         "Vulnerability"
       ],
       "url": "/tech/2026/08/17/ai-writes-vulnerabilities-snowflake-copilot.html"
+    },
+    {
+      "title": "The Data Wall Crisis: Inside Amazon\u2019s Destructive Book Scanning Pipeline for AI Training",
+      "slug": "amazon-book-scanning-pipeline-ai-training",
+      "date": "2026-08-18",
+      "category": "News",
+      "key_topics": [
+        "Amazon",
+        "AI Training",
+        "Data Wall",
+        "Large Language Models",
+        "Machine Learning",
+        "Data Pipeline",
+        "Artificial Intelligence"
+      ],
+      "url": "/news/2026/08/18/amazon-book-scanning-pipeline-ai-training.html"
     }
   ],
-  "last_updated": "2026-08-17T15:30:33.481706+00:00"
+  "last_updated": "2026-08-17T18:46:11.153536+00:00"
 }
