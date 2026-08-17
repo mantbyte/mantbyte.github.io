@@ -8,5 +8,6 @@
   "Heap / Priority Queue - Sorting - CPU Task Simulation",
   "Disjoint Set Union (DSU) - Graph Connectivity - Component Properties",
   "Binary Tree - Tree Dynamic Programming / Post-Order DFS",
-  "Linked List - Pointer Manipulation - List Partitioning"
+  "Linked List - Pointer Manipulation - List Partitioning",
+  "Graph - Dijkstra's Algorithm - Layered State-Space Shortest Path"
 ]
