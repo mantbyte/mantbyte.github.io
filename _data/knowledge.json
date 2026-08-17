@@ -2421,7 +2421,23 @@
         "Data Protection"
       ],
       "url": "/tech/2026/08/17/securing-model-context-protocol-enterprise-secrets.html"
+    },
+    {
+      "title": "When AI Writes Vulnerabilities: The Snowflake GitHub Copilot Autofix Incident",
+      "slug": "ai-writes-vulnerabilities-snowflake-copilot",
+      "date": "2026-08-17",
+      "category": "Tech",
+      "key_topics": [
+        "GitHub Copilot",
+        "AI Security",
+        "DevSecOps",
+        "Remote Code Execution",
+        "Snowflake",
+        "CI/CD Security",
+        "Vulnerability"
+      ],
+      "url": "/tech/2026/08/17/ai-writes-vulnerabilities-snowflake-copilot.html"
     }
   ],
-  "last_updated": "2026-08-17T12:54:41.599535+00:00"
+  "last_updated": "2026-08-17T15:30:33.481706+00:00"
 }
