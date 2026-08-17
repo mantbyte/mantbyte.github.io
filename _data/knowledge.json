@@ -2405,7 +2405,23 @@
         "Corporate Strategy"
       ],
       "url": "/geopolitics/2026/08/17/openai-safety-pivot-decentralizing-risk-scaling.html"
+    },
+    {
+      "title": "Securing the Middleman: Preventing Enterprise Secret Exposure in the Model Context Protocol (MCP)",
+      "slug": "securing-model-context-protocol-enterprise-secrets",
+      "date": "2026-08-17",
+      "category": "Tech",
+      "key_topics": [
+        "MCP",
+        "Cybersecurity",
+        "AI Agents",
+        "Non-Human Identities",
+        "Anthropic",
+        "Enterprise Security",
+        "Data Protection"
+      ],
+      "url": "/tech/2026/08/17/securing-model-context-protocol-enterprise-secrets.html"
     }
   ],
-  "last_updated": "2026-08-17T09:49:49.430179+00:00"
+  "last_updated": "2026-08-17T12:54:41.599535+00:00"
 }
