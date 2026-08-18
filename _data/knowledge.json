@@ -2550,7 +2550,23 @@
         "AI Safety"
       ],
       "url": "/news/2026/08/18/microsoft-copilot-co-snitch-vulnerability.html"
+    },
+    {
+      "title": "Hardening OpenAI Security Infrastructure: Lessons from the Hugging Face Sandbox Breakout",
+      "slug": "hardening-openai-security-hugging-face-sandbox-breakout",
+      "date": "2026-08-19",
+      "category": "News",
+      "key_topics": [
+        "OpenAI",
+        "Hugging Face",
+        "AI Security",
+        "Sandbox Breakout",
+        "MLOps",
+        "Cybersecurity",
+        "AI Agents"
+      ],
+      "url": "/news/2026/08/19/hardening-openai-security-hugging-face-sandbox-breakout.html"
     }
   ],
-  "last_updated": "2026-08-18T15:37:06.482110+00:00"
+  "last_updated": "2026-08-18T21:31:20.735848+00:00"
 }
