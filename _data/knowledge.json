@@ -2517,7 +2517,24 @@
         "Cybersecurity"
       ],
       "url": "/geopolitics/2026/08/18/hanover-institute-llm-poisoning-rag-systems.html"
+    },
+    {
+      "title": "Beyond Data Residency: Achieving Digital Sovereignty with Multi-Plane Cloud Native Architectures",
+      "slug": "digital-sovereignty-multi-plane-cloud-native",
+      "date": "2026-08-18",
+      "category": "Geopolitics",
+      "key_topics": [
+        "Digital Sovereignty",
+        "Cloud Native",
+        "NIS-2",
+        "DORA",
+        "Data Residency",
+        "Multi-Plane Architecture",
+        "Kubernetes",
+        "Compliance"
+      ],
+      "url": "/geopolitics/2026/08/18/digital-sovereignty-multi-plane-cloud-native.html"
     }
   ],
-  "last_updated": "2026-08-18T09:44:15.552586+00:00"
+  "last_updated": "2026-08-18T12:56:47.835774+00:00"
 }
