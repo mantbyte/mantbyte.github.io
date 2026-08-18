@@ -2534,7 +2534,23 @@
         "Compliance"
       ],
       "url": "/geopolitics/2026/08/18/digital-sovereignty-multi-plane-cloud-native.html"
+    },
+    {
+      "title": "The Microsoft Copilot 'Co-Snitch' Vulnerability: Undocumented Parameters and Silent Exfiltration",
+      "slug": "microsoft-copilot-co-snitch-vulnerability",
+      "date": "2026-08-18",
+      "category": "News",
+      "key_topics": [
+        "Microsoft Copilot",
+        "Co-Snitch",
+        "Cybersecurity",
+        "Vulnerability",
+        "LLM Security",
+        "Data Exfiltration",
+        "AI Safety"
+      ],
+      "url": "/news/2026/08/18/microsoft-copilot-co-snitch-vulnerability.html"
     }
   ],
-  "last_updated": "2026-08-18T12:56:47.835774+00:00"
+  "last_updated": "2026-08-18T15:37:06.482110+00:00"
 }
