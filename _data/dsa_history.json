@@ -9,5 +9,6 @@
   "Disjoint Set Union (DSU) - Graph Connectivity - Component Properties",
   "Binary Tree - Tree Dynamic Programming / Post-Order DFS",
   "Linked List - Pointer Manipulation - List Partitioning",
-  "Graph - Dijkstra's Algorithm - Layered State-Space Shortest Path"
+  "Graph - Dijkstra's Algorithm - Layered State-Space Shortest Path",
+  "Segment Tree - Range Query - Point Update - Statistics Tracking"
 ]
