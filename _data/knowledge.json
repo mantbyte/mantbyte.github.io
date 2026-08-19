@@ -2566,7 +2566,23 @@
         "AI Agents"
       ],
       "url": "/news/2026/08/19/hardening-openai-security-hugging-face-sandbox-breakout.html"
+    },
+    {
+      "title": "Cursor Origin vs. GitHub: The Rise of AI-Native Code Hosting and the End of Developer Downtime",
+      "slug": "cursor-origin-vs-github-ai-code-hosting",
+      "date": "2026-08-19",
+      "category": "News",
+      "key_topics": [
+        "Cursor Origin",
+        "GitHub",
+        "AI-Native",
+        "Code Hosting",
+        "Developer Tools",
+        "Git",
+        "DevOps"
+      ],
+      "url": "/news/2026/08/19/cursor-origin-vs-github-ai-code-hosting.html"
     }
   ],
-  "last_updated": "2026-08-18T21:31:20.735848+00:00"
+  "last_updated": "2026-08-19T01:31:40.627214+00:00"
 }
