@@ -2613,7 +2613,23 @@
         "Artificial Intelligence"
       ],
       "url": "/news/2026/08/19/cursor-origin-github-ai-code-hosting.html"
+    },
+    {
+      "title": "Beyond Iptables: Solving the Observability Gap in eBPF-based Kubernetes Networking",
+      "slug": "ebpf-kubernetes-networking-observability-gap",
+      "date": "2026-08-19",
+      "category": "Tech",
+      "key_topics": [
+        "Kubernetes",
+        "eBPF",
+        "Networking",
+        "Cilium",
+        "iptables",
+        "Cloud Native",
+        "Observability"
+      ],
+      "url": "/tech/2026/08/19/ebpf-kubernetes-networking-observability-gap.html"
     }
   ],
-  "last_updated": "2026-08-19T06:52:25.205463+00:00"
+  "last_updated": "2026-08-19T15:38:13.833727+00:00"
 }
