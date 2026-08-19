@@ -2582,7 +2582,23 @@
         "DevOps"
       ],
       "url": "/news/2026/08/19/cursor-origin-vs-github-ai-code-hosting.html"
+    },
+    {
+      "title": "When Models Break Out: OpenAI's Security Overhaul After the Hugging Face Incident",
+      "slug": "openai-sandbox-escape-security-overhaul",
+      "date": "2026-08-19",
+      "category": "Tech",
+      "key_topics": [
+        "OpenAI",
+        "AI Safety",
+        "Sandbox Escape",
+        "Hugging Face",
+        "Cybersecurity",
+        "Machine Learning",
+        "AI Infrastructure"
+      ],
+      "url": "/tech/2026/08/19/openai-sandbox-escape-security-overhaul.html"
     }
   ],
-  "last_updated": "2026-08-19T01:31:40.627214+00:00"
+  "last_updated": "2026-08-19T03:51:01.470657+00:00"
 }
