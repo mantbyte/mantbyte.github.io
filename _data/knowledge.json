@@ -2758,7 +2758,23 @@
         "Hardware Architecture"
       ],
       "url": "/tech/2026/08/20/waymo-6th-gen-5nm-asic-sensor-fusion.html"
+    },
+    {
+      "title": "AI-Generated Exploits Targeting Siemens S7 PLCs: A Critical Infrastructure Wake-Up Call",
+      "slug": "ai-exploits-target-siemens-s7-plcs",
+      "date": "2026-08-21",
+      "category": "News",
+      "key_topics": [
+        "Siemens S7",
+        "PLCs",
+        "Industrial Control Systems",
+        "ICS Security",
+        "Cybersecurity",
+        "Artificial Intelligence",
+        "Critical Infrastructure"
+      ],
+      "url": "/news/2026/08/21/ai-exploits-target-siemens-s7-plcs.html"
     }
   ],
-  "last_updated": "2026-08-20T15:41:19.631928+00:00"
+  "last_updated": "2026-08-20T18:48:09.784349+00:00"
 }
