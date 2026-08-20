@@ -2711,7 +2711,22 @@
         "Edge Computing"
       ],
       "url": "/tech/2026/08/20/cloudflare-workers-spectre-jwt-leak.html"
+    },
+    {
+      "title": "DeepSeek Harness and the Unbundled Agent Stack: Inside the Micro-Kernel Architecture for AI Runtimes",
+      "slug": "deepseek-harness-micro-kernel-ai-agent-stack",
+      "date": "2026-08-20",
+      "category": "Tech",
+      "key_topics": [
+        "DeepSeek Harness",
+        "AI Agents",
+        "Micro-kernel",
+        "Cordis",
+        "LLM Runtime",
+        "Software Architecture"
+      ],
+      "url": "/tech/2026/08/20/deepseek-harness-micro-kernel-ai-agent-stack.html"
     }
   ],
-  "last_updated": "2026-08-20T06:53:54.867129+00:00"
+  "last_updated": "2026-08-20T09:45:46.511072+00:00"
 }
