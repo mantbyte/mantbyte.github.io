@@ -11,5 +11,6 @@
   "Linked List - Pointer Manipulation - List Partitioning",
   "Graph - Dijkstra's Algorithm - Layered State-Space Shortest Path",
   "Segment Tree - Range Query - Point Update - Statistics Tracking",
-  "String - KMP Algorithm - Longest Palindromic Prefix"
+  "String - KMP Algorithm - Longest Palindromic Prefix",
+  "Matrix - 2D Difference Array - Range Updates"
 ]
