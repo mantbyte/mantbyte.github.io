@@ -2679,7 +2679,23 @@
         "Side-Channel Attack"
       ],
       "url": "/tech/2026/08/20/cloudflare-workers-spectre-attack-v8-security.html"
+    },
+    {
+      "title": "Breaking the Sandbox: Unpacking the Cloudflare Workers Remote Spectre Attack and JWT Leakage",
+      "slug": "cloudflare-workers-remote-spectre-attack-jwt-leakage",
+      "date": "2026-08-20",
+      "category": "Tech",
+      "key_topics": [
+        "Cloudflare Workers",
+        "Spectre Attack",
+        "JWT Leakage",
+        "V8 Isolates",
+        "Serverless Security",
+        "Edge Computing",
+        "Hardware Vulnerabilities"
+      ],
+      "url": "/tech/2026/08/20/cloudflare-workers-remote-spectre-attack-jwt-leakage.html"
     }
   ],
-  "last_updated": "2026-08-20T01:28:18.549218+00:00"
+  "last_updated": "2026-08-20T03:56:19.368823+00:00"
 }
