@@ -2774,7 +2774,23 @@
         "Critical Infrastructure"
       ],
       "url": "/news/2026/08/21/ai-exploits-target-siemens-s7-plcs.html"
+    },
+    {
+      "title": "Living Off the Legitimate: How Russian APTs Weaponize Google OAuth and WhatsApp Linking",
+      "slug": "russian-apts-weaponize-oauth-whatsapp",
+      "date": "2026-08-21",
+      "category": "Geopolitics",
+      "key_topics": [
+        "Cyber Espionage",
+        "Google OAuth",
+        "APT29",
+        "Threat Intelligence",
+        "Cloud Security",
+        "WhatsApp",
+        "Identity Security"
+      ],
+      "url": "/geopolitics/2026/08/21/russian-apts-weaponize-oauth-whatsapp.html"
     }
   ],
-  "last_updated": "2026-08-20T18:48:09.784349+00:00"
+  "last_updated": "2026-08-20T21:33:02.180911+00:00"
 }
