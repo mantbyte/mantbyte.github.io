@@ -2742,7 +2742,23 @@
         "Ground Data Systems"
       ],
       "url": "/tech/2026/08/20/nasa-ait-gui-vulnerability-cve-2024-39687.html"
+    },
+    {
+      "title": "Inside Waymo's 6th-Gen Hardware: How Custom 5nm ASICs Power Real-Time Sensor Fusion",
+      "slug": "waymo-6th-gen-5nm-asic-sensor-fusion",
+      "date": "2026-08-20",
+      "category": "Tech",
+      "key_topics": [
+        "Waymo",
+        "Autonomous Vehicles",
+        "ASIC",
+        "Sensor Fusion",
+        "Semiconductors",
+        "Edge Computing",
+        "Hardware Architecture"
+      ],
+      "url": "/tech/2026/08/20/waymo-6th-gen-5nm-asic-sensor-fusion.html"
     }
   ],
-  "last_updated": "2026-08-20T12:59:50.995562+00:00"
+  "last_updated": "2026-08-20T15:41:19.631928+00:00"
 }
