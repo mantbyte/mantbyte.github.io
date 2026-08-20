@@ -2695,7 +2695,23 @@
         "Hardware Vulnerabilities"
       ],
       "url": "/tech/2026/08/20/cloudflare-workers-remote-spectre-attack-jwt-leakage.html"
+    },
+    {
+      "title": "Breaking the V8 Barrier: Analyzing the Cloudflare Workers Spectre JWT Leak",
+      "slug": "cloudflare-workers-spectre-jwt-leak",
+      "date": "2026-08-20",
+      "category": "Tech",
+      "key_topics": [
+        "Cloudflare",
+        "Spectre",
+        "V8 Isolates",
+        "Serverless",
+        "Cybersecurity",
+        "JWT",
+        "Edge Computing"
+      ],
+      "url": "/tech/2026/08/20/cloudflare-workers-spectre-jwt-leak.html"
     }
   ],
-  "last_updated": "2026-08-20T03:56:19.368823+00:00"
+  "last_updated": "2026-08-20T06:53:54.867129+00:00"
 }
