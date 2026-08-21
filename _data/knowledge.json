@@ -2852,7 +2852,23 @@
         "Cybersecurity"
       ],
       "url": "/geopolitics/2026/08/21/software-supply-chain-geopolitical-chokepoint.html"
+    },
+    {
+      "title": "Beyond Code Completion: How Nvidia AVO Cracked the ARC-Interactive Benchmark with 100% Accuracy",
+      "slug": "nvidia-avo-arc-interactive-benchmark-accuracy",
+      "date": "2026-08-21",
+      "category": "Tech",
+      "key_topics": [
+        "Nvidia AVO",
+        "ARC-Interactive",
+        "AI Agents",
+        "LLM",
+        "Machine Learning",
+        "Agentic Workflow",
+        "Artificial Intelligence"
+      ],
+      "url": "/tech/2026/08/21/nvidia-avo-arc-interactive-benchmark-accuracy.html"
     }
   ],
-  "last_updated": "2026-08-21T12:58:32.092804+00:00"
+  "last_updated": "2026-08-21T15:46:10.609786+00:00"
 }
