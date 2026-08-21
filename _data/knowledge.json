@@ -2868,7 +2868,22 @@
         "Artificial Intelligence"
       ],
       "url": "/tech/2026/08/21/nvidia-avo-arc-interactive-benchmark-accuracy.html"
+    },
+    {
+      "title": "Weaponizing Microsoft Defender: The BTR.sys 'Golden Window' Exploit",
+      "slug": "weaponizing-microsoft-defender-btr-sys-exploit",
+      "date": "2026-08-22",
+      "category": "Tech",
+      "key_topics": [
+        "Microsoft Defender",
+        "Cybersecurity",
+        "Kernel Exploits",
+        "BYOTD",
+        "EDR Evasion",
+        "Windows Kernel"
+      ],
+      "url": "/tech/2026/08/22/weaponizing-microsoft-defender-btr-sys-exploit.html"
     }
   ],
-  "last_updated": "2026-08-21T15:46:10.609786+00:00"
+  "last_updated": "2026-08-21T18:48:32.977562+00:00"
 }
