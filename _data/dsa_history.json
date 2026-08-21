@@ -12,5 +12,6 @@
   "Graph - Dijkstra's Algorithm - Layered State-Space Shortest Path",
   "Segment Tree - Range Query - Point Update - Statistics Tracking",
   "String - KMP Algorithm - Longest Palindromic Prefix",
-  "Matrix - 2D Difference Array - Range Updates"
+  "Matrix - 2D Difference Array - Range Updates",
+  "Dynamic Programming - Digit DP - Count Parity-Alternating Numbers"
 ]
