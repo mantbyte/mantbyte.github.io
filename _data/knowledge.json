@@ -2932,7 +2932,23 @@
         "Cloud Computing"
       ],
       "url": "/news/2026/08/22/nvidia-power-infrastructure-ai-bottleneck.html"
+    },
+    {
+      "title": "Engineering for COPPA: What TikTok's DOJ Settlement Means for AI-Driven Platforms",
+      "slug": "engineering-coppa-tiktok-doj-settlement-ai",
+      "date": "2026-08-22",
+      "category": "Geopolitics",
+      "key_topics": [
+        "COPPA",
+        "TikTok",
+        "AI",
+        "Data Privacy",
+        "Machine Learning",
+        "Backend Architecture",
+        "Compliance"
+      ],
+      "url": "/geopolitics/2026/08/22/engineering-coppa-tiktok-doj-settlement-ai.html"
     }
   ],
-  "last_updated": "2026-08-22T03:46:12.885212+00:00"
+  "last_updated": "2026-08-22T06:49:33.159666+00:00"
 }
