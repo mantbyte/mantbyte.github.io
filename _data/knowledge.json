@@ -2995,7 +2995,23 @@
         "Prompt Injection"
       ],
       "url": "/tech/2026/08/22/cryptographic-context-injection-llm-agents.html"
+    },
+    {
+      "title": "Cloudflare Kitesurf: Building a Rust-Based Browser Engine for Autonomous AI Agents",
+      "slug": "cloudflare-kitesurf-rust-browser-engine",
+      "date": "2026-08-23",
+      "category": "Tech",
+      "key_topics": [
+        "Cloudflare",
+        "Kitesurf",
+        "Rust",
+        "AI Agents",
+        "Browser Engine",
+        "WebAssembly",
+        "Edge Computing"
+      ],
+      "url": "/tech/2026/08/23/cloudflare-kitesurf-rust-browser-engine.html"
     }
   ],
-  "last_updated": "2026-08-22T15:28:17.462486+00:00"
+  "last_updated": "2026-08-22T18:37:39.513106+00:00"
 }
