@@ -2963,7 +2963,24 @@
         "LLM Architecture"
       ],
       "url": "/tech/2026/08/22/multi-agent-ai-code-review-linkedin.html"
+    },
+    {
+      "title": "Beyond Synthetic Benchmarks: Inside AWS aws-bench and the Rise of Agentic Cloud Ops",
+      "slug": "aws-bench-agentic-cloud-ops-testing",
+      "date": "2026-08-22",
+      "category": "Tech",
+      "key_topics": [
+        "AWS",
+        "aws-bench",
+        "AI Agents",
+        "Cloud Ops",
+        "LLM Benchmarks",
+        "Infrastructure as Code",
+        "DevOps",
+        "Agentic AI"
+      ],
+      "url": "/tech/2026/08/22/aws-bench-agentic-cloud-ops-testing.html"
     }
   ],
-  "last_updated": "2026-08-22T09:35:47.836192+00:00"
+  "last_updated": "2026-08-22T12:49:46.223759+00:00"
 }
