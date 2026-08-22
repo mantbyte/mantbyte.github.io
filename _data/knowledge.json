@@ -2980,7 +2980,22 @@
         "Agentic AI"
       ],
       "url": "/tech/2026/08/22/aws-bench-agentic-cloud-ops-testing.html"
+    },
+    {
+      "title": "The Ghost in the Sandbox: Understanding Cryptographic Context Injection (CCI) in LLM Agents",
+      "slug": "cryptographic-context-injection-llm-agents",
+      "date": "2026-08-22",
+      "category": "Tech",
+      "key_topics": [
+        "Artificial Intelligence",
+        "LLM Security",
+        "Cryptographic Context Injection",
+        "Cybersecurity",
+        "AI Agents",
+        "Prompt Injection"
+      ],
+      "url": "/tech/2026/08/22/cryptographic-context-injection-llm-agents.html"
     }
   ],
-  "last_updated": "2026-08-22T12:49:46.223759+00:00"
+  "last_updated": "2026-08-22T15:28:17.462486+00:00"
 }
