@@ -2948,7 +2948,22 @@
         "Compliance"
       ],
       "url": "/geopolitics/2026/08/22/engineering-coppa-tiktok-doj-settlement-ai.html"
+    },
+    {
+      "title": "Architecting Multi-Agent AI Code Reviews: Inside LinkedIn's High-Signal Kubernetes Engine",
+      "slug": "multi-agent-ai-code-review-linkedin",
+      "date": "2026-08-22",
+      "category": "Tech",
+      "key_topics": [
+        "AI Code Review",
+        "Multi-Agent Systems",
+        "Kubernetes",
+        "Generative AI",
+        "Software Engineering",
+        "LLM Architecture"
+      ],
+      "url": "/tech/2026/08/22/multi-agent-ai-code-review-linkedin.html"
     }
   ],
-  "last_updated": "2026-08-22T06:49:33.159666+00:00"
+  "last_updated": "2026-08-22T09:35:47.836192+00:00"
 }
