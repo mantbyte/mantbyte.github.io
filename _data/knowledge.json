@@ -3058,7 +3058,23 @@
         "CPU Architecture"
       ],
       "url": "/tech/2026/08/23/skitter-creek-dram-controller-exploit.html"
+    },
+    {
+      "title": "The Trojan Traffic Camera: Unpacking the Russian Backdoor in Slovakia's Infrastructure",
+      "slug": "russian-backdoor-slovakia-traffic-cameras",
+      "date": "2026-08-24",
+      "category": "Geopolitics",
+      "key_topics": [
+        "Cyber Warfare",
+        "Critical Infrastructure",
+        "IoT Security",
+        "Supply Chain",
+        "Slovakia",
+        "Geopolitics",
+        "Surveillance"
+      ],
+      "url": "/geopolitics/2026/08/24/russian-backdoor-slovakia-traffic-cameras.html"
     }
   ],
-  "last_updated": "2026-08-23T09:41:12.614613+00:00"
+  "last_updated": "2026-08-23T18:36:30.501186+00:00"
 }
