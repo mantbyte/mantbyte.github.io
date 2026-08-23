@@ -3074,7 +3074,23 @@
         "Surveillance"
       ],
       "url": "/geopolitics/2026/08/24/russian-backdoor-slovakia-traffic-cameras.html"
+    },
+    {
+      "title": "When Bits Become Barrels: Deconstructing the 4-Day Shutdown of a UK Power Plant",
+      "slug": "uk-power-plant-cyber-shutdown",
+      "date": "2026-08-24",
+      "category": "Geopolitics",
+      "key_topics": [
+        "Cybersecurity",
+        "Critical Infrastructure",
+        "OT Security",
+        "SCADA",
+        "UK Power Plant",
+        "DevOps",
+        "Information Security"
+      ],
+      "url": "/geopolitics/2026/08/24/uk-power-plant-cyber-shutdown.html"
     }
   ],
-  "last_updated": "2026-08-23T18:36:30.501186+00:00"
+  "last_updated": "2026-08-23T21:26:43.141270+00:00"
 }
