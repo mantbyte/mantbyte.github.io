@@ -14,5 +14,6 @@
   "String - KMP Algorithm - Longest Palindromic Prefix",
   "Matrix - 2D Difference Array - Range Updates",
   "Dynamic Programming - Digit DP - Count Parity-Alternating Numbers",
-  "Graph - Floyd-Warshall - All-Pairs Shortest Path"
+  "Graph - Floyd-Warshall - All-Pairs Shortest Path",
+  "Array - Greedy - Two-Pass Distribution"
 ]
