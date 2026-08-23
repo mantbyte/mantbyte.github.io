@@ -3043,7 +3043,22 @@
         "Tech Policy"
       ],
       "url": "/geopolitics/2026/08/23/openai-ai-safety-policy-reverse-federalism.html"
+    },
+    {
+      "title": "Bypassing the Unbypassable: A Deep Dive into Skitter Creek Bath Salts and DRAM Controller Manipulation",
+      "slug": "skitter-creek-dram-controller-exploit",
+      "date": "2026-08-23",
+      "category": "Tech",
+      "key_topics": [
+        "Hardware Security",
+        "DRAM Controller",
+        "SMM",
+        "Memory Mapping",
+        "Cybersecurity",
+        "CPU Architecture"
+      ],
+      "url": "/tech/2026/08/23/skitter-creek-dram-controller-exploit.html"
     }
   ],
-  "last_updated": "2026-08-23T06:49:46.085455+00:00"
+  "last_updated": "2026-08-23T09:41:12.614613+00:00"
 }
