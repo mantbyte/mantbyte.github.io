@@ -15,5 +15,6 @@
   "Matrix - 2D Difference Array - Range Updates",
   "Dynamic Programming - Digit DP - Count Parity-Alternating Numbers",
   "Graph - Floyd-Warshall - All-Pairs Shortest Path",
-  "Array - Greedy - Two-Pass Distribution"
+  "Array - Greedy - Two-Pass Distribution",
+  "Tree - Binary Lifting - Path Maximum Query"
 ]
