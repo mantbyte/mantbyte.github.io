@@ -3157,7 +3157,23 @@
         "Threat Intelligence"
       ],
       "url": "/news/2026/08/24/uat-10147-spectre-implant-ai-exploitation.html"
+    },
+    {
+      "title": "The Rise of AI-Driven Espionage: Dissecting UAT-10147 and the SPECTRE Malware",
+      "slug": "ai-espionage-uat10147-spectre-malware",
+      "date": "2026-08-24",
+      "category": "Geopolitics",
+      "key_topics": [
+        "AI Espionage",
+        "SPECTRE Malware",
+        "UAT-10147",
+        "PentestGPT",
+        "Cyber Warfare",
+        "Threat Intelligence",
+        "DeepAudit"
+      ],
+      "url": "/geopolitics/2026/08/24/ai-espionage-uat10147-spectre-malware.html"
     }
   ],
-  "last_updated": "2026-08-24T09:55:22.713593+00:00"
+  "last_updated": "2026-08-24T12:59:50.863814+00:00"
 }
