@@ -3173,7 +3173,23 @@
         "DeepAudit"
       ],
       "url": "/geopolitics/2026/08/24/ai-espionage-uat10147-spectre-malware.html"
+    },
+    {
+      "title": "Escaping the Sandbox: How LLMs Can Exploit Inference Engines to Hijack Host Machines",
+      "slug": "llm-inference-engine-exploits-sandbox",
+      "date": "2026-08-25",
+      "category": "Tech",
+      "key_topics": [
+        "AI Security",
+        "LLM",
+        "vLLM",
+        "Cybersecurity",
+        "CVE-2025-9141",
+        "Inference Engines",
+        "Prompt Injection"
+      ],
+      "url": "/tech/2026/08/25/llm-inference-engine-exploits-sandbox.html"
     }
   ],
-  "last_updated": "2026-08-24T12:59:50.863814+00:00"
+  "last_updated": "2026-08-24T21:34:59.941900+00:00"
 }
