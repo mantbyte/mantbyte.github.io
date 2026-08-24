@@ -3123,7 +3123,24 @@
         "Cryptography"
       ],
       "url": "/tech/2026/08/24/google-heir-privacy-preserving-ml-homomorphic-encryption.html"
+    },
+    {
+      "title": "Beyond the Firewall: Analyzing the Iranian Cyber-Kinetic Attack on UK Power Infrastructure",
+      "slug": "iranian-cyber-kinetic-attack-uk-power",
+      "date": "2026-08-24",
+      "category": "Geopolitics",
+      "key_topics": [
+        "Cybersecurity",
+        "ICS",
+        "SCADA",
+        "Critical Infrastructure",
+        "Iran",
+        "UK Energy",
+        "PLC",
+        "Purdue Model"
+      ],
+      "url": "/geopolitics/2026/08/24/iranian-cyber-kinetic-attack-uk-power.html"
     }
   ],
-  "last_updated": "2026-08-24T03:59:21.076661+00:00"
+  "last_updated": "2026-08-24T07:20:25.751796+00:00"
 }
