@@ -3140,7 +3140,24 @@
         "Purdue Model"
       ],
       "url": "/geopolitics/2026/08/24/iranian-cyber-kinetic-attack-uk-power.html"
+    },
+    {
+      "title": "The AI-Powered Adversary: Inside UAT-10147\u2019s SPECTRE Implant and the Era of Autonomous Exploitation",
+      "slug": "uat-10147-spectre-implant-ai-exploitation",
+      "date": "2026-08-24",
+      "category": "News",
+      "key_topics": [
+        "Cybersecurity",
+        "UAT-10147",
+        "SPECTRE Implant",
+        "PentestGPT",
+        "AI Exploitation",
+        "Malware Analysis",
+        "EDR Bypass",
+        "Threat Intelligence"
+      ],
+      "url": "/news/2026/08/24/uat-10147-spectre-implant-ai-exploitation.html"
     }
   ],
-  "last_updated": "2026-08-24T07:20:25.751796+00:00"
+  "last_updated": "2026-08-24T09:55:22.713593+00:00"
 }
