@@ -3090,7 +3090,23 @@
         "Information Security"
       ],
       "url": "/geopolitics/2026/08/24/uk-power-plant-cyber-shutdown.html"
+    },
+    {
+      "title": "The Four-Day Blackout: Anatomy of the Iranian Cyberattack on UK Critical Infrastructure",
+      "slug": "iranian-cyberattack-uk-critical-infrastructure",
+      "date": "2026-08-24",
+      "category": "Geopolitics",
+      "key_topics": [
+        "Cybersecurity",
+        "Critical Infrastructure",
+        "SCADA",
+        "ICS",
+        "Iran Cyberattack",
+        "Operational Technology",
+        "UK Energy"
+      ],
+      "url": "/geopolitics/2026/08/24/iranian-cyberattack-uk-critical-infrastructure.html"
     }
   ],
-  "last_updated": "2026-08-23T21:26:43.141270+00:00"
+  "last_updated": "2026-08-24T01:39:03.597036+00:00"
 }
