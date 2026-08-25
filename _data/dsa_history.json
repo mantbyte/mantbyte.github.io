@@ -16,5 +16,6 @@
   "Dynamic Programming - Digit DP - Count Parity-Alternating Numbers",
   "Graph - Floyd-Warshall - All-Pairs Shortest Path",
   "Array - Greedy - Two-Pass Distribution",
-  "Tree - Binary Lifting - Path Maximum Query"
+  "Tree - Binary Lifting - Path Maximum Query",
+  "Dynamic Programming - Bitmask - Minimum Cost Set Cover"
 ]
