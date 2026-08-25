@@ -3252,7 +3252,23 @@
         "LLMs"
       ],
       "url": "/geopolitics/2026/08/25/russia-bad-grammar-ai-influence-campaign.html"
+    },
+    {
+      "title": "Quantization Without Compromise: Analyzing Model Regression in FP8 Serving on Blackwell",
+      "slug": "fp8-serving-blackwell-model-regression",
+      "date": "2026-08-26",
+      "category": "Tech",
+      "key_topics": [
+        "Nvidia Blackwell",
+        "FP8",
+        "Model Quantization",
+        "LLM Serving",
+        "vLLM",
+        "Machine Learning",
+        "MLOps"
+      ],
+      "url": "/tech/2026/08/26/fp8-serving-blackwell-model-regression.html"
     }
   ],
-  "last_updated": "2026-08-25T10:23:03.286773+00:00"
+  "last_updated": "2026-08-25T18:49:23.594566+00:00"
 }
