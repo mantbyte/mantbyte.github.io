@@ -3189,7 +3189,23 @@
         "Prompt Injection"
       ],
       "url": "/tech/2026/08/25/llm-inference-engine-exploits-sandbox.html"
+    },
+    {
+      "title": "Legal Liability for Autonomous Agents: The OpenAI-Hugging Face Incident Goes to Court",
+      "slug": "legal-liability-autonomous-agents-openai-hugging-face",
+      "date": "2026-08-25",
+      "category": "News",
+      "key_topics": [
+        "AI Liability",
+        "Autonomous Agents",
+        "OpenAI",
+        "Hugging Face",
+        "Cybersecurity",
+        "AI Safety",
+        "Tech Law"
+      ],
+      "url": "/news/2026/08/25/legal-liability-autonomous-agents-openai-hugging-face.html"
     }
   ],
-  "last_updated": "2026-08-24T21:34:59.941900+00:00"
+  "last_updated": "2026-08-25T01:28:49.525873+00:00"
 }
