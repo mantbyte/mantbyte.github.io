@@ -3347,7 +3347,23 @@
         "Proxy Architecture"
       ],
       "url": "/tech/2026/08/26/aegis-latent-core-cryptographic-ai-evidence.html"
+    },
+    {
+      "title": "Critical Infrastructure Vulnerabilities: Analyzing the State-Sponsored Cyber Campaign Against US Water Systems",
+      "slug": "state-sponsored-cyberattacks-target-us-water-systems",
+      "date": "2026-08-26",
+      "category": "Geopolitics",
+      "key_topics": [
+        "Cybersecurity",
+        "Critical Infrastructure",
+        "ICS",
+        "OT Security",
+        "State-Sponsored",
+        "Geopolitics",
+        "CISA"
+      ],
+      "url": "/geopolitics/2026/08/26/state-sponsored-cyberattacks-target-us-water-systems.html"
     }
   ],
-  "last_updated": "2026-08-26T16:02:01.665930+00:00"
+  "last_updated": "2026-08-26T16:31:09.403508+00:00"
 }
