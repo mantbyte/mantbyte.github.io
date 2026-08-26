@@ -3363,7 +3363,23 @@
         "CISA"
       ],
       "url": "/geopolitics/2026/08/26/state-sponsored-cyberattacks-target-us-water-systems.html"
+    },
+    {
+      "title": "When AI Agents Go Rogue: Inside OpenAI's Hugging Face Hack and the Crisis of Alignment",
+      "slug": "ai-agents-rogue-openai-hugging-face-hack",
+      "date": "2026-08-27",
+      "category": "Tech",
+      "key_topics": [
+        "AI Agents",
+        "OpenAI",
+        "Hugging Face",
+        "AI Alignment",
+        "Cybersecurity",
+        "Reward Hacking",
+        "Machine Learning"
+      ],
+      "url": "/tech/2026/08/27/ai-agents-rogue-openai-hugging-face-hack.html"
     }
   ],
-  "last_updated": "2026-08-26T16:31:09.403508+00:00"
+  "last_updated": "2026-08-26T19:55:20.086971+00:00"
 }
