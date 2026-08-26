@@ -17,5 +17,6 @@
   "Graph - Floyd-Warshall - All-Pairs Shortest Path",
   "Array - Greedy - Two-Pass Distribution",
   "Tree - Binary Lifting - Path Maximum Query",
-  "Dynamic Programming - Bitmask - Minimum Cost Set Cover"
+  "Dynamic Programming - Bitmask - Minimum Cost Set Cover",
+  "Monotonic Stack - Subarray Contribution Analysis"
 ]
