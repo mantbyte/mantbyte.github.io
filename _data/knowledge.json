@@ -3331,7 +3331,23 @@
         "Labor Market"
       ],
       "url": "/geopolitics/2026/08/26/h1b-visa-fee-shock-silicon-valley.html"
+    },
+    {
+      "title": "Aegis Latent Core: Building High-Assurance AI Evidence with Cryptographic Proofs",
+      "slug": "aegis-latent-core-cryptographic-ai-evidence",
+      "date": "2026-08-26",
+      "category": "Tech",
+      "key_topics": [
+        "Aegis Latent Core",
+        "AI Compliance",
+        "Cryptographic Proofs",
+        "LLM Security",
+        "Rust",
+        "EU AI Act",
+        "Proxy Architecture"
+      ],
+      "url": "/tech/2026/08/26/aegis-latent-core-cryptographic-ai-evidence.html"
     }
   ],
-  "last_updated": "2026-08-26T07:17:37.640428+00:00"
+  "last_updated": "2026-08-26T16:02:01.665930+00:00"
 }
