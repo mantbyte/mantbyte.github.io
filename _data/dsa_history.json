@@ -18,5 +18,6 @@
   "Array - Greedy - Two-Pass Distribution",
   "Tree - Binary Lifting - Path Maximum Query",
   "Dynamic Programming - Bitmask - Minimum Cost Set Cover",
-  "Monotonic Stack - Subarray Contribution Analysis"
+  "Monotonic Stack - Subarray Contribution Analysis",
+  "Dynamic Programming - Interval DP - Minimum Cost to Merge Adjacent Elements"
 ]
