@@ -3395,7 +3395,23 @@
         "Geopolitics"
       ],
       "url": "/geopolitics/2026/08/28/us-semiconductor-tariffs-ai-infrastructure.html"
+    },
+    {
+      "title": "Scaling Monorepos at Uber: Inside GitFarm, the Git-as-a-Service Platform",
+      "slug": "scaling-monorepos-uber-gitfarm",
+      "date": "2026-08-28",
+      "category": "Tech",
+      "key_topics": [
+        "Git",
+        "Monorepo",
+        "Uber",
+        "DevOps",
+        "Infrastructure",
+        "GitFarm",
+        "Version Control"
+      ],
+      "url": "/tech/2026/08/28/scaling-monorepos-uber-gitfarm.html"
     }
   ],
-  "last_updated": "2026-08-28T00:40:44.290409+00:00"
+  "last_updated": "2026-08-28T15:21:44.591775+00:00"
 }
