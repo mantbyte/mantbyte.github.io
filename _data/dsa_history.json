@@ -19,5 +19,6 @@
   "Tree - Binary Lifting - Path Maximum Query",
   "Dynamic Programming - Bitmask - Minimum Cost Set Cover",
   "Monotonic Stack - Subarray Contribution Analysis",
-  "Dynamic Programming - Interval DP - Minimum Cost to Merge Adjacent Elements"
+  "Dynamic Programming - Interval DP - Minimum Cost to Merge Adjacent Elements",
+  "String - Z-Algorithm - Longest Common Prefix of Suffixes"
 ]
