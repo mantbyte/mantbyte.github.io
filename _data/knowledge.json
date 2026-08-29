@@ -3427,7 +3427,22 @@
         "Defense Tech"
       ],
       "url": "/geopolitics/2026/08/29/ai-safety-policy-security-threat-federal-ruling.html"
+    },
+    {
+      "title": "Beyond the GPU: Nvidia\u2019s Rubin Architecture and the Rise of System-on-a-Data-Center",
+      "slug": "nvidia-rubin-architecture-system-data-center",
+      "date": "2026-08-29",
+      "category": "Tech",
+      "key_topics": [
+        "Nvidia Rubin",
+        "AI Infrastructure",
+        "GPU Architecture",
+        "Data Center",
+        "SoDC",
+        "High-Performance Computing"
+      ],
+      "url": "/tech/2026/08/29/nvidia-rubin-architecture-system-data-center.html"
     }
   ],
-  "last_updated": "2026-08-29T01:42:11.140108+00:00"
+  "last_updated": "2026-08-29T16:34:35.220163+00:00"
 }
