@@ -3569,7 +3569,23 @@
         "Agentic Workflows"
       ],
       "url": "/tech/2026/08/31/cloudflare-ai-search-edge-rag.html"
+    },
+    {
+      "title": "Scaling AI Infrastructure: Navigating the Microsoft Foundry Model Router Regional Expansion",
+      "slug": "foundry-model-router-regional-expansion-guide",
+      "date": "2026-08-31",
+      "category": "Tech",
+      "key_topics": [
+        "Microsoft Azure",
+        "AI Infrastructure",
+        "LLM",
+        "Foundry Model Router",
+        "Cloud Computing",
+        "DevOps",
+        "Sovereign AI"
+      ],
+      "url": "/tech/2026/08/31/foundry-model-router-regional-expansion-guide.html"
     }
   ],
-  "last_updated": "2026-08-31T04:46:09.864748+00:00"
+  "last_updated": "2026-08-31T13:20:32.033383+00:00"
 }
