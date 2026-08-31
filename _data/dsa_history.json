@@ -22,5 +22,6 @@
   "Dynamic Programming - Interval DP - Minimum Cost to Merge Adjacent Elements",
   "String - Z-Algorithm - Longest Common Prefix of Suffixes",
   "Array - Math - Inclusion-Exclusion",
-  "Math - Matrix Exponentiation - Linear Recurrence for Large N"
+  "Math - Matrix Exponentiation - Linear Recurrence for Large N",
+  "Graph - Bellman-Ford - Negative Cycle Detection using Logarithms"
 ]
