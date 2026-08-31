@@ -3553,7 +3553,23 @@
         "Cryptography"
       ],
       "url": "/geopolitics/2026/08/31/protecteu-strategy-encryption-eu-policy.html"
+    },
+    {
+      "title": "Mastering Cloudflare AI Search: A Developer's Guide to Edge-Native RAG and Agentic Workflows",
+      "slug": "cloudflare-ai-search-edge-rag",
+      "date": "2026-08-31",
+      "category": "Tech",
+      "key_topics": [
+        "Cloudflare",
+        "AI Search",
+        "RAG",
+        "Edge Computing",
+        "Vectorize",
+        "Workers AI",
+        "Agentic Workflows"
+      ],
+      "url": "/tech/2026/08/31/cloudflare-ai-search-edge-rag.html"
     }
   ],
-  "last_updated": "2026-08-30T23:20:57.510101+00:00"
+  "last_updated": "2026-08-31T04:46:09.864748+00:00"
 }
