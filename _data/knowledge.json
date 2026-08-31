@@ -3585,7 +3585,24 @@
         "Sovereign AI"
       ],
       "url": "/tech/2026/08/31/foundry-model-router-regional-expansion-guide.html"
+    },
+    {
+      "title": "Mastering AWS Graviton5: A Deep Dive into R9g and R9gd EC2 Instances",
+      "slug": "master-aws-graviton5-r9g-r9gd-instances",
+      "date": "2026-09-01",
+      "category": "Tech",
+      "key_topics": [
+        "AWS",
+        "Graviton5",
+        "EC2",
+        "Cloud Computing",
+        "ARM64",
+        "DevOps",
+        "Nitro System",
+        "R9g"
+      ],
+      "url": "/tech/2026/09/01/master-aws-graviton5-r9g-r9gd-instances.html"
     }
   ],
-  "last_updated": "2026-08-31T13:20:32.033383+00:00"
+  "last_updated": "2026-08-31T20:45:58.679453+00:00"
 }
