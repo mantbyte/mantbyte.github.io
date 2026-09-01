@@ -3651,7 +3651,22 @@
         "HashiCorp"
       ],
       "url": "/tech/2026/09/01/hcp-terraform-control-plane-ai-infrastructure.html"
+    },
+    {
+      "title": "Securing the Supply Chain: Inside CVE-2026-82329, the Critical JFrog Artifactory Authentication Bypass",
+      "slug": "cve-2026-82329-jfrog-artifactory-bypass",
+      "date": "2026-09-01",
+      "category": "Tech",
+      "key_topics": [
+        "CVE-2026-82329",
+        "JFrog Artifactory",
+        "Supply Chain Security",
+        "Authentication Bypass",
+        "Cybersecurity",
+        "DevOps Security"
+      ],
+      "url": "/tech/2026/09/01/cve-2026-82329-jfrog-artifactory-bypass.html"
     }
   ],
-  "last_updated": "2026-09-01T14:13:52.248337+00:00"
+  "last_updated": "2026-09-01T18:18:32.495963+00:00"
 }
