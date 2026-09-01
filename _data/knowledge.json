@@ -3602,7 +3602,23 @@
         "R9g"
       ],
       "url": "/tech/2026/09/01/master-aws-graviton5-r9g-r9gd-instances.html"
+    },
+    {
+      "title": "Google Removes Manifest V2 Extensions from Chrome Web Store: The End of an Era for Chrome Ad Blocking",
+      "slug": "google-removes-manifest-v2-extensions",
+      "date": "2026-09-01",
+      "category": "News",
+      "key_topics": [
+        "Google Chrome",
+        "Manifest V3",
+        "Manifest V2",
+        "Ad Blocking",
+        "uBlock Origin",
+        "Browser Extensions",
+        "Web Development"
+      ],
+      "url": "/news/2026/09/01/google-removes-manifest-v2-extensions.html"
     }
   ],
-  "last_updated": "2026-08-31T20:45:58.679453+00:00"
+  "last_updated": "2026-09-01T00:30:37.296584+00:00"
 }
