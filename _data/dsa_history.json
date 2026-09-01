@@ -23,5 +23,6 @@
   "String - Z-Algorithm - Longest Common Prefix of Suffixes",
   "Array - Math - Inclusion-Exclusion",
   "Math - Matrix Exponentiation - Linear Recurrence for Large N",
-  "Graph - Bellman-Ford - Negative Cycle Detection using Logarithms"
+  "Graph - Bellman-Ford - Negative Cycle Detection using Logarithms",
+  "Geometry - Monotone Chain Algorithm - Convex Hull Perimeter"
 ]
