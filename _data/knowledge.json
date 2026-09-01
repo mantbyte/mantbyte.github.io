@@ -3635,7 +3635,23 @@
         "Sovereign Intelligence"
       ],
       "url": "/geopolitics/2026/09/01/pentagon-generative-ai-gateway-sovereign-intelligence.html"
+    },
+    {
+      "title": "HCP Terraform Positions Itself as the Control Plane for AI-Driven Infrastructure",
+      "slug": "hcp-terraform-control-plane-ai-infrastructure",
+      "date": "2026-09-01",
+      "category": "Tech",
+      "key_topics": [
+        "HCP Terraform",
+        "DevOps",
+        "AI Infrastructure",
+        "Cloud Governance",
+        "Terraform",
+        "Platform Engineering",
+        "HashiCorp"
+      ],
+      "url": "/tech/2026/09/01/hcp-terraform-control-plane-ai-infrastructure.html"
     }
   ],
-  "last_updated": "2026-09-01T08:30:19.072449+00:00"
+  "last_updated": "2026-09-01T14:13:52.248337+00:00"
 }
