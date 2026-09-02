@@ -3698,7 +3698,22 @@
         "transformers"
       ],
       "url": "/tech/2026/09/03/openai-astra-recurrent-depth-reasoning-safety.html"
+    },
+    {
+      "title": "Inside OpenAI's Astra: Recurrent Depth, Opaque Reasoning, and the AI Monitorability Crisis",
+      "slug": "openai-astra-ai-monitorability-crisis",
+      "date": "2026-09-03",
+      "category": "Tech",
+      "key_topics": [
+        "OpenAI",
+        "Astra",
+        "AI Safety",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Neural Networks"
+      ],
+      "url": "/tech/2026/09/03/openai-astra-ai-monitorability-crisis.html"
     }
   ],
-  "last_updated": "2026-09-02T20:51:15.338665+00:00"
+  "last_updated": "2026-09-02T23:10:21.739041+00:00"
 }
