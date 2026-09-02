@@ -3666,7 +3666,23 @@
         "DevOps Security"
       ],
       "url": "/tech/2026/09/01/cve-2026-82329-jfrog-artifactory-bypass.html"
+    },
+    {
+      "title": "Decoding the DOJ's Statement of Interest: What the US Government's Support for OpenAI Means for AI Copyright Law",
+      "slug": "doj-openai-support-ai-copyright-law",
+      "date": "2026-09-02",
+      "category": "Geopolitics",
+      "key_topics": [
+        "OpenAI",
+        "DOJ",
+        "AI Copyright",
+        "Fair Use",
+        "Machine Learning",
+        "LLM Training",
+        "Tech Law"
+      ],
+      "url": "/geopolitics/2026/09/02/doj-openai-support-ai-copyright-law.html"
     }
   ],
-  "last_updated": "2026-09-01T18:18:32.495963+00:00"
+  "last_updated": "2026-09-02T16:34:01.035281+00:00"
 }
