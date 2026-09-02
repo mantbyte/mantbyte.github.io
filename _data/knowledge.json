@@ -3682,7 +3682,23 @@
         "Tech Law"
       ],
       "url": "/geopolitics/2026/09/02/doj-openai-support-ai-copyright-law.html"
+    },
+    {
+      "title": "OpenAI Astra and the Safety Implications of Recurrent Depth Reasoning",
+      "slug": "openai-astra-recurrent-depth-reasoning-safety",
+      "date": "2026-09-03",
+      "category": "Tech",
+      "key_topics": [
+        "OpenAI Astra",
+        "recurrent depth reasoning",
+        "AI safety",
+        "machine learning",
+        "AI alignment",
+        "neural networks",
+        "transformers"
+      ],
+      "url": "/tech/2026/09/03/openai-astra-recurrent-depth-reasoning-safety.html"
     }
   ],
-  "last_updated": "2026-09-02T16:34:01.035281+00:00"
+  "last_updated": "2026-09-02T20:51:15.338665+00:00"
 }
