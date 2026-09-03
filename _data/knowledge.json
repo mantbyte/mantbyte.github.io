@@ -3745,7 +3745,23 @@
         "Product Management"
       ],
       "url": "/geopolitics/2026/09/03/eu-ai-act-2026-technical-compliance-roadmap.html"
+    },
+    {
+      "title": "The Domino Effect: Surviving Simultaneous Outages of Major LLM Providers",
+      "slug": "surviving-simultaneous-llm-outages-multi-vendor",
+      "date": "2026-09-03",
+      "category": "News",
+      "key_topics": [
+        "LLM Outages",
+        "AI Infrastructure",
+        "Cloud Computing",
+        "Resilience Engineering",
+        "OpenAI",
+        "Anthropic",
+        "Multi-Cloud"
+      ],
+      "url": "/news/2026/09/03/surviving-simultaneous-llm-outages-multi-vendor.html"
     }
   ],
-  "last_updated": "2026-09-03T11:08:00.757573+00:00"
+  "last_updated": "2026-09-03T16:10:42.676649+00:00"
 }
