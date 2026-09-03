@@ -3777,7 +3777,22 @@
         "UAS"
       ],
       "url": "/geopolitics/2026/09/04/drone-divide-tariffs-tech-supply-chain.html"
+    },
+    {
+      "title": "Mastering Kubernetes Dynamic Resource Allocation: What's New in v1.37",
+      "slug": "kubernetes-v137-dynamic-resource-allocation",
+      "date": "2026-09-04",
+      "category": "News",
+      "key_topics": [
+        "kubernetes",
+        "dynamic-resource-allocation",
+        "gpu-computing",
+        "devops",
+        "cloud-native",
+        "infrastructure"
+      ],
+      "url": "/news/2026/09/04/kubernetes-v137-dynamic-resource-allocation.html"
     }
   ],
-  "last_updated": "2026-09-03T20:47:22.177926+00:00"
+  "last_updated": "2026-09-03T23:08:50.992742+00:00"
 }
