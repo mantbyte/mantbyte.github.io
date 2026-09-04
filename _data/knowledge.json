@@ -3807,7 +3807,22 @@
         "Data Centers"
       ],
       "url": "/geopolitics/2026/09/04/utilities-fusion-startups-ai-energy.html"
+    },
+    {
+      "title": "The 'Ted' Backdoor: Dissecting Trojanized HAProxy Builds and Infrastructure Weaponization",
+      "slug": "ted-backdoor-trojanized-haproxy-builds",
+      "date": "2026-09-04",
+      "category": "Tech",
+      "key_topics": [
+        "HAProxy",
+        "Cybersecurity",
+        "Linux",
+        "Malware Analysis",
+        "Supply Chain Security",
+        "Infrastructure"
+      ],
+      "url": "/tech/2026/09/04/ted-backdoor-trojanized-haproxy-builds.html"
     }
   ],
-  "last_updated": "2026-09-04T03:49:32.056862+00:00"
+  "last_updated": "2026-09-04T16:11:40.062910+00:00"
 }
