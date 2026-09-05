@@ -3853,7 +3853,23 @@
         "AI Development"
       ],
       "url": "/tech/2026/09/05/engineering-action-oriented-agentic-ai-vla.html"
+    },
+    {
+      "title": "Beyond Zero: Architecting the Future of AI Agent Security and Action-Level Authorization",
+      "slug": "beyond-zero-ai-agent-security-authorization",
+      "date": "2026-09-05",
+      "category": "Tech",
+      "key_topics": [
+        "AI Security",
+        "Zero Trust",
+        "LLM",
+        "API Security",
+        "Cybersecurity",
+        "Autonomous Agents",
+        "Beyond Zero"
+      ],
+      "url": "/tech/2026/09/05/beyond-zero-ai-agent-security-authorization.html"
     }
   ],
-  "last_updated": "2026-09-05T10:21:29.723508+00:00"
+  "last_updated": "2026-09-05T15:02:05.046145+00:00"
 }
