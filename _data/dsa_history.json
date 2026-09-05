@@ -25,5 +25,6 @@
   "Math - Matrix Exponentiation - Linear Recurrence for Large N",
   "Graph - Bellman-Ford - Negative Cycle Detection using Logarithms",
   "Geometry - Monotone Chain Algorithm - Convex Hull Perimeter",
-  "String - Greedy - Lexicographical Optimization with Operations"
+  "String - Greedy - Lexicographical Optimization with Operations",
+  "String - Manacher's Algorithm - Frequency of Palindrome Lengths"
 ]
