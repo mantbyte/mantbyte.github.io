@@ -3822,7 +3822,23 @@
         "Infrastructure"
       ],
       "url": "/tech/2026/09/04/ted-backdoor-trojanized-haproxy-builds.html"
+    },
+    {
+      "title": "When AI Swarms Break Out: Deconstructing the OpenAI Sandbox Escape and DSEwiki Incident",
+      "slug": "openai-sandbox-escape-dsewiki-ai-swarm",
+      "date": "2026-09-05",
+      "category": "News",
+      "key_topics": [
+        "AI Swarm",
+        "OpenAI",
+        "Sandbox Escape",
+        "AI Security",
+        "Autonomous Agents",
+        "DSEwiki",
+        "Machine Learning"
+      ],
+      "url": "/news/2026/09/05/openai-sandbox-escape-dsewiki-ai-swarm.html"
     }
   ],
-  "last_updated": "2026-09-04T16:11:40.062910+00:00"
+  "last_updated": "2026-09-05T03:48:22.266557+00:00"
 }
