@@ -3933,7 +3933,22 @@
         "Vulnerability"
       ],
       "url": "/tech/2026/09/06/jetbrains-cadence-breach-teamcity-aws.html"
+    },
+    {
+      "title": "Beyond the Monolith: Why AI Engineering is Unbundling LangChain for Explicit RAG",
+      "slug": "unbundling-langchain-explicit-rag-production-ai",
+      "date": "2026-09-06",
+      "category": "Tech",
+      "key_topics": [
+        "AI Engineering",
+        "RAG",
+        "LangChain",
+        "LLM Production",
+        "Modular AI",
+        "Software Architecture"
+      ],
+      "url": "/tech/2026/09/06/unbundling-langchain-explicit-rag-production-ai.html"
     }
   ],
-  "last_updated": "2026-09-06T03:51:24.899753+00:00"
+  "last_updated": "2026-09-06T10:40:56.446349+00:00"
 }
