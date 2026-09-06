@@ -3917,7 +3917,23 @@
         "Performance"
       ],
       "url": "/tech/2026/09/06/semantic-search-cxx-without-python-libtorch.html"
+    },
+    {
+      "title": "Anatomy of the JetBrains Cadence Breach: When Unpatched TeamCity Compromised AWS Infrastructure",
+      "slug": "jetbrains-cadence-breach-teamcity-aws",
+      "date": "2026-09-06",
+      "category": "Tech",
+      "key_topics": [
+        "TeamCity",
+        "JetBrains",
+        "Cybersecurity",
+        "AWS",
+        "CI/CD",
+        "Cloud Security",
+        "Vulnerability"
+      ],
+      "url": "/tech/2026/09/06/jetbrains-cadence-breach-teamcity-aws.html"
     }
   ],
-  "last_updated": "2026-09-05T22:44:31.777902+00:00"
+  "last_updated": "2026-09-06T03:51:24.899753+00:00"
 }
