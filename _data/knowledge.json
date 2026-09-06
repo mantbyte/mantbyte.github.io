@@ -3948,7 +3948,23 @@
         "Software Architecture"
       ],
       "url": "/tech/2026/09/06/unbundling-langchain-explicit-rag-production-ai.html"
+    },
+    {
+      "title": "Beyond the Hallucination: How Google Mantis Redefines Vulnerability Scanning with Agentic AI",
+      "slug": "google-mantis-agentic-ai-vulnerability-scanning",
+      "date": "2026-09-06",
+      "category": "Tech",
+      "key_topics": [
+        "Google Mantis",
+        "Agentic AI",
+        "AppSec",
+        "Vulnerability Scanning",
+        "Cybersecurity",
+        "LLM",
+        "DevSecOps"
+      ],
+      "url": "/tech/2026/09/06/google-mantis-agentic-ai-vulnerability-scanning.html"
     }
   ],
-  "last_updated": "2026-09-06T10:40:56.446349+00:00"
+  "last_updated": "2026-09-06T15:15:01.070009+00:00"
 }
