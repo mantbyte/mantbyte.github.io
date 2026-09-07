@@ -27,5 +27,6 @@
   "Geometry - Monotone Chain Algorithm - Convex Hull Perimeter",
   "String - Greedy - Lexicographical Optimization with Operations",
   "String - Manacher's Algorithm - Frequency of Palindrome Lengths",
-  "Graph - Hierholzer's Algorithm - Find Eulerian Path in Directed Graph"
+  "Graph - Hierholzer's Algorithm - Find Eulerian Path in Directed Graph",
+  "Graph - Ford-Fulkerson Algorithm - Max Flow Min Cut"
 ]
