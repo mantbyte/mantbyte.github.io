@@ -3996,7 +3996,24 @@
         "Legal Tech"
       ],
       "url": "/geopolitics/2026/09/07/model-eradication-lawsuit-openai-microsoft.html"
+    },
+    {
+      "title": "The Great Architectural Split: Why CERN is Migrating Accelerator Controls to Debian",
+      "slug": "cern-migrates-accelerator-controls-debian",
+      "date": "2026-09-07",
+      "category": "Tech",
+      "key_topics": [
+        "CERN",
+        "Debian",
+        "Linux",
+        "RHEL",
+        "x86-64-v2",
+        "Open Source",
+        "Large Hadron Collider",
+        "Industrial Computing"
+      ],
+      "url": "/tech/2026/09/07/cern-migrates-accelerator-controls-debian.html"
     }
   ],
-  "last_updated": "2026-09-07T03:50:42.423976+00:00"
+  "last_updated": "2026-09-07T12:04:52.002040+00:00"
 }
