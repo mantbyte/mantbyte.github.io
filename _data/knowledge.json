@@ -4044,7 +4044,22 @@
         "Industrial Control Systems"
       ],
       "url": "/geopolitics/2026/09/08/deconstructing-stuxnet-source-code-lessons.html"
+    },
+    {
+      "title": "Cryptographic Archaeology: How 90s-Era Root CAs Fell to Modern Consumer Hardware",
+      "slug": "cryptographic-archaeology-cracking-90s-root-cas",
+      "date": "2026-09-08",
+      "category": "Tech",
+      "key_topics": [
+        "Cryptography",
+        "RSA-512",
+        "Cybersecurity",
+        "PKI",
+        "Netscape",
+        "Legacy Systems"
+      ],
+      "url": "/tech/2026/09/08/cryptographic-archaeology-cracking-90s-root-cas.html"
     }
   ],
-  "last_updated": "2026-09-08T03:54:21.597476+00:00"
+  "last_updated": "2026-09-08T11:01:53.078611+00:00"
 }
