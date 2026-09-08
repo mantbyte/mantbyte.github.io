@@ -4028,7 +4028,23 @@
         "Siemens Step 7"
       ],
       "url": "/geopolitics/2026/09/08/stuxnet-source-code-ics-defense.html"
+    },
+    {
+      "title": "Deconstructing the Digital Sword: Technical Lessons from the Stuxnet Source Code Reconstruction",
+      "slug": "deconstructing-stuxnet-source-code-lessons",
+      "date": "2026-09-08",
+      "category": "Geopolitics",
+      "key_topics": [
+        "Stuxnet",
+        "ICS Security",
+        "Cyber Warfare",
+        "Reverse Engineering",
+        "APT",
+        "Malware Analysis",
+        "Industrial Control Systems"
+      ],
+      "url": "/geopolitics/2026/09/08/deconstructing-stuxnet-source-code-lessons.html"
     }
   ],
-  "last_updated": "2026-09-07T23:22:55.594405+00:00"
+  "last_updated": "2026-09-08T03:54:21.597476+00:00"
 }
