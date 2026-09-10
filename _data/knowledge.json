@@ -4154,7 +4154,23 @@
         "National Security"
       ],
       "url": "/geopolitics/2026/09/10/us-strategy-degrade-chinese-ai-model-switching.html"
+    },
+    {
+      "title": "The Great Model Heist: Geopolitical Tensions and the Technical Challenge of Securing Model Weights",
+      "slug": "securing-ai-model-weights-distillation-attacks",
+      "date": "2026-09-10",
+      "category": "Geopolitics",
+      "key_topics": [
+        "AI Security",
+        "Model Weights",
+        "Distillation Attacks",
+        "Cybersecurity",
+        "Machine Learning",
+        "Geopolitics",
+        "API Security"
+      ],
+      "url": "/geopolitics/2026/09/10/securing-ai-model-weights-distillation-attacks.html"
     }
   ],
-  "last_updated": "2026-09-09T23:06:11.027634+00:00"
+  "last_updated": "2026-09-10T03:58:56.555470+00:00"
 }
