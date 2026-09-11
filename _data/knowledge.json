@@ -4232,7 +4232,23 @@
         "Anthropic"
       ],
       "url": "/geopolitics/2026/09/11/gtg-20006-claude-malware-campaign.html"
+    },
+    {
+      "title": "Dissecting CVE-2026-85706: The Critical GitLab CVSS 10.0 File-Read Vulnerability",
+      "slug": "cve-2026-85706-gitlab-cvss-10-vulnerability",
+      "date": "2026-09-12",
+      "category": "Tech",
+      "key_topics": [
+        "CVE-2026-85706",
+        "GitLab",
+        "Cybersecurity",
+        "DevOps",
+        "Path Traversal",
+        "Vulnerability",
+        "CI/CD"
+      ],
+      "url": "/tech/2026/09/12/cve-2026-85706-gitlab-cvss-10-vulnerability.html"
     }
   ],
-  "last_updated": "2026-09-11T16:14:08.887322+00:00"
+  "last_updated": "2026-09-11T20:45:46.392497+00:00"
 }
