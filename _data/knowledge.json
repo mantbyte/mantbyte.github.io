@@ -4216,7 +4216,23 @@
         "AEG"
       ],
       "url": "/news/2026/09/11/astra-paradigm-autonomous-exploit-agents-defense.html"
+    },
+    {
+      "title": "When State Actors Build via AI: Deconstructing the GTG-20006 Claude Malware Campaign",
+      "slug": "gtg-20006-claude-malware-campaign",
+      "date": "2026-09-11",
+      "category": "Geopolitics",
+      "key_topics": [
+        "Cybersecurity",
+        "Artificial Intelligence",
+        "Malware",
+        "APT29",
+        "Geopolitics",
+        "State Actors",
+        "Anthropic"
+      ],
+      "url": "/geopolitics/2026/09/11/gtg-20006-claude-malware-campaign.html"
     }
   ],
-  "last_updated": "2026-09-11T11:09:22.805901+00:00"
+  "last_updated": "2026-09-11T16:14:08.887322+00:00"
 }
