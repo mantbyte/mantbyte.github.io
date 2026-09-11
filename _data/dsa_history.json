@@ -30,5 +30,6 @@
   "Graph - Hierholzer's Algorithm - Find Eulerian Path in Directed Graph",
   "Graph - Ford-Fulkerson Algorithm - Max Flow Min Cut",
   "String - Greedy - Lexicographical Optimization",
-  "Graph - Tarjan's Algorithm - Bridge Detection"
+  "Graph - Tarjan's Algorithm - Bridge Detection",
+  "String - Suffix Automaton - Automaton Traversal"
 ]
