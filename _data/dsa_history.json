@@ -31,5 +31,6 @@
   "Graph - Ford-Fulkerson Algorithm - Max Flow Min Cut",
   "String - Greedy - Lexicographical Optimization",
   "Graph - Tarjan's Algorithm - Bridge Detection",
-  "String - Suffix Automaton - Automaton Traversal"
+  "String - Suffix Automaton - Automaton Traversal",
+  "Math - Number Theory - Euler's Totient Sieve"
 ]
