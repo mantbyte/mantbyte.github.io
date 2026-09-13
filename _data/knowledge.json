@@ -4326,7 +4326,23 @@
         "Machine Learning"
       ],
       "url": "/geopolitics/2026/09/13/geopolitics-ai-slowdown-movement.html"
+    },
+    {
+      "title": "Orchestrating Intelligence: A Deep Dive into GitHub Copilot Project HydraFusion",
+      "slug": "github-copilot-hydrafusion-multi-model-orchestration",
+      "date": "2026-09-13",
+      "category": "Tech",
+      "key_topics": [
+        "GitHub Copilot",
+        "HydraFusion",
+        "AI Coding",
+        "Large Language Models",
+        "Software Architecture",
+        "Model Orchestration",
+        "SLM"
+      ],
+      "url": "/tech/2026/09/13/github-copilot-hydrafusion-multi-model-orchestration.html"
     }
   ],
-  "last_updated": "2026-09-13T04:06:48.454875+00:00"
+  "last_updated": "2026-09-13T11:38:46.828883+00:00"
 }
