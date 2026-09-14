@@ -33,5 +33,6 @@
   "Graph - Tarjan's Algorithm - Bridge Detection",
   "String - Suffix Automaton - Automaton Traversal",
   "Math - Number Theory - Euler's Totient Sieve",
-  "Array - Square Root Decomposition - Mo's Algorithm"
+  "Array - Square Root Decomposition - Mo's Algorithm",
+  "String - Greedy - Lexicographical Optimization"
 ]
