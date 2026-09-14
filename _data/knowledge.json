@@ -4374,7 +4374,23 @@
         "Frontier Models"
       ],
       "url": "/geopolitics/2026/09/14/ai-accelerationism-alignment-washington-silicon-valley.html"
+    },
+    {
+      "title": "Decoupling Identity from Telecom: Inside Signal's Zero-Knowledge Phone-Numberless Registration",
+      "slug": "signal-zero-knowledge-phone-numberless-registration",
+      "date": "2026-09-14",
+      "category": "Tech",
+      "key_topics": [
+        "Signal",
+        "Zero-Knowledge Proofs",
+        "Cryptography",
+        "Privacy",
+        "Security",
+        "Metadata",
+        "Telecom"
+      ],
+      "url": "/tech/2026/09/14/signal-zero-knowledge-phone-numberless-registration.html"
     }
   ],
-  "last_updated": "2026-09-13T23:02:40.374596+00:00"
+  "last_updated": "2026-09-14T04:14:44.829540+00:00"
 }
