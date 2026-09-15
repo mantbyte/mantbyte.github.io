@@ -4436,7 +4436,24 @@
         "Tech Oligopoly"
       ],
       "url": "/geopolitics/2026/09/15/ai-safety-pacts-cartel-pacing-debate.html"
+    },
+    {
+      "title": "Mastering Amazon Linux 2027: A Deep Dive into the 'Secure by Default' Evolution",
+      "slug": "mastering-amazon-linux-2027-security-guide",
+      "date": "2026-09-15",
+      "category": "Tech",
+      "key_topics": [
+        "Amazon Linux 2027",
+        "AWS",
+        "SELinux",
+        "Cloud Security",
+        "DevOps",
+        "Linux Administration",
+        "AL2027",
+        "Cybersecurity"
+      ],
+      "url": "/tech/2026/09/15/mastering-amazon-linux-2027-security-guide.html"
     }
   ],
-  "last_updated": "2026-09-15T04:14:16.411946+00:00"
+  "last_updated": "2026-09-15T11:28:36.550581+00:00"
 }
