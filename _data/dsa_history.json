@@ -34,5 +34,6 @@
   "String - Suffix Automaton - Automaton Traversal",
   "Math - Number Theory - Euler's Totient Sieve",
   "Array - Square Root Decomposition - Mo's Algorithm",
-  "String - Greedy - Lexicographical Optimization"
+  "String - Greedy - Lexicographical Optimization",
+  "Graph - Minimum Spanning Tree - Prim's Algorithm"
 ]
