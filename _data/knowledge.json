@@ -4516,7 +4516,24 @@
         "Asahi Linux"
       ],
       "url": "/tech/2026/09/16/ai-noise-open-source-maintenance-crisis.html"
+    },
+    {
+      "title": "Simplifying Cloud-Native AI Infrastructure: Demystifying Microsoft's TauGrid Open Source Release",
+      "slug": "microsoft-taugrid-cloud-native-ai-infrastructure",
+      "date": "2026-09-17",
+      "category": "Tech",
+      "key_topics": [
+        "TauGrid",
+        "Microsoft",
+        "Kubernetes",
+        "Cloud-Native",
+        "AI Infrastructure",
+        "GPU",
+        "Kueue",
+        "KubeRay"
+      ],
+      "url": "/tech/2026/09/17/microsoft-taugrid-cloud-native-ai-infrastructure.html"
     }
   ],
-  "last_updated": "2026-09-16T16:32:40.976254+00:00"
+  "last_updated": "2026-09-16T21:07:24.648220+00:00"
 }
