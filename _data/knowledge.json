@@ -4501,7 +4501,22 @@
         "Digital Evidence"
       ],
       "url": "/tech/2026/09/16/apple-reference-image-verified-photography-future.html"
+    },
+    {
+      "title": "When AI Noise Drowns Out the Kernel: Hector Martin's Step-Back and the Open-Source Maintenance Crisis",
+      "slug": "ai-noise-open-source-maintenance-crisis",
+      "date": "2026-09-16",
+      "category": "Tech",
+      "key_topics": [
+        "Open Source",
+        "Artificial Intelligence",
+        "Linux Kernel",
+        "Software Engineering",
+        "LLM",
+        "Asahi Linux"
+      ],
+      "url": "/tech/2026/09/16/ai-noise-open-source-maintenance-crisis.html"
     }
   ],
-  "last_updated": "2026-09-16T11:22:01.943046+00:00"
+  "last_updated": "2026-09-16T16:32:40.976254+00:00"
 }
