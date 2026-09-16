@@ -35,5 +35,6 @@
   "Math - Number Theory - Euler's Totient Sieve",
   "Array - Square Root Decomposition - Mo's Algorithm",
   "String - Greedy - Lexicographical Optimization",
-  "Graph - Minimum Spanning Tree - Prim's Algorithm"
+  "Graph - Minimum Spanning Tree - Prim's Algorithm",
+  "Sparse Table - Range GCD - Idempotent Range Queries"
 ]
