@@ -4549,7 +4549,22 @@
         "API Gateway"
       ],
       "url": "/news/2026/09/17/litellm-cve-2026-59822-ai-infrastructure-crisis.html"
+    },
+    {
+      "title": "Finding and Governing Shadow MCP Servers in Enterprise Environments",
+      "slug": "governing-shadow-mcp-servers-enterprise",
+      "date": "2026-09-17",
+      "category": "Tech",
+      "key_topics": [
+        "MCP Servers",
+        "Enterprise Security",
+        "Shadow IT",
+        "AI Governance",
+        "Platform Engineering",
+        "Model Context Protocol"
+      ],
+      "url": "/tech/2026/09/17/governing-shadow-mcp-servers-enterprise.html"
     }
   ],
-  "last_updated": "2026-09-17T04:20:25.947597+00:00"
+  "last_updated": "2026-09-17T16:45:11.384323+00:00"
 }
