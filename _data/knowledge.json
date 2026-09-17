@@ -4564,7 +4564,23 @@
         "Model Context Protocol"
       ],
       "url": "/tech/2026/09/17/governing-shadow-mcp-servers-enterprise.html"
+    },
+    {
+      "title": "Inside the Microsoft-OpenAI Legal Filings: AI Scraping, Market Substitution, and the Battle for Data Sovereignty",
+      "slug": "microsoft-openai-legal-filings-ai-scraping",
+      "date": "2026-09-18",
+      "category": "Geopolitics",
+      "key_topics": [
+        "AI scraping",
+        "OpenAI",
+        "Microsoft",
+        "data sovereignty",
+        "machine learning",
+        "copyright law",
+        "LLM training"
+      ],
+      "url": "/geopolitics/2026/09/18/microsoft-openai-legal-filings-ai-scraping.html"
     }
   ],
-  "last_updated": "2026-09-17T16:45:11.384323+00:00"
+  "last_updated": "2026-09-17T21:09:25.096717+00:00"
 }
