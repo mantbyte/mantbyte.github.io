@@ -4533,7 +4533,23 @@
         "KubeRay"
       ],
       "url": "/tech/2026/09/17/microsoft-taugrid-cloud-native-ai-infrastructure.html"
+    },
+    {
+      "title": "33,005 Internet-Reachable LiteLLM Gateways and CVE-2026-59822: Anatomy of an AI Infrastructure Crisis",
+      "slug": "litellm-cve-2026-59822-ai-infrastructure-crisis",
+      "date": "2026-09-17",
+      "category": "News",
+      "key_topics": [
+        "LiteLLM",
+        "CVE-2026-59822",
+        "AI Security",
+        "Vulnerability",
+        "Cybersecurity",
+        "Ransomware",
+        "API Gateway"
+      ],
+      "url": "/news/2026/09/17/litellm-cve-2026-59822-ai-infrastructure-crisis.html"
     }
   ],
-  "last_updated": "2026-09-16T21:07:24.648220+00:00"
+  "last_updated": "2026-09-17T04:20:25.947597+00:00"
 }
