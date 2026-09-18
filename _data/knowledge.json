@@ -4628,7 +4628,23 @@
         "AI Ethics"
       ],
       "url": "/geopolitics/2026/09/19/military-ai-llm-intelligence-failure.html"
+    },
+    {
+      "title": "Reclaiming 100TB of RAM: How Cloudflare Optimized Consistent Hashing in Rust",
+      "slug": "cloudflare-rust-consistent-hashing-optimization",
+      "date": "2026-09-19",
+      "category": "Tech",
+      "key_topics": [
+        "Cloudflare",
+        "Rust",
+        "Memory Optimization",
+        "Consistent Hashing",
+        "Pingora",
+        "Edge Computing",
+        "Systems Programming"
+      ],
+      "url": "/tech/2026/09/19/cloudflare-rust-consistent-hashing-optimization.html"
     }
   ],
-  "last_updated": "2026-09-18T20:41:19.617316+00:00"
+  "last_updated": "2026-09-18T23:09:23.947811+00:00"
 }
