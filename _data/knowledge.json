@@ -4644,7 +4644,23 @@
         "Systems Programming"
       ],
       "url": "/tech/2026/09/19/cloudflare-rust-consistent-hashing-optimization.html"
+    },
+    {
+      "title": "When LLMs Almost Triggered Conflict: The Anatomy of a Military AI Intelligence Failure",
+      "slug": "military-ai-llm-intelligence-failure",
+      "date": "2026-09-19",
+      "category": "Geopolitics",
+      "key_topics": [
+        "Military AI",
+        "LLM Hallucinations",
+        "Defense Technology",
+        "Intelligence Failure",
+        "Geopolitics",
+        "SIGINT",
+        "OSINT"
+      ],
+      "url": "/geopolitics/2026/09/19/military-ai-llm-intelligence-failure.html"
     }
   ],
-  "last_updated": "2026-09-18T23:09:23.947811+00:00"
+  "last_updated": "2026-09-19T03:58:46.100777+00:00"
 }
