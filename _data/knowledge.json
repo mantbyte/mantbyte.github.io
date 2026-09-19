@@ -4660,7 +4660,23 @@
         "OSINT"
       ],
       "url": "/geopolitics/2026/09/19/military-ai-llm-intelligence-failure.html"
+    },
+    {
+      "title": "Breaking the 15-Minute Barrier: A Deep Dive into AWS Lambda Managed Instances",
+      "slug": "aws-lambda-managed-instances-90-minute-guide",
+      "date": "2026-09-19",
+      "category": "Tech",
+      "key_topics": [
+        "AWS Lambda",
+        "Serverless",
+        "Cloud Computing",
+        "Graviton5",
+        "Firecracker",
+        "AWS Managed Instances",
+        "DevOps"
+      ],
+      "url": "/tech/2026/09/19/aws-lambda-managed-instances-90-minute-guide.html"
     }
   ],
-  "last_updated": "2026-09-19T03:58:46.100777+00:00"
+  "last_updated": "2026-09-19T10:39:35.804793+00:00"
 }
