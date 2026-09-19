@@ -37,5 +37,6 @@
   "String - Greedy - Lexicographical Optimization",
   "Graph - Minimum Spanning Tree - Prim's Algorithm",
   "Sparse Table - Range GCD - Idempotent Range Queries",
-  "Graph - Kosaraju's Algorithm - Finding Strongly Connected Components (SCC)"
+  "Graph - Kosaraju's Algorithm - Finding Strongly Connected Components (SCC)",
+  "Geometry - Line Sweep Algorithm - Calculate the area of the union of axis-aligned rectangles"
 ]
