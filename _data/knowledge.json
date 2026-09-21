@@ -4786,7 +4786,23 @@
         "Hardware"
       ],
       "url": "/geopolitics/2026/09/21/samsung-hbm4-hbm4e-semiconductor-expansion.html"
+    },
+    {
+      "title": "Kubernetes 1.37 Deep Dive: Stable Metrics API, Rootless Kubelet Beta, and Production Hardening",
+      "slug": "kubernetes-1-37-deep-dive-metrics-rootless-kubelet",
+      "date": "2026-09-21",
+      "category": "Tech",
+      "key_topics": [
+        "Kubernetes",
+        "DevOps",
+        "Cloud Native",
+        "Container Security",
+        "Infrastructure",
+        "Kubernetes 1.37",
+        "Metrics API"
+      ],
+      "url": "/tech/2026/09/21/kubernetes-1-37-deep-dive-metrics-rootless-kubelet.html"
     }
   ],
-  "last_updated": "2026-09-20T23:06:34.601395+00:00"
+  "last_updated": "2026-09-21T04:14:24.034902+00:00"
 }
