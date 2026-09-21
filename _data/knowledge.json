@@ -4802,7 +4802,22 @@
         "Metrics API"
       ],
       "url": "/tech/2026/09/21/kubernetes-1-37-deep-dive-metrics-rootless-kubelet.html"
+    },
+    {
+      "title": "AX: Inside Google\u2019s Open Orchestrator for Stateful AI Agents",
+      "slug": "google-ax-open-orchestrator-stateful-agents",
+      "date": "2026-09-21",
+      "category": "Tech",
+      "key_topics": [
+        "AI Agents",
+        "Google AX",
+        "Orchestration",
+        "Cloud Infrastructure",
+        "LLM",
+        "Agent Substrate"
+      ],
+      "url": "/tech/2026/09/21/google-ax-open-orchestrator-stateful-agents.html"
     }
   ],
-  "last_updated": "2026-09-21T04:14:24.034902+00:00"
+  "last_updated": "2026-09-21T12:29:39.877295+00:00"
 }
