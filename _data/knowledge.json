@@ -4864,7 +4864,23 @@
         "AI Development"
       ],
       "url": "/tech/2026/09/22/linear-cicd-optimization-ai-velocity-trap.html"
+    },
+    {
+      "title": "Unpacking Meta's Muse AI 0-Day: How Local Privilege Escalation and Cloud Endpoints Threaten Autonomous Agents",
+      "slug": "meta-muse-ai-zero-day-privilege-escalation",
+      "date": "2026-09-22",
+      "category": "Tech",
+      "key_topics": [
+        "Cybersecurity",
+        "Meta Muse",
+        "Zero-Day",
+        "Privilege Escalation",
+        "macOS",
+        "AI Security",
+        "Cloud Endpoints"
+      ],
+      "url": "/tech/2026/09/22/meta-muse-ai-zero-day-privilege-escalation.html"
     }
   ],
-  "last_updated": "2026-09-22T04:39:34.840089+00:00"
+  "last_updated": "2026-09-22T16:51:13.063433+00:00"
 }
