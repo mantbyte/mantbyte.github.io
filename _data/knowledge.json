@@ -4848,7 +4848,23 @@
         "Artificial Intelligence"
       ],
       "url": "/tech/2026/09/22/meta-muse-zero-day-privilege-creep-ai.html"
+    },
+    {
+      "title": "Escaping the AI Velocity Trap: How Linear Optimized CI/CD for Hyper-Accelerated Codebases",
+      "slug": "linear-cicd-optimization-ai-velocity-trap",
+      "date": "2026-09-22",
+      "category": "Tech",
+      "key_topics": [
+        "CI/CD",
+        "TypeScript",
+        "Monorepo",
+        "Linear",
+        "GitHub Actions",
+        "DevOps",
+        "AI Development"
+      ],
+      "url": "/tech/2026/09/22/linear-cicd-optimization-ai-velocity-trap.html"
     }
   ],
-  "last_updated": "2026-09-21T23:58:01.545250+00:00"
+  "last_updated": "2026-09-22T04:39:34.840089+00:00"
 }
