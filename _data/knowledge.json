@@ -4928,7 +4928,23 @@
         "Software Engineering"
       ],
       "url": "/tech/2026/09/23/model-context-protocol-mcp-agentic-architecture.html"
+    },
+    {
+      "title": "Beyond Kubernetes at Modal: Scaling 1 Million Concurrent Sandboxes",
+      "slug": "beyond-kubernetes-modal-scaling-sandboxes",
+      "date": "2026-09-23",
+      "category": "Tech",
+      "key_topics": [
+        "Kubernetes",
+        "Modal",
+        "Cloud Computing",
+        "Serverless",
+        "Infrastructure",
+        "GenAI",
+        "Container Orchestration"
+      ],
+      "url": "/tech/2026/09/23/beyond-kubernetes-modal-scaling-sandboxes.html"
     }
   ],
-  "last_updated": "2026-09-23T11:20:45.739123+00:00"
+  "last_updated": "2026-09-23T16:55:21.860435+00:00"
 }
