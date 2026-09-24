@@ -40,5 +40,6 @@
   "Graph - Kosaraju's Algorithm - Finding Strongly Connected Components (SCC)",
   "Geometry - Line Sweep Algorithm - Calculate the area of the union of axis-aligned rectangles",
   "Queue - Simulation - Lexicographical Ordering",
-  "String - Greedy - Lexicographical Optimization"
+  "String - Greedy - Lexicographical Optimization",
+  "Tree - Bitwise XOR - Subtree Properties"
 ]
