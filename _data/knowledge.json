@@ -5054,7 +5054,23 @@
         "Backend"
       ],
       "url": "/tech/2026/09/25/perplexity-ditched-dynamodb-cobbledb-rust.html"
+    },
+    {
+      "title": "Supabase Data Exposures and the Security Risks of AI 'Vibe-Coding'",
+      "slug": "supabase-data-exposures-ai-vibe-coding",
+      "date": "2026-09-26",
+      "category": "Tech",
+      "key_topics": [
+        "Supabase",
+        "AI Coding",
+        "Cybersecurity",
+        "Database Security",
+        "PostgreSQL",
+        "Backend-as-a-Service",
+        "Vibe Coding"
+      ],
+      "url": "/tech/2026/09/26/supabase-data-exposures-ai-vibe-coding.html"
     }
   ],
-  "last_updated": "2026-09-25T16:59:09.697964+00:00"
+  "last_updated": "2026-09-25T21:23:24.781306+00:00"
 }
