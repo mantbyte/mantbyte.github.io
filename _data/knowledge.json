@@ -5022,7 +5022,23 @@
         "Vulnerability"
       ],
       "url": "/tech/2026/09/25/ansi2html-xss-sourcehut-takeover.html"
+    },
+    {
+      "title": "DAWO: How NixOS is Powering the Dutch Quest for Digital Sovereignty",
+      "slug": "dawo-nixos-dutch-digital-sovereignty",
+      "date": "2026-09-25",
+      "category": "Geopolitics",
+      "key_topics": [
+        "NixOS",
+        "Digital Sovereignty",
+        "Open Source",
+        "DAWO",
+        "Government IT",
+        "Linux",
+        "Netherlands"
+      ],
+      "url": "/geopolitics/2026/09/25/dawo-nixos-dutch-digital-sovereignty.html"
     }
   ],
-  "last_updated": "2026-09-25T04:18:42.772951+00:00"
+  "last_updated": "2026-09-25T11:33:34.581154+00:00"
 }
