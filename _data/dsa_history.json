@@ -41,5 +41,6 @@
   "Geometry - Line Sweep Algorithm - Calculate the area of the union of axis-aligned rectangles",
   "Queue - Simulation - Lexicographical Ordering",
   "String - Greedy - Lexicographical Optimization",
-  "Tree - Bitwise XOR - Subtree Properties"
+  "Tree - Bitwise XOR - Subtree Properties",
+  "Tree - Centroid Decomposition - Divide and Conquer on Trees"
 ]
