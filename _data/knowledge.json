@@ -5006,7 +5006,23 @@
         "Space Exploration"
       ],
       "url": "/geopolitics/2026/09/24/lunar-south-pole-space-race.html"
+    },
+    {
+      "title": "From Terminal to Takeover: How an XSS in ansi2html Compromised SourceHut",
+      "slug": "ansi2html-xss-sourcehut-takeover",
+      "date": "2026-09-25",
+      "category": "Tech",
+      "key_topics": [
+        "XSS",
+        "SourceHut",
+        "Cybersecurity",
+        "ansi2html",
+        "CI/CD",
+        "Web Security",
+        "Vulnerability"
+      ],
+      "url": "/tech/2026/09/25/ansi2html-xss-sourcehut-takeover.html"
     }
   ],
-  "last_updated": "2026-09-24T16:57:56.974200+00:00"
+  "last_updated": "2026-09-25T04:18:42.772951+00:00"
 }
