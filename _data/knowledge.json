@@ -5038,7 +5038,23 @@
         "Netherlands"
       ],
       "url": "/geopolitics/2026/09/25/dawo-nixos-dutch-digital-sovereignty.html"
+    },
+    {
+      "title": "Why Perplexity Ditched DynamoDB for CobbleDB: Inside Their Custom Rust Database Migration",
+      "slug": "perplexity-ditched-dynamodb-cobbledb-rust",
+      "date": "2026-09-25",
+      "category": "Tech",
+      "key_topics": [
+        "Rust",
+        "Database",
+        "Perplexity",
+        "DynamoDB",
+        "CobbleDB",
+        "Cloud Architecture",
+        "Backend"
+      ],
+      "url": "/tech/2026/09/25/perplexity-ditched-dynamodb-cobbledb-rust.html"
     }
   ],
-  "last_updated": "2026-09-25T11:33:34.581154+00:00"
+  "last_updated": "2026-09-25T16:59:09.697964+00:00"
 }
