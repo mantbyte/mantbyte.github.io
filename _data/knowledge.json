@@ -5070,7 +5070,23 @@
         "Vibe Coding"
       ],
       "url": "/tech/2026/09/26/supabase-data-exposures-ai-vibe-coding.html"
+    },
+    {
+      "title": "Decoding Anthropic's $11.6B Akamai Deal: The Edge CPU Pivot in AI Infrastructure",
+      "slug": "anthropics-akamai-deal-edge-cpu-ai",
+      "date": "2026-09-26",
+      "category": "Tech",
+      "key_topics": [
+        "Anthropic",
+        "Akamai",
+        "AI Infrastructure",
+        "Edge Computing",
+        "GPUs",
+        "CPUs",
+        "Cloud Computing"
+      ],
+      "url": "/tech/2026/09/26/anthropics-akamai-deal-edge-cpu-ai.html"
     }
   ],
-  "last_updated": "2026-09-25T21:23:24.781306+00:00"
+  "last_updated": "2026-09-26T04:21:25.957515+00:00"
 }
