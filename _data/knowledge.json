@@ -5103,7 +5103,22 @@
         "Cybersecurity"
       ],
       "url": "/news/2026/09/26/meta-10-billion-api-flaw-verdict.html"
+    },
+    {
+      "title": "The Policy Gate: Defending Against Autonomous Overreach in Agentic AI",
+      "slug": "policy-gate-securing-autonomous-agentic-ai",
+      "date": "2026-09-26",
+      "category": "News",
+      "key_topics": [
+        "Agentic AI",
+        "AI Safety",
+        "OpenAI o1",
+        "Autonomous Agents",
+        "Cybersecurity",
+        "Machine Learning"
+      ],
+      "url": "/news/2026/09/26/policy-gate-securing-autonomous-agentic-ai.html"
     }
   ],
-  "last_updated": "2026-09-26T11:10:03.677091+00:00"
+  "last_updated": "2026-09-26T16:09:11.768663+00:00"
 }
