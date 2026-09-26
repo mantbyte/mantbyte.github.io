@@ -5133,7 +5133,23 @@
         "Web Scraping"
       ],
       "url": "/geopolitics/2026/09/27/autonomous-ai-agents-us-government-security-breach.html"
+    },
+    {
+      "title": "Scaling Agency: Inside DeepSeek Elastic Compute (DSec) and the Future of RL Infrastructure",
+      "slug": "deepseek-elastic-compute-dsec-agentic-rl",
+      "date": "2026-09-27",
+      "category": "Tech",
+      "key_topics": [
+        "DeepSeek",
+        "Elastic Compute",
+        "Reinforcement Learning",
+        "AI Infrastructure",
+        "Kubernetes",
+        "Agentic AI",
+        "Distributed Systems"
+      ],
+      "url": "/tech/2026/09/27/deepseek-elastic-compute-dsec-agentic-rl.html"
     }
   ],
-  "last_updated": "2026-09-26T20:54:59.692583+00:00"
+  "last_updated": "2026-09-26T23:27:48.836287+00:00"
 }
