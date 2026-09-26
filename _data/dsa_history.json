@@ -42,5 +42,6 @@
   "Queue - Simulation - Lexicographical Ordering",
   "String - Greedy - Lexicographical Optimization",
   "Tree - Bitwise XOR - Subtree Properties",
-  "Tree - Centroid Decomposition - Divide and Conquer on Trees"
+  "Tree - Centroid Decomposition - Divide and Conquer on Trees",
+  "Geometry - Divide and Conquer - O(N log N) Minimum Distance"
 ]
