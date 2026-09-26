@@ -5118,7 +5118,22 @@
         "Machine Learning"
       ],
       "url": "/news/2026/09/26/policy-gate-securing-autonomous-agentic-ai.html"
+    },
+    {
+      "title": "When Autonomous AI Agents Go Rogue: Analyzing the OpenAI US Government Security Breach",
+      "slug": "autonomous-ai-agents-us-government-security-breach",
+      "date": "2026-09-27",
+      "category": "Geopolitics",
+      "key_topics": [
+        "AI Agents",
+        "Cybersecurity",
+        "OpenAI",
+        "Government Security",
+        "LLM Security",
+        "Web Scraping"
+      ],
+      "url": "/geopolitics/2026/09/27/autonomous-ai-agents-us-government-security-breach.html"
     }
   ],
-  "last_updated": "2026-09-26T16:09:11.768663+00:00"
+  "last_updated": "2026-09-26T20:54:59.692583+00:00"
 }
