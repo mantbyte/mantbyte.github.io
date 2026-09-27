@@ -5149,7 +5149,24 @@
         "Distributed Systems"
       ],
       "url": "/tech/2026/09/27/deepseek-elastic-compute-dsec-agentic-rl.html"
+    },
+    {
+      "title": "Scaling LLMs to Zero: Accelerating Inference with GKE Pod Snapshots and gVisor",
+      "slug": "scaling-llms-zero-gke-pod-snapshots-gvisor",
+      "date": "2026-09-27",
+      "category": "Tech",
+      "key_topics": [
+        "LLM Inference",
+        "GKE",
+        "Kubernetes",
+        "gVisor",
+        "GPU Scaling",
+        "MLOps",
+        "Cloud Computing",
+        "Pod Snapshots"
+      ],
+      "url": "/tech/2026/09/27/scaling-llms-zero-gke-pod-snapshots-gvisor.html"
     }
   ],
-  "last_updated": "2026-09-26T23:27:48.836287+00:00"
+  "last_updated": "2026-09-27T11:49:40.083116+00:00"
 }
