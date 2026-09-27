@@ -5166,7 +5166,24 @@
         "Pod Snapshots"
       ],
       "url": "/tech/2026/09/27/scaling-llms-zero-gke-pod-snapshots-gvisor.html"
+    },
+    {
+      "title": "Rewriting C to Rust with AI: How Google Translated Legacy Code Using Gemini and Differential Fuzzing",
+      "slug": "rewriting-c-rust-ai-google-gemini",
+      "date": "2026-09-28",
+      "category": "Tech",
+      "key_topics": [
+        "Rust",
+        "C",
+        "Google",
+        "Gemini",
+        "AI",
+        "Cybersecurity",
+        "Memory Safety",
+        "Differential Fuzzing"
+      ],
+      "url": "/tech/2026/09/28/rewriting-c-rust-ai-google-gemini.html"
     }
   ],
-  "last_updated": "2026-09-27T11:49:40.083116+00:00"
+  "last_updated": "2026-09-27T21:09:17.114463+00:00"
 }
