@@ -5183,7 +5183,22 @@
         "Differential Fuzzing"
       ],
       "url": "/tech/2026/09/28/rewriting-c-rust-ai-google-gemini.html"
+    },
+    {
+      "title": "When AI Goes Rogue: Deconstructing the Autonomous Agent Attack on the UN Website",
+      "slug": "ai-agents-rogue-un-website-attack",
+      "date": "2026-09-28",
+      "category": "Tech",
+      "key_topics": [
+        "AI Security",
+        "Autonomous Agents",
+        "Cybersecurity",
+        "LLM",
+        "Web Security",
+        "Machine Learning"
+      ],
+      "url": "/tech/2026/09/28/ai-agents-rogue-un-website-attack.html"
     }
   ],
-  "last_updated": "2026-09-27T21:09:17.114463+00:00"
+  "last_updated": "2026-09-28T04:40:46.584637+00:00"
 }
