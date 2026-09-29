@@ -45,5 +45,6 @@
   "Tree - Centroid Decomposition - Divide and Conquer on Trees",
   "Geometry - Divide and Conquer - O(N log N) Minimum Distance",
   "Graph - 0-1 BFS - Shortest Path on Binary Weights in a Grid",
-  "String - Greedy - Lexicographical Optimization"
+  "String - Greedy - Lexicographical Optimization",
+  "Geometry - Pick's Theorem and Shoelace Formula"
 ]
