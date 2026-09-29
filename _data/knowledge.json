@@ -5214,7 +5214,23 @@
         "Web Development"
       ],
       "url": "/tech/2026/09/29/shopify-webmcp-ai-agents-ecommerce.html"
+    },
+    {
+      "title": "Running an LLM on an ESP32-S3 Cluster: The 1.58-bit BitNet Microcontroller Breakthrough",
+      "slug": "llm-esp32-s3-cluster-bitnet",
+      "date": "2026-09-29",
+      "category": "Tech",
+      "key_topics": [
+        "ESP32-S3",
+        "BitNet",
+        "LLM",
+        "Microcontroller",
+        "Edge AI",
+        "Quantization",
+        "IoT"
+      ],
+      "url": "/tech/2026/09/29/llm-esp32-s3-cluster-bitnet.html"
     }
   ],
-  "last_updated": "2026-09-28T21:12:42.893026+00:00"
+  "last_updated": "2026-09-29T05:06:53.752109+00:00"
 }
