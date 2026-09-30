@@ -46,5 +46,6 @@
   "Geometry - Divide and Conquer - O(N log N) Minimum Distance",
   "Graph - 0-1 BFS - Shortest Path on Binary Weights in a Grid",
   "String - Greedy - Lexicographical Optimization",
-  "Geometry - Pick's Theorem and Shoelace Formula"
+  "Geometry - Pick's Theorem and Shoelace Formula",
+  "Graph - Gale-Shapley Algorithm - Stable Marriage Problem"
 ]
