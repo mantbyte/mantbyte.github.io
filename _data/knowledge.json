@@ -5263,7 +5263,23 @@
         "Energy Grid"
       ],
       "url": "/geopolitics/2026/09/30/ai-revenue-data-center-arms-race.html"
+    },
+    {
+      "title": "Amazon CloudWatch Omni: Extending Observability into the Agent Era",
+      "slug": "amazon-cloudwatch-omni-ai-observability",
+      "date": "2026-09-30",
+      "category": "Tech",
+      "key_topics": [
+        "Amazon CloudWatch Omni",
+        "AI Observability",
+        "APM",
+        "AWS",
+        "Autonomous Agents",
+        "OpenTelemetry",
+        "GenAI"
+      ],
+      "url": "/tech/2026/09/30/amazon-cloudwatch-omni-ai-observability.html"
     }
   ],
-  "last_updated": "2026-09-29T19:54:27.939525+00:00"
+  "last_updated": "2026-09-30T00:17:00.080333+00:00"
 }
