@@ -5279,7 +5279,22 @@
         "GenAI"
       ],
       "url": "/tech/2026/09/30/amazon-cloudwatch-omni-ai-observability.html"
+    },
+    {
+      "title": "Agentic Codebase Transformation: How $4,000 and Claude 3 Opus Refactored Street Fighter III",
+      "slug": "claude-opus-refactors-street-fighter-iii",
+      "date": "2026-09-30",
+      "category": "News",
+      "key_topics": [
+        "Claude 3 Opus",
+        "Agentic AI",
+        "Code Refactoring",
+        "Technical Debt",
+        "Street Fighter III",
+        "Software Engineering"
+      ],
+      "url": "/news/2026/09/30/claude-opus-refactors-street-fighter-iii.html"
     }
   ],
-  "last_updated": "2026-09-30T00:17:00.080333+00:00"
+  "last_updated": "2026-09-30T09:35:48.416999+00:00"
 }
