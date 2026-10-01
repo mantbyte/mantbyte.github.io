@@ -5326,7 +5326,23 @@
         "security-clearance"
       ],
       "url": "/geopolitics/2026/10/01/us-military-personnel-data-breach.html"
+    },
+    {
+      "title": "Mastering Amazon S3 Vectors Metadata Pre-Filtering: Eliminating Recall Penalties in RAG",
+      "slug": "amazon-s3-vectors-metadata-prefiltering-rag",
+      "date": "2026-10-01",
+      "category": "Tech",
+      "key_topics": [
+        "Amazon S3",
+        "Vector Search",
+        "RAG",
+        "Metadata Filtering",
+        "Cloud Architecture",
+        "AI",
+        "Database Optimization"
+      ],
+      "url": "/tech/2026/10/01/amazon-s3-vectors-metadata-prefiltering-rag.html"
     }
   ],
-  "last_updated": "2026-09-30T22:03:54.163191+00:00"
+  "last_updated": "2026-10-01T05:07:25.302323+00:00"
 }
