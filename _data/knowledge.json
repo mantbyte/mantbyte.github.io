@@ -5342,7 +5342,23 @@
         "Database Optimization"
       ],
       "url": "/tech/2026/10/01/amazon-s3-vectors-metadata-prefiltering-rag.html"
+    },
+    {
+      "title": "Beyond the Prompt: Analyzing OpenAI\u2019s Battle Against Reasoning Extraction and Model Distillation",
+      "slug": "openai-reasoning-extraction-model-distillation",
+      "date": "2026-10-01",
+      "category": "Geopolitics",
+      "key_topics": [
+        "OpenAI",
+        "Model Distillation",
+        "AI Security",
+        "Geopolitics",
+        "Machine Learning",
+        "Chain-of-Thought",
+        "Moonshot AI"
+      ],
+      "url": "/geopolitics/2026/10/01/openai-reasoning-extraction-model-distillation.html"
     }
   ],
-  "last_updated": "2026-10-01T05:07:25.302323+00:00"
+  "last_updated": "2026-10-01T12:51:22.458161+00:00"
 }
