@@ -64,16 +64,16 @@ This article explains what happened, how to reason about it technically, and wha
 
 The following screenshots are from the local development environment during the incident. They show the resource pressure discussed in this article.
 
-![Docker Desktop showing extreme aggregate container CPU usage]({{ "/assets/images/devsecops-docker-resource-exhaustion-01.jpg" | relative_url }})
+![Docker Desktop showing extreme aggregate container CPU usage]({{ "/assets/images/posts/devsecops-docker-resource-exhaustion-01.jpg" | relative_url }})
 *Docker Desktop showing an aggregate container CPU reading reaching approximately 1773%.*
 
-![Docker Desktop showing high CPU and the Kind containers]({{ "/assets/images/devsecops-docker-resource-exhaustion-02.jpg" | relative_url }})
+![Docker Desktop showing high CPU and the Kind containers]({{ "/assets/images/posts/devsecops-docker-resource-exhaustion-02.jpg" | relative_url }})
 *The local Kind-related containers and the high aggregate CPU reading.*
 
-![Host CPU pressure while Docker was running]({{ "/assets/images/devsecops-docker-resource-exhaustion-03.jpg" | relative_url }})
+![Host CPU pressure while Docker was running]({{ "/assets/images/posts/devsecops-docker-resource-exhaustion-03.jpg" | relative_url }})
 *Host-level CPU pressure observed while the local environment was active.*
 
-![Docker Desktop showing container memory usage]({{ "/assets/images/devsecops-docker-resource-exhaustion-04.jpg" | relative_url }})
+![Docker Desktop showing container memory usage]({{ "/assets/images/posts/devsecops-docker-resource-exhaustion-04.jpg" | relative_url }})
 *Docker Desktop showing approximately 4.81 GB of container memory usage out of a 5.65 GB allocation.*
 
 
@@ -1424,16 +1424,16 @@ assets/
 Then insert them into the post using:
 
 ```liquid
-![Docker showing extreme container CPU usage]({{ "/assets/images/devsecops-docker-resource-exhaustion-01.jpg" | relative_url }})
+![Docker showing extreme container CPU usage]({{ "/assets/images/posts/devsecops-docker-resource-exhaustion-01.jpg" | relative_url }})
 *Docker Desktop showing extreme aggregate container CPU usage during the incident.*
 
-![Docker containers and Kind nodes]({{ "/assets/images/devsecops-docker-resource-exhaustion-02.jpg" | relative_url }})
+![Docker containers and Kind nodes]({{ "/assets/images/posts/devsecops-docker-resource-exhaustion-02.jpg" | relative_url }})
 *The local Kind Kubernetes nodes running as Docker containers.*
 
-![Host CPU pressure]({{ "/assets/images/devsecops-docker-resource-exhaustion-03.jpg" | relative_url }})
+![Host CPU pressure]({{ "/assets/images/posts/devsecops-docker-resource-exhaustion-03.jpg" | relative_url }})
 *Host-level CPU pressure observed during the incident.*
 
-![Docker memory usage]({{ "/assets/images/devsecops-docker-resource-exhaustion-04.jpg" | relative_url }})
+![Docker memory usage]({{ "/assets/images/posts/devsecops-docker-resource-exhaustion-04.jpg" | relative_url }})
 *Docker Desktop showing approximately 4.81 GB of container memory usage.*
 ```
 
