@@ -11,6 +11,8 @@ cover_caption: A conceptual illustration of a structured LLM pipeline evaluation
   in a developer environment.
 ---
 
+{% raw %}
+
 Every developer who has built an LLM-powered application knows the feeling of the "vibe check." You write a prompt, test it against a handful of your favorite examples, watch the model spit out a coherent, beautifully formatted response, and think, *“Ship it.”* 
 
 For a weekend side project or a low-stakes drafting tool, that approach works fine. But when you are deploying Large Language Models into core production workflows—where a single misclassification can trigger a security incident or break downstream systems—anecdotal testing falls apart immediately. Generic industry benchmarks like MMLU or GSM8K won't save you either; they measure general academic capabilities, not whether your application behaves correctly against your specific business logic, security constraints, and data distribution.
@@ -123,3 +125,4 @@ As the tooling around production AI matures, pre-production evaluation is moving
 3. **Strict CI/CD Gatekeeping:** Prompt templates, system instructions, and model weights will live under strict version control, with CI/CD pipelines automatically blocking deployments if regression test suites drop below defined precision and recall thresholds.
 
 The era of shipping prompts based on a quick vibe check is drawing to a close. By embracing rigorous offline testing, systematic error analysis, and automated evaluation judges, engineering teams can finally build AI applications that are as reliable, auditable, and production-ready as the rest of their software stack.
+{% endraw %}

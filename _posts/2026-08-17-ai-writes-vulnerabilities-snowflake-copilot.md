@@ -10,6 +10,8 @@ cover_caption: Visual representation of AI-generated code introducing a security
   in a CI/CD pipeline.
 ---
 
+{% raw %}
+
 The promise of "Autofix" is the holy grail of modern DevSecOps. For years, security tools have been great at pointing out problems but terrible at solving them, leaving developers buried under a mountain of Jira tickets and "won't fix" labels. When GitHub introduced Copilot Autofix, it felt like the industry finally turned a corner: an AI that doesn't just find a vulnerability but writes the pull request to fix it.
 
 However, the recent incident involving a Snowflake repository serves as a sobering reminder that AI velocity often comes at the cost of architectural integrity. In a high-profile case documented by Wiz Research, a GitHub Copilot Autofix commit meant to improve a Snowflake .NET connector repository inadvertently introduced a critical workflow injection vulnerability. This wasn't a subtle logic error; it was a fundamental security regression that opened the door for unauthenticated Remote Code Execution (RCE).
@@ -146,3 +148,4 @@ We can expect to see the maturation of **AI Governance for Code**. Enterprise-le
 Furthermore, we will see the rise of **Defensive AI Agents**. Just as Wiz used a Red Agent to find the flaw, companies will deploy "Blue Agents" that sit inside the PR process. These agents won't just look for syntax errors; they will perform "mini-simulations" of attacks against every PR, attempting to inject payloads into variables to see if the runner breaks.
 
 Ultimately, the lesson from Snowflake isn't that AI is dangerous, but that AI is **incomplete**. It is a powerful engine without a steering wheel. As developers and security professionals, our role is shifting from writing every line of code to becoming the architects and auditors of the systems that write code for us. Balancing the velocity of AI with the resilience of human-led security design will be the defining challenge of the next decade in software engineering.
+{% endraw %}

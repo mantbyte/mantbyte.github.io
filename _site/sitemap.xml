@@ -2,23 +2,2945 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mantbyte.github.io/</loc>
-    <lastmod>2026-08-08T01:29:04+05:30</lastmod>
+    <lastmod>2026-10-03T01:13:04+05:30</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://mantbyte.github.io/archive</loc>
-    <lastmod>2026-08-08T01:29:04+05:30</lastmod>
+    <lastmod>2026-10-03T01:13:04+05:30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mantbyte.github.io/about</loc>
-    <lastmod>2026-08-08T01:29:04+05:30</lastmod>
+    <lastmod>2026-10-03T01:13:04+05:30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mantbyte.github.io/contact</loc>
-    <lastmod>2026-08-08T01:29:04+05:30</lastmod>
+    <lastmod>2026-10-03T01:13:04+05:30</lastmod>
     <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/devsecops/kubernetes/docker/cloud%20security/2026/10/02/devsecops-resource-governance-docker-kind.html</loc>
+    <lastmod>2026-10-02T23:30:00+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/10/02/supabase-acquires-turso-ai-agents.html</loc>
+    <lastmod>2026-10-02T23:15:32+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/10/02/daily-dsa-stones-of-destiny-prime-nim-game-2026-10-02.html</loc>
+    <lastmod>2026-10-02T21:34:51+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/10/02/spiritual-wisdom-2026-10-02.html</loc>
+    <lastmod>2026-10-02T13:46:55+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/10/02/india-news-crunch-2026-10-02.html</loc>
+    <lastmod>2026-10-02T13:45:35+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/10/02/world-news-crunch-2026-10-02.html</loc>
+    <lastmod>2026-10-02T13:44:44+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/10/02/aws-well-architected-agent-cloud-excellence.html</loc>
+    <lastmod>2026-10-02T06:07:49+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/10/02/cloudflare-clef-high-performance-decision-models.html</loc>
+    <lastmod>2026-10-02T01:45:23+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/10/01/daily-dsa-maximum-xor-sum-subsequence-2026-10-01.html</loc>
+    <lastmod>2026-10-01T22:21:03+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/10/01/openai-reasoning-extraction-model-distillation.html</loc>
+    <lastmod>2026-10-01T18:21:09+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/10/01/spiritual-wisdom-2026-10-01.html</loc>
+    <lastmod>2026-10-01T14:09:47+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/10/01/india-news-crunch-2026-10-01.html</loc>
+    <lastmod>2026-10-01T14:08:55+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/10/01/world-news-crunch-2026-10-01.html</loc>
+    <lastmod>2026-10-01T14:08:19+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/10/01/amazon-s3-vectors-metadata-prefiltering-rag.html</loc>
+    <lastmod>2026-10-01T10:37:23+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/10/01/us-military-personnel-data-breach.html</loc>
+    <lastmod>2026-10-01T03:33:52+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/30/us-ai-policy-self-policing-regulations.html</loc>
+    <lastmod>2026-09-30T23:21:22+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/09/30/daily-dsa-stable-internship-matching-2026-09-30.html</loc>
+    <lastmod>2026-09-30T21:44:24+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/09/30/claude-opus-refactors-street-fighter-iii.html</loc>
+    <lastmod>2026-09-30T15:05:34+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/30/spiritual-wisdom-2026-09-30.html</loc>
+    <lastmod>2026-09-30T13:46:55+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/30/india-news-crunch-2026-09-30.html</loc>
+    <lastmod>2026-09-30T13:45:46+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/30/world-news-crunch-2026-09-30.html</loc>
+    <lastmod>2026-09-30T13:44:48+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/30/amazon-cloudwatch-omni-ai-observability.html</loc>
+    <lastmod>2026-09-30T05:46:47+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/30/ai-revenue-data-center-arms-race.html</loc>
+    <lastmod>2026-09-30T01:24:25+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/09/29/daily-dsa-integer-points-inside-a-polygon-2026-09-29.html</loc>
+    <lastmod>2026-09-29T21:48:51+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/29/nixos-dawo-project-netherlands-digital-sovereignty.html</loc>
+    <lastmod>2026-09-29T18:01:24+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/29/spiritual-wisdom-2026-09-29.html</loc>
+    <lastmod>2026-09-29T13:43:42+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/29/india-news-crunch-2026-09-29.html</loc>
+    <lastmod>2026-09-29T13:42:34+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/29/world-news-crunch-2026-09-29.html</loc>
+    <lastmod>2026-09-29T13:41:57+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/29/llm-esp32-s3-cluster-bitnet.html</loc>
+    <lastmod>2026-09-29T10:36:51+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/29/shopify-webmcp-ai-agents-ecommerce.html</loc>
+    <lastmod>2026-09-29T02:42:21+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/09/28/daily-dsa-lexicographically-smallest-string-after-reversing-subsegments-2026-09-28.html</loc>
+    <lastmod>2026-09-28T23:26:14+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/28/spiritual-wisdom-2026-09-28.html</loc>
+    <lastmod>2026-09-28T14:02:22+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/28/india-news-crunch-2026-09-28.html</loc>
+    <lastmod>2026-09-28T14:00:58+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/28/world-news-crunch-2026-09-28.html</loc>
+    <lastmod>2026-09-28T14:00:27+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/28/ai-agents-rogue-un-website-attack.html</loc>
+    <lastmod>2026-09-28T10:10:44+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/28/rewriting-c-rust-ai-google-gemini.html</loc>
+    <lastmod>2026-09-28T02:39:15+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/09/27/daily-dsa-minimum-cost-to-make-at-least-one-valid-path-in-a-grid-2026-09-27.html</loc>
+    <lastmod>2026-09-27T20:29:10+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/27/scaling-llms-zero-gke-pod-snapshots-gvisor.html</loc>
+    <lastmod>2026-09-27T17:19:28+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/27/spiritual-wisdom-2026-09-27.html</loc>
+    <lastmod>2026-09-27T13:27:03+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/27/india-news-crunch-2026-09-27.html</loc>
+    <lastmod>2026-09-27T13:24:36+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/27/world-news-crunch-2026-09-27.html</loc>
+    <lastmod>2026-09-27T13:23:27+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/27/deepseek-elastic-compute-dsec-agentic-rl.html</loc>
+    <lastmod>2026-09-27T04:57:46+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/27/autonomous-ai-agents-us-government-security-breach.html</loc>
+    <lastmod>2026-09-27T02:24:38+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/09/26/policy-gate-securing-autonomous-agentic-ai.html</loc>
+    <lastmod>2026-09-26T21:38:31+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/09/26/daily-dsa-closest-pair-of-points-2026-09-26.html</loc>
+    <lastmod>2026-09-26T19:32:10+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/09/26/meta-10-billion-api-flaw-verdict.html</loc>
+    <lastmod>2026-09-26T16:39:43+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/26/spiritual-wisdom-2026-09-26.html</loc>
+    <lastmod>2026-09-26T12:52:57+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/26/india-news-crunch-2026-09-26.html</loc>
+    <lastmod>2026-09-26T12:52:04+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/26/world-news-crunch-2026-09-26.html</loc>
+    <lastmod>2026-09-26T12:51:20+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/26/anthropics-akamai-deal-edge-cpu-ai.html</loc>
+    <lastmod>2026-09-26T09:51:24+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/26/supabase-data-exposures-ai-vibe-coding.html</loc>
+    <lastmod>2026-09-26T02:53:22+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/25/perplexity-ditched-dynamodb-cobbledb-rust.html</loc>
+    <lastmod>2026-09-25T22:29:07+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/09/25/daily-dsa-tree-path-sum-k-2026-09-25.html</loc>
+    <lastmod>2026-09-25T20:27:43+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/25/dawo-nixos-dutch-digital-sovereignty.html</loc>
+    <lastmod>2026-09-25T17:03:32+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/25/spiritual-wisdom-2026-09-25.html</loc>
+    <lastmod>2026-09-25T13:03:05+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/25/india-news-crunch-2026-09-25.html</loc>
+    <lastmod>2026-09-25T12:59:41+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/25/world-news-crunch-2026-09-25.html</loc>
+    <lastmod>2026-09-25T12:57:35+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/25/ansi2html-xss-sourcehut-takeover.html</loc>
+    <lastmod>2026-09-25T09:48:23+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/24/lunar-south-pole-space-race.html</loc>
+    <lastmod>2026-09-24T22:27:11+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/09/24/daily-dsa-minimum-score-after-removals-on-a-tree-2026-09-24.html</loc>
+    <lastmod>2026-09-24T20:06:10+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/24/starlink-ground-station-sabotage-vulnerability.html</loc>
+    <lastmod>2026-09-24T16:58:19+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/24/spiritual-wisdom-2026-09-24.html</loc>
+    <lastmod>2026-09-24T13:00:33+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/24/india-news-crunch-2026-09-24.html</loc>
+    <lastmod>2026-09-24T12:59:10+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/24/world-news-crunch-2026-09-24.html</loc>
+    <lastmod>2026-09-24T12:58:09+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/24/fara-weaponized-against-ai-critics.html</loc>
+    <lastmod>2026-09-24T09:34:01+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/24/autonomous-biology-claude-discovers-crispr-enzymes.html</loc>
+    <lastmod>2026-09-24T02:50:10+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/23/beyond-kubernetes-modal-scaling-sandboxes.html</loc>
+    <lastmod>2026-09-23T22:24:14+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/23/model-context-protocol-mcp-agentic-architecture.html</loc>
+    <lastmod>2026-09-23T16:50:43+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/23/spiritual-wisdom-2026-09-23.html</loc>
+    <lastmod>2026-09-23T13:08:02+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/finance/2026/09/23/finance-news-crunch-2026-09-23.html</loc>
+    <lastmod>2026-09-23T13:07:11+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/23/india-news-crunch-2026-09-23.html</loc>
+    <lastmod>2026-09-23T13:06:50+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/23/world-news-crunch-2026-09-23.html</loc>
+    <lastmod>2026-09-23T13:06:20+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/23/us-australia-algorithmic-sovereignty-duty-care.html</loc>
+    <lastmod>2026-09-23T09:37:34+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/09/23/shinyhunters-fbi-breach-cloud-counterintelligence.html</loc>
+    <lastmod>2026-09-23T02:35:52+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/22/meta-muse-ai-zero-day-privilege-escalation.html</loc>
+    <lastmod>2026-09-22T22:20:50+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/09/22/daily-dsa-lexicographically-smallest-string-after-operations-with-constraint-2026-09-22.html</loc>
+    <lastmod>2026-09-22T19:49:10+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/22/spiritual-wisdom-2026-09-22.html</loc>
+    <lastmod>2026-09-22T13:04:47+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/finance/2026/09/22/finance-news-crunch-2026-09-22.html</loc>
+    <lastmod>2026-09-22T13:03:48+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/22/india-news-crunch-2026-09-22.html</loc>
+    <lastmod>2026-09-22T13:03:10+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/22/world-news-crunch-2026-09-22.html</loc>
+    <lastmod>2026-09-22T13:02:41+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/22/linear-cicd-optimization-ai-velocity-trap.html</loc>
+    <lastmod>2026-09-22T10:09:33+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/22/meta-muse-zero-day-privilege-creep-ai.html</loc>
+    <lastmod>2026-09-22T05:27:59+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/22/contagious-interview-north-korean-hackers.html</loc>
+    <lastmod>2026-09-22T01:29:00+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/09/21/daily-dsa-lexicographical-string-permutation-via-queue-2026-09-21.html</loc>
+    <lastmod>2026-09-21T21:40:05+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/21/google-ax-open-orchestrator-stateful-agents.html</loc>
+    <lastmod>2026-09-21T17:59:30+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/21/spiritual-wisdom-2026-09-21.html</loc>
+    <lastmod>2026-09-21T13:24:23+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/finance/2026/09/21/finance-news-crunch-2026-09-21.html</loc>
+    <lastmod>2026-09-21T13:23:12+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/21/india-news-crunch-2026-09-21.html</loc>
+    <lastmod>2026-09-21T13:21:59+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/21/world-news-crunch-2026-09-21.html</loc>
+    <lastmod>2026-09-21T13:20:41+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/21/kubernetes-1-37-deep-dive-metrics-rootless-kubelet.html</loc>
+    <lastmod>2026-09-21T09:44:22+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/21/samsung-hbm4-hbm4e-semiconductor-expansion.html</loc>
+    <lastmod>2026-09-21T04:36:32+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/21/militarization-ai-force-global-tech-supremacy.html</loc>
+    <lastmod>2026-09-21T02:05:06+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/20/ai-manhattan-project-militarization-compute.html</loc>
+    <lastmod>2026-09-20T21:17:23+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/20/spiritual-wisdom-2026-09-20.html</loc>
+    <lastmod>2026-09-20T13:10:04+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/finance/2026/09/20/finance-news-crunch-2026-09-20.html</loc>
+    <lastmod>2026-09-20T13:07:56+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/20/india-news-crunch-2026-09-20.html</loc>
+    <lastmod>2026-09-20T13:07:46+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/20/world-news-crunch-2026-09-20.html</loc>
+    <lastmod>2026-09-20T13:07:04+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/20/indias-3nm-chip-roadmap-semicon-2-0.html</loc>
+    <lastmod>2026-09-20T09:48:36+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/20/trumps-supreme-intelligence-ai-force.html</loc>
+    <lastmod>2026-09-20T04:19:37+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/09/20/google-gemini-rogue-ai-hack.html</loc>
+    <lastmod>2026-09-20T01:51:44+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/19/geopolitics-ai-antitrust-cartel-debate.html</loc>
+    <lastmod>2026-09-19T21:12:43+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/09/19/daily-dsa-solar-array-coverage-2026-09-19.html</loc>
+    <lastmod>2026-09-19T19:09:24+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/19/aws-lambda-managed-instances-90-minute-guide.html</loc>
+    <lastmod>2026-09-19T16:09:28+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/19/spiritual-wisdom-2026-09-19.html</loc>
+    <lastmod>2026-09-19T12:43:45+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/19/india-news-crunch-2026-09-19.html</loc>
+    <lastmod>2026-09-19T12:43:02+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/19/world-news-crunch-2026-09-19.html</loc>
+    <lastmod>2026-09-19T12:42:30+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/19/military-ai-llm-intelligence-failure.html</loc>
+    <lastmod>2026-09-19T09:28:44+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/19/cloudflare-rust-consistent-hashing-optimization.html</loc>
+    <lastmod>2026-09-19T04:39:22+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/18/ai-doom-loop-copyright-crisis-microsoft.html</loc>
+    <lastmod>2026-09-18T16:28:59+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/18/spiritual-wisdom-2026-09-18.html</loc>
+    <lastmod>2026-09-18T12:49:54+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/18/india-news-crunch-2026-09-18.html</loc>
+    <lastmod>2026-09-18T12:47:57+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/18/world-news-crunch-2026-09-18.html</loc>
+    <lastmod>2026-09-18T12:45:53+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/18/microsoft-ai-ip-law-data-harvesting.html</loc>
+    <lastmod>2026-09-18T09:32:04+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/18/microsoft-openai-legal-filings-ai-scraping.html</loc>
+    <lastmod>2026-09-18T02:39:23+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/17/governing-shadow-mcp-servers-enterprise.html</loc>
+    <lastmod>2026-09-17T22:15:09+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/09/17/daily-dsa-largest-strongly-connected-server-group-2026-09-17.html</loc>
+    <lastmod>2026-09-17T20:06:33+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/17/spiritual-wisdom-2026-09-17.html</loc>
+    <lastmod>2026-09-17T12:59:31+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/finance/2026/09/17/finance-news-crunch-2026-09-17.html</loc>
+    <lastmod>2026-09-17T12:58:14+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/17/india-news-crunch-2026-09-17.html</loc>
+    <lastmod>2026-09-17T12:57:03+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/17/world-news-crunch-2026-09-17.html</loc>
+    <lastmod>2026-09-17T12:55:55+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/09/17/litellm-cve-2026-59822-ai-infrastructure-crisis.html</loc>
+    <lastmod>2026-09-17T09:49:30+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/17/microsoft-taugrid-cloud-native-ai-infrastructure.html</loc>
+    <lastmod>2026-09-17T02:37:02+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/16/ai-noise-open-source-maintenance-crisis.html</loc>
+    <lastmod>2026-09-16T22:02:39+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/09/16/daily-dsa-static-range-gcd-2026-09-16.html</loc>
+    <lastmod>2026-09-16T20:03:28+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/16/apple-reference-image-verified-photography-future.html</loc>
+    <lastmod>2026-09-16T16:51:28+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/16/spiritual-wisdom-2026-09-16.html</loc>
+    <lastmod>2026-09-16T13:04:24+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/finance/2026/09/16/finance-news-crunch-2026-09-16.html</loc>
+    <lastmod>2026-09-16T13:03:25+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/16/india-news-crunch-2026-09-16.html</loc>
+    <lastmod>2026-09-16T13:01:26+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/16/world-news-crunch-2026-09-16.html</loc>
+    <lastmod>2026-09-16T13:00:29+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/16/rheinmetall-onboardapi-open-source-defense-tech.html</loc>
+    <lastmod>2026-09-16T09:39:54+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/15/ai-safety-entente-openai-anthropic-deepmind.html</loc>
+    <lastmod>2026-09-15T22:10:02+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/09/15/daily-dsa-min-cost-to-connect-all-nodes-using-prims-algorithm-2026-09-15.html</loc>
+    <lastmod>2026-09-15T20:06:45+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/15/mastering-amazon-linux-2027-security-guide.html</loc>
+    <lastmod>2026-09-15T16:58:34+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/15/spiritual-wisdom-2026-09-15.html</loc>
+    <lastmod>2026-09-15T13:25:14+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/finance/2026/09/15/finance-news-crunch-2026-09-15.html</loc>
+    <lastmod>2026-09-15T13:18:39+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/15/india-news-crunch-2026-09-15.html</loc>
+    <lastmod>2026-09-15T13:11:28+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/15/world-news-crunch-2026-09-15.html</loc>
+    <lastmod>2026-09-15T13:03:50+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/15/ai-safety-pacts-cartel-pacing-debate.html</loc>
+    <lastmod>2026-09-15T09:44:14+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/15/silicon-safety-jensen-huang-ai-divide.html</loc>
+    <lastmod>2026-09-15T05:17:01+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/15/ddrop-attack-breaks-confidential-computing.html</loc>
+    <lastmod>2026-09-15T01:18:02+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/09/14/daily-dsa-lexicographically-smallest-string-after-operations-with-constraint-2026-09-14.html</loc>
+    <lastmod>2026-09-14T21:37:45+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/14/spiritual-wisdom-2026-09-14.html</loc>
+    <lastmod>2026-09-14T13:25:08+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/14/india-news-crunch-2026-09-14.html</loc>
+    <lastmod>2026-09-14T13:23:19+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/14/world-news-crunch-2026-09-14.html</loc>
+    <lastmod>2026-09-14T13:20:45+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/14/signal-zero-knowledge-phone-numberless-registration.html</loc>
+    <lastmod>2026-09-14T09:44:42+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/14/ai-accelerationism-alignment-washington-silicon-valley.html</loc>
+    <lastmod>2026-09-14T04:32:38+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/14/geopolitical-ai-paradox-safety-china-race.html</loc>
+    <lastmod>2026-09-14T02:04:12+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/09/13/daily-dsa-exactk-frequency-queries-2026-09-13.html</loc>
+    <lastmod>2026-09-13T19:33:54+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/13/github-copilot-hydrafusion-multi-model-orchestration.html</loc>
+    <lastmod>2026-09-13T17:08:45+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/13/spiritual-wisdom-2026-09-13.html</loc>
+    <lastmod>2026-09-13T12:52:12+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/13/india-news-crunch-2026-09-13.html</loc>
+    <lastmod>2026-09-13T12:51:50+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/13/world-news-crunch-2026-09-13.html</loc>
+    <lastmod>2026-09-13T12:50:45+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/13/geopolitics-ai-slowdown-movement.html</loc>
+    <lastmod>2026-09-13T09:36:46+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/13/dario-amodei-ai-governance-safety-blueprint.html</loc>
+    <lastmod>2026-09-13T04:28:26+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/13/anthropic-blueprint-frontier-ai-regulation.html</loc>
+    <lastmod>2026-09-13T01:54:14+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/09/12/daily-dsa-total-coprime-count-2026-09-12.html</loc>
+    <lastmod>2026-09-12T18:49:37+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/12/spiritual-wisdom-2026-09-12.html</loc>
+    <lastmod>2026-09-12T12:34:13+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/finance/2026/09/12/finance-news-crunch-2026-09-12.html</loc>
+    <lastmod>2026-09-12T12:32:55+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/12/india-news-crunch-2026-09-12.html</loc>
+    <lastmod>2026-09-12T12:32:45+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/12/world-news-crunch-2026-09-12.html</loc>
+    <lastmod>2026-09-12T12:31:40+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/12/garry-tan-open-weight-ai-model-access.html</loc>
+    <lastmod>2026-09-12T09:27:15+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/12/garry-tan-ai-distillation-regime.html</loc>
+    <lastmod>2026-09-12T04:36:42+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/12/cve-2026-85706-gitlab-cvss-10-vulnerability.html</loc>
+    <lastmod>2026-09-12T02:15:44+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/11/gtg-20006-claude-malware-campaign.html</loc>
+    <lastmod>2026-09-11T21:43:19+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/09/11/daily-dsa-lexicographical-string-merging-via-suffix-automaton-transitions-2026-09-11.html</loc>
+    <lastmod>2026-09-11T19:30:35+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/09/11/astra-paradigm-autonomous-exploit-agents-defense.html</loc>
+    <lastmod>2026-09-11T16:39:12+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/11/spiritual-wisdom-2026-09-11.html</loc>
+    <lastmod>2026-09-11T12:43:33+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/11/india-news-crunch-2026-09-11.html</loc>
+    <lastmod>2026-09-11T12:42:22+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/11/world-news-crunch-2026-09-11.html</loc>
+    <lastmod>2026-09-11T12:40:48+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/09/11/google-finland-nuclear-ai-power.html</loc>
+    <lastmod>2026-09-11T09:25:22+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/11/geopolitics-space-tech-esa-nasa-venus.html</loc>
+    <lastmod>2026-09-11T02:10:18+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/10/spiritual-wisdom-2026-09-10.html</loc>
+    <lastmod>2026-09-10T12:52:24+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/10/india-news-crunch-2026-09-10.html</loc>
+    <lastmod>2026-09-10T12:49:32+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/10/world-news-crunch-2026-09-10.html</loc>
+    <lastmod>2026-09-10T12:40:53+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/10/securing-ai-model-weights-distillation-attacks.html</loc>
+    <lastmod>2026-09-10T09:28:54+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/10/us-strategy-degrade-chinese-ai-model-switching.html</loc>
+    <lastmod>2026-09-10T04:36:08+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/10/industrial-scale-ai-model-distillation-security.html</loc>
+    <lastmod>2026-09-10T02:15:14+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/09/predictive-surveillance-anthropics-monitoring-architecture.html</loc>
+    <lastmod>2026-09-09T21:58:08+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/09/09/daily-dsa-interstellar-trade-routes-2026-09-09.html</loc>
+    <lastmod>2026-09-09T19:38:03+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/09/spiritual-wisdom-2026-09-09.html</loc>
+    <lastmod>2026-09-09T12:47:09+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/09/india-news-crunch-2026-09-09.html</loc>
+    <lastmod>2026-09-09T12:46:48+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/09/world-news-crunch-2026-09-09.html</loc>
+    <lastmod>2026-09-09T12:45:52+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/09/09/infostealer-malware-steals-claude-tokens.html</loc>
+    <lastmod>2026-09-09T09:29:29+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/09/400m-moat-high-na-euv-chip-race.html</loc>
+    <lastmod>2026-09-09T02:26:46+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/08/google-nextera-duane-arnold-nuclear-restart.html</loc>
+    <lastmod>2026-09-08T21:52:14+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/09/08/daily-dsa-lexicographically-smallest-string-after-operations-with-constraint-2026-09-08.html</loc>
+    <lastmod>2026-09-08T19:36:58+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/08/cryptographic-archaeology-cracking-90s-root-cas.html</loc>
+    <lastmod>2026-09-08T16:31:18+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/08/spiritual-wisdom-2026-09-08.html</loc>
+    <lastmod>2026-09-08T12:39:07+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/finance/2026/09/08/finance-news-crunch-2026-09-08.html</loc>
+    <lastmod>2026-09-08T12:38:28+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/08/india-news-crunch-2026-09-08.html</loc>
+    <lastmod>2026-09-08T12:38:01+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/08/world-news-crunch-2026-09-08.html</loc>
+    <lastmod>2026-09-08T12:37:05+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/08/deconstructing-stuxnet-source-code-lessons.html</loc>
+    <lastmod>2026-09-08T09:24:19+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/08/stuxnet-source-code-ics-defense.html</loc>
+    <lastmod>2026-09-08T04:52:53+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/09/07/daily-dsa-network-flow-fordfulkerson-algorithm-maximum-flow-2026-09-07.html</loc>
+    <lastmod>2026-09-07T20:59:21+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/07/cern-migrates-accelerator-controls-debian.html</loc>
+    <lastmod>2026-09-07T17:34:44+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/07/spiritual-wisdom-2026-09-07.html</loc>
+    <lastmod>2026-09-07T12:47:15+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/07/india-news-crunch-2026-09-07.html</loc>
+    <lastmod>2026-09-07T12:46:00+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/07/world-news-crunch-2026-09-07.html</loc>
+    <lastmod>2026-09-07T12:43:55+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/07/model-eradication-lawsuit-openai-microsoft.html</loc>
+    <lastmod>2026-09-07T09:20:40+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/07/isar-aerospace-spectrum-europe-space-sovereignty.html</loc>
+    <lastmod>2026-09-07T01:43:49+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/06/google-mantis-agentic-ai-vulnerability-scanning.html</loc>
+    <lastmod>2026-09-06T20:44:53+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/09/06/daily-dsa-reconstructing-the-ancestral-dna-2026-09-06.html</loc>
+    <lastmod>2026-09-06T18:52:13+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/06/unbundling-langchain-explicit-rag-production-ai.html</loc>
+    <lastmod>2026-09-06T16:10:48+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/06/spiritual-wisdom-2026-09-06.html</loc>
+    <lastmod>2026-09-06T12:31:45+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/06/india-news-crunch-2026-09-06.html</loc>
+    <lastmod>2026-09-06T12:31:28+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/06/world-news-crunch-2026-09-06.html</loc>
+    <lastmod>2026-09-06T12:30:39+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/06/jetbrains-cadence-breach-teamcity-aws.html</loc>
+    <lastmod>2026-09-06T09:21:23+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/06/semantic-search-cxx-without-python-libtorch.html</loc>
+    <lastmod>2026-09-06T04:14:30+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/06/google-beyond-zero-ai-security.html</loc>
+    <lastmod>2026-09-06T01:39:21+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/05/alpr-surveillance-retaliation-crisis.html</loc>
+    <lastmod>2026-09-05T22:45:04+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/05/beyond-zero-ai-agent-security-authorization.html</loc>
+    <lastmod>2026-09-05T20:31:47+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/09/05/daily-dsa-palindromic-length-inventory-2026-09-05.html</loc>
+    <lastmod>2026-09-05T18:45:46+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/05/engineering-action-oriented-agentic-ai-vla.html</loc>
+    <lastmod>2026-09-05T15:51:20+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/05/spiritual-wisdom-2026-09-05.html</loc>
+    <lastmod>2026-09-05T12:20:46+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/05/india-news-crunch-2026-09-05.html</loc>
+    <lastmod>2026-09-05T12:20:38+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/05/world-news-crunch-2026-09-05.html</loc>
+    <lastmod>2026-09-05T12:20:15+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/09/05/openai-sandbox-escape-dsewiki-ai-swarm.html</loc>
+    <lastmod>2026-09-05T09:18:20+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/04/ted-backdoor-trojanized-haproxy-builds.html</loc>
+    <lastmod>2026-09-04T21:40:30+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/09/04/daily-dsa-lexicographically-smallest-string-after-operations-with-constraint-2026-09-04.html</loc>
+    <lastmod>2026-09-04T19:28:07+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/04/spiritual-wisdom-2026-09-04.html</loc>
+    <lastmod>2026-09-04T12:43:40+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/04/india-news-crunch-2026-09-04.html</loc>
+    <lastmod>2026-09-04T12:41:01+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/04/world-news-crunch-2026-09-04.html</loc>
+    <lastmod>2026-09-04T12:38:30+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/04/utilities-fusion-startups-ai-energy.html</loc>
+    <lastmod>2026-09-04T09:19:27+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/09/04/kubernetes-v137-dynamic-resource-allocation.html</loc>
+    <lastmod>2026-09-04T04:38:48+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/04/drone-divide-tariffs-tech-supply-chain.html</loc>
+    <lastmod>2026-09-04T02:17:20+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/09/03/surviving-simultaneous-llm-outages-multi-vendor.html</loc>
+    <lastmod>2026-09-03T21:40:38+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/03/eu-ai-act-2026-technical-compliance-roadmap.html</loc>
+    <lastmod>2026-09-03T16:37:04+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/03/spiritual-wisdom-2026-09-03.html</loc>
+    <lastmod>2026-09-03T12:37:17+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/03/india-news-crunch-2026-09-03.html</loc>
+    <lastmod>2026-09-03T12:35:46+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/03/world-news-crunch-2026-09-03.html</loc>
+    <lastmod>2026-09-03T12:34:32+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/03/openai-recurrent-depth-ai-reasoning.html</loc>
+    <lastmod>2026-09-03T09:18:29+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/03/openai-astra-ai-monitorability-crisis.html</loc>
+    <lastmod>2026-09-03T04:40:17+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/03/openai-astra-recurrent-depth-reasoning-safety.html</loc>
+    <lastmod>2026-09-03T02:21:05+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/02/doj-openai-support-ai-copyright-law.html</loc>
+    <lastmod>2026-09-02T22:03:52+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/02/spiritual-wisdom-2026-09-02.html</loc>
+    <lastmod>2026-09-02T12:52:03+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/finance/2026/09/02/finance-news-crunch-2026-09-02.html</loc>
+    <lastmod>2026-09-02T12:47:45+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/02/india-news-crunch-2026-09-02.html</loc>
+    <lastmod>2026-09-02T12:43:13+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/02/world-news-crunch-2026-09-02.html</loc>
+    <lastmod>2026-09-02T12:31:00+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/01/cve-2026-82329-jfrog-artifactory-bypass.html</loc>
+    <lastmod>2026-09-01T23:48:30+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/09/01/daily-dsa-the-galactic-perimeter-2026-09-01.html</loc>
+    <lastmod>2026-09-01T19:59:56+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/01/hcp-terraform-control-plane-ai-infrastructure.html</loc>
+    <lastmod>2026-09-01T19:43:36+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/09/01/pentagon-generative-ai-gateway-sovereign-intelligence.html</loc>
+    <lastmod>2026-09-01T14:00:10+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/09/01/spiritual-wisdom-2026-09-01.html</loc>
+    <lastmod>2026-09-01T13:06:28+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/finance/2026/09/01/finance-news-crunch-2026-09-01.html</loc>
+    <lastmod>2026-09-01T13:05:05+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/09/01/india-news-crunch-2026-09-01.html</loc>
+    <lastmod>2026-09-01T13:04:48+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/09/01/world-news-crunch-2026-09-01.html</loc>
+    <lastmod>2026-09-01T13:04:24+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/09/01/google-removes-manifest-v2-extensions.html</loc>
+    <lastmod>2026-09-01T06:00:35+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/09/01/master-aws-graviton5-r9g-r9gd-instances.html</loc>
+    <lastmod>2026-09-01T02:15:51+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/08/31/daily-dsa-currency-arbitrage-detection-2026-08-31.html</loc>
+    <lastmod>2026-08-31T22:52:45+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/31/foundry-model-router-regional-expansion-guide.html</loc>
+    <lastmod>2026-08-31T18:50:24+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/08/31/spiritual-wisdom-2026-08-31.html</loc>
+    <lastmod>2026-08-31T14:03:01+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/finance/2026/08/31/finance-news-crunch-2026-08-31.html</loc>
+    <lastmod>2026-08-31T14:00:05+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/08/31/india-news-crunch-2026-08-31.html</loc>
+    <lastmod>2026-08-31T13:59:48+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/08/31/world-news-crunch-2026-08-31.html</loc>
+    <lastmod>2026-08-31T13:58:54+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/31/cloudflare-ai-search-edge-rag.html</loc>
+    <lastmod>2026-08-31T10:16:08+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/31/protecteu-strategy-encryption-eu-policy.html</loc>
+    <lastmod>2026-08-31T04:50:55+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/31/securing-ai-supply-chain-autonomous-agents.html</loc>
+    <lastmod>2026-08-31T02:22:51+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/30/aws-kiro-asynchronous-ai-workflows.html</loc>
+    <lastmod>2026-08-30T21:54:23+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/08/30/daily-dsa-the-grand-staircase-challenge-2026-08-30.html</loc>
+    <lastmod>2026-08-30T20:09:17+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/30/california-ab-1856-open-source-linux.html</loc>
+    <lastmod>2026-08-30T17:12:23+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/08/30/spiritual-wisdom-2026-08-30.html</loc>
+    <lastmod>2026-08-30T13:39:22+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/08/30/india-news-crunch-2026-08-30.html</loc>
+    <lastmod>2026-08-30T13:38:27+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/08/30/world-news-crunch-2026-08-30.html</loc>
+    <lastmod>2026-08-30T13:37:58+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/30/dhs-19-usc-1509-surveillance.html</loc>
+    <lastmod>2026-08-30T10:13:11+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/30/dhs-1509-summons-cybersecurity-backdoors.html</loc>
+    <lastmod>2026-08-30T04:39:21+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/30/nvidia-networking-infrastructure-ai-moat.html</loc>
+    <lastmod>2026-08-30T02:14:30+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/29/nvidia-rubin-architecture-system-data-center.html</loc>
+    <lastmod>2026-08-29T22:01:25+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/08/29/daily-dsa-number-of-noncoprime-pairs-2026-08-29.html</loc>
+    <lastmod>2026-08-29T20:25:15+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/08/29/spiritual-wisdom-2026-08-29.html</loc>
+    <lastmod>2026-08-29T14:38:40+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/finance/2026/08/29/finance-news-crunch-2026-08-29.html</loc>
+    <lastmod>2026-08-29T14:30:04+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/08/29/india-news-crunch-2026-08-29.html</loc>
+    <lastmod>2026-08-29T14:26:50+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/08/29/world-news-crunch-2026-08-29.html</loc>
+    <lastmod>2026-08-29T14:24:03+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/29/ai-safety-policy-security-threat-federal-ruling.html</loc>
+    <lastmod>2026-08-29T07:11:38+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/08/29/daily-dsa-string-score-via-zalgorithm-2026-08-28.html</loc>
+    <lastmod>2026-08-29T02:36:20+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/28/scaling-monorepos-uber-gitfarm.html</loc>
+    <lastmod>2026-08-28T20:51:41+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/08/28/spiritual-wisdom-2026-08-28.html</loc>
+    <lastmod>2026-08-28T19:51:42+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/finance/2026/08/28/finance-news-crunch-2026-08-28.html</loc>
+    <lastmod>2026-08-28T19:49:21+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/08/28/india-news-crunch-2026-08-28.html</loc>
+    <lastmod>2026-08-28T19:48:33+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/08/28/world-news-crunch-2026-08-28.html</loc>
+    <lastmod>2026-08-28T19:45:25+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/28/us-semiconductor-tariffs-ai-infrastructure.html</loc>
+    <lastmod>2026-08-28T06:09:59+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/08/28/daily-dsa-minimizing-energy-in-slime-fusion-2026-08-27.html</loc>
+    <lastmod>2026-08-28T01:36:58+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/08/27/spiritual-wisdom-2026-08-27.html</loc>
+    <lastmod>2026-08-27T18:12:59+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/finance/2026/08/27/finance-news-crunch-2026-08-27.html</loc>
+    <lastmod>2026-08-27T18:10:36+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/08/27/india-news-crunch-2026-08-27.html</loc>
+    <lastmod>2026-08-27T18:09:25+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/08/27/world-news-crunch-2026-08-27.html</loc>
+    <lastmod>2026-08-27T18:09:04+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/27/ai-agents-rogue-openai-hugging-face-hack.html</loc>
+    <lastmod>2026-08-27T01:25:18+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/26/state-sponsored-cyberattacks-target-us-water-systems.html</loc>
+    <lastmod>2026-08-26T21:56:31+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/26/aegis-latent-core-cryptographic-ai-evidence.html</loc>
+    <lastmod>2026-08-26T21:31:59+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/08/26/daily-dsa-sum-of-subarray-minimums-2026-08-26.html</loc>
+    <lastmod>2026-08-26T16:01:06+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/26/h1b-visa-fee-shock-silicon-valley.html</loc>
+    <lastmod>2026-08-26T12:45:12+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/26/github-framework-pre-production-llm-evaluation.html</loc>
+    <lastmod>2026-08-26T09:27:11+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/08/26/spiritual-wisdom-2026-08-26.html</loc>
+    <lastmod>2026-08-26T08:41:08+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/08/26/india-news-crunch-2026-08-26.html</loc>
+    <lastmod>2026-08-26T08:40:53+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/08/26/world-news-crunch-2026-08-26.html</loc>
+    <lastmod>2026-08-26T08:40:47+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/26/103000-h1b-visa-fee-shock-tech-labor.html</loc>
+    <lastmod>2026-08-26T07:09:49+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/26/operation-economic-outcast-us-sanctions-iran.html</loc>
+    <lastmod>2026-08-26T03:03:57+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/26/fp8-serving-blackwell-model-regression.html</loc>
+    <lastmod>2026-08-26T00:19:21+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/08/25/daily-dsa-the-optimal-freelance-team-2026-08-25.html</loc>
+    <lastmod>2026-08-25T15:58:51+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/25/russia-bad-grammar-ai-influence-campaign.html</loc>
+    <lastmod>2026-08-25T15:52:46+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/08/25/openai-hugging-face-model-escape.html</loc>
+    <lastmod>2026-08-25T12:26:23+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/08/25/openai-hugging-face-ai-sandbox-breach.html</loc>
+    <lastmod>2026-08-25T09:23:16+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/08/25/spiritual-wisdom-2026-08-25.html</loc>
+    <lastmod>2026-08-25T08:34:03+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/08/25/india-news-crunch-2026-08-25.html</loc>
+    <lastmod>2026-08-25T08:33:44+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/08/25/world-news-crunch-2026-08-25.html</loc>
+    <lastmod>2026-08-25T08:33:27+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/08/25/legal-liability-autonomous-agents-openai-hugging-face.html</loc>
+    <lastmod>2026-08-25T06:58:47+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/25/llm-inference-engine-exploits-sandbox.html</loc>
+    <lastmod>2026-08-25T03:04:58+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/24/ai-espionage-uat10147-spectre-malware.html</loc>
+    <lastmod>2026-08-24T18:29:48+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/08/24/daily-dsa-peak-of-the-path-2026-08-24.html</loc>
+    <lastmod>2026-08-24T16:04:54+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/08/24/uat-10147-spectre-implant-ai-exploitation.html</loc>
+    <lastmod>2026-08-24T15:25:08+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/24/iranian-cyber-kinetic-attack-uk-power.html</loc>
+    <lastmod>2026-08-24T12:50:15+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/24/google-heir-privacy-preserving-ml-homomorphic-encryption.html</loc>
+    <lastmod>2026-08-24T09:29:19+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/08/24/spiritual-wisdom-2026-08-24.html</loc>
+    <lastmod>2026-08-24T08:39:22+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/08/24/india-news-crunch-2026-08-24.html</loc>
+    <lastmod>2026-08-24T08:39:13+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/08/24/world-news-crunch-2026-08-24.html</loc>
+    <lastmod>2026-08-24T08:39:02+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/24/iranian-cyberattack-uk-critical-infrastructure.html</loc>
+    <lastmod>2026-08-24T07:09:01+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/24/uk-power-plant-cyber-shutdown.html</loc>
+    <lastmod>2026-08-24T02:56:41+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/24/russian-backdoor-slovakia-traffic-cameras.html</loc>
+    <lastmod>2026-08-24T00:06:28+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/08/23/daily-dsa-optimal-candy-distribution-2026-08-23.html</loc>
+    <lastmod>2026-08-23T15:48:53+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/23/skitter-creek-dram-controller-exploit.html</loc>
+    <lastmod>2026-08-23T15:11:06+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/23/openai-ai-safety-policy-reverse-federalism.html</loc>
+    <lastmod>2026-08-23T12:19:41+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/08/23/spiritual-wisdom-2026-08-23.html</loc>
+    <lastmod>2026-08-23T08:38:50+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/finance/2026/08/23/finance-news-crunch-2026-08-23.html</loc>
+    <lastmod>2026-08-23T08:38:36+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/08/23/india-news-crunch-2026-08-23.html</loc>
+    <lastmod>2026-08-23T08:38:33+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/08/23/world-news-crunch-2026-08-23.html</loc>
+    <lastmod>2026-08-23T08:37:52+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/23/tiktok-400m-doj-settlement-coppa-compliance.html</loc>
+    <lastmod>2026-08-23T02:57:08+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/23/cloudflare-kitesurf-rust-browser-engine.html</loc>
+    <lastmod>2026-08-23T00:07:37+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/22/cryptographic-context-injection-llm-agents.html</loc>
+    <lastmod>2026-08-22T20:58:02+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/22/aws-bench-agentic-cloud-ops-testing.html</loc>
+    <lastmod>2026-08-22T18:19:38+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/08/22/daily-dsa-strategic-hub-selection-2026-08-22.html</loc>
+    <lastmod>2026-08-22T15:49:12+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/22/multi-agent-ai-code-review-linkedin.html</loc>
+    <lastmod>2026-08-22T15:05:43+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/22/engineering-coppa-tiktok-doj-settlement-ai.html</loc>
+    <lastmod>2026-08-22T12:19:28+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/08/22/nvidia-power-infrastructure-ai-bottleneck.html</loc>
+    <lastmod>2026-08-22T09:16:11+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/08/22/spiritual-wisdom-2026-08-22.html</loc>
+    <lastmod>2026-08-22T08:29:06+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/finance/2026/08/22/finance-news-crunch-2026-08-22.html</loc>
+    <lastmod>2026-08-22T08:28:49+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/08/22/india-news-crunch-2026-08-22.html</loc>
+    <lastmod>2026-08-22T08:28:46+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/08/22/world-news-crunch-2026-08-22.html</loc>
+    <lastmod>2026-08-22T08:28:41+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/22/coppa-tiktok-settlement-privacy-architecture.html</loc>
+    <lastmod>2026-08-22T06:58:20+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/22/maritime-drone-warfare-critical-infrastructure.html</loc>
+    <lastmod>2026-08-22T03:00:51+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/22/weaponizing-microsoft-defender-btr-sys-exploit.html</loc>
+    <lastmod>2026-08-22T00:18:31+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/21/nvidia-avo-arc-interactive-benchmark-accuracy.html</loc>
+    <lastmod>2026-08-21T21:15:32+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/21/software-supply-chain-geopolitical-chokepoint.html</loc>
+    <lastmod>2026-08-21T18:28:22+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/08/21/daily-dsa-count-parityalternating-integers-in-range-2026-08-21.html</loc>
+    <lastmod>2026-08-21T15:54:26+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/21/sovereign-silicon-embodied-ai-robotics.html</loc>
+    <lastmod>2026-08-21T15:15:17+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/21/us-humanoid-robotics-domestic-manufacturing.html</loc>
+    <lastmod>2026-08-21T09:24:36+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/08/21/spiritual-wisdom-2026-08-21.html</loc>
+    <lastmod>2026-08-21T08:39:03+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/finance/2026/08/21/finance-news-crunch-2026-08-21.html</loc>
+    <lastmod>2026-08-21T08:38:34+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/08/21/india-news-crunch-2026-08-21.html</loc>
+    <lastmod>2026-08-21T08:38:30+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/08/21/world-news-crunch-2026-08-21.html</loc>
+    <lastmod>2026-08-21T08:38:09+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/21/robotics-onshore-pivot-fcc-hardware-ban.html</loc>
+    <lastmod>2026-08-21T07:08:31+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/21/russian-apts-weaponize-oauth-whatsapp.html</loc>
+    <lastmod>2026-08-21T03:03:00+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/08/21/ai-exploits-target-siemens-s7-plcs.html</loc>
+    <lastmod>2026-08-21T00:18:08+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/20/waymo-6th-gen-5nm-asic-sensor-fusion.html</loc>
+    <lastmod>2026-08-20T21:11:17+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/20/nasa-ait-gui-vulnerability-cve-2024-39687.html</loc>
+    <lastmod>2026-08-20T18:29:40+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/08/20/daily-dsa-strategic-territory-reinforcement-2026-08-20.html</loc>
+    <lastmod>2026-08-20T15:54:50+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/20/deepseek-harness-micro-kernel-ai-agent-stack.html</loc>
+    <lastmod>2026-08-20T15:15:19+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/20/cloudflare-workers-spectre-jwt-leak.html</loc>
+    <lastmod>2026-08-20T12:23:52+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/20/cloudflare-workers-remote-spectre-attack-jwt-leakage.html</loc>
+    <lastmod>2026-08-20T09:26:17+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/08/20/spiritual-wisdom-2026-08-20.html</loc>
+    <lastmod>2026-08-20T08:31:57+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/08/20/india-news-crunch-2026-08-20.html</loc>
+    <lastmod>2026-08-20T08:31:45+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/08/20/world-news-crunch-2026-08-20.html</loc>
+    <lastmod>2026-08-20T08:31:31+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/20/cloudflare-workers-spectre-attack-v8-security.html</loc>
+    <lastmod>2026-08-20T06:58:14+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/20/spectre-side-channel-attacks-cloudflare-workers.html</loc>
+    <lastmod>2026-08-20T03:00:17+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/20/t-mobile-salt-typhoon-physical-isolation.html</loc>
+    <lastmod>2026-08-20T00:11:33+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/19/ebpf-kubernetes-networking-observability-gap.html</loc>
+    <lastmod>2026-08-19T21:08:11+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/08/19/daily-dsa-shortest-palindromic-prefix-extension-2026-08-19.html</loc>
+    <lastmod>2026-08-19T15:53:29+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/08/19/cursor-origin-github-ai-code-hosting.html</loc>
+    <lastmod>2026-08-19T12:22:23+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/19/openai-sandbox-escape-security-overhaul.html</loc>
+    <lastmod>2026-08-19T09:20:59+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/08/19/spiritual-wisdom-2026-08-19.html</loc>
+    <lastmod>2026-08-19T08:32:51+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/finance/2026/08/19/finance-news-crunch-2026-08-19.html</loc>
+    <lastmod>2026-08-19T08:32:46+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/08/19/india-news-crunch-2026-08-19.html</loc>
+    <lastmod>2026-08-19T08:32:42+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/08/19/world-news-crunch-2026-08-19.html</loc>
+    <lastmod>2026-08-19T08:32:26+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/08/19/cursor-origin-vs-github-ai-code-hosting.html</loc>
+    <lastmod>2026-08-19T07:01:38+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/08/19/hardening-openai-security-hugging-face-sandbox-breakout.html</loc>
+    <lastmod>2026-08-19T03:01:19+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/08/18/microsoft-copilot-co-snitch-vulnerability.html</loc>
+    <lastmod>2026-08-18T21:07:04+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/18/digital-sovereignty-multi-plane-cloud-native.html</loc>
+    <lastmod>2026-08-18T18:26:39+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/08/18/daily-dsa-range-maximum-frequency-query-2026-08-18.html</loc>
+    <lastmod>2026-08-18T15:52:51+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/18/hanover-institute-llm-poisoning-rag-systems.html</loc>
+    <lastmod>2026-08-18T15:14:07+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/18/state-actors-poison-llms-rag-fake-think-tanks.html</loc>
+    <lastmod>2026-08-18T12:21:25+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/18/llm-poisoning-fake-think-tanks.html</loc>
+    <lastmod>2026-08-18T09:19:41+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/08/18/spiritual-wisdom-2026-08-18.html</loc>
+    <lastmod>2026-08-18T08:30:15+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/08/18/india-news-crunch-2026-08-18.html</loc>
+    <lastmod>2026-08-18T08:30:08+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/08/18/world-news-crunch-2026-08-18.html</loc>
+    <lastmod>2026-08-18T08:29:56+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/18/mercenary-spyware-crisis-apples-alerts.html</loc>
+    <lastmod>2026-08-18T03:03:32+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/08/18/amazon-book-scanning-pipeline-ai-training.html</loc>
+    <lastmod>2026-08-18T00:16:09+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/17/ai-writes-vulnerabilities-snowflake-copilot.html</loc>
+    <lastmod>2026-08-17T21:00:31+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/17/securing-model-context-protocol-enterprise-secrets.html</loc>
+    <lastmod>2026-08-17T18:24:40+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/08/17/daily-dsa-minimum-cost-with-discount-vouchers-2026-08-17.html</loc>
+    <lastmod>2026-08-17T15:56:39+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/17/openai-safety-pivot-decentralizing-risk-scaling.html</loc>
+    <lastmod>2026-08-17T15:19:41+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/17/silicon-sovereignty-riscv-geopolitical-gatekeeping.html</loc>
+    <lastmod>2026-08-17T12:39:41+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/08/17/spiritual-wisdom-2026-08-17.html</loc>
+    <lastmod>2026-08-17T08:34:59+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/08/17/india-news-crunch-2026-08-17.html</loc>
+    <lastmod>2026-08-17T08:34:48+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/08/17/world-news-crunch-2026-08-17.html</loc>
+    <lastmod>2026-08-17T08:34:35+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/17/riscv-hardware-sovereignty-global-south.html</loc>
+    <lastmod>2026-08-17T07:07:39+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/17/geopolitics-risc-v-open-source-hardware-sovereignty.html</loc>
+    <lastmod>2026-08-17T02:55:36+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/17/governing-autonomous-ai-agents-aws-dogwood-cedar.html</loc>
+    <lastmod>2026-08-17T00:06:31+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/16/securing-ai-agents-aws-dogwood-temporal.html</loc>
+    <lastmod>2026-08-16T18:19:21+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/08/16/daily-dsa-split-linked-list-in-parts-2026-08-16.html</loc>
+    <lastmod>2026-08-16T15:48:05+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/08/16/anthropic-claude-synthid-text-watermarking.html</loc>
+    <lastmod>2026-08-16T15:06:03+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/16/us-iran-cyber-warfare-geopolitics.html</loc>
+    <lastmod>2026-08-16T12:18:20+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/16/decoding-llm-watermarking-synthid-claude.html</loc>
+    <lastmod>2026-08-16T09:26:07+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/08/16/spiritual-wisdom-2026-08-16.html</loc>
+    <lastmod>2026-08-16T08:35:52+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/finance/2026/08/16/finance-news-crunch-2026-08-16.html</loc>
+    <lastmod>2026-08-16T08:35:35+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/08/16/india-news-crunch-2026-08-16.html</loc>
+    <lastmod>2026-08-16T08:35:29+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/08/16/world-news-crunch-2026-08-16.html</loc>
+    <lastmod>2026-08-16T08:35:18+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/16/anthropic-claude-synthid-watermarking-breakdown.html</loc>
+    <lastmod>2026-08-16T02:56:38+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/16/llm-gpu-kernel-optimization-qr-factorization.html</loc>
+    <lastmod>2026-08-16T00:06:46+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/15/netflix-genrec-llm-native-recommendation-systems.html</loc>
+    <lastmod>2026-08-15T20:56:29+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/15/zero-trust-ai-private-inference-ckks.html</loc>
+    <lastmod>2026-08-15T18:21:45+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/08/15/daily-dsa-maximum-peak-path-score-in-binary-tree-2026-08-15.html</loc>
+    <lastmod>2026-08-15T15:47:13+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/15/us-water-cyberwarfare-purdue-model-breach.html</loc>
+    <lastmod>2026-08-15T15:02:25+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/15/securing-water-tap-cyberattacks-utilities.html</loc>
+    <lastmod>2026-08-15T12:16:14+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/15/cve-2026-65400-macos-screen-sharing-zero-day.html</loc>
+    <lastmod>2026-08-15T09:15:14+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/08/15/spiritual-wisdom-2026-08-15.html</loc>
+    <lastmod>2026-08-15T08:26:17+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/08/15/india-news-crunch-2026-08-15.html</loc>
+    <lastmod>2026-08-15T08:26:09+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/08/15/world-news-crunch-2026-08-15.html</loc>
+    <lastmod>2026-08-15T08:26:04+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/15/iranian-cyberattacks-us-water-utilities.html</loc>
+    <lastmod>2026-08-15T06:58:47+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/15/cloud-ghosting-nine-pbs-data-recovery.html</loc>
+    <lastmod>2026-08-15T00:32:18+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/14/cdnjs-migration-cloudflare-developer-platform.html</loc>
+    <lastmod>2026-08-14T21:28:39+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/14/apple-ai-strategy-china-bifurcated-intelligence.html</loc>
+    <lastmod>2026-08-14T15:39:18+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/14/digital-privateers-us-hack-back-framework.html</loc>
+    <lastmod>2026-08-14T13:51:30+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/08/14/spiritual-wisdom-2026-08-14.html</loc>
+    <lastmod>2026-08-14T09:43:56+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/08/14/india-news-crunch-2026-08-14.html</loc>
+    <lastmod>2026-08-14T09:43:25+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/08/14/world-news-crunch-2026-08-14.html</loc>
+    <lastmod>2026-08-14T09:43:14+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/14/us-state-sanctioned-hack-back-framework.html</loc>
+    <lastmod>2026-08-14T03:23:41+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/13/shieldfont-adversarial-typography-glyph-remapping.html</loc>
+    <lastmod>2026-08-13T18:54:07+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/08/13/daily-dsa-dynamic-connected-components-with-max-weight-2026-08-13.html</loc>
+    <lastmod>2026-08-13T16:27:36+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/13/shieldfont-font-obfuscation-ai-scrapers.html</loc>
+    <lastmod>2026-08-13T13:14:10+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/13/truth-api-monetization-market-asymmetry.html</loc>
+    <lastmod>2026-08-13T10:31:10+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/08/13/spiritual-wisdom-2026-08-13.html</loc>
+    <lastmod>2026-08-13T09:48:03+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/finance/2026/08/13/finance-news-crunch-2026-08-13.html</loc>
+    <lastmod>2026-08-13T09:47:37+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/08/13/india-news-crunch-2026-08-13.html</loc>
+    <lastmod>2026-08-13T09:47:26+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/08/13/world-news-crunch-2026-08-13.html</loc>
+    <lastmod>2026-08-13T09:47:09+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/13/shieldfont-anti-scraping-font-mapping-data-poisoning.html</loc>
+    <lastmod>2026-08-13T07:51:56+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/13/open-weight-ai-debate-innovation-safety.html</loc>
+    <lastmod>2026-08-13T03:22:31+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/13/strategic-imperative-open-weight-ai.html</loc>
+    <lastmod>2026-08-13T00:39:20+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/12/tailscale-sqlite-wal-race-condition-fix.html</loc>
+    <lastmod>2026-08-12T21:36:21+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/08/12/daily-dsa-singleprocessor-task-scheduler-with-priority-2026-08-12.html</loc>
+    <lastmod>2026-08-12T16:27:00+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/12/chrome-dbsc-prevent-cookie-theft.html</loc>
+    <lastmod>2026-08-12T13:13:44+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/12/compression-prediction-machine-learning.html</loc>
+    <lastmod>2026-08-12T10:21:21+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/08/12/spiritual-wisdom-2026-08-12.html</loc>
+    <lastmod>2026-08-12T09:42:37+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/finance/2026/08/12/finance-news-crunch-2026-08-12.html</loc>
+    <lastmod>2026-08-12T09:42:27+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/08/12/india-news-crunch-2026-08-12.html</loc>
+    <lastmod>2026-08-12T09:42:19+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/08/12/world-news-crunch-2026-08-12.html</loc>
+    <lastmod>2026-08-12T09:42:03+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/12/gerbera-threat-maritime-risks-european-energy.html</loc>
+    <lastmod>2026-08-12T07:49:50+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/12/developer-evolution-system-orchestrators.html</loc>
+    <lastmod>2026-08-12T03:24:41+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/12/anthropic-autonomous-agents-riemann-hypothesis.html</loc>
+    <lastmod>2026-08-12T00:39:09+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/11/north-korean-laptop-farm-espionage-scheme.html</loc>
+    <lastmod>2026-08-11T21:35:21+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/11/ghostsplice-split-instruction-attacks-mcp-security.html</loc>
+    <lastmod>2026-08-11T18:47:03+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/08/11/daily-dsa-count-pairs-with-xor-in-range-2026-08-11.html</loc>
+    <lastmod>2026-08-11T16:15:25+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/11/polish-power-plant-cellular-apn-breach.html</loc>
+    <lastmod>2026-08-11T15:35:35+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/11/bdthemes-supply-chain-attack-json-poisoning.html</loc>
+    <lastmod>2026-08-11T12:47:57+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/08/11/spiritual-wisdom-2026-08-11.html</loc>
+    <lastmod>2026-08-11T09:19:58+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/finance/2026/08/11/finance-news-crunch-2026-08-11.html</loc>
+    <lastmod>2026-08-11T09:19:44+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/08/11/india-news-crunch-2026-08-11.html</loc>
+    <lastmod>2026-08-11T09:19:33+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/08/11/world-news-crunch-2026-08-11.html</loc>
+    <lastmod>2026-08-11T09:19:14+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/08/10/noreply-nightmare-email-fallback-data-leak.html</loc>
+    <lastmod>2026-08-10T21:35:13+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/10/toctou-vulnerabilities-autonomous-ai-coding-agents.html</loc>
+    <lastmod>2026-08-10T18:50:20+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/08/10/daily-dsa-minimum-time-to-repair-all-cars-2026-08-10.html</loc>
+    <lastmod>2026-08-10T16:33:02+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/10/ai-code-governance-open-source-compliance.html</loc>
+    <lastmod>2026-08-10T15:54:01+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/10/docker-sandboxes-secure-ai-coding-agents.html</loc>
+    <lastmod>2026-08-10T13:21:52+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/10/ai-policy-fracturing-linux-ecosystem.html</loc>
+    <lastmod>2026-08-10T10:12:37+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/08/10/spiritual-wisdom-2026-08-10.html</loc>
+    <lastmod>2026-08-10T09:31:44+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/finance/2026/08/10/finance-news-crunch-2026-08-10.html</loc>
+    <lastmod>2026-08-10T09:31:29+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/08/10/india-news-crunch-2026-08-10.html</loc>
+    <lastmod>2026-08-10T09:31:20+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/08/10/world-news-crunch-2026-08-10.html</loc>
+    <lastmod>2026-08-10T09:31:09+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/10/flock-safety-surveillance-governance-crisis.html</loc>
+    <lastmod>2026-08-10T07:38:24+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/10/situational-awareness-400m-source-foundry-ai-hardware.html</loc>
+    <lastmod>2026-08-10T03:07:54+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/10/fcc-foreign-lidar-thermal-drone-ban.html</loc>
+    <lastmod>2026-08-10T00:18:36+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/09/stripe-automated-db-remediation-graph-search.html</loc>
+    <lastmod>2026-08-09T21:08:16+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/news/2026/08/09/sap-ai-pivot-operational-austerity-roi.html</loc>
+    <lastmod>2026-08-09T18:31:45+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/08/09/daily-dsa-evaluate-expression-with-custom-precedence-2026-08-09.html</loc>
+    <lastmod>2026-08-09T15:58:17+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/09/stripe-graph-search-database-remediation.html</loc>
+    <lastmod>2026-08-09T12:35:40+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/09/amazon-pecos-county-ai-energy-wall.html</loc>
+    <lastmod>2026-08-09T09:51:31+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/08/09/spiritual-wisdom-2026-08-09.html</loc>
+    <lastmod>2026-08-09T09:18:06+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/08/09/india-news-crunch-2026-08-09.html</loc>
+    <lastmod>2026-08-09T09:17:52+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/08/09/world-news-crunch-2026-08-09.html</loc>
+    <lastmod>2026-08-09T09:17:35+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/09/shopify-migrated-redis-mysql-inventory.html</loc>
+    <lastmod>2026-08-09T07:33:41+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/09/sovereign-ai-firebird-nvidia-blackwell-armenia.html</loc>
+    <lastmod>2026-08-09T00:15:19+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/08/atlassian-rovo-indirect-prompt-injection-security.html</loc>
+    <lastmod>2026-08-08T21:06:56+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/08/08/daily-dsa-maximum-path-energy-in-a-directed-network-2026-08-08.html</loc>
+    <lastmod>2026-08-08T15:56:31+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/spiritual/2026/08/08/spiritual-wisdom-2026-08-08.html</loc>
+    <lastmod>2026-08-08T09:09:53+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/finance/2026/08/08/finance-news-crunch-2026-08-08.html</loc>
+    <lastmod>2026-08-08T09:09:09+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/india/2026/08/08/india-news-crunch-2026-08-08.html</loc>
+    <lastmod>2026-08-08T09:08:43+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/world/2026/08/08/world-news-crunch-2026-08-08.html</loc>
+    <lastmod>2026-08-08T09:08:24+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/geopolitics/2026/08/08/doe-genesis-open-models-initiative.html</loc>
+    <lastmod>2026-08-08T07:31:03+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/tech/2026/08/08/cloudflare-computer-stateful-ai-agents.html</loc>
+    <lastmod>2026-08-08T03:13:58+05:30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mantbyte.github.io/dsa/2026/08/08/daily-dsa-path-with-maximum-gold-coins-2026-08-07.html</loc>
+    <lastmod>2026-08-08T01:11:28+05:30</lastmod>
+    <priority>0.6</priority>
   </url>
   
   <url>

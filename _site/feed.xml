@@ -5,225 +5,229 @@
     <description>Personal blog of a Computer Science student covering technology, geopolitics, and what I'm learning.</description>
     <link>https://mantbyte.github.io/</link>
     <atom:link href="https://mantbyte.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 08 Aug 2026 01:29:04 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 01:13:04 +0530</lastBuildDate>
     
     <item>
-      <title>Daily DSA: Longest Subarray with At Most K Distinct Even Numbers (Medium)</title>
-      <description>Sharpen your coding skills with today's Medium DSA problem: Longest Subarray with At Most K Distinct Even Numbers.</description>
-      <pubDate>Sat, 08 Aug 2026 00:39:52 +0530</pubDate>
-      <link>https://mantbyte.github.io/dsa/2026/08/08/daily-dsa-longest-subarray-with-at-most-k-distinct-even-numbers-2026-08-07.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/dsa/2026/08/08/daily-dsa-longest-subarray-with-at-most-k-distinct-even-numbers-2026-08-07.html</guid>
+      <title>When My DevSecOps Lab Started Consuming 95% CPU: A Practical Lesson in Container Resource Governance</title>
+      <description>
+  A real incident from a local DevSecOps lab: while building a security-focused microservices environment on an 8 GB MacBook Air, my Docker + Kind Kubernetes cluster began consuming several CPU cores and multiple gigabytes of RAM. Instead of treating it as just a laptop performance problem, I used it as a lesson in resource governance, availability, container security, and DevSecOps engineering.
+
+
+</description>
+      <pubDate>Fri, 02 Oct 2026 23:30:00 +0530</pubDate>
+      <link>https://mantbyte.github.io/devsecops/kubernetes/docker/cloud%20security/2026/10/02/devsecops-resource-governance-docker-kind.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/devsecops/kubernetes/docker/cloud%20security/2026/10/02/devsecops-resource-governance-docker-kind.html</guid>
       
-      <category>DSA</category>
+      <category>DevSecOps</category>
       
     </item>
     
     <item>
-      <title>The AI Code Ban Paradox: Why Oracle Rejected LLMs in OpenJDK</title>
-      <description>Oracle's strict ban on AI-generated code in OpenJDK highlights a growing legal and operational rift in software development. Read how copyright liability is reshaping open source.</description>
-      <pubDate>Sat, 08 Aug 2026 00:34:10 +0530</pubDate>
-      <link>https://mantbyte.github.io/tech/2026/08/08/oracle-ai-code-ban-openjdk-paradox.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/08/08/oracle-ai-code-ban-openjdk-paradox.html</guid>
-      
-      <category>Tech</category>
-      
-    </item>
-    
-    <item>
-      <title>The AI Agent Harness Crisis: Securing CI/CD Against Indirect Prompt Injection</title>
-      <description>As AI agents gain the power to execute code and manage repositories, a new security flaw emerges: the harness crisis. Discover how indirect prompt injections can lead to RCE.</description>
-      <pubDate>Fri, 07 Aug 2026 18:46:36 +0530</pubDate>
-      <link>https://mantbyte.github.io/news/2026/08/07/ai-agent-harness-security-prompt-injection.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/news/2026/08/07/ai-agent-harness-security-prompt-injection.html</guid>
+      <title>Supabase Acquires Turso: Scaling the Database Layer for the Age of AI Agents</title>
+      <description>Supabase's acquisition of Turso marks a pivotal shift toward ephemeral databases designed to handle the high-frequency demands of autonomous AI agents.</description>
+      <pubDate>Fri, 02 Oct 2026 23:15:32 +0530</pubDate>
+      <link>https://mantbyte.github.io/news/2026/10/02/supabase-acquires-turso-ai-agents.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/news/2026/10/02/supabase-acquires-turso-ai-agents.html</guid>
       
       <category>News</category>
       
     </item>
     
     <item>
-      <title>Harness Vulnerabilities in AI Coding Agents: How Claude Code, Gemini CLI, and Codex Risk CI/CD Exploitation</title>
-      <description>As autonomous AI developer agents integrate deeper into automated pipelines, security risks are shifting from model weights to the harness code itself. Unsanitized integration wrappers can quickly convert public pull requests into privileged command execution.</description>
-      <pubDate>Fri, 07 Aug 2026 15:38:23 +0530</pubDate>
-      <link>https://mantbyte.github.io/tech/2026/08/07/ai-agent-harness-vulnerabilities-cicd.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/08/07/ai-agent-harness-vulnerabilities-cicd.html</guid>
+      <title>Daily DSA: Stones of Destiny: Prime Nim Game (Medium)</title>
+      <description>Sharpen your coding skills with today's Medium DSA problem: Stones of Destiny: Prime Nim Game.</description>
+      <pubDate>Fri, 02 Oct 2026 21:34:51 +0530</pubDate>
+      <link>https://mantbyte.github.io/dsa/2026/10/02/daily-dsa-stones-of-destiny-prime-nim-game-2026-10-02.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/dsa/2026/10/02/daily-dsa-stones-of-destiny-prime-nim-game-2026-10-02.html</guid>
       
-      <category>Tech</category>
-      
-    </item>
-    
-    <item>
-      <title>Inside Anthropic's Silicon Strategy: The Rise of Lab-Designed AI Accelerators and Hardware Vertical Integration</title>
-      <description>Anthropic is making a bold pivot from pure software research into physical semiconductor engineering. Explore how in-house silicon and hardware co-design aim to solve the compute bottlenecks of frontier AI models.</description>
-      <pubDate>Fri, 07 Aug 2026 12:57:49 +0530</pubDate>
-      <link>https://mantbyte.github.io/tech/2026/08/07/anthropic-silicon-strategy-custom-ai-chips.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/08/07/anthropic-silicon-strategy-custom-ai-chips.html</guid>
-      
-      <category>Tech</category>
+      <category>DSA</category>
       
     </item>
     
     <item>
-      <title>AMD's Acquisition of Taalas: Deconstructing Model-Specific Integrated Circuits (MSICs)</title>
-      <description>AMD's acquisition of Taalas marks a paradigm shift in AI hardware, replacing flexible GPUs with ultra-efficient Model-Specific Integrated Circuits.</description>
-      <pubDate>Fri, 07 Aug 2026 10:30:09 +0530</pubDate>
-      <link>https://mantbyte.github.io/tech/2026/08/07/amd-acquires-taalas-model-specific-integrated-circuits.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/08/07/amd-acquires-taalas-model-specific-integrated-circuits.html</guid>
-      
-      <category>Tech</category>
-      
-    </item>
-    
-    <item>
-      <title>The Weaver's Paradox: Finding Freedom in the Loom of Discipline</title>
+      <title>The Sieve of Desire: Socrates’ Lesson on the Full Life</title>
       <description>A daily moment of philosophy and spiritual wisdom applied to modern life.</description>
-      <pubDate>Fri, 07 Aug 2026 09:59:53 +0530</pubDate>
-      <link>https://mantbyte.github.io/spiritual/2026/08/07/spiritual-wisdom-2026-08-07.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/spiritual/2026/08/07/spiritual-wisdom-2026-08-07.html</guid>
+      <pubDate>Fri, 02 Oct 2026 13:46:55 +0530</pubDate>
+      <link>https://mantbyte.github.io/spiritual/2026/10/02/spiritual-wisdom-2026-10-02.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/spiritual/2026/10/02/spiritual-wisdom-2026-10-02.html</guid>
       
       <category>Spiritual</category>
       
     </item>
     
     <item>
-      <title>India News Crunch: August 07, 2026</title>
+      <title>India News Crunch: October 02, 2026</title>
       <description>Your daily 2-minute digest covering the most important indian national news and events from around the globe.</description>
-      <pubDate>Fri, 07 Aug 2026 09:59:46 +0530</pubDate>
-      <link>https://mantbyte.github.io/india/2026/08/07/india-news-crunch-2026-08-07.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/india/2026/08/07/india-news-crunch-2026-08-07.html</guid>
+      <pubDate>Fri, 02 Oct 2026 13:45:35 +0530</pubDate>
+      <link>https://mantbyte.github.io/india/2026/10/02/india-news-crunch-2026-10-02.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/india/2026/10/02/india-news-crunch-2026-10-02.html</guid>
       
       <category>India</category>
       
     </item>
     
     <item>
-      <title>World News Crunch: August 07, 2026</title>
+      <title>World News Crunch: October 02, 2026</title>
       <description>Your daily 2-minute digest covering the most important global news and world events from around the globe.</description>
-      <pubDate>Fri, 07 Aug 2026 09:59:35 +0530</pubDate>
-      <link>https://mantbyte.github.io/world/2026/08/07/world-news-crunch-2026-08-07.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/world/2026/08/07/world-news-crunch-2026-08-07.html</guid>
+      <pubDate>Fri, 02 Oct 2026 13:44:44 +0530</pubDate>
+      <link>https://mantbyte.github.io/world/2026/10/02/world-news-crunch-2026-10-02.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/world/2026/10/02/world-news-crunch-2026-10-02.html</guid>
       
       <category>World</category>
       
     </item>
     
     <item>
-      <title>Hardwiring Intelligence: How AMD and Taalas Are Etching LLM Weights into Silicon with MSICs</title>
-      <description>Discover how AMD and Taalas are revolutionizing AI inference by etching LLM weights directly into silicon, bypassing memory bottlenecks entirely.</description>
-      <pubDate>Fri, 07 Aug 2026 05:37:44 +0530</pubDate>
-      <link>https://mantbyte.github.io/tech/2026/08/07/amd-taalas-msic-hardwiring-llm-silicon.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/08/07/amd-taalas-msic-hardwiring-llm-silicon.html</guid>
+      <title>Automating Cloud Excellence: A Deep Dive into the AWS Well-Architected Agent</title>
+      <description>Say goodbye to tedious manual spreadsheets and reactive cloud audits. Discover how the AWS Well-Architected Agent automates continuous cloud optimization.</description>
+      <pubDate>Fri, 02 Oct 2026 06:07:49 +0530</pubDate>
+      <link>https://mantbyte.github.io/tech/2026/10/02/aws-well-architected-agent-cloud-excellence.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/10/02/aws-well-architected-agent-cloud-excellence.html</guid>
       
       <category>Tech</category>
       
     </item>
     
     <item>
-      <title>The Click-Layer Threat: Understanding AI Recommendation Poisoning via Deep-Linked Memory Injection</title>
-      <description>Deep-Linked Memory Injection is a new stealthy vector turning AI tools into biased advocates for attackers. Discover the mechanics of this click-layer threat.</description>
-      <pubDate>Thu, 06 Aug 2026 19:57:22 +0530</pubDate>
-      <link>https://mantbyte.github.io/tech/2026/08/06/ai-recommendation-poisoning-memory-injection.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/08/06/ai-recommendation-poisoning-memory-injection.html</guid>
+      <title>Beyond Generation: Mastering Cloudflare Clef for High-Performance Decision Models</title>
+      <description>Discover how Cloudflare Clef eliminates generative latency by treating programmatic decisions as structured selections for edge applications.</description>
+      <pubDate>Fri, 02 Oct 2026 01:45:23 +0530</pubDate>
+      <link>https://mantbyte.github.io/tech/2026/10/02/cloudflare-clef-high-performance-decision-models.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/10/02/cloudflare-clef-high-performance-decision-models.html</guid>
       
       <category>Tech</category>
       
     </item>
     
     <item>
-      <title>The Nashville Standoff: When Hyperscale Data Centers Meet Eminent Domain</title>
-      <description>The Nashville 'Zoo vs. The Cloud' standoff highlights a fundamental shift in how municipalities view large-scale technology infrastructure and land rights.</description>
-      <pubDate>Thu, 06 Aug 2026 17:02:38 +0530</pubDate>
-      <link>https://mantbyte.github.io/geopolitics/2026/08/06/nashville-hyperscale-data-centers-eminent-domain.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/geopolitics/2026/08/06/nashville-hyperscale-data-centers-eminent-domain.html</guid>
+      <title>Daily DSA: Maximum XOR Sum Subsequence (Hard)</title>
+      <description>Sharpen your coding skills with today's Hard DSA problem: Maximum XOR Sum Subsequence.</description>
+      <pubDate>Thu, 01 Oct 2026 22:21:03 +0530</pubDate>
+      <link>https://mantbyte.github.io/dsa/2026/10/01/daily-dsa-maximum-xor-sum-subsequence-2026-10-01.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/dsa/2026/10/01/daily-dsa-maximum-xor-sum-subsequence-2026-10-01.html</guid>
+      
+      <category>DSA</category>
+      
+    </item>
+    
+    <item>
+      <title>Beyond the Prompt: Analyzing OpenAI’s Battle Against Reasoning Extraction and Model Distillation</title>
+      <description>As AI models improve at explaining their logic, they become vulnerable to reasoning extraction. Explore how OpenAI is defending against adversarial distillation.</description>
+      <pubDate>Thu, 01 Oct 2026 18:21:09 +0530</pubDate>
+      <link>https://mantbyte.github.io/geopolitics/2026/10/01/openai-reasoning-extraction-model-distillation.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/geopolitics/2026/10/01/openai-reasoning-extraction-model-distillation.html</guid>
       
       <category>Geopolitics</category>
       
     </item>
     
     <item>
-      <title>The Geopolitics of AI Talent: Analyzing the DOJ Oversight of OpenAI's PERM Compliance</title>
-      <description>The DOJ's landmark $3.2 million settlement with OpenAI highlights growing federal scrutiny over foreign labor sponsorship in big tech. Discover how PERM compliance enforcement is reshaping the global race for elite AI research talent.</description>
-      <pubDate>Thu, 06 Aug 2026 14:18:02 +0530</pubDate>
-      <link>https://mantbyte.github.io/geopolitics/2026/08/06/doj-openai-perm-compliance-ai-talent.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/geopolitics/2026/08/06/doj-openai-perm-compliance-ai-talent.html</guid>
-      
-      <category>Geopolitics</category>
-      
-    </item>
-    
-    <item>
-      <title>The Uncarved Block: Rediscovering Simplicity Through the Tao</title>
+      <title>The Two Paths: Choosing Between the Pleasant and the Good</title>
       <description>A daily moment of philosophy and spiritual wisdom applied to modern life.</description>
-      <pubDate>Thu, 06 Aug 2026 10:53:34 +0530</pubDate>
-      <link>https://mantbyte.github.io/spiritual/2026/08/06/spiritual-wisdom-2026-08-06.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/spiritual/2026/08/06/spiritual-wisdom-2026-08-06.html</guid>
+      <pubDate>Thu, 01 Oct 2026 14:09:47 +0530</pubDate>
+      <link>https://mantbyte.github.io/spiritual/2026/10/01/spiritual-wisdom-2026-10-01.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/spiritual/2026/10/01/spiritual-wisdom-2026-10-01.html</guid>
       
       <category>Spiritual</category>
       
     </item>
     
     <item>
-      <title>India News Crunch: August 06, 2026</title>
+      <title>India News Crunch: October 01, 2026</title>
       <description>Your daily 2-minute digest covering the most important indian national news and events from around the globe.</description>
-      <pubDate>Thu, 06 Aug 2026 10:52:49 +0530</pubDate>
-      <link>https://mantbyte.github.io/india/2026/08/06/india-news-crunch-2026-08-06.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/india/2026/08/06/india-news-crunch-2026-08-06.html</guid>
+      <pubDate>Thu, 01 Oct 2026 14:08:55 +0530</pubDate>
+      <link>https://mantbyte.github.io/india/2026/10/01/india-news-crunch-2026-10-01.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/india/2026/10/01/india-news-crunch-2026-10-01.html</guid>
       
       <category>India</category>
       
     </item>
     
     <item>
-      <title>World News Crunch: August 06, 2026</title>
+      <title>World News Crunch: October 01, 2026</title>
       <description>Your daily 2-minute digest covering the most important global news and world events from around the globe.</description>
-      <pubDate>Thu, 06 Aug 2026 10:52:04 +0530</pubDate>
-      <link>https://mantbyte.github.io/world/2026/08/06/world-news-crunch-2026-08-06.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/world/2026/08/06/world-news-crunch-2026-08-06.html</guid>
+      <pubDate>Thu, 01 Oct 2026 14:08:19 +0530</pubDate>
+      <link>https://mantbyte.github.io/world/2026/10/01/world-news-crunch-2026-10-01.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/world/2026/10/01/world-news-crunch-2026-10-01.html</guid>
       
       <category>World</category>
       
     </item>
     
     <item>
-      <title>Scaling Autonomous Codebases: A Deep Dive into Meta Muse Code's Multi-Agent Architecture</title>
-      <description>Explore how Meta Muse Code breaks through AI coding limitations by utilizing a multi-agent architecture for enterprise-scale repository management.</description>
-      <pubDate>Thu, 06 Aug 2026 03:46:31 +0530</pubDate>
-      <link>https://mantbyte.github.io/tech/2026/08/06/scaling-autonomous-codebases-meta-muse-code.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/08/06/scaling-autonomous-codebases-meta-muse-code.html</guid>
+      <title>Mastering Amazon S3 Vectors Metadata Pre-Filtering: Eliminating Recall Penalties in RAG</title>
+      <description>Discover how Amazon S3 Vectors metadata pre-filtering eliminates recall penalties and solves multi-tenant RAG bottlenecks.</description>
+      <pubDate>Thu, 01 Oct 2026 10:37:23 +0530</pubDate>
+      <link>https://mantbyte.github.io/tech/2026/10/01/amazon-s3-vectors-metadata-prefiltering-rag.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/10/01/amazon-s3-vectors-metadata-prefiltering-rag.html</guid>
       
       <category>Tech</category>
       
     </item>
     
     <item>
-      <title>Microsoft's AI Sales Reliance on OpenAI: The Anatomy of Hyperscale Interdependence</title>
-      <description>Discover how Microsoft's massive AI sales growth relies on its high-stakes partnership with OpenAI and the realities of cloud hyperscale economics.</description>
-      <pubDate>Thu, 06 Aug 2026 01:13:54 +0530</pubDate>
-      <link>https://mantbyte.github.io/geopolitics/2026/08/06/microsoft-ai-sales-openai-interdependence.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/geopolitics/2026/08/06/microsoft-ai-sales-openai-interdependence.html</guid>
+      <title>The Long Game: Analyzing the Strategic Impact of the US Military Personnel Data Breach</title>
+      <description>The Pentagon's DMDC data breach exposes critical vulnerabilities in federal identity management, transforming a security incident into a major counterintelligence crisis.</description>
+      <pubDate>Thu, 01 Oct 2026 03:33:52 +0530</pubDate>
+      <link>https://mantbyte.github.io/geopolitics/2026/10/01/us-military-personnel-data-breach.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/geopolitics/2026/10/01/us-military-personnel-data-breach.html</guid>
       
       <category>Geopolitics</category>
       
     </item>
     
     <item>
-      <title>Silicon and Synapses: Inside Anthropic's Strategic Pivot to AI Chip Design</title>
-      <description>Anthropic's strategic pivot to custom silicon highlights a major shift in AI as labs seek to optimize inference costs and bypass hardware limits.</description>
-      <pubDate>Wed, 05 Aug 2026 22:18:35 +0530</pubDate>
-      <link>https://mantbyte.github.io/tech/2026/08/05/anthropic-ai-chip-design-silicon-pivot.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/08/05/anthropic-ai-chip-design-silicon-pivot.html</guid>
+      <title>US AI Policy Shift: Self-Policing vs. Legally Binding Regulations in the Era of Frontier Models</title>
+      <description>The US AI governance model has pivoted from strict statutory mandates to voluntary corporate safety pledges, transforming the compliance landscape for developers.</description>
+      <pubDate>Wed, 30 Sep 2026 23:21:22 +0530</pubDate>
+      <link>https://mantbyte.github.io/geopolitics/2026/09/30/us-ai-policy-self-policing-regulations.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/geopolitics/2026/09/30/us-ai-policy-self-policing-regulations.html</guid>
       
-      <category>Tech</category>
+      <category>Geopolitics</category>
       
     </item>
     
     <item>
-      <title>Beyond the Eyeball: Architecting the Agent-First Web and the Rise of Token-Based Monetization</title>
-      <description>As AI agents replace human browsers, the digital economy is shifting from visual engagement to token-based value. Explore the architecture of the agent-first web.</description>
-      <pubDate>Wed, 05 Aug 2026 19:55:57 +0530</pubDate>
-      <link>https://mantbyte.github.io/tech/2026/08/05/architecting-agent-first-web-token-monetization.html</link>
-      <guid isPermaLink="true">https://mantbyte.github.io/tech/2026/08/05/architecting-agent-first-web-token-monetization.html</guid>
+      <title>Daily DSA: Stable Internship Matching (Medium)</title>
+      <description>Sharpen your coding skills with today's Medium DSA problem: Stable Internship Matching.</description>
+      <pubDate>Wed, 30 Sep 2026 21:44:24 +0530</pubDate>
+      <link>https://mantbyte.github.io/dsa/2026/09/30/daily-dsa-stable-internship-matching-2026-09-30.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/dsa/2026/09/30/daily-dsa-stable-internship-matching-2026-09-30.html</guid>
       
-      <category>Tech</category>
+      <category>DSA</category>
+      
+    </item>
+    
+    <item>
+      <title>Agentic Codebase Transformation: How $4,000 and Claude 3 Opus Refactored Street Fighter III</title>
+      <description>CodeScene recently demonstrated the power of agentic AI by refactoring the legendary Street Fighter III codebase in just 21 days for only $4,000.</description>
+      <pubDate>Wed, 30 Sep 2026 15:05:34 +0530</pubDate>
+      <link>https://mantbyte.github.io/news/2026/09/30/claude-opus-refactors-street-fighter-iii.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/news/2026/09/30/claude-opus-refactors-street-fighter-iii.html</guid>
+      
+      <category>News</category>
+      
+    </item>
+    
+    <item>
+      <title>The Acrobat’s Balance: The Secret Synergy of Self and Other</title>
+      <description>A daily moment of philosophy and spiritual wisdom applied to modern life.</description>
+      <pubDate>Wed, 30 Sep 2026 13:46:55 +0530</pubDate>
+      <link>https://mantbyte.github.io/spiritual/2026/09/30/spiritual-wisdom-2026-09-30.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/spiritual/2026/09/30/spiritual-wisdom-2026-09-30.html</guid>
+      
+      <category>Spiritual</category>
+      
+    </item>
+    
+    <item>
+      <title>India News Crunch: September 30, 2026</title>
+      <description>Your daily 2-minute digest covering the most important indian national news and events from around the globe.</description>
+      <pubDate>Wed, 30 Sep 2026 13:45:46 +0530</pubDate>
+      <link>https://mantbyte.github.io/india/2026/09/30/india-news-crunch-2026-09-30.html</link>
+      <guid isPermaLink="true">https://mantbyte.github.io/india/2026/09/30/india-news-crunch-2026-09-30.html</guid>
+      
+      <category>India</category>
       
     </item>
     

@@ -9,6 +9,8 @@ cover_image: /assets/images/posts/daily-dsa-closest-pair-of-points-2026-09-26-co
 cover_caption: ''
 ---
 
+{% raw %}
+
 ### Problem Statement
 
 Given a set of $n$ points in a 2D plane, find the minimum Euclidean distance between any two distinct points. 
@@ -146,3 +148,4 @@ int main() {
 
 - **Time Complexity:** $O(n \log n)$. The recurrence relation is $T(n) = 2T(n/2) + O(n)$. The $O(n)$ term comes from the `inplace_merge` and the strip processing (since each point in the strip is compared against a constant number of neighbors).
 - **Space Complexity:** $O(n)$ to store the points and the temporary strip vector during recursion.
+{% endraw %}

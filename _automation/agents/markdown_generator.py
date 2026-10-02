@@ -54,7 +54,7 @@ def generate_markdown(
     frontmatter = f"---\n{yaml_string}---"
 
     # Assemble complete file
-    markdown = f"{frontmatter}\n\n{article_body}\n"
+    markdown = f"{frontmatter}\n\n{{% raw %}}\n{article_body}\n{{% endraw %}}\n"
 
     print(f"  📝 Markdown generated: {len(markdown)} bytes")
 
