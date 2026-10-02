@@ -5373,7 +5373,23 @@
         "Decision Models"
       ],
       "url": "/tech/2026/10/02/cloudflare-clef-high-performance-decision-models.html"
+    },
+    {
+      "title": "Automating Cloud Excellence: A Deep Dive into the AWS Well-Architected Agent",
+      "slug": "aws-well-architected-agent-cloud-excellence",
+      "date": "2026-10-02",
+      "category": "Tech",
+      "key_topics": [
+        "AWS",
+        "Cloud Architecture",
+        "DevOps",
+        "Automation",
+        "Cloud Computing",
+        "SRE",
+        "Infrastructure as Code"
+      ],
+      "url": "/tech/2026/10/02/aws-well-architected-agent-cloud-excellence.html"
     }
   ],
-  "last_updated": "2026-10-01T20:15:24.910215+00:00"
+  "last_updated": "2026-10-02T00:37:50.917083+00:00"
 }
