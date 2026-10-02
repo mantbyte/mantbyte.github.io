@@ -5405,7 +5405,23 @@
         "Serverless"
       ],
       "url": "/news/2026/10/02/supabase-acquires-turso-ai-agents.html"
+    },
+    {
+      "title": "Securing the Desktop: Apple Tightens macOS Full Disk Access Amid AI Agent Security Risks",
+      "slug": "macos-full-disk-access-ai-security",
+      "date": "2026-10-03",
+      "category": "Tech",
+      "key_topics": [
+        "macOS",
+        "AI Security",
+        "Full Disk Access",
+        "TCC",
+        "Cybersecurity",
+        "Apple",
+        "Software Engineering"
+      ],
+      "url": "/tech/2026/10/03/macos-full-disk-access-ai-security.html"
     }
   ],
-  "last_updated": "2026-10-02T17:45:50.790110+00:00"
+  "last_updated": "2026-10-02T22:01:56.747792+00:00"
 }
