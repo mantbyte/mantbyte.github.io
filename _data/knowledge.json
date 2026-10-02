@@ -5389,7 +5389,23 @@
         "Infrastructure as Code"
       ],
       "url": "/tech/2026/10/02/aws-well-architected-agent-cloud-excellence.html"
+    },
+    {
+      "title": "Supabase Acquires Turso: Scaling the Database Layer for the Age of AI Agents",
+      "slug": "supabase-acquires-turso-ai-agents",
+      "date": "2026-10-02",
+      "category": "News",
+      "key_topics": [
+        "Supabase",
+        "Turso",
+        "AI Agents",
+        "Database",
+        "Cloud Infrastructure",
+        "SQLite",
+        "Serverless"
+      ],
+      "url": "/news/2026/10/02/supabase-acquires-turso-ai-agents.html"
     }
   ],
-  "last_updated": "2026-10-02T00:37:50.917083+00:00"
+  "last_updated": "2026-10-02T17:45:50.790110+00:00"
 }
