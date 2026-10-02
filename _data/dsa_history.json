@@ -48,5 +48,6 @@
   "String - Greedy - Lexicographical Optimization",
   "Geometry - Pick's Theorem and Shoelace Formula",
   "Graph - Gale-Shapley Algorithm - Stable Marriage Problem",
-  "Bit Manipulation - Linear Basis - Gaussian Elimination"
+  "Bit Manipulation - Linear Basis - Gaussian Elimination",
+  "Game Theory - Sprague-Grundy Theorem - Nim-sum calculation"
 ]
