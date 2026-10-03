@@ -49,5 +49,6 @@
   "Geometry - Pick's Theorem and Shoelace Formula",
   "Graph - Gale-Shapley Algorithm - Stable Marriage Problem",
   "Bit Manipulation - Linear Basis - Gaussian Elimination",
-  "Game Theory - Sprague-Grundy Theorem - Nim-sum calculation"
+  "Game Theory - Sprague-Grundy Theorem - Nim-sum calculation",
+  "String - Rolling Hash - Substring Comparison"
 ]
