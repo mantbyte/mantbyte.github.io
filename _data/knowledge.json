@@ -5514,7 +5514,23 @@
         "Smart Grid"
       ],
       "url": "/geopolitics/2026/10/04/ukraine-energy-resilience-distributed-microgrids.html"
+    },
+    {
+      "title": "When AI Ate the Bug Bounty: Anatomy of Google's Open Source Pause",
+      "slug": "google-bug-bounty-pause-ai-slop",
+      "date": "2026-10-05",
+      "category": "News",
+      "key_topics": [
+        "Artificial Intelligence",
+        "Bug Bounty",
+        "Google",
+        "Open Source",
+        "Cybersecurity",
+        "VRP",
+        "LLM"
+      ],
+      "url": "/news/2026/10/05/google-bug-bounty-pause-ai-slop.html"
     }
   ],
-  "last_updated": "2026-10-04T12:07:26.505620+00:00"
+  "last_updated": "2026-10-04T23:54:25.920777+00:00"
 }
