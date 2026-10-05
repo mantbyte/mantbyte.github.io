@@ -5530,7 +5530,23 @@
         "LLM"
       ],
       "url": "/news/2026/10/05/google-bug-bounty-pause-ai-slop.html"
+    },
+    {
+      "title": "Homa: The End of TCP for AI Clusters",
+      "slug": "homa-protocol-tcp-ai-clusters",
+      "date": "2026-10-05",
+      "category": "Tech",
+      "key_topics": [
+        "Homa",
+        "TCP",
+        "AI Clusters",
+        "Networking",
+        "GPUs",
+        "Data Centers",
+        "Distributed Training"
+      ],
+      "url": "/tech/2026/10/05/homa-protocol-tcp-ai-clusters.html"
     }
   ],
-  "last_updated": "2026-10-04T23:54:25.920777+00:00"
+  "last_updated": "2026-10-05T04:57:00.285406+00:00"
 }
