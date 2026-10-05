@@ -51,5 +51,6 @@
   "Bit Manipulation - Linear Basis - Gaussian Elimination",
   "Game Theory - Sprague-Grundy Theorem - Nim-sum calculation",
   "String - Rolling Hash - Substring Comparison",
-  "Sliding Window - Frequency Map - Subarray Counting"
+  "Sliding Window - Frequency Map - Subarray Counting",
+  "Array - Dynamic Programming - Kadane's Variant"
 ]
