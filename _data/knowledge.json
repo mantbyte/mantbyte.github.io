@@ -5546,7 +5546,23 @@
         "Distributed Training"
       ],
       "url": "/tech/2026/10/05/homa-protocol-tcp-ai-clusters.html"
+    },
+    {
+      "title": "Unpacking the Cling Botnet: How Realtek Jungle SDK Exploits Abuse STUN for Stealthy C2",
+      "slug": "unpacking-cling-botnet-realtek-sdk-stun",
+      "date": "2026-10-05",
+      "category": "Tech",
+      "key_topics": [
+        "Botnet",
+        "Cybersecurity",
+        "Realtek",
+        "IoT Security",
+        "Exploit",
+        "STUN Protocol",
+        "Malware Analysis"
+      ],
+      "url": "/tech/2026/10/05/unpacking-cling-botnet-realtek-sdk-stun.html"
     }
   ],
-  "last_updated": "2026-10-05T04:57:00.285406+00:00"
+  "last_updated": "2026-10-05T14:18:41.617825+00:00"
 }
