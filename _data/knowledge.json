@@ -5578,7 +5578,22 @@
         "Tech Regulation"
       ],
       "url": "/geopolitics/2026/10/06/openai-textgrain-llm-watermarking-eu-ai-act.html"
+    },
+    {
+      "title": "Dusting Off Backprop: How Zeroth-Order Optimization Is Redefining Transformer Pretraining",
+      "slug": "zeroth-order-optimization-transformer-pretraining",
+      "date": "2026-10-06",
+      "category": "Tech",
+      "key_topics": [
+        "Machine Learning",
+        "Deep Learning",
+        "Transformers",
+        "Optimization",
+        "Backpropagation",
+        "Artificial Intelligence"
+      ],
+      "url": "/tech/2026/10/06/zeroth-order-optimization-transformer-pretraining.html"
     }
   ],
-  "last_updated": "2026-10-05T21:56:04.362265+00:00"
+  "last_updated": "2026-10-06T05:43:08.965111+00:00"
 }
