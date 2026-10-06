@@ -5608,7 +5608,23 @@
         "Enterprise AI"
       ],
       "url": "/tech/2026/10/06/mcp-security-crisis-ai-usb-c.html"
+    },
+    {
+      "title": "The Dawn of AI-Designed Silicon: Deconstructing the openTPU Hardware Stack",
+      "slug": "opentpu-ai-designed-silicon-hardware-stack",
+      "date": "2026-10-07",
+      "category": "Tech",
+      "key_topics": [
+        "AI",
+        "Silicon",
+        "Hardware",
+        "openTPU",
+        "Semiconductors",
+        "FPGA",
+        "Machine Learning"
+      ],
+      "url": "/tech/2026/10/07/opentpu-ai-designed-silicon-hardware-stack.html"
     }
   ],
-  "last_updated": "2026-10-06T13:13:20.497586+00:00"
+  "last_updated": "2026-10-06T20:11:25.319106+00:00"
 }
