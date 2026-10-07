@@ -5624,7 +5624,23 @@
         "Machine Learning"
       ],
       "url": "/tech/2026/10/07/opentpu-ai-designed-silicon-hardware-stack.html"
+    },
+    {
+      "title": "Bridging Generative AI and Rigorous Proofs: OpenAI's Leap in Mathematical Formal Verification",
+      "slug": "openai-generative-ai-mathematical-formal-verification",
+      "date": "2026-10-07",
+      "category": "Tech",
+      "key_topics": [
+        "Artificial Intelligence",
+        "OpenAI",
+        "Lean Prover",
+        "Formal Verification",
+        "Machine Learning",
+        "Mathematics",
+        "Theorem Prover"
+      ],
+      "url": "/tech/2026/10/07/openai-generative-ai-mathematical-formal-verification.html"
     }
   ],
-  "last_updated": "2026-10-06T20:11:25.319106+00:00"
+  "last_updated": "2026-10-07T00:31:32.427909+00:00"
 }
