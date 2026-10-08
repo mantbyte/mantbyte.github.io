@@ -5671,7 +5671,22 @@
         "EU Tech Policy"
       ],
       "url": "/geopolitics/2026/10/08/eu-technological-sovereignty-technical-blueprint.html"
+    },
+    {
+      "title": "Securing the Tool-Call Boundary: Defending Against Injection in the Model Context Protocol (MCP)",
+      "slug": "securing-mcp-tool-call-boundary",
+      "date": "2026-10-09",
+      "category": "Tech",
+      "key_topics": [
+        "Model Context Protocol",
+        "MCP",
+        "AI Security",
+        "LLM Agents",
+        "Prompt Injection",
+        "Cybersecurity"
+      ],
+      "url": "/tech/2026/10/09/securing-mcp-tool-call-boundary.html"
     }
   ],
-  "last_updated": "2026-10-08T10:23:17.279968+00:00"
+  "last_updated": "2026-10-08T18:43:03.933035+00:00"
 }
