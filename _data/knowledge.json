@@ -5640,7 +5640,23 @@
         "Theorem Prover"
       ],
       "url": "/tech/2026/10/07/openai-generative-ai-mathematical-formal-verification.html"
+    },
+    {
+      "title": "Anatomy of a Registry Hijack: How Attackers Weaponized .gh, .sl, and .as for Google Certificates",
+      "slug": "registry-hijack-weaponized-cctlds-google-certificates",
+      "date": "2026-10-08",
+      "category": "Tech",
+      "key_topics": [
+        "Cybersecurity",
+        "DNS",
+        "Registry Hijack",
+        "HTTPS",
+        "Certificate Authority",
+        "ACME",
+        "Google"
+      ],
+      "url": "/tech/2026/10/08/registry-hijack-weaponized-cctlds-google-certificates.html"
     }
   ],
-  "last_updated": "2026-10-07T00:31:32.427909+00:00"
+  "last_updated": "2026-10-08T00:53:44.243176+00:00"
 }
