@@ -5686,7 +5686,23 @@
         "Cybersecurity"
       ],
       "url": "/tech/2026/10/09/securing-mcp-tool-call-boundary.html"
+    },
+    {
+      "title": "Surviving the Shift: Let's Encrypt 64-Day Certificates and DevOps Automation",
+      "slug": "lets-encrypt-64-day-certificates-devops-automation",
+      "date": "2026-10-09",
+      "category": "Tech",
+      "key_topics": [
+        "SSL/TLS",
+        "Let's Encrypt",
+        "DevOps",
+        "Automation",
+        "Cybersecurity",
+        "ACME Protocol",
+        "Infrastructure as Code"
+      ],
+      "url": "/tech/2026/10/09/lets-encrypt-64-day-certificates-devops-automation.html"
     }
   ],
-  "last_updated": "2026-10-08T18:43:03.933035+00:00"
+  "last_updated": "2026-10-09T01:06:19.144206+00:00"
 }
