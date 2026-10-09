@@ -5719,7 +5719,23 @@
         "SoftEther VPN"
       ],
       "url": "/geopolitics/2026/10/09/fbi-raptor-train-flax-typhoon-botnet.html"
+    },
+    {
+      "title": "The 94% Speedup: Inside GitHub Copilot's AI-Driven Migration from Node.js to Rust",
+      "slug": "github-copilot-rust-migration-speedup",
+      "date": "2026-10-09",
+      "category": "Tech",
+      "key_topics": [
+        "GitHub Copilot",
+        "Rust",
+        "Node.js",
+        "AI Migration",
+        "Performance Optimization",
+        "Software Engineering",
+        "V8 Engine"
+      ],
+      "url": "/tech/2026/10/09/github-copilot-rust-migration-speedup.html"
     }
   ],
-  "last_updated": "2026-10-09T10:25:40.289655+00:00"
+  "last_updated": "2026-10-09T18:14:45.934818+00:00"
 }
