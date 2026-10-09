@@ -54,5 +54,6 @@
   "Sliding Window - Frequency Map - Subarray Counting",
   "Array - Dynamic Programming - Kadane's Variant",
   "Sliding Window - Monotonic Queue - Maximum in Subarrays",
-  "Array - Meet-in-the-Middle - Binary Search"
+  "Array - Meet-in-the-Middle - Binary Search",
+  "Graph - Topological Sort - Kahn's Algorithm for Longest Path in a DAG"
 ]
