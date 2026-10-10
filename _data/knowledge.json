@@ -5735,7 +5735,22 @@
         "V8 Engine"
       ],
       "url": "/tech/2026/10/09/github-copilot-rust-migration-speedup.html"
+    },
+    {
+      "title": "GhostAction: Anatomy of an Automated GitHub Actions Poisoning Campaign",
+      "slug": "ghostaction-github-actions-poisoning-campaign",
+      "date": "2026-10-10",
+      "category": "Tech",
+      "key_topics": [
+        "github-actions",
+        "cicd-security",
+        "supply-chain-attacks",
+        "devsecops",
+        "infostealers",
+        "cloud-security"
+      ],
+      "url": "/tech/2026/10/10/ghostaction-github-actions-poisoning-campaign.html"
     }
   ],
-  "last_updated": "2026-10-09T18:14:45.934818+00:00"
+  "last_updated": "2026-10-10T09:49:33.605123+00:00"
 }
