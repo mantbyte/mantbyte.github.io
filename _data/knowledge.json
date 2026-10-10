@@ -5750,7 +5750,22 @@
         "cloud-security"
       ],
       "url": "/tech/2026/10/10/ghostaction-github-actions-poisoning-campaign.html"
+    },
+    {
+      "title": "Beyond the Sandbox: Why Anthropic is Air-Gapping Frontier Model Evaluations",
+      "slug": "anthropic-air-gapping-frontier-model-evaluations",
+      "date": "2026-10-10",
+      "category": "News",
+      "key_topics": [
+        "Anthropic",
+        "AI Safety",
+        "Frontier Models",
+        "Air-Gapping",
+        "Agentic AI",
+        "AI Evaluations"
+      ],
+      "url": "/news/2026/10/10/anthropic-air-gapping-frontier-model-evaluations.html"
     }
   ],
-  "last_updated": "2026-10-10T09:49:33.605123+00:00"
+  "last_updated": "2026-10-10T17:12:26.085889+00:00"
 }
