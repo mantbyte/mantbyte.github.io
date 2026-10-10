@@ -55,5 +55,6 @@
   "Array - Dynamic Programming - Kadane's Variant",
   "Sliding Window - Monotonic Queue - Maximum in Subarrays",
   "Array - Meet-in-the-Middle - Binary Search",
-  "Graph - Topological Sort - Kahn's Algorithm for Longest Path in a DAG"
+  "Graph - Topological Sort - Kahn's Algorithm for Longest Path in a DAG",
+  "Trie - Bitwise Prefix Tree - Subarray XOR Counting"
 ]
