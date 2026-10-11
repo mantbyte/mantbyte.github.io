@@ -5795,7 +5795,23 @@
         "disaster-recovery"
       ],
       "url": "/geopolitics/2026/10/11/kinetic-warfare-sovereign-cloud-architecture-resilience.html"
+    },
+    {
+      "title": "Context Language Models (CLMs): The Architecture of Self-Managed Intelligence",
+      "slug": "context-language-models-clm-self-managed-intelligence",
+      "date": "2026-10-12",
+      "category": "Tech",
+      "key_topics": [
+        "Context Language Models",
+        "LLM Architecture",
+        "Self-Editing Attention",
+        "KV Cache",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Transformer Models"
+      ],
+      "url": "/tech/2026/10/12/context-language-models-clm-self-managed-intelligence.html"
     }
   ],
-  "last_updated": "2026-10-11T12:33:34.179307+00:00"
+  "last_updated": "2026-10-11T19:28:28.550548+00:00"
 }
