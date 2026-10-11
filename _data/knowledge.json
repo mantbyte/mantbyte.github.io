@@ -5765,7 +5765,22 @@
         "AI Evaluations"
       ],
       "url": "/news/2026/10/10/anthropic-air-gapping-frontier-model-evaluations.html"
+    },
+    {
+      "title": "Beyond the Black Box: Implementing Zero Trust AI via Model Containment Architecture",
+      "slug": "zero-trust-ai-model-containment-architecture",
+      "date": "2026-10-11",
+      "category": "Geopolitics",
+      "key_topics": [
+        "Zero Trust AI",
+        "LLM Security",
+        "Model Containment",
+        "Prompt Injection",
+        "Cybersecurity",
+        "AI Architecture"
+      ],
+      "url": "/geopolitics/2026/10/11/zero-trust-ai-model-containment-architecture.html"
     }
   ],
-  "last_updated": "2026-10-10T17:12:26.085889+00:00"
+  "last_updated": "2026-10-11T05:03:38.359906+00:00"
 }
