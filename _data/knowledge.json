@@ -5811,7 +5811,22 @@
         "Transformer Models"
       ],
       "url": "/tech/2026/10/12/context-language-models-clm-self-managed-intelligence.html"
+    },
+    {
+      "title": "The Android Patch Gap: Mapping Security Debt in AOSP\u2019s external/ Directory",
+      "slug": "android-aosp-external-patch-gap",
+      "date": "2026-10-12",
+      "category": "Tech",
+      "key_topics": [
+        "Android Security",
+        "AOSP",
+        "Vulnerability Management",
+        "Patch Gap",
+        "Cyber Security",
+        "Open Source"
+      ],
+      "url": "/tech/2026/10/12/android-aosp-external-patch-gap.html"
     }
   ],
-  "last_updated": "2026-10-11T19:28:28.550548+00:00"
+  "last_updated": "2026-10-12T00:25:07.578618+00:00"
 }
