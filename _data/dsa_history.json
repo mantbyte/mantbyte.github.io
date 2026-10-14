@@ -58,5 +58,6 @@
   "Graph - Topological Sort - Kahn's Algorithm for Longest Path in a DAG",
   "Trie - Bitwise Prefix Tree - Subarray XOR Counting",
   "Disjoint Set Union - Potential / Weighted DSU - Detecting Conflicting Relative Offsets",
-  "Greedy - Priority Queue - Optimal Task Scheduling with Deadlines"
+  "Greedy - Priority Queue - Optimal Task Scheduling with Deadlines",
+  "Segment Tree - Lazy Propagation - Range Toggle Operations"
 ]
