@@ -59,5 +59,6 @@
   "Trie - Bitwise Prefix Tree - Subarray XOR Counting",
   "Disjoint Set Union - Potential / Weighted DSU - Detecting Conflicting Relative Offsets",
   "Greedy - Priority Queue - Optimal Task Scheduling with Deadlines",
-  "Segment Tree - Lazy Propagation - Range Toggle Operations"
+  "Segment Tree - Lazy Propagation - Range Toggle Operations",
+  "Tree - Re-rooting Dynamic Programming - Distance Calculation"
 ]
