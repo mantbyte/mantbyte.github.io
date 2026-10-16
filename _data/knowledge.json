@@ -5953,7 +5953,23 @@
         "microsoft azure"
       ],
       "url": "/news/2026/10/16/microsoft-azure-maia-silicon-roadmap.html"
+    },
+    {
+      "title": "Unearthing Decades-Old Code: Exploiting a Legacy Kernel Bug in OpenBSD",
+      "slug": "exploiting-legacy-openbsd-kernel-bug",
+      "date": "2026-10-16",
+      "category": "Tech",
+      "key_topics": [
+        "OpenBSD",
+        "Kernel Exploit",
+        "Cybersecurity",
+        "Integer Overflow",
+        "Legacy Code",
+        "SysV IPC",
+        "Vulnerability Analysis"
+      ],
+      "url": "/tech/2026/10/16/exploiting-legacy-openbsd-kernel-bug.html"
     }
   ],
-  "last_updated": "2026-10-16T11:06:54.556822+00:00"
+  "last_updated": "2026-10-16T16:25:15.038832+00:00"
 }
