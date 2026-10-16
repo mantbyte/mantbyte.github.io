@@ -5984,7 +5984,23 @@
         "Algorithms"
       ],
       "url": "/tech/2026/10/17/claude-solves-nist-curve-mystery.html"
+    },
+    {
+      "title": "Cryptographic Forensics: Solving the NIST P-256 Seed Mystery with AI",
+      "slug": "nist-p256-seed-mystery-ai",
+      "date": "2026-10-17",
+      "category": "Tech",
+      "key_topics": [
+        "Cryptography",
+        "Artificial Intelligence",
+        "Cybersecurity",
+        "NSA",
+        "NIST P-256",
+        "Cryptographic Forensics",
+        "Claude AI"
+      ],
+      "url": "/tech/2026/10/17/nist-p256-seed-mystery-ai.html"
     }
   ],
-  "last_updated": "2026-10-16T20:52:33.301369+00:00"
+  "last_updated": "2026-10-16T23:22:54.484840+00:00"
 }
