@@ -5969,7 +5969,22 @@
         "Vulnerability Analysis"
       ],
       "url": "/tech/2026/10/16/exploiting-legacy-openbsd-kernel-bug.html"
+    },
+    {
+      "title": "Unraveling the NIST Curve Mystery: How Claude Discovered the Origins of FIPS 186-2 Seeds",
+      "slug": "claude-solves-nist-curve-mystery",
+      "date": "2026-10-17",
+      "category": "Tech",
+      "key_topics": [
+        "Cryptography",
+        "Artificial Intelligence",
+        "NIST",
+        "Claude AI",
+        "Cybersecurity",
+        "Algorithms"
+      ],
+      "url": "/tech/2026/10/17/claude-solves-nist-curve-mystery.html"
     }
   ],
-  "last_updated": "2026-10-16T16:25:15.038832+00:00"
+  "last_updated": "2026-10-16T20:52:33.301369+00:00"
 }
