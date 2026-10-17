@@ -61,5 +61,6 @@
   "Greedy - Priority Queue - Optimal Task Scheduling with Deadlines",
   "Segment Tree - Lazy Propagation - Range Toggle Operations",
   "Tree - Re-rooting Dynamic Programming - Distance Calculation",
-  "Graph - Tree DP with Knapsack - Maximum Weight Subtree"
+  "Graph - Tree DP with Knapsack - Maximum Weight Subtree",
+  "Dynamic Programming - SOS DP - Bitwise AND Zero Pairs"
 ]
