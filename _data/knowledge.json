@@ -6000,7 +6000,23 @@
         "Claude AI"
       ],
       "url": "/tech/2026/10/17/nist-p256-seed-mystery-ai.html"
+    },
+    {
+      "title": "Reverse-Engineering NIST ECDSA Curve Seeds: How Claude Solved a 25-Year Cryptographic Mystery",
+      "slug": "reverse-engineering-nist-ecdsa-curve-seeds-claude",
+      "date": "2026-10-17",
+      "category": "Tech",
+      "key_topics": [
+        "Cryptography",
+        "NIST",
+        "ECDSA",
+        "Claude",
+        "AI",
+        "Cybersecurity",
+        "Reverse Engineering"
+      ],
+      "url": "/tech/2026/10/17/reverse-engineering-nist-ecdsa-curve-seeds-claude.html"
     }
   ],
-  "last_updated": "2026-10-16T23:22:54.484840+00:00"
+  "last_updated": "2026-10-17T03:47:40.145319+00:00"
 }
