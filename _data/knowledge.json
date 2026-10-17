@@ -6031,7 +6031,23 @@
         "anthropic"
       ],
       "url": "/tech/2026/10/17/claude-solves-nist-curve-seed-mystery.html"
+    },
+    {
+      "title": "Anatomy of the OpenCode Security Breach: Model Distillation Attacks and Credential Leaks",
+      "slug": "opencode-security-breach-model-distillation-leaks",
+      "date": "2026-10-18",
+      "category": "Tech",
+      "key_topics": [
+        "AI Security",
+        "Model Distillation",
+        "Credential Leaks",
+        "OpenCode",
+        "Cybersecurity",
+        "LLM",
+        "Developer Tooling"
+      ],
+      "url": "/tech/2026/10/18/opencode-security-breach-model-distillation-leaks.html"
     }
   ],
-  "last_updated": "2026-10-17T10:27:18.614307+00:00"
+  "last_updated": "2026-10-17T22:59:29.581557+00:00"
 }
