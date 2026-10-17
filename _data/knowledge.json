@@ -6016,7 +6016,22 @@
         "Reverse Engineering"
       ],
       "url": "/tech/2026/10/17/reverse-engineering-nist-ecdsa-curve-seeds-claude.html"
+    },
+    {
+      "title": "Solving Cryptography's 25-Year-Old Mystery: How Claude Unmasked the NIST Curve Seeds",
+      "slug": "claude-solves-nist-curve-seed-mystery",
+      "date": "2026-10-17",
+      "category": "Tech",
+      "key_topics": [
+        "cryptography",
+        "elliptic-curves",
+        "nist-p256",
+        "claude",
+        "cybersecurity",
+        "anthropic"
+      ],
+      "url": "/tech/2026/10/17/claude-solves-nist-curve-seed-mystery.html"
     }
   ],
-  "last_updated": "2026-10-17T03:47:40.145319+00:00"
+  "last_updated": "2026-10-17T10:27:18.614307+00:00"
 }
