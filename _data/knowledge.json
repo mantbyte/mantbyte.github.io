@@ -6047,7 +6047,23 @@
         "Developer Tooling"
       ],
       "url": "/tech/2026/10/18/opencode-security-breach-model-distillation-leaks.html"
+    },
+    {
+      "title": "The Great Bot Firewall: How AI Agent Blocking is Rewriting Web Architecture",
+      "slug": "great-bot-firewall-ai-agents",
+      "date": "2026-10-18",
+      "category": "Tech",
+      "key_topics": [
+        "AI Agents",
+        "Web Architecture",
+        "Bot Mitigation",
+        "Cybersecurity",
+        "Web Scraping",
+        "Cloudflare",
+        "TLS Fingerprinting"
+      ],
+      "url": "/tech/2026/10/18/great-bot-firewall-ai-agents.html"
     }
   ],
-  "last_updated": "2026-10-17T22:59:29.581557+00:00"
+  "last_updated": "2026-10-18T03:53:47.993265+00:00"
 }
