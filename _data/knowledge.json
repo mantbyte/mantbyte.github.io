@@ -6063,7 +6063,22 @@
         "TLS Fingerprinting"
       ],
       "url": "/tech/2026/10/18/great-bot-firewall-ai-agents.html"
+    },
+    {
+      "title": "Air-Gapping the Hyperscaler: Inside the AWS European Sovereign Cloud Partitioning Exercise",
+      "slug": "aws-european-sovereign-cloud-partition-test",
+      "date": "2026-10-18",
+      "category": "Geopolitics",
+      "key_topics": [
+        "AWS",
+        "Cloud Sovereignty",
+        "Network Architecture",
+        "Chaos Engineering",
+        "Data Privacy",
+        "Infrastructure"
+      ],
+      "url": "/geopolitics/2026/10/18/aws-european-sovereign-cloud-partition-test.html"
     }
   ],
-  "last_updated": "2026-10-18T03:53:47.993265+00:00"
+  "last_updated": "2026-10-18T10:48:10.848371+00:00"
 }
