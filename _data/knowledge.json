@@ -6156,7 +6156,23 @@
         "Platform Engineering"
       ],
       "url": "/tech/2026/10/19/kubernetes-autoscaler-scheduler-ai-workloads.html"
+    },
+    {
+      "title": "Breaking the CUDA Moat: How AWS TorchNeuron and Trainium Are Decoupling PyTorch",
+      "slug": "aws-trainium-torchneuron-pytorch-cuda",
+      "date": "2026-10-20",
+      "category": "Tech",
+      "key_topics": [
+        "AWS Trainium",
+        "TorchNeuron",
+        "PyTorch",
+        "Nvidia CUDA",
+        "AI Infrastructure",
+        "Machine Learning",
+        "Annapurna Labs"
+      ],
+      "url": "/tech/2026/10/20/aws-trainium-torchneuron-pytorch-cuda.html"
     }
   ],
-  "last_updated": "2026-10-19T12:44:46.093032+00:00"
+  "last_updated": "2026-10-19T20:30:43.913661+00:00"
 }
