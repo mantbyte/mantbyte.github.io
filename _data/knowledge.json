@@ -6141,7 +6141,22 @@
         "Tech Regulation"
       ],
       "url": "/tech/2026/10/19/anthropic-ai-safety-resident-examiner-metr.html"
+    },
+    {
+      "title": "When the Autoscaler Lies to the Scheduler: How AI Workloads are Breaking and Rebuilding Kubernetes",
+      "slug": "kubernetes-autoscaler-scheduler-ai-workloads",
+      "date": "2026-10-19",
+      "category": "Tech",
+      "key_topics": [
+        "Kubernetes",
+        "Cluster Autoscaler",
+        "kube-scheduler",
+        "GPU Infrastructure",
+        "Distributed Training",
+        "Platform Engineering"
+      ],
+      "url": "/tech/2026/10/19/kubernetes-autoscaler-scheduler-ai-workloads.html"
     }
   ],
-  "last_updated": "2026-10-19T04:03:19.299693+00:00"
+  "last_updated": "2026-10-19T12:44:46.093032+00:00"
 }
