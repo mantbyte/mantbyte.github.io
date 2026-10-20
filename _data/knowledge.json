@@ -6236,7 +6236,22 @@
         "ASIC"
       ],
       "url": "/tech/2026/10/21/dismantling-cuda-moat-torchtpu-aws-trainium.html"
+    },
+    {
+      "title": "Decoding Anthropic's Draft AI Safety Bill: Quantitative Thresholds and Catastrophic Risk",
+      "slug": "anthropic-ai-safety-bill-thresholds",
+      "date": "2026-10-21",
+      "category": "News",
+      "key_topics": [
+        "anthropic",
+        "ai-safety",
+        "ai-regulation",
+        "frontier-models",
+        "responsible-scaling-policy",
+        "sb-1047"
+      ],
+      "url": "/news/2026/10/21/anthropic-ai-safety-bill-thresholds.html"
     }
   ],
-  "last_updated": "2026-10-20T19:12:58.282827+00:00"
+  "last_updated": "2026-10-20T23:44:10.231544+00:00"
 }
