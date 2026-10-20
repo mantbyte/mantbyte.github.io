@@ -6219,7 +6219,24 @@
         "Geopolitics"
       ],
       "url": "/geopolitics/2026/10/20/deepseek-ban-ai-supply-chain-sovereignty.html"
+    },
+    {
+      "title": "The Great Abstraction: How Google TorchTPU and AWS Trainium are Dismantling the CUDA Moat",
+      "slug": "dismantling-cuda-moat-torchtpu-aws-trainium",
+      "date": "2026-10-21",
+      "category": "Tech",
+      "key_topics": [
+        "AI Hardware",
+        "CUDA",
+        "TorchTPU",
+        "AWS Trainium",
+        "PyTorch",
+        "OpenXLA",
+        "Machine Learning",
+        "ASIC"
+      ],
+      "url": "/tech/2026/10/21/dismantling-cuda-moat-torchtpu-aws-trainium.html"
     }
   ],
-  "last_updated": "2026-10-20T14:19:29.375553+00:00"
+  "last_updated": "2026-10-20T19:12:58.282827+00:00"
 }
