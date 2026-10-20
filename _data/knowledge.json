@@ -6172,7 +6172,22 @@
         "Annapurna Labs"
       ],
       "url": "/tech/2026/10/20/aws-trainium-torchneuron-pytorch-cuda.html"
+    },
+    {
+      "title": "Breaking the CUDA Moat: How AWS TorchNeuron is Decoupling PyTorch from Nvidia",
+      "slug": "aws-torchneuron-decoupling-pytorch-nvidia-cuda",
+      "date": "2026-10-20",
+      "category": "Tech",
+      "key_topics": [
+        "AWS TorchNeuron",
+        "PyTorch",
+        "Nvidia CUDA",
+        "AWS Trainium",
+        "Machine Learning",
+        "AI Accelerators"
+      ],
+      "url": "/tech/2026/10/20/aws-torchneuron-decoupling-pytorch-nvidia-cuda.html"
     }
   ],
-  "last_updated": "2026-10-19T20:30:43.913661+00:00"
+  "last_updated": "2026-10-20T00:14:27.918651+00:00"
 }
