@@ -6187,7 +6187,23 @@
         "AI Accelerators"
       ],
       "url": "/tech/2026/10/20/aws-torchneuron-decoupling-pytorch-nvidia-cuda.html"
+    },
+    {
+      "title": "The Trojan in the Weights: How Backdoored 'Abliterated' LLMs Trigger Remote Code Execution",
+      "slug": "backdoored-abliterated-llms-remote-code-execution",
+      "date": "2026-10-20",
+      "category": "Tech",
+      "key_topics": [
+        "LLM Security",
+        "Remote Code Execution",
+        "Safetensors",
+        "AI Supply Chain",
+        "Representation Engineering",
+        "QLoRA",
+        "Agentic AI"
+      ],
+      "url": "/tech/2026/10/20/backdoored-abliterated-llms-remote-code-execution.html"
     }
   ],
-  "last_updated": "2026-10-20T00:14:27.918651+00:00"
+  "last_updated": "2026-10-20T08:34:10.634641+00:00"
 }
