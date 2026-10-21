@@ -64,5 +64,6 @@
   "Graph - Tree DP with Knapsack - Maximum Weight Subtree",
   "Dynamic Programming - SOS DP - Bitwise AND Zero Pairs",
   "Tree - Euler Tour Technique - Subtree Queries via Fenwick Tree",
-  "Dynamic Programming - Digit DP - Alternating Parity and Modulo Constraints"
+  "Dynamic Programming - Digit DP - Alternating Parity and Modulo Constraints",
+  "Dynamic Programming - Convex Hull Trick - Monotonic Slope Optimization"
 ]
