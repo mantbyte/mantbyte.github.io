@@ -6300,7 +6300,23 @@
         "Data Center"
       ],
       "url": "/tech/2026/10/22/nvidia-minerva-aiops-scaling-ai-factories.html"
+    },
+    {
+      "title": "Conquering Alert Fatigue: A Deep Dive into AWS Continuum for Code Vulnerabilities",
+      "slug": "aws-continuum-code-vulnerabilities-alert-fatigue",
+      "date": "2026-10-23",
+      "category": "Tech",
+      "key_topics": [
+        "AWS",
+        "DevSecOps",
+        "Cloud Security",
+        "Vulnerability Management",
+        "SAST",
+        "Alert Fatigue",
+        "Cloud Native"
+      ],
+      "url": "/tech/2026/10/23/aws-continuum-code-vulnerabilities-alert-fatigue.html"
     }
   ],
-  "last_updated": "2026-10-22T17:06:30.129981+00:00"
+  "last_updated": "2026-10-22T21:24:45.738717+00:00"
 }
