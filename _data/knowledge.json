@@ -6284,7 +6284,23 @@
         "Network Security"
       ],
       "url": "/tech/2026/10/22/intermediate-ca-compromise-pki-security.html"
+    },
+    {
+      "title": "Scaling Intelligence: How the NVIDIA Minerva AIOps Platform Powers Next-Gen AI Factories",
+      "slug": "nvidia-minerva-aiops-scaling-ai-factories",
+      "date": "2026-10-22",
+      "category": "Tech",
+      "key_topics": [
+        "NVIDIA",
+        "AIOps",
+        "AI Factories",
+        "Infrastructure",
+        "GPUs",
+        "Machine Learning",
+        "Data Center"
+      ],
+      "url": "/tech/2026/10/22/nvidia-minerva-aiops-scaling-ai-factories.html"
     }
   ],
-  "last_updated": "2026-10-22T11:47:03.366596+00:00"
+  "last_updated": "2026-10-22T17:06:30.129981+00:00"
 }
