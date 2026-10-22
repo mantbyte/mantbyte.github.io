@@ -6267,7 +6267,24 @@
         "Regulation"
       ],
       "url": "/geopolitics/2026/10/22/epic-apple-australia-sideloading-mandate.html"
+    },
+    {
+      "title": "When the Chain Snaps: Anatomy of an Intermediate CA Key Compromise",
+      "slug": "intermediate-ca-compromise-pki-security",
+      "date": "2026-10-22",
+      "category": "Tech",
+      "key_topics": [
+        "PKI",
+        "Cybersecurity",
+        "SSL",
+        "TLS",
+        "X.509",
+        "Root CA",
+        "Encryption",
+        "Network Security"
+      ],
+      "url": "/tech/2026/10/22/intermediate-ca-compromise-pki-security.html"
     }
   ],
-  "last_updated": "2026-10-22T04:07:14.137109+00:00"
+  "last_updated": "2026-10-22T11:47:03.366596+00:00"
 }
