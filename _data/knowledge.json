@@ -6316,7 +6316,23 @@
         "Cloud Native"
       ],
       "url": "/tech/2026/10/23/aws-continuum-code-vulnerabilities-alert-fatigue.html"
+    },
+    {
+      "title": "LLM-Driven Formal Software Verification at Scale: Bridging Math and Machine Code",
+      "slug": "llm-formal-verification-machine-code",
+      "date": "2026-10-23",
+      "category": "Tech",
+      "key_topics": [
+        "LLM",
+        "Formal Verification",
+        "Software Security",
+        "Rocq Prover",
+        "RISC-V",
+        "AI",
+        "Machine Code"
+      ],
+      "url": "/tech/2026/10/23/llm-formal-verification-machine-code.html"
     }
   ],
-  "last_updated": "2026-10-22T21:24:45.738717+00:00"
+  "last_updated": "2026-10-23T04:10:36.363166+00:00"
 }
