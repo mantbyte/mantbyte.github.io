@@ -6363,7 +6363,23 @@
         "Starlink"
       ],
       "url": "/geopolitics/2026/10/24/starshield-pivot-geopolitical-risks-space-monopolies.html"
+    },
+    {
+      "title": "Anatomy of the BlackX UEFI Bootkit: How Missing DBX Revocations Bypass Secure Boot on Patched Windows",
+      "slug": "blackx-uefi-bootkit-secure-boot",
+      "date": "2026-10-24",
+      "category": "Tech",
+      "key_topics": [
+        "UEFI",
+        "Secure Boot",
+        "Bootkit",
+        "APT41",
+        "Cybersecurity",
+        "Windows",
+        "Malware Analysis"
+      ],
+      "url": "/tech/2026/10/24/blackx-uefi-bootkit-secure-boot.html"
     }
   ],
-  "last_updated": "2026-10-23T21:19:14.809861+00:00"
+  "last_updated": "2026-10-24T04:02:24.284990+00:00"
 }
