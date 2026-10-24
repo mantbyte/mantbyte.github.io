@@ -67,5 +67,6 @@
   "Dynamic Programming - Digit DP - Alternating Parity and Modulo Constraints",
   "Dynamic Programming - Convex Hull Trick - Monotonic Slope Optimization",
   "Graph - Dijkstra - State-Space Shortest Path",
-  "Tree - Binary Lifting - Lowest Common Ancestor and Path Queries"
+  "Tree - Binary Lifting - Lowest Common Ancestor and Path Queries",
+  "String - Aho-Corasick Automaton - Multi-Pattern Matching with Suffix Links"
 ]
