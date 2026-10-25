@@ -6379,7 +6379,23 @@
         "Malware Analysis"
       ],
       "url": "/tech/2026/10/24/blackx-uefi-bootkit-secure-boot.html"
+    },
+    {
+      "title": "Google ML Drift: Architecting the Future of Cross-Platform On-Device AI",
+      "slug": "google-ml-drift-cross-platform-on-device-ai",
+      "date": "2026-10-26",
+      "category": "Tech",
+      "key_topics": [
+        "Machine Learning",
+        "Google ML Drift",
+        "LiteRT",
+        "On-Device AI",
+        "GPU Acceleration",
+        "TensorFlow",
+        "Edge AI"
+      ],
+      "url": "/tech/2026/10/26/google-ml-drift-cross-platform-on-device-ai.html"
     }
   ],
-  "last_updated": "2026-10-24T04:02:24.284990+00:00"
+  "last_updated": "2026-10-25T21:54:17.577743+00:00"
 }
