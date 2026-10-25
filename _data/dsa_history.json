@@ -68,5 +68,6 @@
   "Dynamic Programming - Convex Hull Trick - Monotonic Slope Optimization",
   "Graph - Dijkstra - State-Space Shortest Path",
   "Tree - Binary Lifting - Lowest Common Ancestor and Path Queries",
-  "String - Aho-Corasick Automaton - Multi-Pattern Matching with Suffix Links"
+  "String - Aho-Corasick Automaton - Multi-Pattern Matching with Suffix Links",
+  "Graph - Hopcroft-Karp - Maximum Bipartite Matching"
 ]
