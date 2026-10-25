@@ -6395,7 +6395,23 @@
         "Edge AI"
       ],
       "url": "/tech/2026/10/26/google-ml-drift-cross-platform-on-device-ai.html"
+    },
+    {
+      "title": "Anatomy of CVE-2026-109618 and CVE-2026-109619: Inside the Critical 'php2shell' RCE Vulnerabilities",
+      "slug": "anatomy-php2shell-rce-vulnerabilities-cve-2026-109618",
+      "date": "2026-10-26",
+      "category": "Tech",
+      "key_topics": [
+        "php",
+        "cybersecurity",
+        "rce",
+        "cve-2026-109618",
+        "vulnerability",
+        "memory-safety",
+        "php-fpm"
+      ],
+      "url": "/tech/2026/10/26/anatomy-php2shell-rce-vulnerabilities-cve-2026-109618.html"
     }
   ],
-  "last_updated": "2026-10-25T21:54:17.577743+00:00"
+  "last_updated": "2026-10-25T23:07:23.897975+00:00"
 }
