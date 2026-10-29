@@ -72,5 +72,6 @@
   "Graph - Hopcroft-Karp - Maximum Bipartite Matching",
   "Segment Tree - Point Updates and Range Queries for Subarray Sums",
   "Dynamic Programming - Interval DP - Optimal Substructure",
-  "Array - Monotonic Stack - Circular Search"
+  "Array - Monotonic Stack - Circular Search",
+  "Dynamic Programming - Matrix Exponentiation - State Transition Expansion"
 ]
