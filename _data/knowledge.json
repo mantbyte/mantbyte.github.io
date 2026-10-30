@@ -6505,7 +6505,23 @@
         "LLMs"
       ],
       "url": "/tech/2026/10/30/sre-paradox-ai-automation-system-fragility.html"
+    },
+    {
+      "title": "SQL to CUDA: How xarray-sql Compiles FlashAttention in 25 Lines",
+      "slug": "sql-cuda-xarray-sql-flashattention",
+      "date": "2026-10-31",
+      "category": "Tech",
+      "key_topics": [
+        "SQL",
+        "CUDA",
+        "FlashAttention",
+        "GPU Optimization",
+        "Machine Learning",
+        "Deep Learning",
+        "Compilers"
+      ],
+      "url": "/tech/2026/10/31/sql-cuda-xarray-sql-flashattention.html"
     }
   ],
-  "last_updated": "2026-10-30T17:58:37.345600+00:00"
+  "last_updated": "2026-10-30T22:08:35.462496+00:00"
 }
