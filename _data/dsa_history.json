@@ -73,5 +73,6 @@
   "Segment Tree - Point Updates and Range Queries for Subarray Sums",
   "Dynamic Programming - Interval DP - Optimal Substructure",
   "Array - Monotonic Stack - Circular Search",
-  "Dynamic Programming - Matrix Exponentiation - State Transition Expansion"
+  "Dynamic Programming - Matrix Exponentiation - State Transition Expansion",
+  "String - Bitmasking - Prefix XOR Parity Logic"
 ]
