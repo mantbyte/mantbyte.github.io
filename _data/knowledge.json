@@ -6537,7 +6537,24 @@
         "malware"
       ],
       "url": "/tech/2026/10/31/anthropic-cursor-extension-backdoor.html"
+    },
+    {
+      "title": "Breaking the Sandbox: Analyzing the ChatGPT Shared Link Client-Side RCE Vulnerability",
+      "slug": "chatgpt-shared-link-rce-vulnerability",
+      "date": "2026-10-31",
+      "category": "Tech",
+      "key_topics": [
+        "Cybersecurity",
+        "ChatGPT",
+        "RCE",
+        "Vulnerability",
+        "Sandbox",
+        "WebSecurity",
+        "MathLive",
+        "Exploit"
+      ],
+      "url": "/tech/2026/10/31/chatgpt-shared-link-rce-vulnerability.html"
     }
   ],
-  "last_updated": "2026-10-31T04:59:43.211236+00:00"
+  "last_updated": "2026-10-31T11:59:01.192587+00:00"
 }
