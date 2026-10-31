@@ -6554,7 +6554,23 @@
         "Exploit"
       ],
       "url": "/tech/2026/10/31/chatgpt-shared-link-rce-vulnerability.html"
+    },
+    {
+      "title": "Unpacking the ChatGPT Sandbox Escape: Cross-Frame Scripting, MathLive, and CSP Bypasses",
+      "slug": "chatgpt-sandbox-escape-xss-csp",
+      "date": "2026-10-31",
+      "category": "News",
+      "key_topics": [
+        "ChatGPT",
+        "Cybersecurity",
+        "XSS",
+        "CSP",
+        "Web Security",
+        "Vulnerability",
+        "Exploit"
+      ],
+      "url": "/news/2026/10/31/chatgpt-sandbox-escape-xss-csp.html"
     }
   ],
-  "last_updated": "2026-10-31T11:59:01.192587+00:00"
+  "last_updated": "2026-10-31T17:11:56.986277+00:00"
 }
