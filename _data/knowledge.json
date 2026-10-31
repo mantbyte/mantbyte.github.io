@@ -6521,7 +6521,23 @@
         "Compilers"
       ],
       "url": "/tech/2026/10/31/sql-cuda-xarray-sql-flashattention.html"
+    },
+    {
+      "title": "Anatomy of a Supply Chain Heist: The Anthropic Cursor Extension Backdoor",
+      "slug": "anthropic-cursor-extension-backdoor",
+      "date": "2026-10-31",
+      "category": "Tech",
+      "key_topics": [
+        "supply chain security",
+        "cursor ide",
+        "anthropic",
+        "cybersecurity",
+        "ide extensions",
+        "credential theft",
+        "malware"
+      ],
+      "url": "/tech/2026/10/31/anthropic-cursor-extension-backdoor.html"
     }
   ],
-  "last_updated": "2026-10-30T22:08:35.462496+00:00"
+  "last_updated": "2026-10-31T04:59:43.211236+00:00"
 }
