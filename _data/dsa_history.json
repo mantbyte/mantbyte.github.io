@@ -74,5 +74,6 @@
   "Dynamic Programming - Interval DP - Optimal Substructure",
   "Array - Monotonic Stack - Circular Search",
   "Dynamic Programming - Matrix Exponentiation - State Transition Expansion",
-  "String - Bitmasking - Prefix XOR Parity Logic"
+  "String - Bitmasking - Prefix XOR Parity Logic",
+  "String - Z-Algorithm - Prefix-Suffix-Middle Matching"
 ]
