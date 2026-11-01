@@ -6617,7 +6617,22 @@
         "Capacity Planning"
       ],
       "url": "/news/2026/11/01/aws-cloud-capacity-scarcity-crunch.html"
+    },
+    {
+      "title": "The End of Infinite Cloud: Navigating AWS's Compute Sellout Through 2028",
+      "slug": "aws-compute-sellout-capacity-2028",
+      "date": "2026-11-02",
+      "category": "News",
+      "key_topics": [
+        "AWS",
+        "Cloud Computing",
+        "Infrastructure",
+        "Artificial Intelligence",
+        "EC2",
+        "Cloud Architecture"
+      ],
+      "url": "/news/2026/11/02/aws-compute-sellout-capacity-2028.html"
     }
   ],
-  "last_updated": "2026-11-01T13:11:40.386564+00:00"
+  "last_updated": "2026-11-01T19:51:24.306322+00:00"
 }
