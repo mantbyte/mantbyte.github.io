@@ -6632,7 +6632,24 @@
         "Cloud Architecture"
       ],
       "url": "/news/2026/11/02/aws-compute-sellout-capacity-2028.html"
+    },
+    {
+      "title": "Slopsquatting: How AI Hallucinations Are Weaponizing the Software Supply Chain",
+      "slug": "slopsquatting-ai-hallucinations-software-supply-chain",
+      "date": "2026-11-02",
+      "category": "Tech",
+      "key_topics": [
+        "AI Security",
+        "Slopsquatting",
+        "LLM Hallucinations",
+        "Supply Chain Attack",
+        "Cybersecurity",
+        "Python",
+        "npm",
+        "DevSecOps"
+      ],
+      "url": "/tech/2026/11/02/slopsquatting-ai-hallucinations-software-supply-chain.html"
     }
   ],
-  "last_updated": "2026-11-01T19:51:24.306322+00:00"
+  "last_updated": "2026-11-02T00:31:48.659233+00:00"
 }
