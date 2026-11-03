@@ -6649,7 +6649,24 @@
         "DevSecOps"
       ],
       "url": "/tech/2026/11/02/slopsquatting-ai-hallucinations-software-supply-chain.html"
+    },
+    {
+      "title": "Scaling Git at OpenAI with Pando: Rebuilding Version Control for the Age of AI Agents",
+      "slug": "openai-pando-scaling-git-ai-agents",
+      "date": "2026-11-03",
+      "category": "Tech",
+      "key_topics": [
+        "OpenAI",
+        "Git",
+        "Pando",
+        "Version Control",
+        "AI Agents",
+        "DevOps",
+        "Scalability",
+        "Software Engineering"
+      ],
+      "url": "/tech/2026/11/03/openai-pando-scaling-git-ai-agents.html"
     }
   ],
-  "last_updated": "2026-11-02T00:31:48.659233+00:00"
+  "last_updated": "2026-11-03T06:00:19.572184+00:00"
 }
