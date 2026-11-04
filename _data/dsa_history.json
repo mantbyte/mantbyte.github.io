@@ -77,5 +77,6 @@
   "String - Bitmasking - Prefix XOR Parity Logic",
   "String - Z-Algorithm - Prefix-Suffix-Middle Matching",
   "Graph - 2-Satisfiability (2-SAT) - Implication Graph and SCC",
-  "Geometry - Monotone Chain Algorithm - Convex Hull"
+  "Geometry - Monotone Chain Algorithm - Convex Hull",
+  "String - Manacher's Algorithm - O(N) Palindrome Search"
 ]
