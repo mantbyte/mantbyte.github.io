@@ -6683,7 +6683,22 @@
         "Falcon Platform"
       ],
       "url": "/news/2026/11/04/crowdstrike-fiddler-dreadnode-ai-security-acquisitions.html"
+    },
+    {
+      "title": "Mercury 2.5 and the 1,000+ Tokens/Sec Era: Rewriting Agent and RAG Design",
+      "slug": "mercury-2-5-1000-tps-rag-design",
+      "date": "2026-11-04",
+      "category": "Tech",
+      "key_topics": [
+        "Mercury 2.5",
+        "LLM",
+        "RAG",
+        "AI Agents",
+        "Machine Learning",
+        "Software Architecture"
+      ],
+      "url": "/tech/2026/11/04/mercury-2-5-1000-tps-rag-design.html"
     }
   ],
-  "last_updated": "2026-11-03T20:53:51.097511+00:00"
+  "last_updated": "2026-11-04T01:11:57.254050+00:00"
 }
