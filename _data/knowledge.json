@@ -6714,7 +6714,22 @@
         "IT management"
       ],
       "url": "/news/2026/11/05/residential-proxy-sdks-hidden-threat.html"
+    },
+    {
+      "title": "The Asterisk (*) Vulnerability: Decoding the OpenSSH and musl Authentication Bypass",
+      "slug": "asterisk-vulnerability-openssh-musl-bypass",
+      "date": "2026-11-06",
+      "category": "News",
+      "key_topics": [
+        "OpenSSH",
+        "musl",
+        "Alpine Linux",
+        "Cybersecurity",
+        "Authentication Bypass",
+        "Linux Security"
+      ],
+      "url": "/news/2026/11/06/asterisk-vulnerability-openssh-musl-bypass.html"
     }
   ],
-  "last_updated": "2026-11-05T01:24:57.957078+00:00"
+  "last_updated": "2026-11-06T01:29:29.420096+00:00"
 }
