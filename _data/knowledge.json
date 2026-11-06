@@ -6729,7 +6729,22 @@
         "Linux Security"
       ],
       "url": "/news/2026/11/06/asterisk-vulnerability-openssh-musl-bypass.html"
+    },
+    {
+      "title": "Securing the Agentic Enterprise: Why Palo Alto Networks' Acquisition of Clutch Security Marks a 50x Paradigm Shift",
+      "slug": "palo-alto-networks-clutch-security-acquisition",
+      "date": "2026-11-06",
+      "category": "News",
+      "key_topics": [
+        "Cybersecurity",
+        "AI Agents",
+        "Palo Alto Networks",
+        "Clutch Security",
+        "IAM",
+        "Enterprise Security"
+      ],
+      "url": "/news/2026/11/06/palo-alto-networks-clutch-security-acquisition.html"
     }
   ],
-  "last_updated": "2026-11-06T01:29:29.420096+00:00"
+  "last_updated": "2026-11-06T10:37:31.662278+00:00"
 }
