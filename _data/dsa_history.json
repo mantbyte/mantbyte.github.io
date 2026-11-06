@@ -79,5 +79,6 @@
   "Graph - 2-Satisfiability (2-SAT) - Implication Graph and SCC",
   "Geometry - Monotone Chain Algorithm - Convex Hull",
   "String - Manacher's Algorithm - O(N) Palindrome Search",
-  "Graph - Bellman-Ford - Negative Cycle Detection in Currency Exchange"
+  "Graph - Bellman-Ford - Negative Cycle Detection in Currency Exchange",
+  "Tree - Dynamic Programming - Independent Set"
 ]
