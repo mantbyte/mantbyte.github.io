@@ -6791,7 +6791,23 @@
         "Software Engineering"
       ],
       "url": "/tech/2026/11/07/recursive-self-improvement-anthropic-ai-rd.html"
+    },
+    {
+      "title": "Coldframe: Securing Supermarket Refrigeration via Operational Technology Honeypots",
+      "slug": "coldframe-securing-supermarket-refrigeration-ot",
+      "date": "2026-11-08",
+      "category": "Tech",
+      "key_topics": [
+        "Coldframe",
+        "OT Security",
+        "Honeypots",
+        "Supermarket Refrigeration",
+        "Industrial Control Systems",
+        "Cybersecurity",
+        "SCADA"
+      ],
+      "url": "/tech/2026/11/08/coldframe-securing-supermarket-refrigeration-ot.html"
     }
   ],
-  "last_updated": "2026-11-07T17:39:03.255987+00:00"
+  "last_updated": "2026-11-07T21:41:21.151423+00:00"
 }
