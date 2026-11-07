@@ -80,5 +80,6 @@
   "Geometry - Monotone Chain Algorithm - Convex Hull",
   "String - Manacher's Algorithm - O(N) Palindrome Search",
   "Graph - Bellman-Ford - Negative Cycle Detection in Currency Exchange",
-  "Tree - Dynamic Programming - Independent Set"
+  "Tree - Dynamic Programming - Independent Set",
+  "Graph - Disjoint Set Union / Breadth-First Search - Component Connection"
 ]
