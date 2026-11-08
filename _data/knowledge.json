@@ -6823,7 +6823,22 @@
         "Supply Chain"
       ],
       "url": "/geopolitics/2026/11/08/silicon-spyglass-corporate-espionage-ai.html"
+    },
+    {
+      "title": "Convenience at What Cost? Claude Code's 'Don't Ask Again' Feature and the Rising Tide of AI-Driven Secret Leaks",
+      "slug": "claude-code-secret-leaks-permission-caching",
+      "date": "2026-11-08",
+      "category": "Tech",
+      "key_topics": [
+        "Claude Code",
+        "Cybersecurity",
+        "AI Coding Agents",
+        "Credential Leakage",
+        "GitHub Security",
+        "Software Development"
+      ],
+      "url": "/tech/2026/11/08/claude-code-secret-leaks-permission-caching.html"
     }
   ],
-  "last_updated": "2026-11-08T05:22:05.189967+00:00"
+  "last_updated": "2026-11-08T13:01:23.212911+00:00"
 }
