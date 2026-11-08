@@ -6838,7 +6838,23 @@
         "Software Development"
       ],
       "url": "/tech/2026/11/08/claude-code-secret-leaks-permission-caching.html"
+    },
+    {
+      "title": "Client-Side Scanning and the End of Device-Level Privacy: Analyzing the UK's Proposed Smartphone Surveillance Legislation",
+      "slug": "uk-smartphone-surveillance-client-side-scanning",
+      "date": "2026-11-09",
+      "category": "Geopolitics",
+      "key_topics": [
+        "Client-Side Scanning",
+        "Digital Privacy",
+        "E2EE",
+        "Cybersecurity",
+        "Surveillance",
+        "UK Legislation",
+        "Encryption"
+      ],
+      "url": "/geopolitics/2026/11/09/uk-smartphone-surveillance-client-side-scanning.html"
     }
   ],
-  "last_updated": "2026-11-08T13:01:23.212911+00:00"
+  "last_updated": "2026-11-08T19:27:02.938087+00:00"
 }
