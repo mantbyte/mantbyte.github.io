@@ -81,5 +81,6 @@
   "String - Manacher's Algorithm - O(N) Palindrome Search",
   "Graph - Bellman-Ford - Negative Cycle Detection in Currency Exchange",
   "Tree - Dynamic Programming - Independent Set",
-  "Graph - Disjoint Set Union / Breadth-First Search - Component Connection"
+  "Graph - Disjoint Set Union / Breadth-First Search - Component Connection",
+  "Sliding Window - Hash Map - Dynamic Subarray Shrinking"
 ]
