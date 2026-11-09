@@ -6854,7 +6854,23 @@
         "Encryption"
       ],
       "url": "/geopolitics/2026/11/09/uk-smartphone-surveillance-client-side-scanning.html"
+    },
+    {
+      "title": "Outlook.com's Silent DMARC Enforcement: What Every Developer and Small Domain Owner Needs to Know",
+      "slug": "outlook-silent-dmarc-enforcement-fix",
+      "date": "2026-11-09",
+      "category": "Tech",
+      "key_topics": [
+        "DMARC",
+        "SPF",
+        "DKIM",
+        "Email Security",
+        "Outlook",
+        "DNS",
+        "DevOps"
+      ],
+      "url": "/tech/2026/11/09/outlook-silent-dmarc-enforcement-fix.html"
     }
   ],
-  "last_updated": "2026-11-08T19:27:02.938087+00:00"
+  "last_updated": "2026-11-09T00:40:45.569883+00:00"
 }
