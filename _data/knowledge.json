@@ -6870,7 +6870,23 @@
         "DevOps"
       ],
       "url": "/tech/2026/11/09/outlook-silent-dmarc-enforcement-fix.html"
+    },
+    {
+      "title": "Tokio Releases Topcoat: A Batteries-Included Full-Stack Rust Framework",
+      "slug": "tokio-topcoat-full-stack-rust-framework",
+      "date": "2026-11-09",
+      "category": "Tech",
+      "key_topics": [
+        "Rust",
+        "Tokio",
+        "Topcoat",
+        "Web Development",
+        "JavaScript",
+        "WASM",
+        "Full-Stack"
+      ],
+      "url": "/tech/2026/11/09/tokio-topcoat-full-stack-rust-framework.html"
     }
   ],
-  "last_updated": "2026-11-09T00:40:45.569883+00:00"
+  "last_updated": "2026-11-09T11:09:05.889499+00:00"
 }
