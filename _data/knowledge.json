@@ -6903,7 +6903,24 @@
         "DevOps"
       ],
       "url": "/news/2026/11/10/anatomy-kev-surge-openssh-sshole.html"
+    },
+    {
+      "title": "Anatomy of the 'Able2Shell' Incident: N-able's Zero-Day Outage and the RMM Supply Chain Crisis",
+      "slug": "able2shell-incident-n-able-zero-day",
+      "date": "2026-11-10",
+      "category": "News",
+      "key_topics": [
+        "N-able",
+        "zero-day",
+        "RMM",
+        "cybersecurity",
+        "supply-chain",
+        "vulnerability",
+        "DevOps",
+        "infosec"
+      ],
+      "url": "/news/2026/11/10/able2shell-incident-n-able-zero-day.html"
     }
   ],
-  "last_updated": "2026-11-10T06:44:51.948204+00:00"
+  "last_updated": "2026-11-10T16:55:20.272682+00:00"
 }
