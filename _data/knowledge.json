@@ -6886,7 +6886,24 @@
         "Full-Stack"
       ],
       "url": "/tech/2026/11/09/tokio-topcoat-full-stack-rust-framework.html"
+    },
+    {
+      "title": "Anatomy of a KEV Surge: OpenSSH 'SSHole', GPUStack, and Enterprise Flaws Under Active Exploitation",
+      "slug": "anatomy-kev-surge-openssh-sshole",
+      "date": "2026-11-10",
+      "category": "News",
+      "key_topics": [
+        "OpenSSH",
+        "SSHole",
+        "CVE-2026-123158",
+        "KEV catalog",
+        "Cybersecurity",
+        "Vulnerability",
+        "Enterprise Security",
+        "DevOps"
+      ],
+      "url": "/news/2026/11/10/anatomy-kev-surge-openssh-sshole.html"
     }
   ],
-  "last_updated": "2026-11-09T11:09:05.889499+00:00"
+  "last_updated": "2026-11-10T06:44:51.948204+00:00"
 }
