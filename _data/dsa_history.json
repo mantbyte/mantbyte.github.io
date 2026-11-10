@@ -82,5 +82,6 @@
   "Graph - Bellman-Ford - Negative Cycle Detection in Currency Exchange",
   "Tree - Dynamic Programming - Independent Set",
   "Graph - Disjoint Set Union / Breadth-First Search - Component Connection",
-  "Sliding Window - Hash Map - Dynamic Subarray Shrinking"
+  "Sliding Window - Hash Map - Dynamic Subarray Shrinking",
+  "Bitwise Operations - Monotonic Stack - Contribution Technique"
 ]
