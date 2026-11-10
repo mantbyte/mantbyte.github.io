@@ -6920,7 +6920,23 @@
         "infosec"
       ],
       "url": "/news/2026/11/10/able2shell-incident-n-able-zero-day.html"
+    },
+    {
+      "title": "SGLang RCE Exploit Breaches NEAR AI: Breaking Down the TEE Illusion",
+      "slug": "sglang-rce-exploit-near-ai-tee",
+      "date": "2026-11-11",
+      "category": "Tech",
+      "key_topics": [
+        "SGLang",
+        "NEAR AI",
+        "RCE Exploit",
+        "Cybersecurity",
+        "TEE",
+        "AI Infrastructure",
+        "Cloud Security"
+      ],
+      "url": "/tech/2026/11/11/sglang-rce-exploit-near-ai-tee.html"
     }
   ],
-  "last_updated": "2026-11-10T16:55:20.272682+00:00"
+  "last_updated": "2026-11-10T23:01:18.700580+00:00"
 }
