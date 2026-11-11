@@ -83,5 +83,6 @@
   "Tree - Dynamic Programming - Independent Set",
   "Graph - Disjoint Set Union / Breadth-First Search - Component Connection",
   "Sliding Window - Hash Map - Dynamic Subarray Shrinking",
-  "Bitwise Operations - Monotonic Stack - Contribution Technique"
+  "Bitwise Operations - Monotonic Stack - Contribution Technique",
+  "Graph - Tarjan's Bridge-Finding Algorithm - Critical Edge Detection"
 ]
