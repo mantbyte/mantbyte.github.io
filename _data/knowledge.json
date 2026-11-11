@@ -6952,7 +6952,22 @@
         "Web Security"
       ],
       "url": "/tech/2026/11/11/grok-build-leak-subdomain-token-flaws.html"
+    },
+    {
+      "title": "Surgical Sabotage: How Microsoft Researchers Backdoored AI Agents by Editing Fewer Than 10 Neurons",
+      "slug": "surgical-sabotage-microsoft-ai-backdoor",
+      "date": "2026-11-11",
+      "category": "Tech",
+      "key_topics": [
+        "AI Security",
+        "Machine Learning",
+        "Microsoft",
+        "Neural Networks",
+        "Cybersecurity",
+        "Large Language Models"
+      ],
+      "url": "/tech/2026/11/11/surgical-sabotage-microsoft-ai-backdoor.html"
     }
   ],
-  "last_updated": "2026-11-11T05:30:19.194016+00:00"
+  "last_updated": "2026-11-11T13:52:37.937687+00:00"
 }
