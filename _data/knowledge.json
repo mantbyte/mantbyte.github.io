@@ -6983,7 +6983,23 @@
         "Tech Leadership"
       ],
       "url": "/geopolitics/2026/11/12/jensen-huang-transition-nvidia-ai-infrastructure.html"
+    },
+    {
+      "title": "Silent Failures in Multi-Stage LLM Pipelines: Why Your HTTP 200 Status Codes Are Lying to You",
+      "slug": "silent-failures-multi-stage-llm-pipelines",
+      "date": "2026-11-12",
+      "category": "Tech",
+      "key_topics": [
+        "LLM",
+        "AI Pipelines",
+        "Backend Engineering",
+        "Data Integrity",
+        "Microservices",
+        "Python",
+        "API Security"
+      ],
+      "url": "/tech/2026/11/12/silent-failures-multi-stage-llm-pipelines.html"
     }
   ],
-  "last_updated": "2026-11-12T06:36:02.481781+00:00"
+  "last_updated": "2026-11-12T17:50:47.240311+00:00"
 }
