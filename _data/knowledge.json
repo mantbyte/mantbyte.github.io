@@ -6999,7 +6999,23 @@
         "API Security"
       ],
       "url": "/tech/2026/11/12/silent-failures-multi-stage-llm-pipelines.html"
+    },
+    {
+      "title": "Inside Nvidia's Private Geotracking Confession: The Technical Reality of AI Chip Tracking",
+      "slug": "nvidia-ai-chip-geotracking-technical-reality",
+      "date": "2026-11-13",
+      "category": "Geopolitics",
+      "key_topics": [
+        "Nvidia",
+        "AI Chips",
+        "Geotracking",
+        "Semiconductors",
+        "Export Controls",
+        "Hardware Telemetry",
+        "Supply Chain"
+      ],
+      "url": "/geopolitics/2026/11/13/nvidia-ai-chip-geotracking-technical-reality.html"
     }
   ],
-  "last_updated": "2026-11-12T17:50:47.240311+00:00"
+  "last_updated": "2026-11-12T23:25:08.566386+00:00"
 }
