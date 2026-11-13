@@ -7047,7 +7047,24 @@
         "Network Security"
       ],
       "url": "/tech/2026/11/13/silentair-state-sponsored-telecom-hijacking.html"
+    },
+    {
+      "title": "Neural Network Weight-Space Attacks: When AI Models Become Malware",
+      "slug": "neural-network-weight-space-attacks-ai-malware",
+      "date": "2026-11-14",
+      "category": "Tech",
+      "key_topics": [
+        "Cybersecurity",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Weight-Space Attacks",
+        "AI Safety",
+        "Deserialization",
+        "PyTorch",
+        "Malware"
+      ],
+      "url": "/tech/2026/11/14/neural-network-weight-space-attacks-ai-malware.html"
     }
   ],
-  "last_updated": "2026-11-13T14:19:12.536023+00:00"
+  "last_updated": "2026-11-13T21:19:00.137659+00:00"
 }
