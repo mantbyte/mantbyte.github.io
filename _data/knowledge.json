@@ -7015,7 +7015,23 @@
         "Supply Chain"
       ],
       "url": "/geopolitics/2026/11/13/nvidia-ai-chip-geotracking-technical-reality.html"
+    },
+    {
+      "title": "Tracing Forbidden Silicon: Model Weight Forensics and NVIDIA GPU Fingerprinting in Chinese Frontier AI",
+      "slug": "tracing-forbidden-silicon-model-weight-forensics",
+      "date": "2026-11-13",
+      "category": "Geopolitics",
+      "key_topics": [
+        "AI Forensics",
+        "NVIDIA GPU",
+        "Export Controls",
+        "Model Weights",
+        "Semiconductors",
+        "Geopolitics",
+        "Machine Learning"
+      ],
+      "url": "/geopolitics/2026/11/13/tracing-forbidden-silicon-model-weight-forensics.html"
     }
   ],
-  "last_updated": "2026-11-12T23:25:08.566386+00:00"
+  "last_updated": "2026-11-13T05:54:37.405856+00:00"
 }
