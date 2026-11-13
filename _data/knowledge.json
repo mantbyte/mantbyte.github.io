@@ -7031,7 +7031,23 @@
         "Machine Learning"
       ],
       "url": "/geopolitics/2026/11/13/tracing-forbidden-silicon-model-weight-forensics.html"
+    },
+    {
+      "title": "SilentAir: Anatomy of State-Sponsored Telecom Hijacking and SMS 2FA Interception",
+      "slug": "silentair-state-sponsored-telecom-hijacking",
+      "date": "2026-11-13",
+      "category": "Tech",
+      "key_topics": [
+        "Cybersecurity",
+        "Telecommunications",
+        "SS7",
+        "Diameter",
+        "SMS 2FA",
+        "State-Sponsored",
+        "Network Security"
+      ],
+      "url": "/tech/2026/11/13/silentair-state-sponsored-telecom-hijacking.html"
     }
   ],
-  "last_updated": "2026-11-13T05:54:37.405856+00:00"
+  "last_updated": "2026-11-13T14:19:12.536023+00:00"
 }
