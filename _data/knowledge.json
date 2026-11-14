@@ -7064,7 +7064,22 @@
         "Malware"
       ],
       "url": "/tech/2026/11/14/neural-network-weight-space-attacks-ai-malware.html"
+    },
+    {
+      "title": "Legacy Systems in the Sky: Anatomy of the FAA Nationwide Ground Stop",
+      "slug": "faa-ground-stop-legacy-systems",
+      "date": "2026-11-14",
+      "category": "News",
+      "key_topics": [
+        "FAA",
+        "Legacy Systems",
+        "Technical Debt",
+        "Infrastructure",
+        "Air Traffic Control",
+        "Software Architecture"
+      ],
+      "url": "/news/2026/11/14/faa-ground-stop-legacy-systems.html"
     }
   ],
-  "last_updated": "2026-11-13T21:19:00.137659+00:00"
+  "last_updated": "2026-11-14T05:43:29.343523+00:00"
 }
