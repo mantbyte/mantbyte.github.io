@@ -7142,7 +7142,23 @@
         "LLM Architecture"
       ],
       "url": "/tech/2026/11/16/securing-autonomous-ai-agents-ubers-framework.html"
+    },
+    {
+      "title": "Unpacking AWS Emulator: The Rust-Powered, Agent-Built Local Cloud for 200+ AWS Services",
+      "slug": "aws-emulator-rust-local-cloud",
+      "date": "2026-11-16",
+      "category": "Tech",
+      "key_topics": [
+        "AWS",
+        "Rust",
+        "Cloud Computing",
+        "AI Agents",
+        "Infrastructure as Code",
+        "Smithy",
+        "Local Development"
+      ],
+      "url": "/tech/2026/11/16/aws-emulator-rust-local-cloud.html"
     }
   ],
-  "last_updated": "2026-11-16T00:53:08.801832+00:00"
+  "last_updated": "2026-11-16T10:50:40.048386+00:00"
 }
