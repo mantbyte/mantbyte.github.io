@@ -7127,7 +7127,22 @@
         "Automation"
       ],
       "url": "/tech/2026/11/16/scaling-agentic-coding-anthropic-pipeline.html"
+    },
+    {
+      "title": "Securing Autonomous AI Agents: Inside Uber's Three-Tier Lifecycle Framework",
+      "slug": "securing-autonomous-ai-agents-ubers-framework",
+      "date": "2026-11-16",
+      "category": "Tech",
+      "key_topics": [
+        "AI Security",
+        "Autonomous Agents",
+        "Prompt Injection",
+        "Uber Framework",
+        "Cybersecurity",
+        "LLM Architecture"
+      ],
+      "url": "/tech/2026/11/16/securing-autonomous-ai-agents-ubers-framework.html"
     }
   ],
-  "last_updated": "2026-11-15T18:40:28.035790+00:00"
+  "last_updated": "2026-11-16T00:53:08.801832+00:00"
 }
