@@ -7175,7 +7175,22 @@
         "Proxies"
       ],
       "url": "/tech/2026/11/17/intercepting-http3-quic-network-debugging.html"
+    },
+    {
+      "title": "Under the Hood of Windows 11 Telemetry: How OS-Level Tracking Targets AI Coding Agents and Developer Tools",
+      "slug": "windows-11-telemetry-ai-coding-agents",
+      "date": "2026-11-17",
+      "category": "Tech",
+      "key_topics": [
+        "Windows 11",
+        "Telemetry",
+        "AI Coding Agents",
+        "Cybersecurity",
+        "Developer Tools",
+        "Reverse Engineering"
+      ],
+      "url": "/tech/2026/11/17/windows-11-telemetry-ai-coding-agents.html"
     }
   ],
-  "last_updated": "2026-11-16T21:51:37.450950+00:00"
+  "last_updated": "2026-11-17T07:19:51.578169+00:00"
 }
