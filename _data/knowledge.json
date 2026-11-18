@@ -7206,7 +7206,23 @@
         "France"
       ],
       "url": "/news/2026/11/18/quad9-french-exit-fracture-public-dns.html"
+    },
+    {
+      "title": "Anatomy of a Supply Chain Attack: How the Microsoft Agent Framework PyPI Compromise Stole Cloud Credentials",
+      "slug": "microsoft-agent-framework-pypi-compromise",
+      "date": "2026-11-18",
+      "category": "Tech",
+      "key_topics": [
+        "Supply Chain Attack",
+        "PyPI",
+        "Cybersecurity",
+        "Python",
+        "Cloud Security",
+        "Microsoft",
+        "Malware"
+      ],
+      "url": "/tech/2026/11/18/microsoft-agent-framework-pypi-compromise.html"
     }
   ],
-  "last_updated": "2026-11-18T02:48:30.280329+00:00"
+  "last_updated": "2026-11-18T11:22:46.051365+00:00"
 }
