@@ -7238,7 +7238,23 @@
         "Tech Infrastructure"
       ],
       "url": "/geopolitics/2026/11/19/pax-silica-philippines-semiconductor-infrastructure.html"
+    },
+    {
+      "title": "LLM-Assisted Reverse Engineering: Accelerating Binary Analysis with Ghidra, MCP, and Agentic Workflows",
+      "slug": "llm-assisted-reverse-engineering-ghidra-mcp",
+      "date": "2026-11-19",
+      "category": "Tech",
+      "key_topics": [
+        "Reverse Engineering",
+        "Ghidra",
+        "LLM",
+        "MCP",
+        "Binary Analysis",
+        "Cybersecurity",
+        "AI Agents"
+      ],
+      "url": "/tech/2026/11/19/llm-assisted-reverse-engineering-ghidra-mcp.html"
     }
   ],
-  "last_updated": "2026-11-18T20:15:08.904330+00:00"
+  "last_updated": "2026-11-19T02:27:20.372143+00:00"
 }
