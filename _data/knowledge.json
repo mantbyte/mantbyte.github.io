@@ -7254,7 +7254,23 @@
         "AI Agents"
       ],
       "url": "/tech/2026/11/19/llm-assisted-reverse-engineering-ghidra-mcp.html"
+    },
+    {
+      "title": "Project Phoenix Unveiled: Inside Discord's Massive Desktop and Mobile Rewrite to Rust and GPUI",
+      "slug": "discord-project-phoenix-rust-gpui",
+      "date": "2026-11-19",
+      "category": "Tech",
+      "key_topics": [
+        "Discord",
+        "Rust",
+        "GPUI",
+        "Electron",
+        "Performance",
+        "Software Architecture",
+        "Desktop Apps"
+      ],
+      "url": "/tech/2026/11/19/discord-project-phoenix-rust-gpui.html"
     }
   ],
-  "last_updated": "2026-11-19T02:27:20.372143+00:00"
+  "last_updated": "2026-11-19T11:20:51.702014+00:00"
 }
