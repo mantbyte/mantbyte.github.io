@@ -7270,7 +7270,23 @@
         "Desktop Apps"
       ],
       "url": "/tech/2026/11/19/discord-project-phoenix-rust-gpui.html"
+    },
+    {
+      "title": "The Silent Heist: Dissecting PyPI Package Hijacks Without Repository Changes",
+      "slug": "pypi-package-hijacks-zero-commit",
+      "date": "2026-11-20",
+      "category": "Tech",
+      "key_topics": [
+        "Python",
+        "PyPI",
+        "Supply Chain Security",
+        "Cybersecurity",
+        "CI/CD",
+        "Package Hijacking",
+        "DevSecOps"
+      ],
+      "url": "/tech/2026/11/20/pypi-package-hijacks-zero-commit.html"
     }
   ],
-  "last_updated": "2026-11-19T11:20:51.702014+00:00"
+  "last_updated": "2026-11-20T02:09:36.645426+00:00"
 }
