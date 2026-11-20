@@ -7286,7 +7286,23 @@
         "DevSecOps"
       ],
       "url": "/tech/2026/11/20/pypi-package-hijacks-zero-commit.html"
+    },
+    {
+      "title": "Unlocking GPU Metal: A Deep Dive into Meta's Triton Low-Level Extensions (TLX)",
+      "slug": "meta-triton-low-level-extensions-tlx-gpu",
+      "date": "2026-11-21",
+      "category": "Tech",
+      "key_topics": [
+        "Meta",
+        "Triton",
+        "TLX",
+        "GPU",
+        "CUDA",
+        "AI Infrastructure",
+        "Hardware Optimization"
+      ],
+      "url": "/tech/2026/11/21/meta-triton-low-level-extensions-tlx-gpu.html"
     }
   ],
-  "last_updated": "2026-11-20T02:09:36.645426+00:00"
+  "last_updated": "2026-11-20T19:49:27.173457+00:00"
 }
