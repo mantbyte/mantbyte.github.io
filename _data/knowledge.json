@@ -7318,7 +7318,23 @@
         "Cloud Computing"
       ],
       "url": "/tech/2026/11/21/gke-api-timeout-linux-tcp-bug.html"
+    },
+    {
+      "title": "Autonomous AI Agents in the Wild: How an LLM Pentesting Framework Found a Zero-Day in MONAI Label",
+      "slug": "ai-zero-day-monai-label-pentesting",
+      "date": "2026-11-22",
+      "category": "Tech",
+      "key_topics": [
+        "AI",
+        "Cybersecurity",
+        "Zero-Day",
+        "LLM",
+        "Pentesting",
+        "MONAI Label",
+        "Vulnerability"
+      ],
+      "url": "/tech/2026/11/22/ai-zero-day-monai-label-pentesting.html"
     }
   ],
-  "last_updated": "2026-11-21T10:48:28.621703+00:00"
+  "last_updated": "2026-11-21T18:55:43.960314+00:00"
 }
