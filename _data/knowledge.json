@@ -7302,7 +7302,23 @@
         "Hardware Optimization"
       ],
       "url": "/tech/2026/11/21/meta-triton-low-level-extensions-tlx-gpu.html"
+    },
+    {
+      "title": "When the Kernel Forgets to Say Goodbye: Tracing a GKE API Timeout to a Linux TCP Bug",
+      "slug": "gke-api-timeout-linux-tcp-bug",
+      "date": "2026-11-21",
+      "category": "Tech",
+      "key_topics": [
+        "GKE",
+        "Linux Kernel",
+        "TCP",
+        "Networking",
+        "Kubernetes",
+        "SRE",
+        "Cloud Computing"
+      ],
+      "url": "/tech/2026/11/21/gke-api-timeout-linux-tcp-bug.html"
     }
   ],
-  "last_updated": "2026-11-20T19:49:27.173457+00:00"
+  "last_updated": "2026-11-21T10:48:28.621703+00:00"
 }
