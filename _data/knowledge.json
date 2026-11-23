@@ -7382,7 +7382,23 @@
         "Energy Crisis"
       ],
       "url": "/geopolitics/2026/11/23/ai-data-center-expansion-crisis.html"
+    },
+    {
+      "title": "Compromising the Edge: The GL.iNet Cloud Flaw and the Risks of Centralized Hardware Management",
+      "slug": "glinet-cloud-flaw-edge-security-risks",
+      "date": "2026-11-23",
+      "category": "Tech",
+      "key_topics": [
+        "Cybersecurity",
+        "Edge Computing",
+        "Cloud Security",
+        "Hardware Security",
+        "Network Security",
+        "DevOps",
+        "Vulnerability"
+      ],
+      "url": "/tech/2026/11/23/glinet-cloud-flaw-edge-security-risks.html"
     }
   ],
-  "last_updated": "2026-11-23T01:29:01.263592+00:00"
+  "last_updated": "2026-11-23T12:01:36.300647+00:00"
 }
