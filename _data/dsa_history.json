@@ -87,5 +87,6 @@
   "Graph - Tarjan's Bridge-Finding Algorithm - Critical Edge Detection",
   "Sliding Window - Frequency Map - Bounded Subarray Queries",
   "Array - Number Theory - Greatest Common Divisor",
-  "Bit Manipulation - Bitwise OR - Greedy Optimization"
+  "Bit Manipulation - Bitwise OR - Greedy Optimization",
+  "Graph - Hierholzer's Algorithm - Directed Eulerian Path"
 ]
