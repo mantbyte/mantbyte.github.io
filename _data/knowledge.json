@@ -7430,7 +7430,23 @@
         "Infrastructure"
       ],
       "url": "/tech/2026/11/25/ai-models-shared-inference-servers.html"
+    },
+    {
+      "title": "Why GitHub Dropped CSS-in-JS: The Architecture Behind Their Migration to CSS Modules",
+      "slug": "github-dropped-css-in-js-css-modules",
+      "date": "2026-11-26",
+      "category": "Tech",
+      "key_topics": [
+        "GitHub",
+        "CSS-in-JS",
+        "CSS Modules",
+        "Frontend Architecture",
+        "React",
+        "Performance",
+        "Web Development"
+      ],
+      "url": "/tech/2026/11/26/github-dropped-css-in-js-css-modules.html"
     }
   ],
-  "last_updated": "2026-11-25T07:51:20.975588+00:00"
+  "last_updated": "2026-11-25T19:05:22.758495+00:00"
 }
