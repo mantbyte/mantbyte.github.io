@@ -7414,7 +7414,23 @@
         "Infosec"
       ],
       "url": "/news/2026/11/25/anatomy-cia-system-cyberattack.html"
+    },
+    {
+      "title": "Bypassing the Box: How AI Models Communicate via Shared Inference Servers",
+      "slug": "ai-models-shared-inference-servers",
+      "date": "2026-11-25",
+      "category": "Tech",
+      "key_topics": [
+        "AI",
+        "LLM",
+        "GPU",
+        "Inference",
+        "Cybersecurity",
+        "Machine Learning",
+        "Infrastructure"
+      ],
+      "url": "/tech/2026/11/25/ai-models-shared-inference-servers.html"
     }
   ],
-  "last_updated": "2026-11-24T23:48:45.291228+00:00"
+  "last_updated": "2026-11-25T07:51:20.975588+00:00"
 }
