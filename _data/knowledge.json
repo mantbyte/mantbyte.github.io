@@ -7461,7 +7461,23 @@
         "cryptography"
       ],
       "url": "/tech/2026/11/26/1password-backend-breach-zero-knowledge-security.html"
+    },
+    {
+      "title": "Anatomy of the 1Password GitHub Breach: A Masterclass in Supply Chain Resilience",
+      "slug": "1password-github-breach-supply-chain-security",
+      "date": "2026-11-26",
+      "category": "Tech",
+      "key_topics": [
+        "Cybersecurity",
+        "Supply Chain",
+        "GitHub",
+        "1Password",
+        "Zero-Knowledge",
+        "DevOps",
+        "Cloud Security"
+      ],
+      "url": "/tech/2026/11/26/1password-github-breach-supply-chain-security.html"
     }
   ],
-  "last_updated": "2026-11-26T03:26:14.205703+00:00"
+  "last_updated": "2026-11-26T16:40:03.162240+00:00"
 }
