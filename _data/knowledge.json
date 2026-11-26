@@ -7446,7 +7446,22 @@
         "Web Development"
       ],
       "url": "/tech/2026/11/26/github-dropped-css-in-js-css-modules.html"
+    },
+    {
+      "title": "Anatomy of the 1Password Backend Breach: Testing the Limits of Zero-Knowledge Architecture",
+      "slug": "1password-backend-breach-zero-knowledge-security",
+      "date": "2026-11-26",
+      "category": "Tech",
+      "key_topics": [
+        "cybersecurity",
+        "1password",
+        "zero-knowledge",
+        "cloud-security",
+        "backend-breach",
+        "cryptography"
+      ],
+      "url": "/tech/2026/11/26/1password-backend-breach-zero-knowledge-security.html"
     }
   ],
-  "last_updated": "2026-11-25T19:05:22.758495+00:00"
+  "last_updated": "2026-11-26T03:26:14.205703+00:00"
 }
