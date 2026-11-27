@@ -7508,7 +7508,23 @@
         "Math"
       ],
       "url": "/tech/2026/11/27/ai-threatens-modern-cryptography.html"
+    },
+    {
+      "title": "Netflix Quasar: Measuring Blast Radius of Library API Changes at Scale",
+      "slug": "netflix-quasar-api-blast-radius",
+      "date": "2026-11-28",
+      "category": "Tech",
+      "key_topics": [
+        "Netflix",
+        "Quasar",
+        "API Changes",
+        "Microservices",
+        "Static Analysis",
+        "SCIP",
+        "Software Engineering"
+      ],
+      "url": "/tech/2026/11/28/netflix-quasar-api-blast-radius.html"
     }
   ],
-  "last_updated": "2026-11-27T11:55:28.101282+00:00"
+  "last_updated": "2026-11-27T20:55:41.952574+00:00"
 }
