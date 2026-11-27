@@ -89,5 +89,6 @@
   "Array - Number Theory - Greatest Common Divisor",
   "Bit Manipulation - Bitwise OR - Greedy Optimization",
   "Graph - Hierholzer's Algorithm - Directed Eulerian Path",
-  "Graph - Disjoint Set Union - Minimum Spanning Tree"
+  "Graph - Disjoint Set Union - Minimum Spanning Tree",
+  "Graph - Network Flow - Minimum Cost Maximum Flow (Successive Shortest Path)"
 ]
