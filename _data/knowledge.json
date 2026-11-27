@@ -7477,7 +7477,22 @@
         "Cloud Security"
       ],
       "url": "/tech/2026/11/26/1password-github-breach-supply-chain-security.html"
+    },
+    {
+      "title": "When Models Build Models: How AI Agents Manage DeepMind's Gemini Compute",
+      "slug": "ai-agents-manage-deepmind-gemini-compute",
+      "date": "2026-11-27",
+      "category": "Tech",
+      "key_topics": [
+        "DeepMind",
+        "Gemini",
+        "AI Agents",
+        "Machine Learning",
+        "Compute Infrastructure",
+        "Automation"
+      ],
+      "url": "/tech/2026/11/27/ai-agents-manage-deepmind-gemini-compute.html"
     }
   ],
-  "last_updated": "2026-11-26T16:40:03.162240+00:00"
+  "last_updated": "2026-11-27T01:36:57.130719+00:00"
 }
