@@ -7524,7 +7524,23 @@
         "Software Engineering"
       ],
       "url": "/tech/2026/11/28/netflix-quasar-api-blast-radius.html"
+    },
+    {
+      "title": "DeepCrossAttention: Supercharging Transformer Residual Connections for 3x Faster Training",
+      "slug": "deepcrossattention-supercharge-transformers-3x-faster",
+      "date": "2026-11-28",
+      "category": "Tech",
+      "key_topics": [
+        "DeepCrossAttention",
+        "Transformers",
+        "Google Research",
+        "Machine Learning",
+        "Neural Networks",
+        "AI Training",
+        "ICML 2025"
+      ],
+      "url": "/tech/2026/11/28/deepcrossattention-supercharge-transformers-3x-faster.html"
     }
   ],
-  "last_updated": "2026-11-27T20:55:41.952574+00:00"
+  "last_updated": "2026-11-28T03:10:56.699441+00:00"
 }
