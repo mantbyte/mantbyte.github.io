@@ -7540,7 +7540,23 @@
         "ICML 2025"
       ],
       "url": "/tech/2026/11/28/deepcrossattention-supercharge-transformers-3x-faster.html"
+    },
+    {
+      "title": "Unkernel: Running a Real Linux Kernel in WebAssembly in Under 250ms",
+      "slug": "unkernel-linux-kernel-webassembly",
+      "date": "2026-11-28",
+      "category": "Tech",
+      "key_topics": [
+        "WebAssembly",
+        "Linux",
+        "Unkernel",
+        "Wasm",
+        "Virtualization",
+        "Edge Computing",
+        "Serverless"
+      ],
+      "url": "/tech/2026/11/28/unkernel-linux-kernel-webassembly.html"
     }
   ],
-  "last_updated": "2026-11-28T03:10:56.699441+00:00"
+  "last_updated": "2026-11-28T15:18:03.195411+00:00"
 }
