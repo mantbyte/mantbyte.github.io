@@ -90,5 +90,6 @@
   "Bit Manipulation - Bitwise OR - Greedy Optimization",
   "Graph - Hierholzer's Algorithm - Directed Eulerian Path",
   "Graph - Disjoint Set Union - Minimum Spanning Tree",
-  "Graph - Network Flow - Minimum Cost Maximum Flow (Successive Shortest Path)"
+  "Graph - Network Flow - Minimum Cost Maximum Flow (Successive Shortest Path)",
+  "Graph - Network Flow - Dinic's Algorithm for Maximum Flow"
 ]
